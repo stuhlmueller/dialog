@@ -1,0 +1,10 @@
+{
+  "name": "webppl-common",
+  "version": "0.0.1",
+  "description": "WebPPL and JavaScript code shared by multiple models",
+  "webppl": {
+    "wppl": ["library.wppl"],
+    "headers": ["header.js"]
+  },
+  "main": "external.js"
+}
