@@ -18,7 +18,7 @@ RUN mkdir /data/config
 RUN mkdir /data/results
 
 ENV project_git_url https://github.com/stuhlmueller/dialog.git
-ENV experiment_cmd "webppl --require webppl-nn --require webppl-fs --require models/common/ models/babi-1.wppl"
+ENV experiment_cmd "WEBPPL_PARAM_PATH=/data/results/ webppl --require webppl-nn --require webppl-fs --require models/common/ --param-store file --param-id babi-1 models/babi-1.wppl"
 
 CMD if [ ! -d "/project" ]; then \
       git clone ${project_git_url} /project; cd /project/models/common; npm install; \
