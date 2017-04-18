@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "WebPPL and JavaScript code shared by multiple models",
   "webppl": {
-    "wppl": ["library.wppl"],
-    "headers": ["header.js"]
+    "wppl": ["src/library.wppl"],
+    "headers": ["src/header.js"]
   },
-  "main": "external.js"
+  "main": "src/external.js"
 }

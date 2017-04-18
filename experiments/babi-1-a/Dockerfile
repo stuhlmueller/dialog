@@ -13,13 +13,13 @@ RUN npm install --prefix ~/.webppl null-a/webppl-nn#e7985a4fe790161b11be0699c7a6
 RUN npm install --prefix ~/.webppl null-a/webppl-fs#1801afea46148aceace9cf3fd983ae928747df04
 
 
-ENV project_git_url https://github.com/stuhlmueller/dialog.git
-ENV experiment_cmd "webppl --require webppl-nn --require webppl-fs --require ./models/commmmon/ models/babi-1.wppl"
-
 RUN mkdir /data
 RUN mkdir /data/logs
 RUN mkdir /data/config
 RUN mkdir /data/results
+
+ENV project_git_url https://github.com/stuhlmueller/dialog.git
+ENV experiment_cmd "webppl --require webppl-nn --require webppl-fs --require models/common/ models/babi-1.wppl"
 
 CMD if [ ! -d "/project" ]; then \
       git clone ${project_git_url} /project; \
