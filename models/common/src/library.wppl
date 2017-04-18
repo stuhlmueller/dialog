@@ -1,5 +1,144 @@
-// WebPPL code goes here
+// --------------------------------------------------------------------
+// Functional utils:
 
-var exampleWebpplFn = function() {
-  console.log('hi')
-}
+var reduceLeft = function(f, init, arr) {
+  // if (arr.length > 0) {
+  //   return reduceLeft(f, f(init, arr[0]), rest(arr));
+  // } else {
+  //   return init;
+  // }
+  var helper = function(i, init) {
+    if (i < arr.length) {
+      return helper(i + 1, f(init, arr[i]));
+    } else {
+      return init;
+    }
+  };
+  return helper(0, init);
+};
+
+var treeFold = function(f, tree) {  // f will replace the tree constructor
+  assert.notEqual(tree.length, 0);  // a (sub-)tree has at least one node
+  var root = tree[0];
+  var subtrees = tree.slice(1);
+  var flatten = function(subtree) {
+    return (_.isArray(subtree)) ? treeFold(f, subtree) : subtree;
+  };
+  var flattenedSubtrees = map(flatten, subtrees);
+  return f(root, flattenedSubtrees);
+};
+
+var treeMap = function(fn, tree) {
+  return treeFold(function(x, ys){
+    return [fn(x)].concat(ys);
+  }, tree);
+};
+
+
+// --------------------------------------------------------------------
+// Types:
+
+var makeType = function(name, options) {  // options: { ?requiredFields, ?init }
+  
+  var isInstance = function(obj) {
+    return (obj.type && obj.type === name);
+  };
+  
+  var init = function(input) {
+    var transform = options.transform || identity;
+    var data = transform(input);
+    if (options.requiredFields) {
+      var requiredFields = options.requiredFields;
+      var givenFields = _.keys(data);
+      var allFieldsPresent = (_.intersection(givenFields, requiredFields).length === requiredFields.length);
+      assert.ok(allFieldsPresent, 'Expected fields ' + JSON.stringify(requiredFields) + ', got ' + JSON.stringify(givenFields));
+    }
+    return {
+      type: name,
+      data,
+      apply(fn) {
+        return fn(data);
+      }
+    };
+  }
+  
+  _.extend(init, {
+    isInstance,
+    assertInstance(obj) {
+      var msg = 'Expected ' + name + ', got ' + JSON.stringify(obj);
+      assert.ok(isInstance(obj), msg);
+    }
+  });
+
+  return init;
+  
+};
+
+// Example:
+// var Workspace = makeType('workspace', { requiredFields: ['foo'] });
+// var w = Workspace({ 'foo': 'bla' });
+// call(Workspace.assertInstance, w);
+
+
+// --------------------------------------------------------------------
+// Workspace helpers
+
+var C = webpplCommon;
+
+var Workspace = function(tree) {
+  return C.jsnew(C.Workspace, tree);
+};
+
+var Action = function(params) {
+  return C.jsnew(C.Action, params);
+};
+
+var stringToAction = function(s) {
+  return C.stringToAction(s);
+};
+
+var wordsToAction = function(words) {
+  if (words.length === 0) {
+    return null;
+  }
+  if (_.indexOf(['A:', 'U:'], words[0]) === -1) {
+    return null;
+  }
+  return stringToAction(words.join(' ')); // FIXME: we're not very strict here
+};
+
+
+// --------------------------------------------------------------------
+// Misc:
+
+var identity = function(x) { return x; };
+
+var second = function(x) { return x[1]; };
+
+var call = function(f, a, b, c, d) {
+  return f(a, b, c, d);
+};
+
+var observeWithoutGuide = function(dist, val) {
+  if (val !== undefined) {
+    factor(dist.score(val));
+    return val;
+  } else {
+    return sample(dist, { guide() { return dist; } });
+  }
+};
+
+var fillArray = function(xs, dim, value) {
+  assert.ok(xs.length <= dim);
+  if (xs.length === dim) {
+    return xs;
+  } else {
+    var filler = _.times(dim - xs.length, _.constant(value));
+    return xs.concat(filler);
+  }
+};
+
+var repeatForever = function(thunk) {
+  thunk();
+  repeatForever(thunk);
+};

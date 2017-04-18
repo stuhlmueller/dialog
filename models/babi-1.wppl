@@ -1,1 +1,424 @@
-exampleWebpplFn();
+// See experiments/dalca-5-a/Dockerfile for instructions on how to run
+
+// + match features
+
+// perfect performance after 10k iterations
+
+
+// --------------------------------------------------------------------
+// Helpers
+
+var makeCategoricalOneHot = function(vs) {
+  return cache(function(v) {
+    var i = _.indexOf(vs, v);
+    assert.ok(i != -1, "onehot didn't find " + v + " in " + vs);
+    var n = vs.length;
+    return oneHot(i, n);
+  });
+};
+
+
+// --------------------------------------------------------------------
+// Data handling
+
+// This returns a list:
+// [{ workspace1, action1 }, { workspace2, action2 }, ...]
+var parseDialog = function(dialogString) {
+  var initEntry = {
+    workspace: Workspace([]),
+    action: Action({ who: 'A', what: 'INIT' })
+  };
+  var rawLines = dialogString.split('\n');
+  var dialog = reduceLeft(
+    function(history, rawLine) {
+      var prevEntry = _.last(history);
+      var prevWorkspace = prevEntry.workspace;
+      var prevAction = prevEntry.action;
+      var workspace = prevWorkspace.update(prevAction);
+      var action = stringToAction(rawLine);
+      var entry = { workspace, action };
+      return history.concat([ entry ]);
+    },
+    [ initEntry ],
+    rawLines);
+  return dialog;
+};
+
+var fileToDialogs = function(filename) {
+  var raw = fs.read(filename).trim();
+  return map(parseDialog, raw.split('\n\n'));
+};
+
+var fileToWords = function(filename) {
+  return _.sortBy(_.uniq(fs.read(filename).trim().split(/\s/g)));
+};
+
+var loadBabiData = function() {
+  var dataPath = '/project/data/'
+  var trainingFile = dataPath + 'dialog-babi-task1/dialog-babi-task1-API-calls-trn-workspace.txt';
+  var devFile = dataPath + 'dialog-babi-task1/dialog-babi-task1-API-calls-dev-workspace.txt';
+  var specialWords = [
+    '^', '$',            // start/end markers
+    'INIT', 'WAIT',      // action types not in data
+    'NO_OUTPUT',         // filler when copy or match word is not available
+    'NO_USER_ACTION',    // initial value of lastUserAction
+    'NO_WORKSPACE_WORD'
+  ];
+  var typesAndTokens = [
+    { type: 'cuisine', tokens: ['french', 'italian', 'british', 'spanish', 'indian'] },
+    { type: 'location', tokens: ['rome', 'london', 'bombay', 'paris', 'madrid'] },
+    { type: 'price', tokens: ['cheap', 'moderate', 'expensive'] },
+    { type: 'people', tokens: ['two', 'four', 'six', 'eight'] },
+  ];
+  return {
+    training: fileToDialogs(trainingFile),
+    dev: fileToDialogs(devFile),
+    words: fileToWords(trainingFile).concat(specialWords),
+    typesAndTokens
+  };
+};
+
+var babiData = loadBabiData();
+var onehotWords = makeCategoricalOneHot(babiData.words);
+
+
+// --------------------------------------------------------------------
+// Model params
+
+var numWords = babiData.words.length;
+var actionEncoderDim = 50;
+
+var actionDecoderLatentDim = 50;
+var actionDecoderCopyDim = 10;
+var maxDecoderSteps = 10;
+
+
+// --------------------------------------------------------------------
+// Model components
+
+// encodeWorkspace :: Workspace -> Vector{numWords}
+
+var combineNodesHorizontalNet = stack([tanh, affine(numWords, 'combine-nodes-h', param), concat]);
+var combineNodesVerticalNet = stack([tanh, affine(numWords, 'combine-nodes-v', param), concat]);
+var combineHorizontalInit = zeros([numWords, 1]);
+
+var combineHorizontal = function(summary, vecs) {
+  if (vecs.length === 0) {
+    return summary;
+  } else {
+    var newSummary = combineNodesHorizontalNet([summary, vecs[0]]);
+    return combineHorizontal(newSummary, vecs.slice(1));
+  }
+};
+
+var combineVertical = function(root, childSummary) {
+  return combineNodesVerticalNet([root, childSummary]);
+};
+
+var combineNodes = function(rootVec, childVecs) {
+  if (childVecs.length === 0) {
+    return rootVec;
+  } else {
+    var childVec = combineHorizontal(combineHorizontalInit, childVecs);
+    return combineVertical(rootVec, childVec);
+  }
+};
+
+var encodeWorkspace = function(workspace) {
+  var tree = workspace.toTree();
+  if (tree.length === 0) {  // FIXME?
+    return zeros([numWords, 1]);
+  } else {
+    var onehotTree = treeMap(onehotWords, tree);
+    return treeFold(combineNodes, onehotTree);
+  }
+};
+
+
+// getDesiredModelAction :: Action -> Action
+
+var getDesiredModelAction = function(action) {
+  if (action.who === 'U') {
+    return Action({
+      who: 'A',
+      what: 'WAIT'
+    });
+  } else {
+    return action;
+  }
+};
+
+
+// encodeAction: Vector{actionEncoderDim}, Action -> Vector{actionEncoderDim}
+
+var initializeActionEncoder = function() {
+  return param({
+    name: 'action-encoder-init',
+    dims: [actionEncoderDim, 1]
+  });
+};
+
+var actionEncoderNet = lstm(actionEncoderDim, 'action-encoder-lstm-', param);
+
+var actionToVectors = function(action) {
+  return map(onehotWords, action.toWords().concat(['$']));
+};
+
+var encodeAction = function(prevState, action) {
+  var vecs = actionToVectors(action);
+  var encoder = function(state, vecs) {
+    if (vecs.length === 0) {
+      return state;
+    } else {
+      var nextState = actionEncoderNet(state, vecs[0]);
+      return encoder(nextState, vecs.slice(1));
+    }
+  };
+  return encoder(prevState, vecs);
+};
+
+
+// decodeToAction :: { workspace, encoderState{FLEXIBLE_DIM}, useObservations, desiredAction? } -> Action
+
+// Vector{FLEXIBLE_DIM} -> Vector{actionDecoderLatentDim}
+var initializeActionDecoder = stack([tanh, affine(actionDecoderLatentDim, 'action-decoder-init', param)]);
+
+var workspaceToCopyWords = function(workspace) {  // workspace -> [string]
+  var words = workspace.toWords();
+  var partialAlphabet = words.slice(0, actionDecoderCopyDim);
+  return fillArray(partialAlphabet, actionDecoderCopyDim, 'NO_OUTPUT');
+};
+
+var userActionToMatchWords = function(action) { // action -> [string]
+  var userWords = action.toWords();
+  var matchWords = map(function(concept){ // concept: { type: string, tokens: [string] }
+    var mentionedTokens = _.intersection(userWords, concept.tokens);
+    if (mentionedTokens.length === 0) {
+      return 'NO_OUTPUT'
+    } else {
+      assert.equal(mentionedTokens.length, 1);
+      return mentionedTokens[0];
+    }
+  }, babiData.typesAndTokens);
+  return matchWords;
+};
+
+var vocabularySize = numWords + actionDecoderCopyDim + babiData.typesAndTokens.length;
+
+var decoderLatentNet = lstm(actionDecoderLatentDim, 'decoder-latent', param);
+var decoderOutputNet = stack([softmax, affine(vocabularySize, 'decoder-out', param), concat]);
+
+var decodeToAction = function(params) { // { workspace, encoderState, desiredAction, lastUserAction, useObservations }
+
+  var copyWords = workspaceToCopyWords(params.workspace);
+  var matchWords = userActionToMatchWords(params.lastUserAction);
+  var supportedOutputs = babiData.words.concat(copyWords).concat(matchWords);
+  
+  var decoder = function(opts) {  // { state, observedOutputs, useObservations }
+    var state = opts.state;
+    var n = opts.n || 0;
+    var generatedOutputs = opts.generatedOutputs || ['^'];
+    var observedOutputs = opts.observedOutputs;
+    var prevOutput = _.last(generatedOutputs);    
+    if ((n === (maxDecoderSteps + 2)) || (prevOutput === '$')) {
+      return generatedOutputs.slice(1);
+    } else {
+      var outputVec = onehotWords(prevOutput);
+      var nextState = decoderLatentNet(state, outputVec);
+      var ps = decoderOutputNet([nextState, outputVec]);
+      var observedOutput = observedOutputs ? observedOutputs[0] : '$';
+      // console.log({ ps, supportedOutputs, observedOutput});
+      var outputDist = Categorical({ ps, vs: supportedOutputs });
+      var outputVal = opts.useObservations ? observedOutput : undefined;
+      var generatedOutput = observe(outputDist, outputVal, { guide() { return outputDist; } });
+      return decoder({
+        state: nextState,
+        n: n + 1,
+        generatedOutputs: generatedOutputs.concat([generatedOutput]),
+        observedOutputs: observedOutputs ? observedOutputs.slice(1) : undefined,
+        useObservations: opts.useObservations
+      });
+    }
+  };
+
+  var input = concat([params.encoderState, encodeWorkspace(params.workspace)]);
+  var state = initializeActionDecoder(input);
+  var observedOutputs = params.desiredAction ? params.desiredAction.toWords().concat(['$']) : null;
+  var useObservations = params.useObservations;
+
+  var words = decoder({ state, observedOutputs, useObservations });
+
+  return wordsToAction(words);
+
+};
+
+
+// --------------------------------------------------------------------
+// Tree-encoder sequence-decoder model
+
+// runModel :: { data, batchSize, useObservations, callbackOnAction } -> void
+
+var runModel = function(params) {
+
+  var mapOpts = _.pick(params, ['data', 'batchSize']);
+  
+  mapData(mapOpts, function(dialog) {  // dialog :: [ { workspace :: Workspace, action :: Action } ]
+
+    var state = {
+      encoderState: initializeActionEncoder(),
+      lastUserAction: Action({ who: 'U', what: 'NO_USER_ACTION' })
+    };
+
+    reduceLeft(function(state, entry) {  // entry :: { workspace :: Workspace, action :: Action }
+
+      var encoderState = state.encoderState;
+      
+      var workspace = entry.workspace;
+      var realAction = entry.action;
+      
+      var desiredAction = getDesiredModelAction(realAction);      
+
+      var modelAction = decodeToAction({
+        workspace,
+        encoderState, // : concat([encoderState, userActionVec]),
+        desiredAction,
+        lastUserAction: state.lastUserAction,
+        useObservations: params.useObservations
+      });
+
+      if (params.callbackOnAction) {
+        var callback = params.callbackOnAction;
+        callback({ realAction, modelAction, desiredAction, workspace });
+      }
+
+      var newEncoderState = encodeAction(encoderState, realAction);  // TODO: without data, pass model's hallucinated action
+      var newUserAction = entry.action.who === 'U' ? entry.action : state.lastUserAction;
+
+      return {
+        encoderState: newEncoderState,
+        lastUserAction: newUserAction
+      };
+
+    }, state, dialog);
+
+  });
+
+};
+
+
+// --------------------------------------------------------------------
+// Main
+
+var runOptimize = function() {
+  Optimize({
+    model() {
+      return runModel({
+        data: babiData.training,
+        useObservations: true,
+        batchSize: 5
+      });
+    },
+    steps: 100000,
+    optMethod: { adam: { stepSize: .01 }}
+  });
+};
+
+
+var showModelBehavior = function() {
+  Infer({
+    method: 'forward',
+    model() {
+      return runModel({
+        data: babiData.dev.slice(0, 10),
+        callbackOnAction(params) {  // realAction, modelAction, desiredAction, workspace
+          var s = function(maybeAction) {
+            return maybeAction ? maybeAction.toString() : 'null';
+          }
+          if (params.realAction.who === 'U') {            
+            console.log('Want: ', s(params.desiredAction), '(', s(params.realAction), ')');
+          } else {
+            console.log('Want: ', s(params.desiredAction));
+          }
+          console.log('Model:', s(params.modelAction));
+          console.log();
+        }
+      });
+    }
+  });
+};
+
+
+var showLogLikelihood = function(data) {
+  syncParams();
+  var stats = Infer({
+    method: 'SMC',
+    particles: 1,
+    model() {
+      return runModel({ data, useObservations: true });
+    }
+  });
+  console.log(stats.normalizationConstant);
+};
+
+
+var showHeldOutLogLikelihood = function() {
+  return showLogLikelihood(babiData.dev.slice(0, 100));
+};
+
+
+var showTrainingLogLikelihood = function() {
+  return showLogLikelihood(babiData.training.slice(0, 100));
+};
+
+
+var showErrorRates = function(data) {
+  globalStore.total = 0;
+  globalStore.err = 0;
+  Infer({
+    method: 'forward',
+    model() {
+      return runModel({
+        data,
+        callbackOnAction(params) {  // realAction, modelAction, desiredAction, workspace
+          var s = function(maybeAction) {
+            return maybeAction ? maybeAction.toString() : 'null';
+          }
+          if (!params.modelAction || (params.desiredAction.toString() + ' $' !== params.modelAction.toString())) {
+            console.log('Want: ', s(params.desiredAction));
+            console.log('Model:', s(params.modelAction));
+            console.log();
+            globalStore.err += 1;
+          }
+          globalStore.total += 1;
+          if (globalStore.total % 100 == 0) {
+            console.log((globalStore.total - globalStore.err) + ' out of ' + globalStore.total + ' correct');
+          }
+        }
+      });
+    }
+  });
+  return null;
+};
+
+
+var main = function() {
+  var lastCommandLineArg = process.argv[process.argv.length - 1];
+  if (lastCommandLineArg === '--optimize') {
+    runOptimize();
+  } else if (lastCommandLineArg === '--loglikelihood-dev') {
+    repeatForever(showHeldOutLogLikelihood);
+  } else if (lastCommandLineArg === '--loglikelihood-train') {
+    repeatForever(showTrainingLogLikelihood);
+  } else if (lastCommandLineArg === '--behavior') {
+    repeatForever(showModelBehavior);
+  } else if (lastCommandLineArg === '--errors-train') {
+    showErrorRates(babiData.training);
+  } else if (lastCommandLineArg === '--errors-dev') {
+    showErrorRates(babiData.dev);
+  } else {
+    console.error('Unknown command:', lastCommandLineArg);
+  }
+};
+
+
+main();
