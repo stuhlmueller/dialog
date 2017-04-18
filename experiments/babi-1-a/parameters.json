@@ -6,6 +6,6 @@
   "aws_ami_user": "ubuntu",
   
   "experiment_name": "babi-1-a",
-  "experiment_conditions": [],
+  "experiment_conditions": ["--optimize"],
   "experiment_conditions_comment": "Add one string per condition. This string is passed to the main experiment script as an argument."
 }
