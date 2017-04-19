@@ -345,7 +345,6 @@ var showModelBehavior = function() {
 
 
 var showLogLikelihood = function(data) {
-  syncParams();
   var stats = Infer({
     method: 'SMC',
     particles: 1,
@@ -402,11 +401,11 @@ var main = function() {
   if (lastCommandLineArg === '--optimize') {
     runOptimize();
   } else if (lastCommandLineArg === '--loglikelihood-dev') {
-    repeatForever(showHeldOutLogLikelihood);
+    showHeldOutLogLikelihood();
   } else if (lastCommandLineArg === '--loglikelihood-train') {
-    repeatForever(showTrainingLogLikelihood);
+    showTrainingLogLikelihood();
   } else if (lastCommandLineArg === '--behavior') {
-    repeatForever(showModelBehavior);
+    showModelBehavior();
   } else if (lastCommandLineArg === '--errors-train') {
     showErrorRates(babiData.training);
   } else if (lastCommandLineArg === '--errors-dev') {
