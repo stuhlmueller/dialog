@@ -1,3 +1,10 @@
+- Results from the last run:
+  - batchsize 1 didn't converge
+  - rnn is much worse than lstm
+  - copying matters a lot
+  - workspaces and types/tokens matter similarly (both less than copying)
+  - only the full model can get the dialogs perfectly right
+
 - I ran into limits for the number of AWS instances I can run simultaneously. I opened a case. I'm not running the following settings for now:
 
     "--optimize --batchsize 5",
