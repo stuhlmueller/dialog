@@ -424,7 +424,7 @@ var run = function() {
   } else if (opts['errors-dev']) {
     showErrorRates(babiData.dev);
   } else {
-    console.error('Unknown command:', lastCommandLineArg);
+    console.error('No known command in', opts);
   }
   
 };
