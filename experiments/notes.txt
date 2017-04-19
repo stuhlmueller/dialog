@@ -1,3 +1,21 @@
+- I ran into limits for the number of AWS instances I can run simultaneously. I opened a case. I'm not running the following settings for now:
+
+    "--optimize --batchsize 5",
+    "--optimize --batchsize 10",
+    "--optimize --batchsize 20",    
+    "--optimize --stepsize 0.001",
+    "--optimize --stepsize 0.01",
+    "--optimize --stepsize 0.1",
+    "--optimize --latentdim 5",
+    "--optimize --latentdim 10",
+    "--optimize --latentdim 20",
+    "--optimize --latentdim 30",
+    "--optimize --latentdim 50",
+    "--optimize --latentdim 70",
+    "--optimize --latentdim 100",
+    "--optimize --latentdim 120",
+    "--optimize --latentdim 200",
+
 - Initialization seems to matter quite a bit:
   
   c4large - Iteration 1880: -22416.917113308347
