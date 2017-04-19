@@ -109,6 +109,14 @@ var wordsToAction = function(words) {
 
 
 // --------------------------------------------------------------------
+// Other wrappers
+
+var parseArgs = function(args) {
+  return C.minimist(args);
+}
+
+
+// --------------------------------------------------------------------
 // Misc:
 
 var identity = function(x) { return x; };

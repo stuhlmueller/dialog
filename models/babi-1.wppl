@@ -397,18 +397,18 @@ var showErrorRates = function(data) {
 
 
 var main = function() {
-  var lastCommandLineArg = process.argv[process.argv.length - 1];
-  if (lastCommandLineArg === '--optimize') {
+  var opts = parseArgs(process.argv);
+  if (opts['optimize']) {
     runOptimize();
-  } else if (lastCommandLineArg === '--loglikelihood-dev') {
+  } else if (opts['loglikelihood-dev']) {
     showHeldOutLogLikelihood();
-  } else if (lastCommandLineArg === '--loglikelihood-train') {
+  } else if (opts['loglikelihood-train']) {
     showTrainingLogLikelihood();
-  } else if (lastCommandLineArg === '--behavior') {
+  } else if (opts['behavior']) {
     showModelBehavior();
-  } else if (lastCommandLineArg === '--errors-train') {
+  } else if (opts['errors-train']) {
     showErrorRates(babiData.training);
-  } else if (lastCommandLineArg === '--errors-dev') {
+  } else if (opts['errors-dev']) {
     showErrorRates(babiData.dev);
   } else {
     console.error('Unknown command:', lastCommandLineArg);

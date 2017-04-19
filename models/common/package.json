@@ -12,6 +12,7 @@
   },
   "main": "src/external.js",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0"
   }
 }

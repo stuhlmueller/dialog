@@ -1,5 +1,6 @@
 const assert = require('assert');
 const _ = require('lodash');
+const minimist = require('minimist');
 
 
 function jsnew(ctor, a, b, c, d, e) {
@@ -95,5 +96,6 @@ module.exports = {
   jsnew,
   Workspace,
   Action,
-  stringToAction
+  stringToAction,
+  minimist
 };
