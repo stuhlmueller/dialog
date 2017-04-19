@@ -1,0 +1,1138 @@
+Cloning into '/project'...
+remote: Counting objects: 86, done.[K
+remote: Compressing objects:   2% (1/49)   [Kremote: Compressing objects:   4% (2/49)   [Kremote: Compressing objects:   6% (3/49)   [Kremote: Compressing objects:   8% (4/49)   [Kremote: Compressing objects:  10% (5/49)   [Kremote: Compressing objects:  12% (6/49)   [Kremote: Compressing objects:  14% (7/49)   [Kremote: Compressing objects:  16% (8/49)   [Kremote: Compressing objects:  18% (9/49)   [Kremote: Compressing objects:  20% (10/49)   [Kremote: Compressing objects:  22% (11/49)   [Kremote: Compressing objects:  24% (12/49)   [Kremote: Compressing objects:  26% (13/49)   [Kremote: Compressing objects:  28% (14/49)   [Kremote: Compressing objects:  30% (15/49)   [Kremote: Compressing objects:  32% (16/49)   [Kremote: Compressing objects:  34% (17/49)   [Kremote: Compressing objects:  36% (18/49)   [Kremote: Compressing objects:  38% (19/49)   [Kremote: Compressing objects:  40% (20/49)   [Kremote: Compressing objects:  42% (21/49)   [Kremote: Compressing objects:  44% (22/49)   [Kremote: Compressing objects:  46% (23/49)   [Kremote: Compressing objects:  48% (24/49)   [Kremote: Compressing objects:  51% (25/49)   [Kremote: Compressing objects:  53% (26/49)   [Kremote: Compressing objects:  55% (27/49)   [Kremote: Compressing objects:  57% (28/49)   [Kremote: Compressing objects:  59% (29/49)   [Kremote: Compressing objects:  61% (30/49)   [Kremote: Compressing objects:  63% (31/49)   [Kremote: Compressing objects:  65% (32/49)   [Kremote: Compressing objects:  67% (33/49)   [Kremote: Compressing objects:  69% (34/49)   [Kremote: Compressing objects:  71% (35/49)   [Kremote: Compressing objects:  73% (36/49)   [Kremote: Compressing objects:  75% (37/49)   [Kremote: Compressing objects:  77% (38/49)   [Kremote: Compressing objects:  79% (39/49)   [Kremote: Compressing objects:  81% (40/49)   [Kremote: Compressing objects:  83% (41/49)   [Kremote: Compressing objects:  85% (42/49)   [Kremote: Compressing objects:  87% (43/49)   [Kremote: Compressing objects:  89% (44/49)   [Kremote: Compressing objects:  91% (45/49)   [Kremote: Compressing objects:  93% (46/49)   [Kremote: Compressing objects:  95% (47/49)   [Kremote: Compressing objects:  97% (48/49)   [Kremote: Compressing objects: 100% (49/49)   [Kremote: Compressing objects: 100% (49/49), done.[K
+Unpacking objects:   1% (1/86)   Unpacking objects:   2% (2/86)   Unpacking objects:   3% (3/86)   Unpacking objects:   4% (4/86)   Unpacking objects:   5% (5/86)   Unpacking objects:   6% (6/86)   Unpacking objects:   8% (7/86)   Unpacking objects:   9% (8/86)   Unpacking objects:  10% (9/86)   Unpacking objects:  11% (10/86)   Unpacking objects:  12% (11/86)   Unpacking objects:  13% (12/86)   Unpacking objects:  15% (13/86)   Unpacking objects:  16% (14/86)   Unpacking objects:  17% (15/86)   Unpacking objects:  18% (16/86)   Unpacking objects:  19% (17/86)   Unpacking objects:  20% (18/86)   Unpacking objects:  22% (19/86)   Unpacking objects:  23% (20/86)   Unpacking objects:  24% (21/86)   Unpacking objects:  25% (22/86)   Unpacking objects:  26% (23/86)   remote: Total 86 (delta 26), reused 86 (delta 26), pack-reused 0[K
+Unpacking objects:  27% (24/86)   Unpacking objects:  29% (25/86)   Unpacking objects:  30% (26/86)   Unpacking objects:  31% (27/86)   Unpacking objects:  32% (28/86)   Unpacking objects:  33% (29/86)   Unpacking objects:  34% (30/86)   Unpacking objects:  36% (31/86)   Unpacking objects:  37% (32/86)   Unpacking objects:  38% (33/86)   Unpacking objects:  39% (34/86)   Unpacking objects:  40% (35/86)   Unpacking objects:  41% (36/86)   Unpacking objects:  43% (37/86)   Unpacking objects:  44% (38/86)   Unpacking objects:  45% (39/86)   Unpacking objects:  46% (40/86)   Unpacking objects:  47% (41/86)   Unpacking objects:  48% (42/86)   Unpacking objects:  50% (43/86)   Unpacking objects:  51% (44/86)   Unpacking objects:  52% (45/86)   Unpacking objects:  53% (46/86)   Unpacking objects:  54% (47/86)   Unpacking objects:  55% (48/86)   Unpacking objects:  56% (49/86)   Unpacking objects:  58% (50/86)   Unpacking objects:  59% (51/86)   Unpacking objects:  60% (52/86)   Unpacking objects:  61% (53/86)   Unpacking objects:  62% (54/86)   Unpacking objects:  63% (55/86)   Unpacking objects:  65% (56/86)   Unpacking objects:  66% (57/86)   Unpacking objects:  67% (58/86)   Unpacking objects:  68% (59/86)   Unpacking objects:  69% (60/86)   Unpacking objects:  70% (61/86)   Unpacking objects:  72% (62/86)   Unpacking objects:  73% (63/86)   Unpacking objects:  74% (64/86)   Unpacking objects:  75% (65/86)   Unpacking objects:  76% (66/86)   Unpacking objects:  77% (67/86)   Unpacking objects:  79% (68/86)   Unpacking objects:  80% (69/86)   Unpacking objects:  81% (70/86)   Unpacking objects:  82% (71/86)   Unpacking objects:  83% (72/86)   Unpacking objects:  84% (73/86)   Unpacking objects:  86% (74/86)   Unpacking objects:  87% (75/86)   Unpacking objects:  88% (76/86)   Unpacking objects:  89% (77/86)   Unpacking objects:  90% (78/86)   Unpacking objects:  91% (79/86)   Unpacking objects:  93% (80/86)   Unpacking objects:  94% (81/86)   Unpacking objects:  95% (82/86)   Unpacking objects:  96% (83/86)   Unpacking objects:  97% (84/86)   Unpacking objects:  98% (85/86)   Unpacking objects: 100% (86/86)   Unpacking objects: 100% (86/86), done.
+Checking connectivity... done.
+[37;40mnpm[0m [0m[32minfo[0m [0m[35mit worked if it ends with[0m ok
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35musing[0m npm@3.10.10
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35musing[0m node@v6.10.2
+[0m[?25l[[90m..................[0m] / normalizeTree: [7msill[0m [35minstall[0m loadCurrentTree[K[[7m   [27m[90m...............[0m] - cloneCurrentTree: [7msill[0m [35mcloneCurrentTree[0m Finishing[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mattempt[0m registry request try #1 at 1:10:28 AM
+[0m[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35mrequest[0m GET https://registry.npmjs.org/lodash
+[0m[?25l[[7m    [27m[90m..............[0m] - fetchMetadata: [32;40mhttp[0m [35mrequest[0m GET https://registry.npmjs.o[K[K[?25h[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35m304[0m https://registry.npmjs.org/lodash
+[0m[?25l[[7m    [27m[90m..............[0m] / fetchMetadata: [32;40mhttp[0m [35m304[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] - fetchMetadata: [32;40mhttp[0m [35m304[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m304[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m304[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m304[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m304[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m304[0m https://registry.npmjs.org/lodas[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~preinstall: webppl-common@0.0.1
+[0m[?25l[[7m           [27m[90m.......[0m] / preinstall:webppl-common: [32minfo[0m [35mlifecycle[0m webppl-common@0[K[[7m              [27m[90m....[0m] \ extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] | extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] | extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] \ extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] \ extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] / extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] \ extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] \ extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] \ extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] | extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] | extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] | extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] | extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[[7m              [27m[90m....[0m] - extract:lodash: [7msill[0m [35mdoParallel[0m extract 1[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~preinstall: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~install: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~postinstall: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~install: webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~postinstall: webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~prepublish: webppl-common@0.0.1
+[0mwebppl-common@0.0.1 /project/models/common
+`-- [40m[33mlodash@4.17.4[39m[49m 
+
+[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m webppl-common@0.0.1 No repository field.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m webppl-common@0.0.1 No license field.
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mok[0m 
+[0mWarning: Parameter "action-encoder-init" created outside of the guide.
+Warning: Parameter "action-decoder-initw" created outside of the guide.
+Warning: Parameter "action-decoder-initb" created outside of the guide.
+Warning: Parameter "decoder-latentforgetw" created outside of the guide.
+Warning: Parameter "decoder-latentforgetb" created outside of the guide.
+Warning: Parameter "decoder-latentinputw" created outside of the guide.
+Warning: Parameter "decoder-latentinputb" created outside of the guide.
+Warning: Parameter "decoder-latentoutputw" created outside of the guide.
+Warning: Parameter "decoder-latentoutputb" created outside of the guide.
+Warning: Parameter "decoder-latentcandidatew" created outside of the guide.
+Warning: Parameter "decoder-latentcandidateb" created outside of the guide.
+Warning: Parameter "decoder-outw" created outside of the guide.
+Warning: Parameter "decoder-outb" created outside of the guide.
+Warning: Parameter "action-encoder-lstm-forgetw" created outside of the guide.
+Warning: Parameter "action-encoder-lstm-forgetb" created outside of the guide.
+Warning: Parameter "action-encoder-lstm-inputw" created outside of the guide.
+Warning: Parameter "action-encoder-lstm-inputb" created outside of the guide.
+Warning: Parameter "action-encoder-lstm-outputw" created outside of the guide.
+Warning: Parameter "action-encoder-lstm-outputb" created outside of the guide.
+Warning: Parameter "action-encoder-lstm-candidatew" created outside of the guide.
+Warning: Parameter "action-encoder-lstm-candidateb" created outside of the guide.
+Warning: Parameter "combine-nodes-hw" created outside of the guide.
+Warning: Parameter "combine-nodes-hb" created outside of the guide.
+Warning: Parameter "combine-nodes-vw" created outside of the guide.
+Warning: Parameter "combine-nodes-vb" created outside of the guide.
+Iteration 0: -569637.1621903863
+Iteration 1: -535767.302983136
+Iteration 2: -529750.7231071739
+Iteration 3: -490310.125012244
+Iteration 4: -468918.7325599496
+Iteration 5: -357862.4171313799
+Iteration 6: -372143.60889468295
+Iteration 7: -346957.4275128307
+Iteration 8: -338797.8985034618
+Iteration 9: -290243.57910826686
+Iteration 10: -308098.8009830606
+Iteration 11: -273398.40272816876
+Iteration 12: -279396.3916639105
+Iteration 13: -305445.9918290593
+Iteration 14: -258024.29630746855
+Iteration 15: -291531.0455839378
+Iteration 16: -251832.18092285487
+Iteration 17: -226547.5910904908
+Iteration 18: -241428.98547634573
+Iteration 19: -243325.82863849693
+Iteration 20: -215186.62117073408
+Iteration 21: -211064.83001586967
+Iteration 22: -219069.4407112054
+Iteration 23: -204810.55141439365
+Iteration 24: -168900.28711272517
+Iteration 25: -169277.22845662496
+Iteration 26: -156218.2417302115
+Iteration 27: -144684.36630260784
+Iteration 28: -186571.95952972968
+Iteration 29: -144466.13418137026
+Iteration 30: -153732.25783753302
+Iteration 31: -135395.92328808305
+Iteration 32: -122211.27270780773
+Iteration 33: -101877.40614214556
+Iteration 34: -139026.25548954715
+Iteration 35: -115976.14190498923
+Iteration 36: -121661.33360495
+Iteration 37: -109555.13822720223
+Iteration 38: -101183.06342939497
+Iteration 39: -92080.04027062551
+Iteration 40: -91620.34231772473
+Iteration 41: -85419.27841991655
+Iteration 42: -76716.81858331354
+Iteration 43: -88765.99981564684
+Iteration 44: -84197.11380190661
+Iteration 45: -76061.5431283936
+Iteration 46: -67177.4500854874
+Iteration 47: -69704.41021859195
+Iteration 48: -74769.9084772257
+Iteration 49: -68534.97666667817
+Iteration 50: -68142.4656582308
+Iteration 51: -68114.80189837313
+Iteration 52: -61631.86561052027
+Iteration 53: -65277.90714266003
+Iteration 54: -59774.00897322083
+Iteration 55: -59599.225313136296
+Iteration 56: -58205.10097264016
+Iteration 57: -57822.12917426516
+Iteration 58: -53644.426043391
+Iteration 59: -61944.47076143731
+Iteration 60: -61395.559753084
+Iteration 61: -57738.293277106335
+Iteration 62: -53844.56321800292
+Iteration 63: -47540.69693232483
+Iteration 64: -55572.45084752716
+Iteration 65: -50874.57176578899
+Iteration 66: -48962.54336270716
+Iteration 67: -49676.433993564795
+Iteration 68: -51705.238724561874
+Iteration 69: -49683.59999541357
+Iteration 70: -54955.035601834104
+Iteration 71: -51988.06864217349
+Iteration 72: -54852.69741057817
+Iteration 73: -46167.583236442326
+Iteration 74: -48720.35506010054
+Iteration 75: -46181.70842385562
+Iteration 76: -46123.82577350554
+Iteration 77: -46801.2444888268
+Iteration 78: -48778.62441132555
+Iteration 79: -41757.38936080718
+Iteration 80: -42638.65621606355
+Iteration 81: -42855.098322967744
+Iteration 82: -51722.17924418833
+Iteration 83: -42231.31424075148
+Iteration 84: -46512.388388442596
+Iteration 85: -44017.16402233086
+Iteration 86: -44844.6339127996
+Iteration 87: -40763.262671239485
+Iteration 88: -44835.42629816843
+Iteration 89: -44360.6186969104
+Iteration 90: -49650.80757459383
+Iteration 91: -50194.18706328123
+Iteration 92: -42574.770845332736
+Iteration 93: -40253.40649276925
+Iteration 94: -50940.450163892856
+Iteration 95: -41905.478361829206
+Iteration 96: -48753.189300084574
+Iteration 97: -42702.82834472386
+Iteration 98: -44768.38010115341
+Iteration 99: -41485.846462289286
+Iteration 100: -45508.350570523595
+Iteration 101: -51683.0016767707
+Iteration 102: -46357.46043224266
+Iteration 103: -46294.267211940416
+Iteration 104: -48898.644216782945
+Iteration 105: -43499.00992178849
+Iteration 106: -47964.93580237539
+Iteration 107: -47042.24941334015
+Iteration 108: -46864.23608278652
+Iteration 109: -41289.99828205134
+Iteration 110: -40090.521589259064
+Iteration 111: -42940.22153677435
+Iteration 112: -44100.46292741116
+Iteration 113: -50573.69961540683
+Iteration 114: -43911.96601035671
+Iteration 115: -46158.99970561659
+Iteration 116: -41032.0653870181
+Iteration 117: -40914.27340621776
+Iteration 118: -40882.23286354944
+Iteration 119: -46842.23814408623
+Iteration 120: -46162.48077242506
+Iteration 121: -49929.130631955595
+Iteration 122: -64325.79284803596
+Iteration 123: -53068.10405238921
+Iteration 124: -64466.21380259003
+Iteration 125: -57649.5178640885
+Iteration 126: -55383.048179044956
+Iteration 127: -55373.560477073064
+Iteration 128: -54997.01316011158
+Iteration 129: -67649.28312479424
+Iteration 130: -57214.93430007235
+Iteration 131: -54814.82653451544
+Iteration 132: -51779.87182265691
+Iteration 133: -83198.34183519224
+Iteration 134: -55027.13800554233
+Iteration 135: -59505.79942617286
+Iteration 136: -54869.26357034
+Iteration 137: -55272.88359126111
+Iteration 138: -51614.35475917117
+Iteration 139: -58846.86913114444
+Iteration 140: -59816.94164908943
+Iteration 141: -51486.210022458385
+Iteration 142: -52967.851155368444
+Iteration 143: -48553.12638435078
+Iteration 144: -56009.956648067964
+Iteration 145: -56813.91565735594
+Iteration 146: -50592.82212701794
+Iteration 147: -45461.91711648365
+Iteration 148: -44882.521796730085
+Iteration 149: -49857.73473177089
+Iteration 150: -53287.91382298125
+Iteration 151: -48644.162963322924
+Iteration 152: -49320.12955241312
+Iteration 153: -45612.38493995744
+Iteration 154: -49007.08689081957
+Iteration 155: -46811.95227831681
+Iteration 156: -43974.34931731903
+Iteration 157: -44767.17664317058
+Iteration 158: -42285.21880200977
+Iteration 159: -48723.55289039141
+Iteration 160: -47727.45977718741
+Iteration 161: -41954.59157774142
+Iteration 162: -47582.5831248706
+Iteration 163: -46061.333467353805
+Iteration 164: -49820.79091526749
+Iteration 165: -46643.84553567102
+Iteration 166: -46615.74465242524
+Iteration 167: -45624.451096233075
+Iteration 168: -48945.263194162915
+Iteration 169: -45430.590569687374
+Iteration 170: -43549.62855037003
+Iteration 171: -43374.140787112665
+Iteration 172: -42340.56812178115
+Iteration 173: -46118.35093133688
+Iteration 174: -47089.82993318403
+Iteration 175: -38159.65614444991
+Iteration 176: -44898.1307290684
+Iteration 177: -43735.0700591052
+Iteration 178: -46626.95665113193
+Iteration 179: -43644.755213379016
+Iteration 180: -45433.29129440464
+Iteration 181: -40863.12786810388
+Iteration 182: -42572.42617317281
+Iteration 183: -43433.0193118307
+Iteration 184: -38809.2775917061
+Iteration 185: -42450.62700771291
+Iteration 186: -43394.49356289758
+Iteration 187: -41407.320323132626
+Iteration 188: -41355.0542685634
+Iteration 189: -50192.4824383031
+Iteration 190: -47077.99581244452
+Iteration 191: -43163.965365809905
+Iteration 192: -38027.1339615584
+Iteration 193: -38029.58928056834
+Iteration 194: -42218.27810833388
+Iteration 195: -41203.66104197998
+Iteration 196: -42202.42876323457
+Iteration 197: -48090.86642479881
+Iteration 198: -42976.93350984641
+Iteration 199: -45008.69607123888
+Iteration 200: -51260.302303028984
+Iteration 201: -43149.90421769048
+Iteration 202: -41394.326663318505
+Iteration 203: -43032.70148127084
+Iteration 204: -43676.95736960374
+Iteration 205: -44468.79729080026
+Iteration 206: -44402.2336755457
+Iteration 207: -46290.49806997084
+Iteration 208: -38872.32567588969
+Iteration 209: -49142.227773180166
+Iteration 210: -38782.03071114538
+Iteration 211: -42502.31808277187
+Iteration 212: -37742.336311000974
+Iteration 213: -44368.883881336726
+Iteration 214: -45298.17814047272
+Iteration 215: -41455.40519798195
+Iteration 216: -45959.74800072583
+Iteration 217: -36920.70783773305
+Iteration 218: -48527.3961235596
+Iteration 219: -43187.088541322126
+Iteration 220: -41297.82455060178
+Iteration 221: -38711.3092531164
+Iteration 222: -37750.252419653225
+Iteration 223: -41981.852479737034
+Iteration 224: -39059.624632491286
+Iteration 225: -40091.403361872384
+Iteration 226: -40960.86734533839
+Iteration 227: -46104.96545321841
+Iteration 228: -42661.431503300715
+Iteration 229: -41032.31782039234
+Iteration 230: -44349.570786010074
+Iteration 231: -40691.919248424514
+Iteration 232: -42399.37214919753
+Iteration 233: -40660.06666278604
+Iteration 234: -43825.35193019137
+Iteration 235: -41012.55226008717
+Iteration 236: -41228.67269848723
+Iteration 237: -41779.52429282903
+Iteration 238: -43696.541274320465
+Iteration 239: -46247.69401325367
+Iteration 240: -44433.250643925254
+Iteration 241: -38943.92784442973
+Iteration 242: -43283.01711688448
+Iteration 243: -42167.92894027311
+Iteration 244: -39433.85974862789
+Iteration 245: -37645.76476285167
+Iteration 246: -41206.65257944266
+Iteration 247: -44669.439687747705
+Iteration 248: -38879.90708714842
+Iteration 249: -37931.6120952451
+Iteration 250: -36092.44562141537
+Iteration 251: -36892.813013648694
+Iteration 252: -41289.439653821435
+Iteration 253: -39419.68618104546
+Iteration 254: -40298.96337499323
+Iteration 255: -45868.90050700265
+Iteration 256: -45669.29897488326
+Iteration 257: -35724.950225933906
+Iteration 258: -39104.2557119885
+Iteration 259: -38951.18810307308
+Iteration 260: -37864.26501596395
+Iteration 261: -41128.87895691226
+Iteration 262: -32243.977324367
+Iteration 263: -38506.24690797545
+Iteration 264: -41252.182877277264
+Iteration 265: -43065.736457370775
+Iteration 266: -32440.979929331195
+Iteration 267: -38961.75977356243
+Iteration 268: -37889.49378061823
+Iteration 269: -32002.5466150587
+Iteration 270: -39437.91519023062
+Iteration 271: -38483.60502566908
+Iteration 272: -34720.27432634159
+Iteration 273: -42931.67338577507
+Iteration 274: -34338.63041018264
+Iteration 275: -42387.17732884174
+Iteration 276: -37145.54381079021
+Iteration 277: -34466.831059931064
+Iteration 278: -42958.30072616349
+Iteration 279: -36746.792566037686
+Iteration 280: -32111.967471015832
+Iteration 281: -34684.953102068896
+Iteration 282: -41609.44633448038
+Iteration 283: -36085.28602714056
+Iteration 284: -37183.63938920955
+Iteration 285: -36119.99370258711
+Iteration 286: -39860.95131694771
+Iteration 287: -38689.132011726564
+Iteration 288: -40511.447261169415
+Iteration 289: -38572.43667714298
+Iteration 290: -33419.3284445595
+Iteration 291: -37728.1249933252
+Iteration 292: -32207.40216901397
+Iteration 293: -37480.113498474384
+Iteration 294: -36301.82073364673
+Iteration 295: -39522.61246372469
+Iteration 296: -35018.15311608838
+Iteration 297: -34850.094301868055
+Iteration 298: -40659.139812254514
+Iteration 299: -31984.923622251474
+Iteration 300: -35152.27630540446
+Iteration 301: -44824.13364742958
+Iteration 302: -35498.9737170251
+Iteration 303: -37281.63258195835
+Iteration 304: -35569.9576585286
+Iteration 305: -32201.649416598055
+Iteration 306: -36392.76330151397
+Iteration 307: -38916.66816982331
+Iteration 308: -37152.78094430327
+Iteration 309: -37882.46808272017
+Iteration 310: -37133.789588175285
+Iteration 311: -35116.516361221366
+Iteration 312: -32376.979900953495
+Iteration 313: -33917.991096694444
+Iteration 314: -34624.561108096554
+Iteration 315: -32893.385173595365
+Iteration 316: -39766.6034591398
+Iteration 317: -35908.724509322616
+Iteration 318: -38622.656124779525
+Iteration 319: -35688.04335623536
+Iteration 320: -35431.38772453601
+Iteration 321: -29280.001175591366
+Iteration 322: -38730.23234615175
+Iteration 323: -41670.69838512965
+Iteration 324: -34776.62073032857
+Iteration 325: -35644.34088857789
+Iteration 326: -36502.39800443241
+Iteration 327: -36394.49849020307
+Iteration 328: -35497.40814205889
+Iteration 329: -34608.56225336945
+Iteration 330: -40170.00654548374
+Iteration 331: -39108.99619398833
+Iteration 332: -39113.13021643544
+Iteration 333: -37209.38497833852
+Iteration 334: -39088.5360938733
+Iteration 335: -37422.38637226445
+Iteration 336: -37946.89210071733
+Iteration 337: -31920.816493088365
+Iteration 338: -34460.122132852644
+Iteration 339: -40679.90154081452
+Iteration 340: -39046.76780728788
+Iteration 341: -36232.53911399786
+Iteration 342: -36389.979490976635
+Iteration 343: -34201.77401163039
+Iteration 344: -32490.717908455405
+Iteration 345: -36225.81828983355
+Iteration 346: -36526.670456066655
+Iteration 347: -37036.84335606493
+Iteration 348: -33493.05365112297
+Iteration 349: -36883.21597385424
+Iteration 350: -36891.26008102478
+Iteration 351: -33412.46246743546
+Iteration 352: -37964.65045919702
+Iteration 353: -31562.91521061584
+Iteration 354: -36029.09531138049
+Iteration 355: -40474.85395734
+Iteration 356: -30469.061270025286
+Iteration 357: -34802.144975284515
+Iteration 358: -32008.562728199006
+Iteration 359: -36949.89055699162
+Iteration 360: -34006.13776263595
+Iteration 361: -39370.00372628178
+Iteration 362: -29534.035454654702
+Iteration 363: -40071.95523182157
+Iteration 364: -30361.166149064786
+Iteration 365: -37249.259871442926
+Iteration 366: -29211.15535448073
+Iteration 367: -33592.8689924164
+Iteration 368: -32782.83468187726
+Iteration 369: -33752.51742495289
+Iteration 370: -37473.93054195066
+Iteration 371: -40989.209875041684
+Iteration 372: -30746.323882597073
+Iteration 373: -31626.312725293486
+Iteration 374: -35264.458134422865
+Iteration 375: -30401.84036852116
+Iteration 376: -39591.249884558194
+Iteration 377: -33090.66875381316
+Iteration 378: -39469.76731921827
+Iteration 379: -31173.81200102867
+Iteration 380: -35216.49085294283
+Iteration 381: -37170.32358780872
+Iteration 382: -34109.29039553472
+Iteration 383: -29261.514948594588
+Iteration 384: -35278.8373908499
+Iteration 385: -30647.6649781653
+Iteration 386: -30612.964097024007
+Iteration 387: -34747.910442726046
+Iteration 388: -31366.992183740826
+Iteration 389: -30925.399724996634
+Iteration 390: -32745.96827579546
+Iteration 391: -32207.041099291455
+Iteration 392: -34378.50949519509
+Iteration 393: -29121.783041815
+Iteration 394: -29718.902864072435
+Iteration 395: -31953.55946750445
+Iteration 396: -30129.41775958029
+Iteration 397: -35689.352870787
+Iteration 398: -31087.967655872977
+Iteration 399: -32892.997272589964
+Iteration 400: -32537.17704020832
+Iteration 401: -33527.434675890276
+Iteration 402: -35475.33020542041
+Iteration 403: -34999.34356012858
+Iteration 404: -33666.807175919035
+Iteration 405: -31327.904716732497
+Iteration 406: -29032.331721616356
+Iteration 407: -27160.77287741345
+Iteration 408: -31852.430221881543
+Iteration 409: -31644.546716383975
+Iteration 410: -29450.51490391548
+Iteration 411: -27838.25476633186
+Iteration 412: -30999.328897503925
+Iteration 413: -32880.714883849585
+Iteration 414: -31046.30901170366
+Iteration 415: -30545.351940316654
+Iteration 416: -32394.313889371428
+Iteration 417: -30807.840459645984
+Iteration 418: -33409.15917455509
+Iteration 419: -31695.57911101268
+Iteration 420: -34967.15913749427
+Iteration 421: -29474.045168307304
+Iteration 422: -33764.37823433448
+Iteration 423: -30418.22344628403
+Iteration 424: -32708.839521086058
+Iteration 425: -33597.867645887716
+Iteration 426: -32526.585107257943
+Iteration 427: -28894.469234815977
+Iteration 428: -35254.32026538296
+Iteration 429: -36736.436031732395
+Iteration 430: -31436.70453700837
+Iteration 431: -33041.260976876765
+Iteration 432: -33403.34084468214
+Iteration 433: -31785.924546982307
+Iteration 434: -31416.783365371357
+Iteration 435: -31326.075562637005
+Iteration 436: -35648.03507397377
+Iteration 437: -39792.42884920598
+Iteration 438: -33041.75967963813
+Iteration 439: -34238.00132078253
+Iteration 440: -32805.01877778126
+Iteration 441: -32582.535808742698
+Iteration 442: -32303.41497683019
+Iteration 443: -30170.663103138042
+Iteration 444: -35723.19523309333
+Iteration 445: -31840.46999153192
+Iteration 446: -29979.56285629888
+Iteration 447: -32946.563434532676
+Iteration 448: -36340.43660094086
+Iteration 449: -33509.030044444895
+Iteration 450: -32409.543896324838
+Iteration 451: -32686.756612786627
+Iteration 452: -34453.00006405675
+Iteration 453: -30922.645071201474
+Iteration 454: -31647.49616886196
+Iteration 455: -34203.32977147855
+Iteration 456: -31953.102562558808
+Iteration 457: -33204.66517529748
+Iteration 458: -35795.691334648334
+Iteration 459: -34739.92174026959
+Iteration 460: -27490.421633456815
+Iteration 461: -31664.317777921566
+Iteration 462: -28761.67643254313
+Iteration 463: -32957.1132041152
+Iteration 464: -31847.78785240411
+Iteration 465: -30442.288365870776
+Iteration 466: -26370.356703857073
+Iteration 467: -28649.498724303503
+Iteration 468: -34758.647177946776
+Iteration 469: -33651.188650785894
+Iteration 470: -33432.77004215886
+Iteration 471: -28029.16197645385
+Iteration 472: -32882.98687639037
+Iteration 473: -27896.987333831286
+Iteration 474: -34775.26663706305
+Iteration 475: -31007.827111955794
+Iteration 476: -30595.86760869363
+Iteration 477: -32453.861899826792
+Iteration 478: -29015.95974139659
+Iteration 479: -32500.644765109922
+Iteration 480: -32242.770606543945
+Iteration 481: -35720.819354928644
+Iteration 482: -32854.99737268668
+Iteration 483: -30666.652061565357
+Iteration 484: -32069.07112895043
+Iteration 485: -28948.212130486092
+Iteration 486: -33004.40653489581
+Iteration 487: -27227.241834423432
+Iteration 488: -35983.203980702136
+Iteration 489: -31310.929616535992
+Iteration 490: -31003.369088904332
+Iteration 491: -28349.719587306357
+Iteration 492: -35283.838135539125
+Iteration 493: -31216.754280040845
+Iteration 494: -29080.09385406639
+Iteration 495: -30240.364306276144
+Iteration 496: -30803.116846883357
+Iteration 497: -27564.550324671312
+Iteration 498: -33993.7381034091
+Iteration 499: -30687.419619319327
+Iteration 500: -31264.161124593782
+Iteration 501: -33219.92674838228
+Iteration 502: -30080.1730379342
+Iteration 503: -29294.740709500555
+Iteration 504: -28736.090793708263
+Iteration 505: -27924.294846411838
+Iteration 506: -33217.34192573631
+Iteration 507: -24652.873362411698
+Iteration 508: -33622.766973690654
+Iteration 509: -29930.750193858898
+Iteration 510: -30984.21780686013
+Iteration 511: -30924.748018255123
+Iteration 512: -35816.66940004583
+Iteration 513: -30777.368999359187
+Iteration 514: -32349.120775613268
+Iteration 515: -33672.925195888616
+Iteration 516: -29281.89636739433
+Iteration 517: -28821.355083678238
+Iteration 518: -29708.025024519946
+Iteration 519: -32104.56366248833
+Iteration 520: -31779.460159490827
+Iteration 521: -28472.8351572836
+Iteration 522: -27875.517823637885
+Iteration 523: -23461.73431110843
+Iteration 524: -26976.626660405167
+Iteration 525: -35207.88885053559
+Iteration 526: -35326.12613516803
+Iteration 527: -28463.50186071849
+Iteration 528: -34287.32557322909
+Iteration 529: -28926.915332413522
+Iteration 530: -30233.679393246177
+Iteration 531: -28411.79355837785
+Iteration 532: -33466.39130563537
+Iteration 533: -30171.01358405179
+Iteration 534: -29070.616335254304
+Iteration 535: -32853.44432680468
+Iteration 536: -34430.297002946
+Iteration 537: -26524.882135203898
+Iteration 538: -29892.645629336756
+Iteration 539: -27303.982549814977
+Iteration 540: -28784.356862993645
+Iteration 541: -33606.077057291055
+Iteration 542: -28095.25109031133
+Iteration 543: -33439.266342038
+Iteration 544: -29714.824689757756
+Iteration 545: -31492.199734035825
+Iteration 546: -31280.8160342239
+Iteration 547: -35620.79387985472
+Iteration 548: -28930.892782295054
+Iteration 549: -29463.46841732103
+Iteration 550: -26896.077757918316
+Iteration 551: -34164.86494179448
+Iteration 552: -29837.860684661217
+Iteration 553: -34247.618885579184
+Iteration 554: -29875.787065977012
+Iteration 555: -32168.742052087648
+Iteration 556: -31476.16407602903
+Iteration 557: -27579.285005815524
+Iteration 558: -28835.41847820328
+Iteration 559: -34624.00496275829
+Iteration 560: -27326.209627099666
+Iteration 561: -28674.347039081313
+Iteration 562: -29658.909764176347
+Iteration 563: -31701.35871877526
+Iteration 564: -31026.017947084903
+Iteration 565: -29694.218485021975
+Iteration 566: -28260.883463208684
+Iteration 567: -30556.163887965573
+Iteration 568: -32587.390217169093
+Iteration 569: -29026.77708461664
+Iteration 570: -32840.89909614031
+Iteration 571: -29720.211335891498
+Iteration 572: -25615.557958354322
+Iteration 573: -29570.514077554413
+Iteration 574: -29002.21407590506
+Iteration 575: -31676.283940604502
+Iteration 576: -29762.192535773353
+Iteration 577: -38238.919611374
+Iteration 578: -29936.710647547552
+Iteration 579: -26935.732527720502
+Iteration 580: -25803.616224308735
+Iteration 581: -28767.008263301126
+Iteration 582: -35227.49540054075
+Iteration 583: -31363.305641690757
+Iteration 584: -27709.683473256075
+Iteration 585: -33774.40978317127
+Iteration 586: -32360.24757367396
+Iteration 587: -24446.337914076317
+Iteration 588: -29527.840050838597
+Iteration 589: -31633.772822225063
+Iteration 590: -31573.62756572391
+Iteration 591: -35485.22780064111
+Iteration 592: -33573.78571611851
+Iteration 593: -26931.15343319248
+Iteration 594: -33403.12072644148
+Iteration 595: -28895.679300080123
+Iteration 596: -25957.575810534217
+Iteration 597: -32854.64782361091
+Iteration 598: -28949.367493532533
+Iteration 599: -29643.444407297786
+Iteration 600: -29414.336407293264
+Iteration 601: -33765.2846829863
+Iteration 602: -27966.00216041939
+Iteration 603: -33890.590681110465
+Iteration 604: -26797.859655063894
+Iteration 605: -26549.232138998228
+Iteration 606: -25570.30290571459
+Iteration 607: -24658.369553953507
+Iteration 608: -31831.67553964977
+Iteration 609: -36188.46937588344
+Iteration 610: -29089.011461503633
+Iteration 611: -32065.848177630818
+Iteration 612: -29896.855135139027
+Iteration 613: -33882.052372576996
+Iteration 614: -27299.236324282094
+Iteration 615: -33420.73484181298
+Iteration 616: -31363.19103763891
+Iteration 617: -33072.720048072486
+Iteration 618: -31543.28117852524
+Iteration 619: -27187.1343298002
+Iteration 620: -31272.339030688767
+Iteration 621: -31580.50218645294
+Iteration 622: -34000.10078911428
+Iteration 623: -27831.432087368255
+Iteration 624: -27288.986510339957
+Iteration 625: -26945.793611066263
+Iteration 626: -32218.850840727067
+Iteration 627: -29447.50534844811
+Iteration 628: -32292.477902326515
+Iteration 629: -30307.10596937784
+Iteration 630: -34252.65286635832
+Iteration 631: -25315.657121170218
+Iteration 632: -26963.18440780696
+Iteration 633: -32804.28680473723
+Iteration 634: -29515.010247170077
+Iteration 635: -33241.29648913496
+Iteration 636: -35175.28229930781
+Iteration 637: -31116.971932387736
+Iteration 638: -37401.8334926676
+Iteration 639: -29415.804370554986
+Iteration 640: -30384.398391104558
+Iteration 641: -30258.532361255333
+Iteration 642: -32627.256290369052
+Iteration 643: -33302.96166175305
+Iteration 644: -30450.11922240025
+Iteration 645: -32533.437338958895
+Iteration 646: -32161.761067093637
+Iteration 647: -33182.09002490106
+Iteration 648: -33657.742119807524
+Iteration 649: -30992.6646025155
+Iteration 650: -31818.71531963843
+Iteration 651: -27664.480233586237
+Iteration 652: -36634.42611337356
+Iteration 653: -34368.83175840991
+Iteration 654: -34691.6975228815
+Iteration 655: -33493.71708238408
+Iteration 656: -35104.043457453074
+Iteration 657: -31929.720379077058
+Iteration 658: -32682.79845415514
+Iteration 659: -38036.12478884473
+Iteration 660: -40778.58765799849
+Iteration 661: -43024.700735384795
+Iteration 662: -43460.22820898232
+Iteration 663: -40267.04544684577
+Iteration 664: -34290.64477177674
+Iteration 665: -53730.92102264996
+Iteration 666: -44715.70847939546
+Iteration 667: -33372.29070828416
+Iteration 668: -41517.264627608
+Iteration 669: -41333.14724030405
+Iteration 670: -46960.88908230997
+Iteration 671: -39911.90807131062
+Iteration 672: -37532.11104064572
+Iteration 673: -36033.678022569395
+Iteration 674: -32433.4897575303
+Iteration 675: -32959.358764970566
+Iteration 676: -33049.617587173234
+Iteration 677: -32803.38668706591
+Iteration 678: -33836.79407158956
+Iteration 679: -36024.66273620589
+Iteration 680: -31044.82771594322
+Iteration 681: -34170.13881571423
+Iteration 682: -30709.725626391646
+Iteration 683: -35687.51057636271
+Iteration 684: -33123.27097730081
+Iteration 685: -26867.528017727596
+Iteration 686: -30899.451318028354
+Iteration 687: -36183.79381340454
+Iteration 688: -30073.11219597005
+Iteration 689: -38266.13841592811
+Iteration 690: -35214.431601466255
+Iteration 691: -34041.70942548918
+Iteration 692: -33972.45155122684
+Iteration 693: -32247.9606190181
+Iteration 694: -32058.01552274446
+Iteration 695: -31213.154900579673
+Iteration 696: -33504.26080050753
+Iteration 697: -25998.72282400925
+Iteration 698: -35812.39038095294
+Iteration 699: -35611.17341519465
+Iteration 700: -24743.059649175942
+Iteration 701: -31458.137049946607
+Iteration 702: -30558.647369495917
+Iteration 703: -29768.87181078937
+Iteration 704: -33049.00976774122
+Iteration 705: -30371.178747824768
+Iteration 706: -28650.18647137333
+Iteration 707: -29514.04100986946
+Iteration 708: -30358.06779694651
+Iteration 709: -33031.3328248952
+Iteration 710: -28422.506770990378
+Iteration 711: -33786.228203450744
+Iteration 712: -29405.154603415467
+Iteration 713: -31906.077459070882
+Iteration 714: -28513.911307805745
+Iteration 715: -35418.1948117245
+Iteration 716: -30831.400670586838
+Iteration 717: -27608.348405359844
+Iteration 718: -36030.37380295613
+Iteration 719: -32651.155575109737
+Iteration 720: -31771.25442278268
+Iteration 721: -34988.58950308949
+Iteration 722: -29384.035829372533
+Iteration 723: -30077.342957352572
+Iteration 724: -34178.74367993789
+Iteration 725: -32555.314564859917
+Iteration 726: -30965.014908987843
+Iteration 727: -30871.31695048227
+Iteration 728: -32637.739734712555
+Iteration 729: -34057.78629030149
+Iteration 730: -30836.990379901566
+Iteration 731: -29139.721640714662
+Iteration 732: -31614.34412833704
+Iteration 733: -29861.805355682496
+Iteration 734: -32466.101119113388
+Iteration 735: -32486.08345446553
+Iteration 736: -29056.998157478345
+Iteration 737: -32416.852415217745
+Iteration 738: -28204.105114977734
+Iteration 739: -27225.32389862559
+Iteration 740: -29847.16482250557
+Iteration 741: -32536.572007691433
+Iteration 742: -29771.038222584328
+Iteration 743: -27999.608489400976
+Iteration 744: -29785.775831345472
+Iteration 745: -31478.6589942102
+Iteration 746: -31460.726143711086
+Iteration 747: -28839.474238187107
+Iteration 748: -26192.05454834349
+Iteration 749: -31459.186653599118
+Iteration 750: -30490.342115950512
+Iteration 751: -30248.35300961891
+Iteration 752: -36774.907527073236
+Iteration 753: -29969.85623990894
+Iteration 754: -33811.33508751484
+Iteration 755: -40399.2655521559
+Iteration 756: -28891.315147445443
+Iteration 757: -30020.393222747087
+Iteration 758: -29223.576424989973
+Iteration 759: -33367.91901598955
+Iteration 760: -33229.15799698289
+Iteration 761: -29898.564425688106
+Iteration 762: -28444.401675880355
+Iteration 763: -33756.42213203169
+Iteration 764: -27216.884169231183
+Iteration 765: -28809.13957762503
+Iteration 766: -27803.41682364134
+Iteration 767: -29824.895540538393
+Iteration 768: -27336.841511143826
+Iteration 769: -32368.71385778944
+Iteration 770: -34565.282283499386
+Iteration 771: -29400.810953784305
+Iteration 772: -26968.777103945173
+Iteration 773: -26857.34723689327
+Iteration 774: -36182.42376764361
+Iteration 775: -31419.075454300582
+Iteration 776: -32903.913380504775
+Iteration 777: -30140.944216717697
+Iteration 778: -32770.73844334137
+Iteration 779: -31215.181527324065
+Iteration 780: -32868.098941121614
+Iteration 781: -26898.943140668554
+Iteration 782: -28710.44416468576
+Iteration 783: -33981.225176814965
+Iteration 784: -30980.226649449123
+Iteration 785: -31753.448549452143
+Iteration 786: -30947.88696749015
+Iteration 787: -31010.080426006447
+Iteration 788: -30962.180053625078
+Iteration 789: -29131.62398538534
+Iteration 790: -30004.68312507408
+Iteration 791: -30986.28461872815
+Iteration 792: -30112.605567908475
+Iteration 793: -36348.05630937747
+Iteration 794: -31801.964140737728
+Iteration 795: -29544.778123258708
+Iteration 796: -31868.553408494812
+Iteration 797: -34215.23614521206
+Iteration 798: -25757.341264855033
+Iteration 799: -29194.20623378876
+Iteration 800: -31141.000521696795
+Iteration 801: -33750.87211490212
+Iteration 802: -30010.988561333717
+Iteration 803: -33301.74608808159
+Iteration 804: -32801.036072002214
+Iteration 805: -32725.434820411847
+Iteration 806: -27763.304217889236
+Iteration 807: -29035.28475127719
+Iteration 808: -25392.881177720814
+Iteration 809: -28340.0540808087
+Iteration 810: -28608.62942448976
+Iteration 811: -31378.767274658567
+Iteration 812: -25271.31467087631
+Iteration 813: -30278.310367273254
+Iteration 814: -31129.24582786416
+Iteration 815: -29208.816367667954
+Iteration 816: -22943.40804765681
+Iteration 817: -26222.713122106306
+Iteration 818: -27291.789907185488
+Iteration 819: -27653.47768079097
+Iteration 820: -30490.798680861666
+Iteration 821: -32990.627744431404
+Iteration 822: -32591.64169964195
+Iteration 823: -31943.946618087448
+Iteration 824: -29920.467454108497
+Iteration 825: -24845.387891102848
+Iteration 826: -28204.110775661873
+Iteration 827: -30821.52116710919
+Iteration 828: -32285.261084424565
+Iteration 829: -25585.946490309863
+Iteration 830: -33916.994432968655
+Iteration 831: -33439.178799343004
+Iteration 832: -31696.539955596
+Iteration 833: -32083.750817678316
+Iteration 834: -28941.818538514246
+Iteration 835: -30958.98777425757
+Iteration 836: -31588.706780221914
+Iteration 837: -32605.948040640054
+Iteration 838: -29071.15054703248
+Iteration 839: -33722.784834692386
+Iteration 840: -30790.260330305762
+Iteration 841: -31574.223211771245
+Iteration 842: -31612.38190151821
+Iteration 843: -30887.78364952945
+Iteration 844: -30058.71613100066
+Iteration 845: -28250.719513909247
+Iteration 846: -28093.185281968857
+Iteration 847: -28030.838947670065
+Iteration 848: -28117.401045860515
+Iteration 849: -27220.244333738585
+Iteration 850: -28103.616189722048
+Iteration 851: -30053.827684034615
+Iteration 852: -28010.91707094073
+Iteration 853: -27100.951363504886
+Iteration 854: -32739.910747028473
+Iteration 855: -28995.29245672969
+Iteration 856: -29823.72279733477
+Iteration 857: -28845.324372683695
+Iteration 858: -30666.216239810656
+Iteration 859: -27889.255151898727
+Iteration 860: -34233.97966797759
+Iteration 861: -31349.154997872858
+Iteration 862: -29057.858202428222
+Iteration 863: -33233.51905747244
+Iteration 864: -31503.906358714714
+Iteration 865: -26650.21804413398
+Iteration 866: -33001.119778540684
+Iteration 867: -36646.75528274047
+Iteration 868: -34848.94855942913
+Iteration 869: -27975.257349266154
+Iteration 870: -31394.730057397373
+Iteration 871: -28921.64638872407
+Iteration 872: -25373.68894365918
+Iteration 873: -30490.59504094359
+Iteration 874: -30740.205967444082
+Iteration 875: -31545.51996430305
+Iteration 876: -30668.332686837668
+Iteration 877: -27003.559395836193
+Iteration 878: -30612.511119316503
+Iteration 879: -29619.693695463582
+Iteration 880: -27006.146308101852
+Iteration 881: -30458.968021521945
+Iteration 882: -25969.50317431918
+Iteration 883: -28719.187843549076
+Iteration 884: -33349.766340078335
+Iteration 885: -30548.548314804128
+Iteration 886: -25133.651770948763
+Iteration 887: -30444.304555462986
+Iteration 888: -33095.22243684354
+Iteration 889: -31256.715033525506
+Iteration 890: -32035.31770127372
+Iteration 891: -30429.16078706486
+Iteration 892: -25302.65077151561
+Iteration 893: -28599.457943651378
+Iteration 894: -25968.231100917485
+Iteration 895: -27629.77026117606
+Iteration 896: -25894.123074635838
+Iteration 897: -32386.476215757095
+Iteration 898: -26743.6817276946
+Iteration 899: -29655.898317822375
+Iteration 900: -27840.26446311575
+Iteration 901: -32483.312694995744
+Iteration 902: -26084.409709741107
+Iteration 903: -28602.50304990349
+Iteration 904: -32639.070171008734
+Iteration 905: -28601.544120080478
+Iteration 906: -32200.65511418358
+Iteration 907: -26833.363325810238
+Iteration 908: -30391.223667290444
+Iteration 909: -29485.12424797205
+Iteration 910: -27949.933884051927
+Iteration 911: -33790.10813671221
+Iteration 912: -30422.37403281036
+Iteration 913: -32995.330857809895
+Iteration 914: -26070.438956477916
+Iteration 915: -33738.8287878046
+Iteration 916: -30254.689111390002
+Iteration 917: -29444.515480348695
+Iteration 918: -32849.85836700924
+Iteration 919: -25133.79706018386
+Iteration 920: -27867.0334262035
+Iteration 921: -31361.24206371353
+Iteration 922: -31223.784454421206
+Iteration 923: -31158.71117791774
+Iteration 924: -35635.73885480255
+Iteration 925: -31327.56325831139
+Iteration 926: -24818.585420583655
+Iteration 927: -32011.04434059563
+Iteration 928: -31353.772810577608
+Iteration 929: -31246.4273497102
+Iteration 930: -29428.243283740347
+Iteration 931: -28563.951240466162
+Iteration 932: -32101.96497161949
+Iteration 933: -29352.510482665166
+Iteration 934: -30359.317644349772
+Iteration 935: -31193.493262346437
+Iteration 936: -28917.33881892932
+Iteration 937: -32014.218144354
+Iteration 938: -29306.322136852647
+Iteration 939: -23133.4662551098
+Iteration 940: -29314.12927874373
+Iteration 941: -28559.05089441663
+Iteration 942: -30552.737471127493
+Iteration 943: -30286.771950612423
+Iteration 944: -31376.485184561294
+Iteration 945: -30384.69302195864
+Iteration 946: -30333.96271484969
+Iteration 947: -27024.744388156036
+Iteration 948: -28461.402107080805
+Iteration 949: -33032.048904742725
+Iteration 950: -29519.563683314747
+Iteration 951: -26741.135250621635
+Iteration 952: -30352.40280646791
+Iteration 953: -30227.464926873745
+Iteration 954: -34454.43588985646
+Iteration 955: -29517.03821324736
+Iteration 956: -27880.66829800359
+Iteration 957: -32787.57791790805
+Iteration 958: -33644.93191302191
+Iteration 959: -32830.659504878146
+Iteration 960: -25997.088904076998
+Iteration 961: -32753.330601517577
+Iteration 962: -27665.488801134263
+Iteration 963: -29390.84298737465
+Iteration 964: -32041.457891209982
+Iteration 965: -30179.056802817537
+Iteration 966: -30318.37294705598
+Iteration 967: -33636.04631445746
+Iteration 968: -26763.723190095378
+Iteration 969: -29440.45118309716
+Iteration 970: -29423.994060034984
+Iteration 971: -32064.39241753475
+Iteration 972: -30211.460722659376
+Iteration 973: -33694.219185636764
+Iteration 974: -31903.788546906424
+Iteration 975: -31117.41725098323
+Iteration 976: -28663.84573130403
+Iteration 977: -28608.373598434013
+Iteration 978: -31040.76660863109
+Iteration 979: -26794.40627461067
+Iteration 980: -31288.0201524739
+Iteration 981: -33935.53047785368
+Iteration 982: -29266.866683932018
+Iteration 983: -28551.384560828672
+Iteration 984: -28553.840425942286
+Iteration 985: -28696.00534912903
+Iteration 986: -26763.86898816261
+Iteration 987: -22901.692468375724
+Iteration 988: -32693.86893817081
+Iteration 989: -28751.574111219492
+Iteration 990: -33329.471124195996
+Iteration 991: -25770.467611162654
+Iteration 992: -26918.375320828505
+Iteration 993: -28697.719227223613
+Iteration 994: -30301.89163051503
+Iteration 995: -30203.875646593893
+Iteration 996: -33853.972228697094
+Iteration 997: -29335.827004810904
+Iteration 998: -28490.21127630457
+Iteration 999: -29322.32006638962
+Iteration 1000: -27711.62947394894
+Iteration 1001: -33654.790080774335
+Iteration 1002: -32671.630919592484
+Iteration 1003: -33519.97957077909
+Iteration 1004: -28663.23456519382
+Iteration 1005: -27801.115796881015
+Iteration 1006: -31856.6310299385
+Iteration 1007: -28471.00751496872
+Iteration 1008: -32940.493243575576
+Iteration 1009: -26639.861340509957
+Iteration 1010: -26668.931385458614
+Iteration 1011: -27523.236597799463
+Iteration 1012: -28443.59835624103
+Iteration 1013: -28449.629960639162
+Iteration 1014: -33005.392592853845
+Iteration 1015: -30302.84509113542
+Iteration 1016: -22356.895098304103
+Iteration 1017: -31148.71925030954
+Iteration 1018: -23873.55892131776
+Iteration 1019: -31275.026303700735
+Iteration 1020: -30351.6069614193
+Iteration 1021: -28361.97702391321
+Iteration 1022: -29378.00008545468
+Iteration 1023: -28406.826180742093
+Iteration 1024: -30175.33463602169
+Iteration 1025: -23378.473099061266
+Iteration 1026: -29367.479618517034
+Iteration 1027: -28502.218593854366
+Iteration 1028: -30367.53134026858
+Iteration 1029: -23793.68423091471
+Iteration 1030: -28369.902422504383
+Iteration 1031: -27538.676665505856
+Iteration 1032: -32139.809829260666
+Iteration 1033: -33033.15182159229
+Iteration 1034: -28562.418923278557
+Iteration 1035: -27804.265807012052
+Iteration 1036: -31050.851344949064
+Iteration 1037: -24911.87999724832
+Iteration 1038: -26585.54102900431
+Iteration 1039: -28564.089169157676
+Iteration 1040: -29708.807003534042
+Iteration 1041: -26820.13769975548
+Iteration 1042: -33099.056726106435
+Iteration 1043: -28498.006971556344
+Iteration 1044: -32858.800266158185
+Iteration 1045: -30446.928021812386
+Iteration 1046: -26005.449493233788
+Iteration 1047: -21332.0033632697
+Iteration 1048: -30560.832515763628
+Iteration 1049: -25828.90356275486
+Iteration 1050: -25883.83963176026
+Iteration 1051: -24645.016610141593
+Iteration 1052: -33503.21332664051
+Iteration 1053: -35900.2386712916
+Iteration 1054: -28275.025299104665
+Iteration 1055: -32496.875948396915
+Iteration 1056: -33025.197878166895
+Iteration 1057: -26886.509758046002
+Iteration 1058: -30191.757782777062
+Iteration 1059: -35094.098347856816
+Iteration 1060: -34118.20162291014
+Iteration 1061: -31964.181634900375
+Iteration 1062: -28871.908215379597
+Iteration 1063: -30562.625799197634
+Iteration 1064: -24193.304803493207
+Iteration 1065: -31075.0295779574
+Iteration 1066: -32819.22842693982
+Iteration 1067: -26683.342910921034
+Iteration 1068: -31222.30406285217
+Iteration 1069: -32261.917847377004
+Iteration 1070: -34797.26732941068
+Iteration 1071: -28520.7312193338
+Iteration 1072: -28809.90105535176
+Iteration 1073: -29613.844779448944
+Iteration 1074: -26862.226486461026
+Iteration 1075: -31086.944757290315
+Iteration 1076: -33094.69125714499
+Iteration 1077: -29393.483195533394
+Iteration 1078: -23940.107810789646
+Iteration 1079: -27600.624316277605
+Iteration 1080: -30187.482391857306
+Iteration 1081: -24907.13674591029
+Iteration 1082: -30913.34516802579
+Iteration 1083: -27459.687870754657
+Iteration 1084: -31243.385596100918
+Iteration 1085: -33051.786304674286
