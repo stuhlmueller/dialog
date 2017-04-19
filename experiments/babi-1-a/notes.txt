@@ -1,0 +1,5 @@
+To show behavior on remotely fitted parameters, try this:
+
+  logistician sync
+  logistician run --data_readonly "./data/--optimize" -o "--behavior"
+  logistician run --data_readonly "./data/--optimize" -o "--loglikelihood-train"
