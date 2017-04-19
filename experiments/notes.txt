@@ -1,0 +1,12 @@
+- Initialization seems to matter quite a bit:
+  
+  c4large - Iteration 1880: -22416.917113308347
+  c4xlarge - Iteration 1831: -3145.709649234484
+
+- I don't see gains from using c4.xlarge. It looks like c4.large makes most sense for this sort of experiment.
+
+- To show behavior on remotely fitted parameters, try this:
+
+  logistician sync
+  logistician run --data_readonly "./data/--optimize" -o "--behavior"
+  logistician run --data_readonly "./data/--optimize" -o "--loglikelihood-train"
