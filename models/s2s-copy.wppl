@@ -116,6 +116,11 @@ var main = function(options) {
 
   // Decoder
 
+  var initializeDecoder = stack([
+    tanh,
+    affine('decoder-init', { in: latentDim, out: latentDim })
+  ]);
+  
   var decoderLatentNet = recurrent('decoder-recurrent', {
     hdim: latentDim,
     xdim: vocabDim
@@ -135,7 +140,7 @@ var main = function(options) {
             (_.last(params.outputs) === '$'));
   }
 
-  var decode = function(state, action, useObservations) {
+  var decode = function(encState, action, useObservations) {
 
     var recurse = function(x) {  // { state, decoderSteps, outputs, observations }
       if (shouldStop(x)) {
@@ -159,7 +164,7 @@ var main = function(options) {
     };
 
     return recurse({
-      state,
+      state: initializeDecoder(encState),
       decoderSteps: 0,
       observations: action.toWords().concat('$'),
       outputs: ['^']
