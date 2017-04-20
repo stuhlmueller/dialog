@@ -252,8 +252,7 @@ var main = function(options) {
             console.log();
           }
         });
-      },
-      guide: true
+      }
     });
   };  
   
