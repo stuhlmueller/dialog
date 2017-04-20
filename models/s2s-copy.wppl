@@ -94,7 +94,7 @@ var main = function(options) {
   // --------------------------------------------------------------------
   // Options
 
-  var batchSize = options.batchsize || 10;
+  var batchSize = options.batchsize || 5;
   var latentDim = options.latentDim || 30;
   var recurrent = (options.lstm === false) ? rnn : lstm;
   var maxDecoderSteps = options.maxdecodersteps || 10;
