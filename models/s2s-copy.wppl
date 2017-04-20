@@ -124,9 +124,10 @@ var main = function(options) {
   var decoderOutputNet = stack([
     softmax,
     affine('decoder-output', {
-      in: latentDim,
+      in: latentDim + vocabDim,
       out: vocabDim
-    })
+    }),
+    concat
   ]);
 
   var shouldStop = function(params) {
@@ -142,7 +143,7 @@ var main = function(options) {
       } else {
         var outputVector = onehotWords(_.last(x.outputs));
         var state = decoderLatentNet(state, outputVector);
-        var ps = decoderOutputNet(state);
+        var ps = decoderOutputNet([state, outputVector]);
         var observation = x.observations ? x.observations[0] : '$';
         var outputDist = Categorical({ ps, vs: babiData.words });
         var output = observe(outputDist,
