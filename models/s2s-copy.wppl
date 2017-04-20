@@ -134,22 +134,25 @@ var main = function(options) {
             (_.last(params.outputs) === '$'));
   }
 
-  var decode = function(state, action) {
+  var decode = function(state, action, useObservations) {
 
-    var recurse = function(params) {  // { state, decoderSteps, outputs, observations }
-      if (shouldStop(params)) {
-        return params.outputs.slice(1);
+    var recurse = function(x) {  // { state, decoderSteps, outputs, observations }
+      if (shouldStop(x)) {
+        return wordsToAction(x.outputs.slice(1));
       } else {
-        var outputVector = onehotWords(_.last(params.outputs));
+        var outputVector = onehotWords(_.last(x.outputs));
         var state = decoderLatentNet(state, outputVector);
         var ps = decoderOutputNet(state);
-        var observation = params.observations ? params.observations[0] : '$';
+        var observation = x.observations ? x.observations[0] : '$';
         var outputDist = Categorical({ ps, vs: babiData.words });
-        var output = observe(outputDist, observation, { guide() { return outputDist; } });
+        var output = observe(outputDist,
+                             useObservations ? observation : undefined,
+                             { guide() { return outputDist; } });
         return recurse({
           state,
-          decoderSteps: params.decoderSteps + 1,
-          outputs: params.outputs.concat([output])
+          decoderSteps: x.decoderSteps + 1,
+          observations: x.observations.slice(1),
+          outputs: x.outputs.concat([output])
         });
       }
     };
@@ -190,31 +193,76 @@ var main = function(options) {
   // --------------------------------------------------------------------
   // Main model structure
   
-  var step = function(state, action) {
-    decode(state, getDesiredAction(action));
-    return encode(state, action);
-  };
-
-  var model = function(data) {    
-    mapData({ data, batchSize }, function(dialog) {
+  var model = function(x) {  // { data, callback }
+    
+    var step = function(state, action) {
+      var desiredAction = getDesiredAction(action)
+      var modelAction = decode(state, desiredAction, x.useObservations);
+      if (x.callback) {
+        var callback = x.callback;
+        callback({ action, modelAction, desiredAction });
+      }
+      return encode(state, action);
+    };
+    
+    mapData({ data: x.data, batchSize }, function(dialog) {
       var state = initializeEncoder();
       reduceLeft(step, state, dialog);
     });
+    
     return null;
+    
   };
 
 
   // --------------------------------------------------------------------
   // Inference and optimization
 
-  Optimize({
-    model() {
-      return model(onlyMessages(babiData.training));
-    },
-    steps: 100000,
-    optMethod: { adam: { stepSize }}
-  });
+  var runOptimize = function() {
+    Optimize({
+      model() {
+        return model({
+          data: onlyMessages(babiData.training),
+          useObservations: true
+        });
+      },
+      steps: 100000,
+      optMethod: { adam: { stepSize }}
+    });
+  };
 
+  var runBehavior = function() {
+    Infer({
+      method: 'forward',
+      model() {
+        return model({
+          data: onlyMessages(babiData.dev.slice(0, 10)),
+          useObservations: false,
+          callback(x) {  // action, modelAction, desiredAction
+            var s = function(maybeAction) {
+              return maybeAction ? maybeAction.toString() : 'null';
+            }
+            if (x.action.who === 'U') {            
+              console.log('Want: ', s(x.desiredAction), '(', s(x.action), ')');
+            } else {
+              console.log('Want: ', s(x.desiredAction));
+            }
+            console.log('Model:', s(x.modelAction));
+            console.log();
+          }
+        });
+      },
+      guide: true
+    });
+  };  
+  
+  if (options['optimize']) {
+    runOptimize();
+  } else if (options['behavior']) {
+    runBehavior();    
+  } else {
+    util.fatal('No known command given' )
+  }
   
 };
 
