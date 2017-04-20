@@ -88,21 +88,6 @@ var onlyMessages = function(dialogs) {
 };
 
 
-// var model = function() {
-//   var net = affine('net', {in: 3, out: 5});
-//   var out = net(ones([3, 1])); // dims(out) == [5, 1]
-//   var val = T.sumreduce(out);
-//   factor(val);
-//   return val;
-// }
-
-// Optimize({ model, steps: 1000 });
-
-// Infer({ model, guide: true });
-
-
-
-
 var main = function(options) {
 
 
