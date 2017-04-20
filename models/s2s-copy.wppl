@@ -1,1 +1,237 @@
-console.log("hi");
+// --------------------------------------------------------------------
+// Helpers
+
+var makeCategoricalOneHot = function(vs) {
+  return cache(function(v) {
+    var i = _.indexOf(vs, v);
+    assert.ok(i != -1, "onehot didn't find " + v + " in " + vs);
+    var n = vs.length;
+    return oneHot(i, n);
+  });
+};
+
+
+// --------------------------------------------------------------------
+// Data handling
+
+// This returns a list:
+// [{ workspace1, action1 }, { workspace2, action2 }, ...]
+var parseDialog = function(dialogString) {
+  var initEntry = {
+    workspace: Workspace([]),
+    action: Action({ who: 'A', what: 'INIT' })
+  };
+  var rawLines = dialogString.split('\n');
+  var dialog = reduceLeft(
+    function(history, rawLine) {
+      var prevEntry = _.last(history);
+      var prevWorkspace = prevEntry.workspace;
+      var prevAction = prevEntry.action;
+      var workspace = prevWorkspace.update(prevAction);
+      var action = stringToAction(rawLine);
+      var entry = { workspace, action };
+      return history.concat([ entry ]);
+    },
+    [ initEntry ],
+    rawLines);
+  return dialog;
+};
+
+var fileToDialogs = function(filename) {
+  var raw = fs.read(filename).trim();
+  return map(parseDialog, raw.split('\n\n'));
+};
+
+var fileToWords = function(filename) {
+  return _.sortBy(_.uniq(fs.read(filename).trim().split(/\s/g)));
+};
+
+var loadBabiData = function() {
+  var dataPath = '/project/data/'
+  var trainingFile = dataPath + 'dialog-babi-task1/dialog-babi-task1-API-calls-trn-workspace.txt';
+  var devFile = dataPath + 'dialog-babi-task1/dialog-babi-task1-API-calls-dev-workspace.txt';
+  var specialWords = [
+    '^', '$',            // start/end markers
+    'INIT', 'WAIT',      // action types not in data
+    'NO_OUTPUT',         // filler when copy or match word is not available
+    'NO_USER_ACTION',    // initial value of lastUserAction
+    'NO_WORKSPACE_WORD'
+  ];
+  var typesAndTokens = [
+    { type: 'cuisine', tokens: ['french', 'italian', 'british', 'spanish', 'indian'] },
+    { type: 'location', tokens: ['rome', 'london', 'bombay', 'paris', 'madrid'] },
+    { type: 'price', tokens: ['cheap', 'moderate', 'expensive'] },
+    { type: 'people', tokens: ['two', 'four', 'six', 'eight'] },
+  ];
+  return {
+    training: fileToDialogs(trainingFile),
+    dev: fileToDialogs(devFile),
+    words: fileToWords(trainingFile).concat(specialWords),
+    typesAndTokens
+  };
+};
+
+var babiData = loadBabiData();
+
+var onehotWords = makeCategoricalOneHot(babiData.words);
+
+var onlyMessages = function(dialogs) {
+  return map(function(dialog){
+    return reduceLeft(function(entries, entry) {
+      if (entry.action.what === "MSG") {
+        return entries.concat(entry.action);
+      } else {
+        return entries;
+      }
+    }, [], dialog);
+  }, dialogs);
+};
+
+
+// var model = function() {
+//   var net = affine('net', {in: 3, out: 5});
+//   var out = net(ones([3, 1])); // dims(out) == [5, 1]
+//   var val = T.sumreduce(out);
+//   factor(val);
+//   return val;
+// }
+
+// Optimize({ model, steps: 1000 });
+
+// Infer({ model, guide: true });
+
+
+
+
+var main = function(options) {
+
+
+  // --------------------------------------------------------------------
+  // Options
+
+  var batchSize = options.batchsize || 10;
+  var latentDim = options.latentDim || 30;
+  var recurrent = (options.lstm === false) ? rnn : lstm;
+  var maxDecoderSteps = options.maxdecodersteps || 10;
+  var stepSize = options.stepsize || .01;
+
+  var vocabDim = babiData.words.length;
+  
+  
+  // --------------------------------------------------------------------
+  // Model components
+
+  var getDesiredAction = function(action) {
+    if (action.who === 'U') {
+      return Action({ who: 'A', what: 'WAIT' });
+    } else {
+      return action;
+    }
+  };
+
+  // Decoder
+
+  var decoderLatentNet = recurrent('decoder-recurrent', {
+    hdim: latentDim,
+    xdim: vocabDim
+  });
+
+  var decoderOutputNet = stack([
+    softmax,
+    affine('decoder-output', {
+      in: latentDim,
+      out: vocabDim
+    })
+  ]);
+
+  var shouldStop = function(params) {
+    return ((params.decoderSteps === (maxDecoderSteps + 2)) ||
+            (_.last(params.outputs) === '$'));
+  }
+
+  var decode = function(state, action) {
+
+    var recurse = function(params) {  // { state, decoderSteps, outputs, observations }
+      if (shouldStop(params)) {
+        return params.outputs.slice(1);
+      } else {
+        var outputVector = onehotWords(_.last(params.outputs));
+        var state = decoderLatentNet(state, outputVector);
+        var ps = decoderOutputNet(state);
+        var observation = params.observations ? params.observations[0] : '$';
+        var outputDist = Categorical({ ps, vs: babiData.words });
+        var output = observe(outputDist, observation, { guide() { return outputDist; } });
+        return recurse({
+          state,
+          decoderSteps: params.decoderSteps + 1,
+          outputs: params.outputs.concat([output])
+        });
+      }
+    };
+
+    return recurse({
+      state,
+      decoderSteps: 0,
+      observations: action.toWords().concat('$'),
+      outputs: ['^']
+    });
+    
+  };
+
+  // Encoder
+  
+  var initializeEncoder = function() {
+    return param({
+      name: 'encoder-init',
+      dims: [latentDim, 1]
+    });
+  };
+
+  var encodeStep = recurrent('encoder-recurrent', {
+    hdim: latentDim,
+    xdim: vocabDim
+  });
+
+  var actionToVectors = function(action) {
+    return map(onehotWords, action.toWords().concat(['$']));
+  };
+
+  var encode = function(state, action) {
+    var vectors = actionToVectors(action);
+    return reduceLeft(encodeStep, state, vectors);
+  };
+
+
+  // --------------------------------------------------------------------
+  // Main model structure
+  
+  var step = function(state, action) {
+    decode(state, getDesiredAction(action));
+    return encode(state, action);
+  };
+
+  var model = function(data) {    
+    mapData({ data, batchSize }, function(dialog) {
+      var state = initializeEncoder();
+      reduceLeft(step, state, dialog);
+    });
+    return null;
+  };
+
+
+  // --------------------------------------------------------------------
+  // Inference and optimization
+
+  Optimize({
+    model() {
+      return model(onlyMessages(babiData.training));
+    },
+    steps: 100000,
+    optMethod: { adam: { stepSize }}
+  });
+
+  
+};
+
+
+main(parseArgs(process.argv));
