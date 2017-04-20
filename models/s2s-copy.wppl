@@ -142,7 +142,7 @@ var main = function(options) {
         return wordsToAction(x.outputs.slice(1));
       } else {
         var outputVector = onehotWords(_.last(x.outputs));
-        var state = decoderLatentNet(state, outputVector);
+        var state = decoderLatentNet(x.state, outputVector);
         var ps = decoderOutputNet([state, outputVector]);
         var observation = x.observations ? x.observations[0] : '$';
         var outputDist = Categorical({ ps, vs: babiData.words });
