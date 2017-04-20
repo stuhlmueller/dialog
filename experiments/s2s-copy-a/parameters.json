@@ -4,6 +4,6 @@
   "aws_ami_user": "ubuntu", 
   "aws_instance_type": "c4.large", 
   "aws_region": "us-west-1", 
-  "experiment_conditions": [], 
+  "experiment_conditions": ["--run"], 
   "experiment_name": "s2s-copy-a"
 }
