@@ -5,9 +5,21 @@
   "aws_instance_type": "c4.large", 
   "aws_region": "us-west-1", 
   "experiment_conditions": [
-    "--optimize --batchsize 1", 
-    "--optimize --batchsize 5", 
-    "--optimize --batchsize 10"
+    "--optimize --batchsize 5",
+    "--optimize --batchsize 10",
+    "--optimize --batchsize 20",    
+    "--optimize --stepsize 0.001",
+    "--optimize --stepsize 0.01",
+    "--optimize --stepsize 0.1",
+    "--optimize --latentdim 5",
+    "--optimize --latentdim 10",
+    "--optimize --latentdim 20",
+    "--optimize --latentdim 30",
+    "--optimize --latentdim 50",
+    "--optimize --latentdim 70",
+    "--optimize --latentdim 100",
+    "--optimize --latentdim 120",
+    "--optimize --latentdim 200",
   ], 
   "experiment_name": "s2s-copy-c"
 }
