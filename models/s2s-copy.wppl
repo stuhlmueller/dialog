@@ -101,105 +101,104 @@ var main = function(options) {
   var stepSize = options.stepsize || .01;
 
   var vocabDim = babiData.words.length;
-
   
-  // --------------------------------------------------------------------
-  // Model components
+  var model = function(x) {  // { data, callback }
 
-  var getDesiredAction = function(action) {
-    if (action.who === 'U') {
-      return Action({ who: 'A', what: 'WAIT' });
-    } else {
-      return action;
-    }
-  };
+    // --------------------------------------------------------------------
+    // Model components
 
-  // Decoder
-
-  var initializeDecoder = stack([
-    tanh,
-    affine('decoder-init', { in: latentDim, out: latentDim })
-  ]);
-  
-  var decoderLatentNet = recurrent('decoder-recurrent', {
-    hdim: latentDim,
-    xdim: vocabDim
-  });
-
-  var decoderOutputNet = stack([
-    softmax,
-    affine('decoder-output', {
-      in: latentDim + vocabDim,
-      out: vocabDim
-    }),
-    concat
-  ]);
-
-  var shouldStop = function(params) {
-    return ((params.decoderSteps === (maxDecoderSteps + 2)) ||
-            (_.last(params.outputs) === '$'));
-  }
-
-  var decode = function(encState, action, useObservations) {
-
-    var recurse = function(x) {  // { state, decoderSteps, outputs, observations }
-      if (shouldStop(x)) {
-        return wordsToAction(x.outputs.slice(1));
+    var getDesiredAction = function(action) {
+      if (action.who === 'U') {
+        return Action({ who: 'A', what: 'WAIT' });
       } else {
-        var outputVector = onehotWords(_.last(x.outputs));
-        var state = decoderLatentNet(x.state, outputVector);
-        var ps = decoderOutputNet([state, outputVector]);
-        var observation = x.observations ? x.observations[0] : '$';
-        var outputDist = Categorical({ ps, vs: babiData.words });
-        var output = observe(outputDist,
-                             useObservations ? observation : undefined,
-                             { guide() { return outputDist; } });
-        return recurse({
-          state,
-          decoderSteps: x.decoderSteps + 1,
-          observations: x.observations.slice(1),
-          outputs: x.outputs.concat([output])
-        });
+        return action;
       }
     };
 
-    return recurse({
-      state: initializeDecoder(encState),
-      decoderSteps: 0,
-      observations: action.toWords().concat('$'),
-      outputs: ['^']
-    });
+    // Decoder
+
+    var initializeDecoder = stack([
+      tanh,
+      affine('decoder-init', { in: latentDim, out: latentDim })
+    ]);
     
-  };
-
-  // Encoder
-  
-  var initializeEncoder = function() {
-    return param({
-      name: 'encoder-init',
-      dims: [latentDim, 1]
+    var decoderLatentNet = recurrent('decoder-recurrent', {
+      hdim: latentDim,
+      xdim: vocabDim
     });
-  };
 
-  var encodeStep = recurrent('encoder-recurrent', {
-    hdim: latentDim,
-    xdim: vocabDim
-  });
+    var decoderOutputNet = stack([
+      softmax,
+      affine('decoder-output', {
+          in: latentDim + vocabDim,
+        out: vocabDim
+      }),
+      concat
+    ]);
 
-  var actionToVectors = function(action) {
-    return map(onehotWords, action.toWords().concat(['$']));
-  };
+    var shouldStop = function(params) {
+      return ((params.decoderSteps === (maxDecoderSteps + 2)) ||
+              (_.last(params.outputs) === '$'));
+    }
 
-  var encode = function(state, action) {
-    var vectors = actionToVectors(action);
-    return reduceLeft(encodeStep, state, vectors);
-  };
+    var decode = function(encState, action, useObservations) {
+
+      var recurse = function(x) {  // { state, decoderSteps, outputs, observations }
+        if (shouldStop(x)) {
+          return wordsToAction(x.outputs.slice(1));
+        } else {
+          var outputVector = onehotWords(_.last(x.outputs));
+          var state = decoderLatentNet(x.state, outputVector);
+          var ps = decoderOutputNet([state, outputVector]);
+          var observation = x.observations ? x.observations[0] : '$';
+          var outputDist = Categorical({ ps, vs: babiData.words });
+          var output = observe(outputDist,
+                               useObservations ? observation : undefined,
+                               { guide() { return outputDist; } });
+          return recurse({
+            state,
+            decoderSteps: x.decoderSteps + 1,
+            observations: x.observations.slice(1),
+            outputs: x.outputs.concat([output])
+          });
+        }
+      };
+
+      return recurse({
+        state: initializeDecoder(encState),
+        decoderSteps: 0,
+        observations: action.toWords().concat('$'),
+        outputs: ['^']
+      });
+      
+    };
+
+    // Encoder
+    
+    var initializeEncoder = function() {
+      return param({
+        name: 'encoder-init',
+        dims: [latentDim, 1]
+      });
+    };
+
+    var encodeStep = recurrent('encoder-recurrent', {
+      hdim: latentDim,
+      xdim: vocabDim
+    });
+
+    var actionToVectors = function(action) {
+      return map(onehotWords, action.toWords().concat(['$']));
+    };
+
+    var encode = function(state, action) {
+      var vectors = actionToVectors(action);
+      return reduceLeft(encodeStep, state, vectors);
+    };
 
 
-  // --------------------------------------------------------------------
-  // Main model structure
-  
-  var model = function(x) {  // { data, callback }
+    // --------------------------------------------------------------------
+    // Main model structure
     
     var step = function(state, action) {
       var desiredAction = getDesiredAction(action)
@@ -233,16 +232,26 @@ var main = function(options) {
         });
       },
       steps: 100000,
-      optMethod: { adam: { stepSize }}
+      optMethod: { adam: { stepSize }},
+      onStep(index, objectiveValue) {
+        if (index % 20 === 0) {
+          runBehavior(1);
+        }
+      }
     });
   };
 
-  var runBehavior = function() {
+  // var runAccuracy = function() {
+  //   Infer
+  // };
+
+  var runBehavior = function(numDataPoints) {
     Infer({
       method: 'forward',
+      samples: 1,
       model() {
         return model({
-          data: onlyMessages(babiData.dev.slice(0, 10)),
+          data: onlyMessages(babiData.dev.slice(0, numDataPoints)),
           useObservations: false,
           callback(x) {  // action, modelAction, desiredAction
             var s = function(maybeAction) {
@@ -264,7 +273,7 @@ var main = function(options) {
   if (options['optimize']) {
     runOptimize();
   } else if (options['behavior']) {
-    runBehavior();    
+    runBehavior(10);    
   } else {
     util.fatal('No known command given' )
   }
