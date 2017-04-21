@@ -19,7 +19,7 @@
     "--optimize --latentdim 70",
     "--optimize --latentdim 100",
     "--optimize --latentdim 120",
-    "--optimize --latentdim 200",
+    "--optimize --latentdim 200"
   ], 
   "experiment_name": "s2s-copy-c"
 }
