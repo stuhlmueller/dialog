@@ -223,11 +223,11 @@ var main = function(options) {
   // --------------------------------------------------------------------
   // Inference and optimization
 
-  var runOptimize = function() {
+  var runOptimize = function(data) {
     Optimize({
       model() {
         return model({
-          data: onlyMessages(babiData.training),
+          data,
           useObservations: true
         });
       },
@@ -245,13 +245,13 @@ var main = function(options) {
   //   Infer
   // };
 
-  var runBehavior = function(numDataPoints) {
+  var runBehavior = function(data) {
     Infer({
       method: 'forward',
       samples: 1,
       model() {
         return model({
-          data: onlyMessages(babiData.dev.slice(0, numDataPoints)),
+          data,
           useObservations: false,
           callback(x) {  // action, modelAction, desiredAction
             var s = function(maybeAction) {
@@ -271,9 +271,9 @@ var main = function(options) {
   };  
   
   if (options['optimize']) {
-    runOptimize();
+    runOptimize(onlyMessages(babiData.training));
   } else if (options['behavior']) {
-    runBehavior(10);    
+    runBehavior(onlyMessages(babiData.dev.slice(0, 10)));
   } else {
     util.fatal('No known command given' )
   }
