@@ -1,3 +1,13 @@
+- For plain s2s, accuracy on babi 1 looks roughly as follows:
+
+    Training
+    94.53574363188167% of respones correct (2301/2434)
+    33.5% of dialogs correct (67/200)
+    
+    Dev
+    91.56064461407973% of respones correct (2159/2358)
+    0.5% of dialogs correct (1/200)
+
 - Results from the last run:
   - batchsize 1 didn't converge
   - rnn is much worse than lstm
