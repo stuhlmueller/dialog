@@ -1,0 +1,1 @@
+Like s2s-copy-a, but now also passing most recent generated word into generator.
