@@ -102,7 +102,7 @@ var main = function(options) {
 
   var vocabDim = babiData.words.length;
   
-  var model = function(x) {  // { data, callback }
+  var model = function(x) {  // { data, callbackOnStep, callbackOnDialog, useMAP }
 
     // --------------------------------------------------------------------
     // Model components
@@ -152,9 +152,12 @@ var main = function(options) {
           var ps = decoderOutputNet([state, outputVector]);
           var observation = x.observations ? x.observations[0] : '$';
           var outputDist = Categorical({ ps, vs: babiData.words });
-          var output = observe(outputDist,
-                               useObservations ? observation : undefined,
-                               { guide() { return outputDist; } });
+          var output = (
+            x.useMAP ?
+              outputDist.MAP().val :
+              observe(outputDist,
+                      useObservations ? observation : undefined,
+                      { guide() { return outputDist; } }));
           return recurse({
             state,
             decoderSteps: x.decoderSteps + 1,
@@ -203,8 +206,8 @@ var main = function(options) {
     var step = function(state, action) {
       var desiredAction = getDesiredAction(action)
       var modelAction = decode(state, desiredAction, x.useObservations);
-      if (x.callback) {
-        var callback = x.callback;
+      if (x.callbackOnStep) {
+        var callback = x.callbackOnStep;
         callback({ action, modelAction, desiredAction });
       }
       return encode(state, action);
@@ -213,6 +216,10 @@ var main = function(options) {
     mapData({ data: x.data, batchSize }, function(dialog) {
       var state = initializeEncoder();
       reduceLeft(step, state, dialog);
+      if (x.callbackOnDialog) {
+        var callback = x.callbackOnDialog;
+        callback();
+      }
     });
     
     return null;
@@ -223,7 +230,61 @@ var main = function(options) {
   // --------------------------------------------------------------------
   // Inference and optimization
 
+  var getAccuracy = function(data) {
+    var stats = {
+      dialogs: { total: 0, correct: 0 },
+      responses: { total: 0, correct: 0 },
+      responsesInCurrentDialog: { total: 0, correct: 0 }
+    };
+    var callbackOnDialog = function() {
+      var allCorrect = stats.responsesInCurrentDialog.correct === stats.responsesInCurrentDialog.total;
+      _.assign(stats.dialogs, {
+        total: stats.dialogs.total + 1,
+        correct: stats.dialogs.correct + (allCorrect ? 1 : 0)
+      });
+      _.assign(stats.responsesInCurrentDialog, { total: 0, correct: 0 })
+    };
+    var callbackOnStep = function(x) {  // { action, modelAction, desiredAction }
+      var isCorrect = x.modelAction && (x.modelAction.toString() === x.desiredAction.toString() + ' $');
+      var update = function(obj) {
+        _.assign(obj, {
+          total: obj.total + 1,
+          correct: obj.correct + (isCorrect ? 1 : 0)
+        });
+      }
+      update(stats.responses);
+      update(stats.responsesInCurrentDialog);
+    };
+    Infer({
+      method: 'forward',
+      samples: 1,
+      model() {
+        return model({
+          data,
+          useObservations: false,
+          useMAP: true,
+          callbackOnDialog,
+          callbackOnStep
+        });
+      }
+    });
+    return _.pick(stats, ['dialogs', 'responses']);
+  };
+
+  var runAccuracy = function(label, data) {
+    var formatStat = function(stat) {
+      return _.toString(100 * stat.correct / stat.total) + '% correct (' + stat.correct + '/' + stat.total + ')';
+    };
+    var stats = getAccuracy(data);
+    console.log(label);
+    console.log('Responses:', formatStat(stats.responses));
+    console.log('Dialogs:', formatStat(stats.dialogs));
+  };
+
   var runOptimize = function(data) {
+    var startTime = _.now();
+    var traceFile = '/data/results/trace.json';
+    fs.write(traceFile, '[]');    
     Optimize({
       model() {
         return model({
@@ -234,16 +295,24 @@ var main = function(options) {
       steps: 100000,
       optMethod: { adam: { stepSize }},
       onStep(index, objectiveValue) {
-        if (index % 20 === 0) {
-          runBehavior(1);
+        if (index % 50 === 0) {
+          var trainingStats = getAccuracy(onlyMessages(babiData.training.slice(0, 200)));
+          var devStats = getAccuracy(onlyMessages(babiData.dev.slice(0, 200)));
+          var stats = {
+            index,
+            runtimeInSeconds: (_.now() - startTime) / 1000,
+            objectiveValue,
+            trainingStats,
+            devStats
+          };
+          runBehavior(onlyMessages(babiData.dev.slice(0, 1)));
+          console.log(JSON.stringify(stats, null, 2));
+          var trace = JSON.parse(fs.read(traceFile));
+          fs.write(traceFile, JSON.stringify(trace.concat(stats)));
         }
       }
     });
   };
-
-  // var runAccuracy = function() {
-  //   Infer
-  // };
 
   var runBehavior = function(data) {
     Infer({
@@ -253,7 +322,8 @@ var main = function(options) {
         return model({
           data,
           useObservations: false,
-          callback(x) {  // action, modelAction, desiredAction
+          useMAP: true,
+          callbackOnStep(x) {  // action, modelAction, desiredAction
             var s = function(maybeAction) {
               return maybeAction ? maybeAction.toString() : 'null';
             }
@@ -274,6 +344,9 @@ var main = function(options) {
     runOptimize(onlyMessages(babiData.training));
   } else if (options['behavior']) {
     runBehavior(onlyMessages(babiData.dev.slice(0, 10)));
+  } else if (options['accuracy']) {
+    runAccuracy('\nTraining:', onlyMessages(babiData.training.slice(0, 200)));
+    runAccuracy('\nDev:', onlyMessages(babiData.dev.slice(0, 200)));    
   } else {
     util.fatal('No known command given' )
   }
@@ -281,4 +354,4 @@ var main = function(options) {
 };
 
 
-main(parseArgs(process.argv));
+main(argv);
