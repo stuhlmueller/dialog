@@ -95,7 +95,7 @@ var main = function(options) {
   // Options
 
   var batchSize = options.batchsize || 5;
-  var latentDim = options.latentDim || 50;
+  var latentDim = options.latentdim || 50;
   var recurrent = (options.lstm === false) ? rnn : lstm;
   var maxDecoderSteps = options.maxdecodersteps || 10;
   var stepSize = options.stepsize || .01;
@@ -130,8 +130,8 @@ var main = function(options) {
     var decoderOutputNet = stack([
       softmax,
       affine('decoder-output', {
-          in: latentDim + vocabDim,
-        out: vocabDim
+        "in": 2 * latentDim + vocabDim,  // [decState, memState, outputVector]
+        "out": vocabDim
       }),
       concat
     ]);
@@ -141,15 +141,30 @@ var main = function(options) {
               (_.last(params.outputs) === '$'));
     }
 
-    var decode = function(encState, action, useObservations) {
+    var attentionMLP = stack([
+      function(x) { return Math.tanh(T.toScalars(x)[0]); }, // hack due to webppl #835
+      affine('attention-1', { "in": latentDim * 2, "out": 1 }),
+      concat
+    ]);
 
-      var recurse = function(x) {  // { state, decoderSteps, outputs, observations }
+    var decode = function(encStates, action, useObservations) {
+
+      var recurse = function(x) {  // { state, decSteps, outputs, observations }
         if (shouldStop(x)) {
           return wordsToAction(x.outputs.slice(1));
         } else {
+
           var outputVector = onehotWords(_.last(x.outputs));
-          var state = decoderLatentNet(x.state, outputVector);
-          var ps = decoderOutputNet([state, outputVector]);
+          var decState = decoderLatentNet(x.decState, outputVector);
+
+          // Attention
+          var combineWithDecoderState = function(encState) { return attentionMLP([encState, decState]); };
+          var attentionVector = softmax(Vector(map(combineWithDecoderState, encStates)));
+          var memState = vectorSum(map2(function(encState, weight) {
+            return T.mul(encState, weight);
+          }, encStates, T.toScalars(attentionVector)));
+
+          var ps = decoderOutputNet([decState, memState, outputVector]);
           var observation = x.observations ? x.observations[0] : '$';
           var outputDist = Categorical({ ps, vs: babiData.words });
           var output = (
@@ -159,8 +174,8 @@ var main = function(options) {
                       useObservations ? observation : undefined,
                       { guide() { return outputDist; } }));
           return recurse({
-            state,
-            decoderSteps: x.decoderSteps + 1,
+            decState,
+            decSteps: x.decSteps + 1,
             observations: x.observations.slice(1),
             outputs: x.outputs.concat([output])
           });
@@ -168,8 +183,8 @@ var main = function(options) {
       };
 
       return recurse({
-        state: initializeDecoder(encState),
-        decoderSteps: 0,
+        decState: initializeDecoder(_.last(encStates)),
+        decSteps: 0,
         observations: action.toWords().concat('$'),
         outputs: ['^']
       });
@@ -203,19 +218,21 @@ var main = function(options) {
     // --------------------------------------------------------------------
     // Main model structure
     
-    var step = function(state, action) {
+    var step = function(encStates, action) {
       var desiredAction = getDesiredAction(action)
-      var modelAction = decode(state, desiredAction, x.useObservations);
+      var modelAction = decode(encStates, desiredAction, x.useObservations);
       if (x.callbackOnStep) {
         var callback = x.callbackOnStep;
         callback({ action, modelAction, desiredAction });
       }
-      return encode(state, action);
+      var oldEncState = _.last(encStates);
+      var newEncState = encode(oldEncState, action);
+      return encStates.concat([newEncState]);
     };
     
     mapData({ data: x.data, batchSize }, function(dialog) {
       var state = initializeEncoder();
-      reduceLeft(step, state, dialog);
+      reduceLeft(step, [state], dialog);
       if (x.callbackOnDialog) {
         var callback = x.callbackOnDialog;
         callback();
