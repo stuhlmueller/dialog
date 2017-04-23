@@ -365,7 +365,7 @@ var main = function(options) {
     runAccuracy('\nTraining:', onlyMessages(babiData.training.slice(0, 200)));
     runAccuracy('\nDev:', onlyMessages(babiData.dev.slice(0, 200)));    
   } else {
-    util.fatal('No known command given' )
+    console.error('No known command given', options)
   }
   
 };
