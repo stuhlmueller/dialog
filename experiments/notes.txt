@@ -1,3 +1,26 @@
+- Running plain s2s with more parameters (s2s-copy-c), after about 24h, dev set accuracy and objective value results seem surprising. Note that the latentdim experiment didn't work as intended (case mismatch).
+
+    ["data/--optimize --batchsize 10/results/trace.json",-15260.339141269304,1337]
+    ["data/--optimize --batchsize 20/results/trace.json",-15066.902254950986,1341]
+    ["data/--optimize --batchsize 5/results/trace.json",-15970.93873240552,1039]
+    ["data/--optimize --latentdim 10/results/trace.json",-15020.28515354453,986]
+    ["data/--optimize --latentdim 100/results/trace.json",-22621.204755944298,991]
+    ["data/--optimize --latentdim 120/results/trace.json",-22820.645037026457,996]
+    ["data/--optimize --latentdim 20/results/trace.json",-19588.283980342665,991]
+    ["data/--optimize --latentdim 200/results/trace.json",-20442.7556891551,980]
+    ["data/--optimize --latentdim 30/results/trace.json",-21276.65595507305,1020]
+    ["data/--optimize --latentdim 5/results/trace.json",-21351.0701395646,1005]
+    ["data/--optimize --latentdim 50/results/trace.json",-21894.082263160373,999]
+    ["data/--optimize --latentdim 70/results/trace.json",-17836.652287906007,1019]
+    ["data/--optimize --stepsize 0.001/results/trace.json",-6.018140482967288,2192] ***
+    ["data/--optimize --stepsize 0.01/results/trace.json",-20481.42924522909,1015]
+    ["data/--optimize --stepsize 0.1/results/trace.json",-23811.211369872457,726]
+
+    Is this just noise? Or is step size 0.001 really better? If it's not noise, would 0.0001 be even better?
+    Have the others just not converged yet? I assume so, since the previous run with default
+    options (below) also gave results comparable to 0.001, and the defaults use 0.01.
+    However, there wasn't much progress within the last 12h.
+
 - For plain s2s, accuracy on babi 1 looks roughly as follows:
 
     Training
