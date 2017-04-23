@@ -1,0 +1,5 @@
+commit 5da2852352a7198b382b77929b5e7b69b95b704f
+Author: Andreas Stuhlmueller <andreas@stuhlmueller.org>
+Date:   Fri Apr 21 15:52:23 2017 -0700
+
+    Explore wider range of conditions
