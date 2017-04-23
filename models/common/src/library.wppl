@@ -159,3 +159,9 @@ var vectorSum = function(l) {
     return T.add(l[0], vectorSum(l.slice(1)));
   }
 };
+
+var toScalar = function(x) {
+  var scalars = T.toScalars(x);
+  assert.equal(scalars.length, 1);
+  return scalars[0];
+};
