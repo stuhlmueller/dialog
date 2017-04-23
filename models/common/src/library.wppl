@@ -150,3 +150,12 @@ var repeatForever = function(thunk) {
   thunk();
   repeatForever(thunk);
 };
+
+var vectorSum = function(l) {
+  assert.ok(l.length >= 1);
+  if (l.length === 1) {
+    return l[0];
+  } else {
+    return T.add(l[0], vectorSum(l.slice(1)));
+  }
+};
