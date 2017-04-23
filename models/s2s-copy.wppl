@@ -312,7 +312,7 @@ var main = function(options) {
       steps: 100000,
       optMethod: { adam: { stepSize }},
       onStep(index, objectiveValue) {
-        if (index % 50 === 0) {
+        if (index % 200 === 0) {
           var trainingStats = getAccuracy(onlyMessages(babiData.training.slice(0, 200)));
           var devStats = getAccuracy(onlyMessages(babiData.dev.slice(0, 200)));
           var stats = {
