@@ -142,7 +142,8 @@ var main = function(options) {
     }
 
     var attentionMLP = stack([
-      function(x) { return Math.tanh(T.toScalars(x)[0]); }, // hack due to webppl #835
+      toScalar,
+      tanh,
       affine('attention-1', { "in": latentDim * 2, "out": 1 }),
       concat
     ]);
