@@ -1,0 +1,22 @@
+{
+  "aws_ami": "ami-a0edc8c0", 
+  "aws_ami_comment": "ubuntu 16.10, us-west-1, Docker", 
+  "aws_ami_user": "ubuntu", 
+  "aws_instance_type": "c4.large", 
+  "aws_region": "us-west-1", 
+  "experiment_conditions": [
+    "--random-seed 10 -- --optimize --stepsize 0.001",
+    "--random-seed 10 -- --optimize --stepsize 0.01",
+    "--random-seed 11 -- --optimize --stepsize 0.001",
+    "--random-seed 11 -- --optimize --stepsize 0.01",
+    "--random-seed 12 -- --optimize --stepsize 0.001",
+    "--random-seed 12 -- --optimize --stepsize 0.01",
+    "--random-seed 13 -- --optimize --stepsize 0.001",
+    "--random-seed 13 -- --optimize --stepsize 0.01",
+    "--random-seed 14 -- --optimize --stepsize 0.001",
+    "--random-seed 14 -- --optimize --stepsize 0.01",
+    "--random-seed 15 -- --optimize --stepsize 0.001",
+    "--random-seed 15 -- --optimize --stepsize 0.01"
+  ], 
+  "experiment_name": "s2s-copy-d-attention"
+}

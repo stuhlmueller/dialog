@@ -1,3 +1,19 @@
+- Plain S2S + attention does near-perfectly on babi 1:
+
+    (venv) $ jq -c '[input_filename, .[-1].objectiveValue, .[-1].devStats.responses.correct]' data/*/results/trace.json
+    ["data/--random-seed 10 -- --optimize --stepsize 0.001/results/trace.json",-1.9964016096728998,2354]
+    ["data/--random-seed 10 -- --optimize --stepsize 0.01/results/trace.json",-0.15299640027583647,2353]
+    ["data/--random-seed 11 -- --optimize --stepsize 0.001/results/trace.json",-0.1019998034839332,2358]
+    ["data/--random-seed 11 -- --optimize --stepsize 0.01/results/trace.json",-5.8222662072163606e-05,2358]
+    ["data/--random-seed 12 -- --optimize --stepsize 0.001/results/trace.json",-0.10699830124958246,2358]
+    ["data/--random-seed 12 -- --optimize --stepsize 0.01/results/trace.json",-0.0011851610096056564,2356]
+    ["data/--random-seed 13 -- --optimize --stepsize 0.001/results/trace.json",-0.37095713759472904,2357]
+    ["data/--random-seed 13 -- --optimize --stepsize 0.01/results/trace.json",-0.036029311489291956,2357]
+    ["data/--random-seed 14 -- --optimize --stepsize 0.001/results/trace.json",-0.11738345299789148,2356]
+    ["data/--random-seed 14 -- --optimize --stepsize 0.01/results/trace.json",-0.0002627272347016237,2357]
+    ["data/--random-seed 15 -- --optimize --stepsize 0.001/results/trace.json",-0.4583461046139372,2354]
+    ["data/--random-seed 15 -- --optimize --stepsize 0.01/results/trace.json",-8.167133399761548e-05,2356]
+
 - Running plain s2s with more parameters (s2s-copy-c), after about 24h, dev set accuracy and objective value results seem surprising. Note that the latentdim experiment didn't work as intended (case mismatch).
 
     ["data/--optimize --batchsize 10/results/trace.json",-15260.339141269304,1337]

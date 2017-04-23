@@ -1,0 +1,5 @@
+commit bd96f16ed0270303013487cafc5fe9045ea36e14
+Author: Andreas Stuhlmueller <andreas@stuhlmueller.org>
+Date:   Sat Apr 22 20:18:08 2017 -0700
+
+    Do evaluation less often
