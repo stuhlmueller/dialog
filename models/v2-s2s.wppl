@@ -99,6 +99,7 @@ var main = function(options) {
   var recurrent = (options.lstm === false) ? rnn : lstm;
   var maxDecoderSteps = options.maxdecodersteps || 10;
   var stepSize = options.stepsize || .01;
+  var addWaitActions = options.addwaitactions || false;
 
   var vocabDim = babiData.words.length;
   
@@ -220,8 +221,10 @@ var main = function(options) {
     // Main model structure
     
     var step = function(encStates, action) {
-      var desiredAction = getDesiredAction(action)
-      var modelAction = decode(encStates, desiredAction, x.useObservations);
+      var desiredAction = getDesiredAction(action);     
+      var modelAction = ((desiredAction.what !== 'WAIT' || addWaitActions) ?
+                         decode(encStates, desiredAction, x.useObservations) :
+                         desiredAction);
       if (x.callbackOnStep) {
         var callback = x.callbackOnStep;
         callback({ action, modelAction, desiredAction });
