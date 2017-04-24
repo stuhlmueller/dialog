@@ -42,21 +42,25 @@ var fileToDialogs = function(filename) {
   return map(parseDialog, raw.split('\n\n'));
 };
 
-var fileToWords = function(filename) {
-  return _.sortBy(_.uniq(fs.read(filename).trim().split(/\s/g)));
+var filesToWords = function(filenames) {
+  var words = _.flatten(map(function(filename){
+    return fs.read(filename).trim().split(/\s/g);
+  }, filenames));
+  return _.sortBy(_.uniq(words));
 };
 
+var specialWords = [
+  '^', '$',            // start/end markers
+  'INIT', 'WAIT',      // action types not in data
+  'NO_OUTPUT',         // filler when copy or match word is not available
+  'NO_USER_ACTION',    // initial value of lastUserAction
+  'NO_WORKSPACE_WORD'
+];
+
 var loadBabiData = function() {
-  var dataPath = '/project/data/'
-  var trainingFile = dataPath + 'dialog-babi-task1/dialog-babi-task1-API-calls-trn-workspace.txt';
-  var devFile = dataPath + 'dialog-babi-task1/dialog-babi-task1-API-calls-dev-workspace.txt';
-  var specialWords = [
-    '^', '$',            // start/end markers
-    'INIT', 'WAIT',      // action types not in data
-    'NO_OUTPUT',         // filler when copy or match word is not available
-    'NO_USER_ACTION',    // initial value of lastUserAction
-    'NO_WORKSPACE_WORD'
-  ];
+  var dataPath = '/project/data/dialog-babi-task1/';
+  var trainingFile = dataPath + 'dialog-babi-task1-API-calls-trn-workspace.txt';
+  var devFile = dataPath + 'dialog-babi-task1-API-calls-dev-workspace.txt';
   var typesAndTokens = [
     { type: 'cuisine', tokens: ['french', 'italian', 'british', 'spanish', 'indian'] },
     { type: 'location', tokens: ['rome', 'london', 'bombay', 'paris', 'madrid'] },
@@ -66,14 +70,27 @@ var loadBabiData = function() {
   return {
     training: fileToDialogs(trainingFile),
     dev: fileToDialogs(devFile),
-    words: fileToWords(trainingFile).concat(specialWords),
+    words: filesToWords([trainingFile]).concat(specialWords),
     typesAndTokens
   };
 };
 
-var babiData = loadBabiData();
+var loadDSTCData = function() {
+  var dataPath = '/project/data/dialog-babi-task6/';
+  var trainingFile = dataPath + 'dialog-babi-task6-dstc2-trn-workspace.txt';
+  var devFile = dataPath + 'dialog-babi-task6-dstc2-dev-workspace.txt';
+  var candidatesFile = dataPath + 'dialog-babi-task6-dstc2-candidates.txt';
+  return {
+    training: fileToDialogs(trainingFile),
+    dev: fileToDialogs(devFile),
+    words: filesToWords([trainingFile, devFile]).concat(specialWords)
+  };
+};
 
-var onehotWords = makeCategoricalOneHot(babiData.words);
+var datasets = {
+  babi: loadBabiData(),
+  dstc: loadDSTCData()
+};
 
 var onlyMessages = function(dialogs) {
   return map(function(dialog){
@@ -100,8 +117,12 @@ var main = function(options) {
   var maxDecoderSteps = options.maxdecodersteps || 10;
   var stepSize = options.stepsize || .01;
   var addWaitActions = options.addwaitactions || false;
+  var dataset = datasets[options.dataset || 'babi'];
+  
+  var onehotWords = makeCategoricalOneHot(dataset.words);
+  var vocabDim = dataset.words.length;
 
-  var vocabDim = babiData.words.length;
+  console.log({ vocabDim })
   
   var model = function(x) {  // { data, callbackOnStep, callbackOnDialog, useMAP }
 
@@ -168,7 +189,7 @@ var main = function(options) {
 
           var ps = decoderOutputNet([decState, memState, outputVector]);
           var observation = x.observations ? x.observations[0] : '$';
-          var outputDist = Categorical({ ps, vs: babiData.words });
+          var outputDist = Categorical({ ps, vs: dataset.words });
           var output = (
             x.useMAP ?
               outputDist.MAP().val :
@@ -317,8 +338,8 @@ var main = function(options) {
       optMethod: { adam: { stepSize }},
       onStep(index, objectiveValue) {
         if (index > 0 && index % 200 === 0) {
-          var trainingStats = getAccuracy(onlyMessages(babiData.training.slice(0, 200)));
-          var devStats = getAccuracy(onlyMessages(babiData.dev.slice(0, 200)));
+          var trainingStats = getAccuracy(onlyMessages(dataset.training.slice(0, 200)));
+          var devStats = getAccuracy(onlyMessages(dataset.dev.slice(0, 200)));
           var stats = {
             index,
             runtimeInSeconds: (_.now() - startTime) / 1000,
@@ -326,7 +347,7 @@ var main = function(options) {
             trainingStats,
             devStats
           };
-          runBehavior(onlyMessages(babiData.dev.slice(0, 1)));
+          runBehavior(onlyMessages(dataset.dev.slice(0, 1)));
           console.log(JSON.stringify(stats, null, 2));
           var trace = JSON.parse(fs.read(traceFile));
           fs.write(traceFile, JSON.stringify(trace.concat(stats)));
@@ -362,12 +383,12 @@ var main = function(options) {
   };  
   
   if (options['optimize']) {
-    runOptimize(onlyMessages(babiData.training));
+    runOptimize(onlyMessages(dataset.training));
   } else if (options['behavior']) {
-    runBehavior(onlyMessages(babiData.dev.slice(0, 10)));
+    runBehavior(onlyMessages(dataset.dev.slice(0, 10)));
   } else if (options['accuracy']) {
-    runAccuracy('\nTraining:', onlyMessages(babiData.training.slice(0, 200)));
-    runAccuracy('\nDev:', onlyMessages(babiData.dev.slice(0, 200)));    
+    runAccuracy('\nTraining:', onlyMessages(dataset.training.slice(0, 200)));
+    runAccuracy('\nDev:', onlyMessages(dataset.dev.slice(0, 200)));    
   } else {
     console.error('No known command given', options)
   }
