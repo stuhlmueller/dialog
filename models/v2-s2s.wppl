@@ -4,7 +4,7 @@
 var makeCategoricalOneHot = function(vs) {
   return cache(function(v) {
     var i = _.indexOf(vs, v);
-    assert.ok(i != -1, "onehot didn't find " + v + " in " + vs);
+    assert.ok(i != -1, 'onehot didn\'t find ' + v + ' in ' + vs);
     var n = vs.length;
     return oneHot(i, n);
   });
@@ -95,7 +95,7 @@ var datasets = {
 var onlyMessages = function(dialogs) {
   return map(function(dialog){
     return reduceLeft(function(entries, entry) {
-      if (entry.action.what === "MSG") {
+      if (entry.action.what === 'MSG') {
         return entries.concat(entry.action);
       } else {
         return entries;
@@ -113,6 +113,7 @@ var main = function(options) {
 
   var batchSize = options.batchsize || 5;
   var latentDim = options.latentdim || 50;
+  var embedDim = options.embeddim || 50;
   var recurrent = (options.lstm === false) ? rnn : lstm;
   var maxDecoderSteps = options.maxdecodersteps || 10;
   var stepSize = options.stepsize || .01;
@@ -129,6 +130,8 @@ var main = function(options) {
   var onehotWords = makeCategoricalOneHot(dataset.words);
   var vocabDim = dataset.words.length;
 
+
+  
   var model = function(x) {  // { data, callbackOnStep, callbackOnDialog, useMAP }
 
     // --------------------------------------------------------------------
@@ -142,6 +145,15 @@ var main = function(options) {
       }
     };
 
+    // Embedding
+
+    var embed = function(word) {
+      return param({
+        name: 'embed-' + word,
+        dims: [embedDim, 1]
+      });
+    };
+    
     // Decoder
 
     var initializeDecoder = stack([
@@ -151,14 +163,14 @@ var main = function(options) {
     
     var decoderLatentNet = recurrent('decoder-recurrent', {
       hdim: latentDim,
-      xdim: vocabDim
+      xdim: embedDim
     });
 
     var decoderOutputNet = stack([
       softmax,
       affine('decoder-output', {
-        "in": latentDim + vocabDim + (useAttention ? latentDim : 0),  // [decState, memState, outputVector]
-        "out": vocabDim
+        'in': latentDim + embedDim + (useAttention ? latentDim : 0),  // [decState, memState, outputVector]
+        'out': vocabDim
       }),
       concat
     ]);
@@ -171,7 +183,7 @@ var main = function(options) {
     var attentionMLP = useAttention ? stack([
       toScalar,
       tanh,
-      affine('attention-1', { "in": latentDim * 2, "out": 1 }),
+      affine('attention-1', { 'in': latentDim * 2, 'out': 1 }),
       concat
     ]) : null;
 
@@ -190,10 +202,10 @@ var main = function(options) {
         if (shouldStop(x)) {
           return wordsToAction(x.outputs.slice(1));
         } else {
-          var outputVector = onehotWords(_.last(x.outputs));
-          var decState = decoderLatentNet(x.decState, outputVector);
+          var embedding = embed(_.last(x.outputs));
+          var decState = decoderLatentNet(x.decState, embedding);
           var attState = useAttention ? [getAttentionState(encStates, decState)] : [];
-          var ps = decoderOutputNet(_.concat([decState, outputVector], attState));
+          var ps = decoderOutputNet(_.concat([decState, embedding], attState));  // don't pass embedding here?
           var observation = x.observations ? x.observations[0] : '$';
           var outputDist = Categorical({ ps, vs: dataset.words });
           var output = (
@@ -231,11 +243,11 @@ var main = function(options) {
 
     var encodeStep = recurrent('encoder-recurrent', {
       hdim: latentDim,
-      xdim: vocabDim
+      xdim: embedDim
     });
 
     var actionToVectors = function(action) {
-      return map(onehotWords, action.toWords().concat(['$']));
+      return map(embed, action.toWords().concat(['$']));
     };
 
     var encode = function(state, action) {
@@ -248,7 +260,7 @@ var main = function(options) {
     // Main model structure
     
     var step = function(encStates, action) {
-      var desiredAction = getDesiredAction(action);     
+      var desiredAction = getDesiredAction(action);
       var modelAction = ((desiredAction.what !== 'WAIT' || addWaitActions) ?
                          decode(encStates, desiredAction, x.useObservations) :
                          desiredAction);
@@ -256,9 +268,9 @@ var main = function(options) {
         var callback = x.callbackOnStep;
         callback({ action, modelAction, desiredAction });
       }
-      var oldEncState = _.last(encStates);
-      var newEncState = encode(oldEncState, action);
-      return encStates.concat([newEncState]);
+      var prevEncState = _.last(encStates);
+      var nextEncState = encode(prevEncState, action);
+      return encStates.concat([nextEncState]);
     };
     
     mapData({ data: x.data, batchSize }, function(dialog) {
