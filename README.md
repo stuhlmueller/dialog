@@ -1,7 +1,7 @@
 To run locally, set up [Logistician](https://github.com/stuhlmueller/logistician), then run:
 
 ```
-logistician run experiments/babi-1-a/ -o "--optimize"
+logistician run experiments/babi-1-a/ -o "--random-seed 1 -- --optimize"
 ```
 
 To analyze `trace.json` files generated from cloud runs, use [jq](https://stedolan.github.io/jq/). For example:
