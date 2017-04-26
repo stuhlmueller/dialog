@@ -1,4 +1,28 @@
-- With embedding (s2s-copy-f-embed), after 24h, still less than 10% per-response accuracy
+- I fixed evaluation (ignoring WAIT actions that we're not training on right now) and results looks much better for DSTC on dev:
+
+  (venv) $ logistician run -o "--random-seed 10 -- --accuracy --dataset dstc --embeddim 50 --latentdim 150 --attention" --data_readonly ./data/--random-seed\ 10\ --\ --optimize\ --dataset\ dstc\ --embeddim\ 50\ --latentdim\ 150\ --attention/
+
+  Dev:
+  - Responses: 49.02620822313056% correct (2039/4159)
+  - Dialogs: 1.2% correct (6/500)
+
+  bAbI with attention is 99% accurate:
+
+  (venv) $ logistician run -o "--random-seed 14 -- --accuracy --dataset babi --evalEvery 100 --attention" --data_readonly ./data/--random-seed\ 14\ --\ --optimize\ --dataset\ babi\ --evalEvery\ 100\ --attention/
+
+  Dev:
+  - Responses: 98.78636741479635% correct (5942/6015)
+  - Dialogs: 92.9% correct (929/1000)
+
+  bAbI without attention gets the API calls wrong (hence no dialogs correct):
+
+  (venv) $ logistician run -o "--random-seed 14 -- --accuracy --dataset babi --evalEvery 100 --no-attention" --data_readonly ./data/--random-seed\ 14\ --\ --optimize\ --dataset\ babi\ --evalEvery\ 100\ --no-attention/
+
+  Dev:
+  - Responses: 82.67664172901081% correct (4973/6015)
+  - Dialogs: 0.1% correct (1/1000)
+
+- With embedding (s2s-copy-f-embed), after 24h, still less than 10% per-response accuracy (wrong - see above)
 
 - Without embedding, DSTC is infeasible (word vectors of size 1000)
 
