@@ -1,0 +1,163 @@
+Cloning into '/project'...
+remote: Counting objects: 623, done.[K
+remote: Compressing objects:   0% (1/358)   [Kremote: Compressing objects:   1% (4/358)   [Kremote: Compressing objects:   2% (8/358)   [Kremote: Compressing objects:   3% (11/358)   [Kremote: Compressing objects:   4% (15/358)   [Kremote: Compressing objects:   5% (18/358)   [Kremote: Compressing objects:   5% (20/358)   [Kremote: Compressing objects:   6% (22/358)   [Kremote: Compressing objects:   6% (23/358)   [Kremote: Compressing objects:   7% (26/358)   [Kremote: Compressing objects:   7% (28/358)   [Kremote: Compressing objects:   8% (29/358)   [Kremote: Compressing objects:   9% (33/358)   [Kremote: Compressing objects:   9% (34/358)   [Kremote: Compressing objects:  10% (36/358)   [Kremote: Compressing objects:  11% (40/358)   [Kremote: Compressing objects:  12% (43/358)   [Kremote: Compressing objects:  13% (47/358)   [Kremote: Compressing objects:  14% (51/358)   [Kremote: Compressing objects:  15% (54/358)   [Kremote: Compressing objects:  16% (58/358)   [Kremote: Compressing objects:  17% (61/358)   [Kremote: Compressing objects:  18% (65/358)   [Kremote: Compressing objects:  19% (69/358)   [Kremote: Compressing objects:  19% (70/358)   [Kremote: Compressing objects:  20% (72/358)   [Kremote: Compressing objects:  21% (76/358)   [Kremote: Compressing objects:  22% (79/358)   [Kremote: Compressing objects:  23% (83/358)   [Kremote: Compressing objects:  24% (86/358)   [Kremote: Compressing objects:  25% (90/358)   [Kremote: Compressing objects:  25% (91/358)   [Kremote: Compressing objects:  26% (94/358)   [Kremote: Compressing objects:  27% (97/358)   [Kremote: Compressing objects:  28% (101/358)   [Kremote: Compressing objects:  29% (104/358)   [Kremote: Compressing objects:  30% (108/358)   [Kremote: Compressing objects:  31% (111/358)   [Kremote: Compressing objects:  32% (115/358)   [Kremote: Compressing objects:  33% (119/358)   [Kremote: Compressing objects:  34% (122/358)   [Kremote: Compressing objects:  35% (126/358)   [Kremote: Compressing objects:  36% (129/358)   [Kremote: Compressing objects:  37% (133/358)   [Kremote: Compressing objects:  38% (137/358)   [Kremote: Compressing objects:  39% (140/358)   [Kremote: Compressing objects:  40% (144/358)   [Kremote: Compressing objects:  41% (147/358)   [Kremote: Compressing objects:  42% (151/358)   [Kremote: Compressing objects:  43% (154/358)   [Kremote: Compressing objects:  44% (158/358)   [Kremote: Compressing objects:  45% (162/358)   [Kremote: Compressing objects:  46% (165/358)   [Kremote: Compressing objects:  47% (169/358)   [Kremote: Compressing objects:  48% (172/358)   [Kremote: Compressing objects:  49% (176/358)   [Kremote: Compressing objects:  50% (179/358)   [Kremote: Compressing objects:  51% (183/358)   [Kremote: Compressing objects:  52% (187/358)   [Kremote: Compressing objects:  53% (190/358)   [Kremote: Compressing objects:  54% (194/358)   [Kremote: Compressing objects:  55% (197/358)   [Kremote: Compressing objects:  56% (201/358)   [Kremote: Compressing objects:  57% (205/358)   [Kremote: Compressing objects:  58% (208/358)   [Kremote: Compressing objects:  59% (212/358)   [Kremote: Compressing objects:  60% (215/358)   [Kremote: Compressing objects:  61% (219/358)   [Kremote: Compressing objects:  62% (222/358)   [Kremote: Compressing objects:  63% (226/358)   [Kremote: Compressing objects:  64% (230/358)   [Kremote: Compressing objects:  65% (233/358)   [Kremote: Compressing objects:  66% (237/358)   [Kremote: Compressing objects:  67% (240/358)   [Kremote: Compressing objects:  68% (244/358)   [Kremote: Compressing objects:  69% (248/358)   [Kremote: Compressing objects:  70% (251/358)   [Kremote: Compressing objects:  71% (255/358)   [Kremote: Compressing objects:  72% (258/358)   [Kremote: Compressing objects:  73% (262/358)   [Kremote: Compressing objects:  74% (265/358)   [Kremote: Compressing objects:  75% (269/358)   [Kremote: Compressing objects:  76% (273/358)   [Kremote: Compressing objects:  77% (276/358)   [Kremote: Compressing objects:  78% (280/358)   [Kremote: Compressing objects:  79% (283/358)   [Kremote: Compressing objects:  80% (287/358)   [Kremote: Compressing objects:  81% (290/358)   [Kremote: Compressing objects:  82% (294/358)   [Kremote: Compressing objects:  83% (298/358)   [Kremote: Compressing objects:  84% (301/358)   [Kremote: Compressing objects:  85% (305/358)   [Kremote: Compressing objects:  86% (308/358)   [Kremote: Compressing objects:  87% (312/358)   [Kremote: Compressing objects:  88% (316/358)   [Kremote: Compressing objects:  89% (319/358)   [Kremote: Compressing objects:  90% (323/358)   [Kremote: Compressing objects:  91% (326/358)   [Kremote: Compressing objects:  92% (330/358)   [Kremote: Compressing objects:  93% (333/358)   [Kremote: Compressing objects:  94% (337/358)   [Kremote: Compressing objects:  95% (341/358)   [Kremote: Compressing objects:  96% (344/358)   [Kremote: Compressing objects:  97% (348/358)   [Kremote: Compressing objects:  98% (351/358)   [Kremote: Compressing objects:  99% (355/358)   [Kremote: Compressing objects: 100% (358/358)   [Kremote: Compressing objects: 100% (358/358), done.[K
+Receiving objects:   0% (1/623)   Receiving objects:   1% (7/623)   Receiving objects:   2% (13/623)   Receiving objects:   3% (19/623)   Receiving objects:   4% (25/623)   Receiving objects:   5% (32/623)   Receiving objects:   6% (38/623)   Receiving objects:   7% (44/623)   Receiving objects:   8% (50/623)   Receiving objects:   9% (57/623)   Receiving objects:  10% (63/623)   Receiving objects:  11% (69/623)   Receiving objects:  12% (75/623)   Receiving objects:  13% (81/623)   Receiving objects:  14% (88/623)   Receiving objects:  15% (94/623)   Receiving objects:  16% (100/623)   Receiving objects:  17% (106/623)   Receiving objects:  18% (113/623)   Receiving objects:  19% (119/623)   Receiving objects:  20% (125/623)   Receiving objects:  21% (131/623)   Receiving objects:  22% (138/623)   Receiving objects:  23% (144/623)   Receiving objects:  24% (150/623)   Receiving objects:  25% (156/623)   Receiving objects:  26% (162/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  27% (169/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  28% (175/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  29% (181/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  30% (187/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  31% (194/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  32% (200/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  33% (206/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  34% (212/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  35% (219/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  36% (225/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  37% (231/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  38% (237/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  39% (243/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  40% (250/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  41% (256/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  42% (262/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  43% (268/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  44% (275/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  45% (281/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  46% (287/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  47% (293/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  48% (300/623), 9.00 MiB | 17.99 MiB/s   Receiving objects:  48% (300/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  49% (306/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  50% (312/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  51% (318/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  52% (324/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  53% (331/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  54% (337/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  55% (343/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  56% (349/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  57% (356/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  58% (362/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  59% (368/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  60% (374/623), 20.33 MiB | 20.32 MiB/s   Receiving objects:  61% (381/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  62% (387/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  63% (393/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  64% (399/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  65% (405/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  66% (412/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  67% (418/623), 30.95 MiB | 20.63 MiB/s   remote: Total 623 (delta 205), reused 583 (delta 165), pack-reused 0[K
+Receiving objects:  68% (424/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  69% (430/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  70% (437/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  71% (443/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  72% (449/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  73% (455/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  74% (462/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  75% (468/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  76% (474/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  77% (480/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  78% (486/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  79% (493/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  80% (499/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  81% (505/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  82% (511/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  83% (518/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  84% (524/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  85% (530/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  86% (536/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  87% (543/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  88% (549/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  89% (555/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  90% (561/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  91% (567/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  92% (574/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  93% (580/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  94% (586/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  95% (592/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  96% (599/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  97% (605/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  98% (611/623), 30.95 MiB | 20.63 MiB/s   Receiving objects:  99% (617/623), 30.95 MiB | 20.63 MiB/s   Receiving objects: 100% (623/623), 30.95 MiB | 20.63 MiB/s   Receiving objects: 100% (623/623), 36.70 MiB | 20.63 MiB/s, done.
+Resolving deltas:   0% (0/205)   Resolving deltas:   3% (8/205)   Resolving deltas:   5% (11/205)   Resolving deltas:   6% (13/205)   Resolving deltas:   7% (15/205)   Resolving deltas:  15% (31/205)   Resolving deltas:  20% (42/205)   Resolving deltas:  22% (46/205)   Resolving deltas:  27% (56/205)   Resolving deltas:  29% (60/205)   Resolving deltas:  31% (65/205)   Resolving deltas:  44% (92/205)   Resolving deltas:  45% (93/205)   Resolving deltas:  47% (97/205)   Resolving deltas:  48% (100/205)   Resolving deltas:  49% (102/205)   Resolving deltas:  50% (103/205)   Resolving deltas:  51% (106/205)   Resolving deltas:  54% (111/205)   Resolving deltas:  63% (130/205)   Resolving deltas:  78% (161/205)   Resolving deltas:  80% (164/205)   Resolving deltas:  86% (177/205)   Resolving deltas:  89% (183/205)   Resolving deltas:  92% (190/205)   Resolving deltas:  94% (193/205)   Resolving deltas:  95% (195/205)   Resolving deltas: 100% (205/205)   Resolving deltas: 100% (205/205), done.
+Checking connectivity... done.
+[37;40mnpm[0m [0m[32minfo[0m [0m[35mit worked if it ends with[0m ok
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35musing[0m npm@3.10.10
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35musing[0m node@v6.10.2
+[0m[?25l[[90m..................[0m] / normalizeTree: [7msill[0m [35minstall[0m loadCurrentTree[K[[7m    [27m[90m..............[0m] / fetchMetadata: [7msill[0m [35mmapToRegistry[0m uri https://registry.n[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mattempt[0m registry request try #1 at 8:11:58 PM
+[0m[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35mrequest[0m GET https://registry.npmjs.org/lodash
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mattempt[0m registry request try #1 at 8:11:59 PM
+[0m[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35mrequest[0m GET https://registry.npmjs.org/minimist
+[0m[?25l[[7m    [27m[90m..............[0m] - fetchMetadata: [32;40mhttp[0m [35mrequest[0m GET https://registry.npmjs.o[K[K[?25h[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/minimist
+[0m[?25l[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/minim[K[K[?25h[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/lodash
+[0m[?25l[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~preinstall: webppl-common@0.0.1
+[0m[?25l[[7m           [27m[90m.......[0m] \ preinstall:webppl-common: [32minfo[0m [35mlifecycle[0m webppl-common@0[K[[7m              [27m[90m....[0m] \ extract:minimist: [7msill[0m [35mdoParallel[0m extract 2[K[[7m              [27m[90m....[0m] / extract:minimist: [7msill[0m [35mdoParallel[0m extract 2[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] | extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] / extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] / extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] - extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] - extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] - extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] / extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~preinstall: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m minimist@1.2.0~preinstall: minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~install: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m minimist@1.2.0~install: minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~postinstall: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m minimist@1.2.0~postinstall: minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~install: webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~postinstall: webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~prepublish: webppl-common@0.0.1
+[0mwebppl-common@0.0.1 /project/models/common
++-- [40m[33mlodash@4.17.4[39m[49m 
+`-- [40m[33mminimist@1.2.0[39m[49m 
+
+[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m webppl-common@0.0.1 No repository field.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m webppl-common@0.0.1 No license field.
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mok[0m 
+[0m{
+  "batchSize": 5,
+  "latentDim": 300,
+  "maxDecoderSteps": 10,
+  "stepSize": 0.01,
+  "addWaitActions": false,
+  "useAttention": true,
+  "datasetName": "dstc"
+}
+Warning: Parameter "decoder-initb" created outside of the guide.
+Warning: Parameter "decoder-initw" created outside of the guide.
+Warning: Parameter "decoder-recurrentforgetb" created outside of the guide.
+Warning: Parameter "decoder-recurrentforgetw" created outside of the guide.
+Warning: Parameter "decoder-recurrentinputb" created outside of the guide.
+Warning: Parameter "decoder-recurrentinputw" created outside of the guide.
+Warning: Parameter "decoder-recurrentoutputb" created outside of the guide.
+Warning: Parameter "decoder-recurrentoutputw" created outside of the guide.
+Warning: Parameter "decoder-recurrentcandidateb" created outside of the guide.
+Warning: Parameter "decoder-recurrentcandidatew" created outside of the guide.
+Warning: Parameter "decoder-outputb" created outside of the guide.
+Warning: Parameter "decoder-outputw" created outside of the guide.
+Warning: Parameter "attention-1b" created outside of the guide.
+Warning: Parameter "attention-1w" created outside of the guide.
+Warning: Parameter "encoder-recurrentforgetb" created outside of the guide.
+Warning: Parameter "encoder-recurrentforgetw" created outside of the guide.
+Warning: Parameter "encoder-recurrentinputb" created outside of the guide.
+Warning: Parameter "encoder-recurrentinputw" created outside of the guide.
+Warning: Parameter "encoder-recurrentoutputb" created outside of the guide.
+Warning: Parameter "encoder-recurrentoutputw" created outside of the guide.
+Warning: Parameter "encoder-recurrentcandidateb" created outside of the guide.
+Warning: Parameter "encoder-recurrentcandidatew" created outside of the guide.
+Warning: Parameter "encoder-init" created outside of the guide.
+Iteration 0: -1201164.6065846125
+Iteration 1: -1208799.6368859184
+Iteration 2: -918083.4345245023
+Iteration 3: -700936.4449663102
+Iteration 4: -1059816.543003192
+Iteration 5: -696987.8129736859
+Iteration 6: -730583.5755090399
+Iteration 7: -762919.1796012373
+Iteration 8: -592149.0427178167
+Iteration 9: -545237.256518567
+Iteration 10: -620306.644640492
+Iteration 11: -738644.7606757303
+Iteration 12: -540302.6022894979
+Iteration 13: -371917.0068596515
+Iteration 14: -559260.7468602686
+Iteration 15: -391638.1988120287
+Iteration 16: -352246.3615679552
+Iteration 17: -482007.81449612987
+Iteration 18: -463904.9567819857
+Iteration 19: -403626.0525200336
+Iteration 20: -437917.9817504825
+Iteration 21: -371093.59920088167
+Iteration 22: -437333.6066492898
+Iteration 23: -489430.9569990914
+Iteration 24: -426961.4157607453
+Iteration 25: -397531.4025060139
+Iteration 26: -288688.34230330907
+Iteration 27: -343558.95053538197
+Iteration 28: -298648.7572871192
+Iteration 29: -305500.1570552258
+Iteration 30: -475095.5221835919
+Iteration 31: -220736.155661131
+Iteration 32: -230206.0858553363
+Iteration 33: -208278.95262443207
+Iteration 34: -209849.77965282556
+Iteration 35: -202925.72419909193
+Iteration 36: -250361.58530270323
+Iteration 37: -241029.85792214685
+Iteration 38: -152741.18840543024
+Iteration 39: -173838.9894897294
+Iteration 40: -128806.75500246126
+Iteration 41: -206386.38042246172
+Iteration 42: -322569.20835136174
+Iteration 43: -189683.23130810153
+Iteration 44: -121390.71094156618
+Iteration 45: -208454.7411898284
+Iteration 46: -221361.69775935524
+Iteration 47: -139576.91185129643
+Iteration 48: -211675.8952310855
+Iteration 49: -210924.2738336469
+Iteration 50: -128247.89168393216
+Iteration 51: -180659.1035259597
+Iteration 52: -168166.87962411213
+Iteration 53: -188710.60167504573
+Iteration 54: -136158.09355164343
+Iteration 55: -164078.2994575095
+Iteration 56: -132800.66040217067
+Iteration 57: -145539.98027108805
+Iteration 58: -94630.77088447163
+Iteration 59: -183809.11441130846
+Iteration 60: -156726.73852146853
+Iteration 61: -156398.14424033946
+Iteration 62: -330763.16858063696
+Iteration 63: -104788.15286479091
+Iteration 64: -192722.61595137825
+Iteration 65: -105943.01446462503
+Iteration 66: -131130.80580636635
+Iteration 67: -152498.6475238409
+Iteration 68: -89804.74572090793
+Iteration 69: -198012.70450167143
+Iteration 70: -171326.62358440424
+Iteration 71: -124606.3816629133
+Iteration 72: -96764.14396417428
+Iteration 73: -118466.44787163644
+Iteration 74: -130990.0796919273
+Iteration 75: -120522.2399523618
+Iteration 76: -77538.40973924208
+Iteration 77: -91904.04715218961
+Iteration 78: -121905.86834771615
+Iteration 79: -133498.50218596068
+Iteration 80: -117980.7029012856
+Iteration 81: -94555.34352940219
+Iteration 82: -99425.52010077891
+Iteration 83: -124239.9026851336
+Iteration 84: -67321.82939654762
+Iteration 85: -90510.76076100933
+Iteration 86: -104393.6023857846
+Iteration 87: -88689.28296720712
+Iteration 88: -135446.27216314894
+Iteration 89: -86515.98655015473
+Iteration 90: -131647.17573669637
+Iteration 91: -142201.1914500983
+Iteration 92: -110907.84203872051
+Iteration 93: -148905.75286327678
+Killed

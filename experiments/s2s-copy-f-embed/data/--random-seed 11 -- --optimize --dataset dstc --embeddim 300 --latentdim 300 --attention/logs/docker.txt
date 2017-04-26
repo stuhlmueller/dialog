@@ -1,0 +1,846 @@
+Cloning into '/project'...
+remote: Counting objects: 627, done.[K
+remote: Compressing objects:   0% (1/359)   [Kremote: Compressing objects:   1% (4/359)   [Kremote: Compressing objects:   2% (8/359)   [Kremote: Compressing objects:   3% (11/359)   [Kremote: Compressing objects:   4% (15/359)   [Kremote: Compressing objects:   5% (18/359)   [Kremote: Compressing objects:   5% (20/359)   [Kremote: Compressing objects:   6% (22/359)   [Kremote: Compressing objects:   6% (23/359)   [Kremote: Compressing objects:   7% (26/359)   [Kremote: Compressing objects:   7% (27/359)   [Kremote: Compressing objects:   8% (29/359)   [Kremote: Compressing objects:   9% (33/359)   [Kremote: Compressing objects:  10% (36/359)   [Kremote: Compressing objects:  11% (40/359)   [Kremote: Compressing objects:  12% (44/359)   [Kremote: Compressing objects:  13% (47/359)   [Kremote: Compressing objects:  14% (51/359)   [Kremote: Compressing objects:  15% (54/359)   [Kremote: Compressing objects:  16% (58/359)   [Kremote: Compressing objects:  17% (62/359)   [Kremote: Compressing objects:  18% (65/359)   [Kremote: Compressing objects:  18% (68/359)   [Kremote: Compressing objects:  19% (69/359)   [Kremote: Compressing objects:  20% (72/359)   [Kremote: Compressing objects:  21% (76/359)   [Kremote: Compressing objects:  22% (79/359)   [Kremote: Compressing objects:  23% (83/359)   [Kremote: Compressing objects:  23% (84/359)   [Kremote: Compressing objects:  24% (87/359)   [Kremote: Compressing objects:  25% (90/359)   [Kremote: Compressing objects:  26% (94/359)   [Kremote: Compressing objects:  27% (97/359)   [Kremote: Compressing objects:  28% (101/359)   [Kremote: Compressing objects:  29% (105/359)   [Kremote: Compressing objects:  30% (108/359)   [Kremote: Compressing objects:  31% (112/359)   [Kremote: Compressing objects:  32% (115/359)   [Kremote: Compressing objects:  33% (119/359)   [Kremote: Compressing objects:  34% (123/359)   [Kremote: Compressing objects:  35% (126/359)   [Kremote: Compressing objects:  36% (130/359)   [Kremote: Compressing objects:  37% (133/359)   [Kremote: Compressing objects:  38% (137/359)   [Kremote: Compressing objects:  39% (141/359)   [Kremote: Compressing objects:  40% (144/359)   [Kremote: Compressing objects:  41% (148/359)   [Kremote: Compressing objects:  42% (151/359)   [Kremote: Compressing objects:  43% (155/359)   [Kremote: Compressing objects:  44% (158/359)   [Kremote: Compressing objects:  45% (162/359)   [Kremote: Compressing objects:  46% (166/359)   [Kremote: Compressing objects:  47% (169/359)   [Kremote: Compressing objects:  48% (173/359)   [Kremote: Compressing objects:  49% (176/359)   [Kremote: Compressing objects:  50% (180/359)   [Kremote: Compressing objects:  51% (184/359)   [Kremote: Compressing objects:  52% (187/359)   [Kremote: Compressing objects:  53% (191/359)   [Kremote: Compressing objects:  54% (194/359)   [Kremote: Compressing objects:  55% (198/359)   [Kremote: Compressing objects:  56% (202/359)   [Kremote: Compressing objects:  57% (205/359)   [Kremote: Compressing objects:  58% (209/359)   [Kremote: Compressing objects:  59% (212/359)   [Kremote: Compressing objects:  60% (216/359)   [Kremote: Compressing objects:  61% (219/359)   [Kremote: Compressing objects:  62% (223/359)   [Kremote: Compressing objects:  63% (227/359)   [Kremote: Compressing objects:  64% (230/359)   [Kremote: Compressing objects:  65% (234/359)   [Kremote: Compressing objects:  66% (237/359)   [Kremote: Compressing objects:  67% (241/359)   [Kremote: Compressing objects:  68% (245/359)   [Kremote: Compressing objects:  69% (248/359)   [Kremote: Compressing objects:  70% (252/359)   [Kremote: Compressing objects:  71% (255/359)   [Kremote: Compressing objects:  72% (259/359)   [Kremote: Compressing objects:  73% (263/359)   [Kremote: Compressing objects:  74% (266/359)   [Kremote: Compressing objects:  75% (270/359)   [Kremote: Compressing objects:  76% (273/359)   [Kremote: Compressing objects:  77% (277/359)   [Kremote: Compressing objects:  78% (281/359)   [Kremote: Compressing objects:  79% (284/359)   [Kremote: Compressing objects:  80% (288/359)   [Kremote: Compressing objects:  81% (291/359)   [Kremote: Compressing objects:  82% (295/359)   [Kremote: Compressing objects:  83% (298/359)   [Kremote: Compressing objects:  84% (302/359)   [Kremote: Compressing objects:  85% (306/359)   [Kremote: Compressing objects:  86% (309/359)   [Kremote: Compressing objects:  87% (313/359)   [Kremote: Compressing objects:  88% (316/359)   [Kremote: Compressing objects:  89% (320/359)   [Kremote: Compressing objects:  90% (324/359)   [Kremote: Compressing objects:  91% (327/359)   [Kremote: Compressing objects:  92% (331/359)   [Kremote: Compressing objects:  93% (334/359)   [Kremote: Compressing objects:  94% (338/359)   [Kremote: Compressing objects:  95% (342/359)   [Kremote: Compressing objects:  96% (345/359)   [Kremote: Compressing objects:  97% (349/359)   [Kremote: Compressing objects:  98% (352/359)   [Kremote: Compressing objects:  99% (356/359)   [Kremote: Compressing objects: 100% (359/359)   [Kremote: Compressing objects: 100% (359/359), done.[K
+Receiving objects:   0% (1/627)   Receiving objects:   1% (7/627)   Receiving objects:   2% (13/627)   Receiving objects:   3% (19/627)   Receiving objects:   4% (26/627)   Receiving objects:   5% (32/627)   Receiving objects:   6% (38/627)   Receiving objects:   7% (44/627)   Receiving objects:   8% (51/627)   Receiving objects:   9% (57/627)   Receiving objects:  10% (63/627)   Receiving objects:  11% (69/627)   Receiving objects:  12% (76/627)   Receiving objects:  13% (82/627)   Receiving objects:  14% (88/627)   Receiving objects:  15% (95/627)   Receiving objects:  16% (101/627)   Receiving objects:  17% (107/627)   Receiving objects:  18% (113/627)   Receiving objects:  19% (120/627)   Receiving objects:  20% (126/627)   Receiving objects:  21% (132/627)   Receiving objects:  22% (138/627)   Receiving objects:  23% (145/627)   Receiving objects:  24% (151/627)   Receiving objects:  25% (157/627)   Receiving objects:  26% (164/627)   Receiving objects:  27% (170/627)   Receiving objects:  28% (176/627)   Receiving objects:  29% (182/627)   Receiving objects:  30% (189/627)   Receiving objects:  31% (195/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  32% (201/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  33% (207/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  34% (214/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  35% (220/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  36% (226/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  37% (232/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  38% (239/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  39% (245/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  40% (251/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  41% (258/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  42% (264/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  43% (270/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  44% (276/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  45% (283/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  46% (289/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  47% (295/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  48% (301/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  49% (308/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  50% (314/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  51% (320/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  52% (327/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  53% (333/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  54% (339/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  55% (345/627), 12.37 MiB | 24.74 MiB/s   Receiving objects:  55% (349/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  56% (352/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  57% (358/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  58% (364/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  59% (370/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  60% (377/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  61% (383/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  62% (389/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  63% (396/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  64% (402/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  65% (408/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  66% (414/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  67% (421/627), 26.18 MiB | 26.17 MiB/s   remote: Total 627 (delta 208), reused 587 (delta 168), pack-reused 0[K
+Receiving objects:  68% (427/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  69% (433/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  70% (439/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  71% (446/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  72% (452/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  73% (458/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  74% (464/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  75% (471/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  76% (477/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  77% (483/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  78% (490/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  79% (496/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  80% (502/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  81% (508/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  82% (515/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  83% (521/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  84% (527/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  85% (533/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  86% (540/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  87% (546/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  88% (552/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  89% (559/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  90% (565/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  91% (571/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  92% (577/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  93% (584/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  94% (590/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  95% (596/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  96% (602/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  97% (609/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  98% (615/627), 26.18 MiB | 26.17 MiB/s   Receiving objects:  99% (621/627), 26.18 MiB | 26.17 MiB/s   Receiving objects: 100% (627/627), 26.18 MiB | 26.17 MiB/s   Receiving objects: 100% (627/627), 36.70 MiB | 26.17 MiB/s, done.
+Resolving deltas:   0% (0/208)   Resolving deltas:   4% (9/208)   Resolving deltas:   5% (12/208)   Resolving deltas:   6% (13/208)   Resolving deltas:   8% (17/208)   Resolving deltas:  15% (32/208)   Resolving deltas:  20% (43/208)   Resolving deltas:  22% (47/208)   Resolving deltas:  27% (57/208)   Resolving deltas:  29% (61/208)   Resolving deltas:  31% (65/208)   Resolving deltas:  37% (78/208)   Resolving deltas:  45% (94/208)   Resolving deltas:  47% (99/208)   Resolving deltas:  49% (102/208)   Resolving deltas:  50% (104/208)   Resolving deltas:  51% (108/208)   Resolving deltas:  54% (113/208)   Resolving deltas:  63% (133/208)   Resolving deltas:  64% (134/208)   Resolving deltas:  78% (164/208)   Resolving deltas:  80% (167/208)   Resolving deltas:  86% (180/208)   Resolving deltas:  89% (186/208)   Resolving deltas:  92% (193/208)   Resolving deltas:  94% (196/208)   Resolving deltas:  95% (198/208)   Resolving deltas: 100% (208/208)   Resolving deltas: 100% (208/208), done.
+Checking connectivity... done.
+[37;40mnpm[0m [0m[32minfo[0m [0m[35mit worked if it ends with[0m ok
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35musing[0m npm@3.10.10
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35musing[0m node@v6.10.2
+[0m[?25l[[90m..................[0m] / normalizeTree: [7msill[0m [35minstall[0m loadCurrentTree[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mattempt[0m registry request try #1 at 11:28:20 PM
+[0m[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35mrequest[0m GET https://registry.npmjs.org/lodash
+[0m[?25l[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35mrequest[0m GET https://registry.npmjs.o[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mattempt[0m registry request try #1 at 11:28:21 PM
+[0m[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35mrequest[0m GET https://registry.npmjs.org/minimist
+[0m[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/minimist
+[0m[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/lodash
+[0m[?25l[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m          [27m[90m........[0m] - diffTrees: [7msill[0m [35minstall[0m generateActionsToTake[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~preinstall: webppl-common@0.0.1
+[0m[?25l[[7m              [27m[90m....[0m] \ extract:minimist: [7msill[0m [35mdoParallel[0m extract 2[K[[7m              [27m[90m....[0m] \ extract:minimist: [7msill[0m [35mdoParallel[0m extract 2[K[[7m               [27m[90m...[0m] - extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] - extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] - extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] - extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] | extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] / extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~preinstall: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m minimist@1.2.0~preinstall: minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m minimist@1.2.0
+[0m[?25l[[7m                 [27m[90m.[0m] - build:lodash: [32minfo[0m [35mlinkStuff[0m minimist@1.2.0[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~install: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m minimist@1.2.0~install: minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~postinstall: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m minimist@1.2.0~postinstall: minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~install: webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~postinstall: webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~prepublish: webppl-common@0.0.1
+[0mwebppl-common@0.0.1 /project/models/common
++-- [40m[33mlodash@4.17.4[39m[49m 
+`-- [40m[33mminimist@1.2.0[39m[49m 
+
+[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m webppl-common@0.0.1 No repository field.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m webppl-common@0.0.1 No license field.
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mok[0m 
+[0m{
+  "batchSize": 5,
+  "latentDim": 300,
+  "maxDecoderSteps": 10,
+  "stepSize": 0.01,
+  "addWaitActions": false,
+  "useAttention": true,
+  "datasetName": "dstc"
+}
+Warning: Parameter "decoder-initb" created outside of the guide.
+Warning: Parameter "decoder-initw" created outside of the guide.
+Warning: Parameter "decoder-recurrentforgetb" created outside of the guide.
+Warning: Parameter "decoder-recurrentforgetw" created outside of the guide.
+Warning: Parameter "decoder-recurrentinputb" created outside of the guide.
+Warning: Parameter "decoder-recurrentinputw" created outside of the guide.
+Warning: Parameter "decoder-recurrentoutputb" created outside of the guide.
+Warning: Parameter "decoder-recurrentoutputw" created outside of the guide.
+Warning: Parameter "decoder-recurrentcandidateb" created outside of the guide.
+Warning: Parameter "decoder-recurrentcandidatew" created outside of the guide.
+Warning: Parameter "decoder-outputb" created outside of the guide.
+Warning: Parameter "decoder-outputw" created outside of the guide.
+Warning: Parameter "attention-1b" created outside of the guide.
+Warning: Parameter "attention-1w" created outside of the guide.
+Warning: Parameter "encoder-recurrentforgetb" created outside of the guide.
+Warning: Parameter "encoder-recurrentforgetw" created outside of the guide.
+Warning: Parameter "encoder-recurrentinputb" created outside of the guide.
+Warning: Parameter "encoder-recurrentinputw" created outside of the guide.
+Warning: Parameter "encoder-recurrentoutputb" created outside of the guide.
+Warning: Parameter "encoder-recurrentoutputw" created outside of the guide.
+Warning: Parameter "encoder-recurrentcandidateb" created outside of the guide.
+Warning: Parameter "encoder-recurrentcandidatew" created outside of the guide.
+Warning: Parameter "encoder-init" created outside of the guide.
+Warning: Parameter "embed-U:" created outside of the guide.
+Warning: Parameter "embed-MSG" created outside of the guide.
+Warning: Parameter "embed-<SILENCE>" created outside of the guide.
+Warning: Parameter "embed-$" created outside of the guide.
+Warning: Parameter "embed-^" created outside of the guide.
+Warning: Parameter "embed-A:" created outside of the guide.
+Warning: Parameter "embed-Hello" created outside of the guide.
+Warning: Parameter "embed-," created outside of the guide.
+Warning: Parameter "embed-welcome" created outside of the guide.
+Warning: Parameter "embed-to" created outside of the guide.
+Warning: Parameter "embed-the" created outside of the guide.
+Warning: Parameter "embed-Cambridge" created outside of the guide.
+Warning: Parameter "embed-restaurant" created outside of the guide.
+Warning: Parameter "embed-system" created outside of the guide.
+Warning: Parameter "embed-." created outside of the guide.
+Warning: Parameter "embed-You" created outside of the guide.
+Warning: Parameter "embed-can" created outside of the guide.
+Warning: Parameter "embed-ask" created outside of the guide.
+Warning: Parameter "embed-for" created outside of the guide.
+Warning: Parameter "embed-restaurants" created outside of the guide.
+Warning: Parameter "embed-by" created outside of the guide.
+Warning: Parameter "embed-area" created outside of the guide.
+Warning: Parameter "embed-price" created outside of the guide.
+Warning: Parameter "embed-range" created outside of the guide.
+Warning: Parameter "embed-or" created outside of the guide.
+Warning: Parameter "embed-food" created outside of the guide.
+Warning: Parameter "embed-type" created outside of the guide.
+Warning: Parameter "embed-How" created outside of the guide.
+Warning: Parameter "embed-may" created outside of the guide.
+Warning: Parameter "embed-I" created outside of the guide.
+Warning: Parameter "embed-help" created outside of the guide.
+Warning: Parameter "embed-you" created outside of the guide.
+Warning: Parameter "embed-?" created outside of the guide.
+Warning: Parameter "embed-i" created outside of the guide.
+Warning: Parameter "embed-need" created outside of the guide.
+Warning: Parameter "embed-cheap" created outside of the guide.
+Warning: Parameter "embed-hungarian" created outside of the guide.
+Warning: Parameter "embed-Let" created outside of the guide.
+Warning: Parameter "embed-me" created outside of the guide.
+Warning: Parameter "embed-confirm" created outside of the guide.
+Warning: Parameter "embed-are" created outside of the guide.
+Warning: Parameter "embed-looking" created outside of the guide.
+Warning: Parameter "embed-a" created outside of the guide.
+Warning: Parameter "embed-in" created outside of the guide.
+Warning: Parameter "embed-right?" created outside of the guide.
+Warning: Parameter "embed-yes" created outside of the guide.
+Warning: Parameter "embed-api_call" created outside of the guide.
+Warning: Parameter "embed-R_cuisine" created outside of the guide.
+Warning: Parameter "embed-R_location" created outside of the guide.
+Warning: Parameter "embed-thanh_binh" created outside of the guide.
+Warning: Parameter "embed-R_post_code" created outside of the guide.
+Warning: Parameter "embed-thanh_binh_post_code" created outside of the guide.
+Warning: Parameter "embed-vietnamese" created outside of the guide.
+Warning: Parameter "embed-west" created outside of the guide.
+Warning: Parameter "embed-R_phone" created outside of the guide.
+Warning: Parameter "embed-thanh_binh_phone" created outside of the guide.
+Warning: Parameter "embed-R_address" created outside of the guide.
+Warning: Parameter "embed-thanh_binh_address" created outside of the guide.
+Warning: Parameter "embed-R_price" created outside of the guide.
+Warning: Parameter "embed-R_rating" created outside of the guide.
+Warning: Parameter "embed-4" created outside of the guide.
+Warning: Parameter "embed-rice_house" created outside of the guide.
+Warning: Parameter "embed-rice_house_post_code" created outside of the guide.
+Warning: Parameter "embed-chinese" created outside of the guide.
+Warning: Parameter "embed-centre" created outside of the guide.
+Warning: Parameter "embed-rice_house_phone" created outside of the guide.
+Warning: Parameter "embed-rice_house_address" created outside of the guide.
+Warning: Parameter "embed-kohinoor" created outside of the guide.
+Warning: Parameter "embed-kohinoor_post_code" created outside of the guide.
+Warning: Parameter "embed-indian" created outside of the guide.
+Warning: Parameter "embed-kohinoor_phone" created outside of the guide.
+Warning: Parameter "embed-kohinoor_address" created outside of the guide.
+Warning: Parameter "embed-golden_house" created outside of the guide.
+Warning: Parameter "embed-golden_house_post_code" created outside of the guide.
+Warning: Parameter "embed-golden_house_phone" created outside of the guide.
+Warning: Parameter "embed-golden_house_address" created outside of the guide.
+Warning: Parameter "embed-the_lucky_star" created outside of the guide.
+Warning: Parameter "embed-the_lucky_star_post_code" created outside of the guide.
+Warning: Parameter "embed-south" created outside of the guide.
+Warning: Parameter "embed-the_lucky_star_phone" created outside of the guide.
+Warning: Parameter "embed-the_lucky_star_address" created outside of the guide.
+Warning: Parameter "embed-3" created outside of the guide.
+Warning: Parameter "embed-nandos" created outside of the guide.
+Warning: Parameter "embed-nandos_post_code" created outside of the guide.
+Warning: Parameter "embed-portuguese" created outside of the guide.
+Warning: Parameter "embed-nandos_phone" created outside of the guide.
+Warning: Parameter "embed-nandos_address" created outside of the guide.
+Warning: Parameter "embed-mahal_of_cambridge" created outside of the guide.
+Warning: Parameter "embed-mahal_of_cambridge_post_code" created outside of the guide.
+Warning: Parameter "embed-mahal_of_cambridge_phone" created outside of the guide.
+Warning: Parameter "embed-mahal_of_cambridge_address" created outside of the guide.
+Warning: Parameter "embed-the_missing_sock" created outside of the guide.
+Warning: Parameter "embed-the_missing_sock_post_code" created outside of the guide.
+Warning: Parameter "embed-international" created outside of the guide.
+Warning: Parameter "embed-east" created outside of the guide.
+Warning: Parameter "embed-the_missing_sock_phone" created outside of the guide.
+Warning: Parameter "embed-the_missing_sock_address" created outside of the guide.
+Warning: Parameter "embed-9" created outside of the guide.
+Warning: Parameter "embed-da_vinci_pizzeria" created outside of the guide.
+Warning: Parameter "embed-da_vinci_pizzeria_post_code" created outside of the guide.
+Warning: Parameter "embed-italian" created outside of the guide.
+Warning: Parameter "embed-north" created outside of the guide.
+Warning: Parameter "embed-da_vinci_pizzeria_phone" created outside of the guide.
+Warning: Parameter "embed-da_vinci_pizzeria_address" created outside of the guide.
+Warning: Parameter "embed-la_raza" created outside of the guide.
+Warning: Parameter "embed-la_raza_post_code" created outside of the guide.
+Warning: Parameter "embed-spanish" created outside of the guide.
+Warning: Parameter "embed-la_raza_phone" created outside of the guide.
+Warning: Parameter "embed-la_raza_address" created outside of the guide.
+Warning: Parameter "embed-la_margherita" created outside of the guide.
+Warning: Parameter "embed-la_margherita_post_code" created outside of the guide.
+Warning: Parameter "embed-la_margherita_phone" created outside of the guide.
+Warning: Parameter "embed-la_margherita_address" created outside of the guide.
+Warning: Parameter "embed-zizzi_cambridge" created outside of the guide.
+Warning: Parameter "embed-zizzi_cambridge_post_code" created outside of the guide.
+Warning: Parameter "embed-zizzi_cambridge_phone" created outside of the guide.
+Warning: Parameter "embed-zizzi_cambridge_address" created outside of the guide.
+Warning: Parameter "embed-0" created outside of the guide.
+Warning: Parameter "embed-ask_post_code" created outside of the guide.
+Warning: Parameter "embed-ask_phone" created outside of the guide.
+Warning: Parameter "embed-ask_address" created outside of the guide.
+Warning: Parameter "embed-2" created outside of the guide.
+Warning: Parameter "embed-charlie_chan" created outside of the guide.
+Warning: Parameter "embed-charlie_chan_post_code" created outside of the guide.
+Warning: Parameter "embed-charlie_chan_phone" created outside of the guide.
+Warning: Parameter "embed-charlie_chan_address" created outside of the guide.
+Warning: Parameter "embed-royal_spice" created outside of the guide.
+Warning: Parameter "embed-royal_spice_post_code" created outside of the guide.
+Warning: Parameter "embed-royal_spice_phone" created outside of the guide.
+Warning: Parameter "embed-royal_spice_address" created outside of the guide.
+Warning: Parameter "embed-1" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_city_centre" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_city_centre_post_code" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_city_centre_phone" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_city_centre_address" created outside of the guide.
+Warning: Parameter "embed-j_restaurant" created outside of the guide.
+Warning: Parameter "embed-j_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-asian_oriental" created outside of the guide.
+Warning: Parameter "embed-j_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-j_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-the_gardenia" created outside of the guide.
+Warning: Parameter "embed-the_gardenia_post_code" created outside of the guide.
+Warning: Parameter "embed-mediterranean" created outside of the guide.
+Warning: Parameter "embed-the_gardenia_phone" created outside of the guide.
+Warning: Parameter "embed-the_gardenia_address" created outside of the guide.
+Warning: Parameter "embed-dojo_noodle_bar" created outside of the guide.
+Warning: Parameter "embed-dojo_noodle_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-dojo_noodle_bar_phone" created outside of the guide.
+Warning: Parameter "embed-dojo_noodle_bar_address" created outside of the guide.
+Warning: Parameter "embed-the_gandhi" created outside of the guide.
+Warning: Parameter "embed-the_gandhi_post_code" created outside of the guide.
+Warning: Parameter "embed-the_gandhi_phone" created outside of the guide.
+Warning: Parameter "embed-the_gandhi_address" created outside of the guide.
+Warning: Parameter "embed-is" created outside of the guide.
+Warning: Parameter "embed-see" created outside of the guide.
+Warning: Parameter "embed-address" created outside of the guide.
+Warning: Parameter "embed-Sure" created outside of the guide.
+Warning: Parameter "embed-on" created outside of the guide.
+Warning: Parameter "embed-thank" created outside of the guide.
+Warning: Parameter "embed-good" created outside of the guide.
+Warning: Parameter "embed-bye" created outside of the guide.
+Warning: Parameter "embed-want" created outside of the guide.
+Warning: Parameter "embed-part" created outside of the guide.
+Warning: Parameter "embed-of" created outside of the guide.
+Warning: Parameter "embed-town" created outside of the guide.
+Warning: Parameter "embed-nice" created outside of the guide.
+Warning: Parameter "embed-whats" created outside of the guide.
+Warning: Parameter "embed-goodbye" created outside of the guide.
+Warning: Parameter "embed-im" created outside of the guide.
+Warning: Parameter "embed-an" created outside of the guide.
+Warning: Parameter "embed-expensive" created outside of the guide.
+Warning: Parameter "embed-serving" created outside of the guide.
+Warning: Parameter "embed-kitalian" created outside of the guide.
+Warning: Parameter "embed-clowns_cafe" created outside of the guide.
+Warning: Parameter "embed-clowns_cafe_post_code" created outside of the guide.
+Warning: Parameter "embed-clowns_cafe_phone" created outside of the guide.
+Warning: Parameter "embed-clowns_cafe_address" created outside of the guide.
+Warning: Parameter "embed-caffe_uno" created outside of the guide.
+Warning: Parameter "embed-caffe_uno_post_code" created outside of the guide.
+Warning: Parameter "embed-caffe_uno_phone" created outside of the guide.
+Warning: Parameter "embed-caffe_uno_address" created outside of the guide.
+Warning: Parameter "embed-5" created outside of the guide.
+Warning: Parameter "embed-frankie_and_bennys" created outside of the guide.
+Warning: Parameter "embed-frankie_and_bennys_post_code" created outside of the guide.
+Warning: Parameter "embed-frankie_and_bennys_phone" created outside of the guide.
+Warning: Parameter "embed-frankie_and_bennys_address" created outside of the guide.
+Warning: Parameter "embed-don_pasquale_pizzeria" created outside of the guide.
+Warning: Parameter "embed-don_pasquale_pizzeria_post_code" created outside of the guide.
+Warning: Parameter "embed-don_pasquale_pizzeria_phone" created outside of the guide.
+Warning: Parameter "embed-don_pasquale_pizzeria_address" created outside of the guide.
+Warning: Parameter "embed-stazione_restaurant_and_coffee_bar" created outside of the guide.
+Warning: Parameter "embed-stazione_restaurant_and_coffee_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-stazione_restaurant_and_coffee_bar_phone" created outside of the guide.
+Warning: Parameter "embed-stazione_restaurant_and_coffee_bar_address" created outside of the guide.
+Warning: Parameter "embed-india_house" created outside of the guide.
+Warning: Parameter "embed-does" created outside of the guide.
+Warning: Parameter "embed-it" created outside of the guide.
+Warning: Parameter "embed-serve" created outside of the guide.
+Warning: Parameter "embed-the_golden_curry" created outside of the guide.
+Warning: Parameter "embed-ok" created outside of the guide.
+Warning: Parameter "embed-talian" created outside of the guide.
+Warning: Parameter "embed-I'm" created outside of the guide.
+Warning: Parameter "embed-sorry" created outside of the guide.
+Warning: Parameter "embed-but" created outside of the guide.
+Warning: Parameter "embed-there" created outside of the guide.
+Warning: Parameter "embed-no" created outside of the guide.
+Warning: Parameter "embed-halal" created outside of the guide.
+Warning: Parameter "embed-catalen" created outside of the guide.
+Warning: Parameter "embed-am" created outside of the guide.
+Warning: Parameter "embed-res" created outside of the guide.
+Warning: Parameter "embed-great" created outside of the guide.
+Warning: Parameter "embed-what" created outside of the guide.
+Warning: Parameter "embed-serves" created outside of the guide.
+Warning: Parameter "embed-catalin" created outside of the guide.
+Warning: Parameter "embed-bad" created outside of the guide.
+Warning: Parameter "embed-What" created outside of the guide.
+Warning: Parameter "embed-do" created outside of the guide.
+Warning: Parameter "embed-have" created outside of the guide.
+Warning: Parameter "embed-mind?" created outside of the guide.
+Warning: Parameter "embed-dont" created outside of the guide.
+Warning: Parameter "embed-care" created outside of the guide.
+Warning: Parameter "embed-its" created outside of the guide.
+Warning: Parameter "embed-phone" created outside of the guide.
+Warning: Parameter "embed-number" created outside of the guide.
+Warning: Parameter "embed-and" created outside of the guide.
+Warning: Parameter "embed-The" created outside of the guide.
+Warning: Parameter "embed-place" created outside of the guide.
+Warning: Parameter "embed-about" created outside of the guide.
+Warning: Parameter "embed-danish" created outside of the guide.
+Warning: Parameter "embed-venue" created outside of the guide.
+Warning: Parameter "embed-venue_address" created outside of the guide.
+Warning: Parameter "embed-venue_phone" created outside of the guide.
+Warning: Parameter "embed-venue_post_code" created outside of the guide.
+Warning: Parameter "embed-10" created outside of the guide.
+Iteration 0: -1293436.3321146367
+Warning: Parameter "embed-kind" created outside of the guide.
+Warning: Parameter "embed-would" created outside of the guide.
+Warning: Parameter "embed-like?" created outside of the guide.
+Warning: Parameter "embed-grafton_hotel_restaurant" created outside of the guide.
+Warning: Parameter "embed-grafton_hotel_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-british" created outside of the guide.
+Warning: Parameter "embed-grafton_hotel_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-grafton_hotel_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-sitar_tandoori" created outside of the guide.
+Warning: Parameter "embed-sitar_tandoori_post_code" created outside of the guide.
+Warning: Parameter "embed-sitar_tandoori_phone" created outside of the guide.
+Warning: Parameter "embed-sitar_tandoori_address" created outside of the guide.
+Warning: Parameter "embed-royal_standard" created outside of the guide.
+Warning: Parameter "embed-royal_standard_post_code" created outside of the guide.
+Warning: Parameter "embed-gastropub" created outside of the guide.
+Warning: Parameter "embed-royal_standard_phone" created outside of the guide.
+Warning: Parameter "embed-royal_standard_address" created outside of the guide.
+Warning: Parameter "embed-pipasha_restaurant" created outside of the guide.
+Warning: Parameter "embed-pipasha_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-pipasha_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-pipasha_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-yu_garden" created outside of the guide.
+Warning: Parameter "embed-yu_garden_post_code" created outside of the guide.
+Warning: Parameter "embed-yu_garden_phone" created outside of the guide.
+Warning: Parameter "embed-yu_garden_address" created outside of the guide.
+Warning: Parameter "embed-prices" created outside of the guide.
+Warning: Parameter "embed-post" created outside of the guide.
+Warning: Parameter "embed-code" created outside of the guide.
+Warning: Parameter "embed-scottish" created outside of the guide.
+Warning: Parameter "embed-saint_johns_chop_house" created outside of the guide.
+Warning: Parameter "embed-saint_johns_chop_house_post_code" created outside of the guide.
+Warning: Parameter "embed-saint_johns_chop_house_phone" created outside of the guide.
+Warning: Parameter "embed-saint_johns_chop_house_address" created outside of the guide.
+Warning: Parameter "embed-moderate" created outside of the guide.
+Warning: Parameter "embed-prezzo" created outside of the guide.
+Warning: Parameter "embed-prezzo_post_code" created outside of the guide.
+Warning: Parameter "embed-prezzo_phone" created outside of the guide.
+Warning: Parameter "embed-prezzo_address" created outside of the guide.
+Warning: Parameter "embed-rice_boat" created outside of the guide.
+Warning: Parameter "embed-rice_boat_post_code" created outside of the guide.
+Warning: Parameter "embed-rice_boat_phone" created outside of the guide.
+Warning: Parameter "embed-rice_boat_address" created outside of the guide.
+Warning: Parameter "embed-maharajah_tandoori_restaurant" created outside of the guide.
+Warning: Parameter "embed-maharajah_tandoori_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-maharajah_tandoori_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-maharajah_tandoori_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-travellers_rest" created outside of the guide.
+Warning: Parameter "embed-travellers_rest_post_code" created outside of the guide.
+Warning: Parameter "embed-travellers_rest_phone" created outside of the guide.
+Warning: Parameter "embed-travellers_rest_address" created outside of the guide.
+Warning: Parameter "embed-sala_thong" created outside of the guide.
+Warning: Parameter "embed-sala_thong_post_code" created outside of the guide.
+Warning: Parameter "embed-thai" created outside of the guide.
+Warning: Parameter "embed-sala_thong_phone" created outside of the guide.
+Warning: Parameter "embed-sala_thong_address" created outside of the guide.
+Warning: Parameter "embed-cambridge_lodge_restaurant" created outside of the guide.
+Warning: Parameter "embed-cambridge_lodge_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-european" created outside of the guide.
+Warning: Parameter "embed-cambridge_lodge_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-cambridge_lodge_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-graffiti" created outside of the guide.
+Warning: Parameter "embed-graffiti_post_code" created outside of the guide.
+Warning: Parameter "embed-graffiti_phone" created outside of the guide.
+Warning: Parameter "embed-graffiti_address" created outside of the guide.
+Warning: Parameter "embed-cocum" created outside of the guide.
+Warning: Parameter "embed-cocum_post_code" created outside of the guide.
+Warning: Parameter "embed-cocum_phone" created outside of the guide.
+Warning: Parameter "embed-cocum_address" created outside of the guide.
+Warning: Parameter "embed-india_house_post_code" created outside of the guide.
+Warning: Parameter "embed-india_house_phone" created outside of the guide.
+Warning: Parameter "embed-india_house_address" created outside of the guide.
+Warning: Parameter "embed-7" created outside of the guide.
+Warning: Parameter "embed-that" created outside of the guide.
+Warning: Parameter "embed-tasty" created outside of the guide.
+Warning: Parameter "embed-how" created outside of the guide.
+Warning: Parameter "embed-bistro" created outside of the guide.
+Warning: Parameter "embed-Would" created outside of the guide.
+Warning: Parameter "embed-like" created outside of the guide.
+Warning: Parameter "embed-something" created outside of the guide.
+Warning: Parameter "embed-range?" created outside of the guide.
+Warning: Parameter "embed-doesnt" created outside of the guide.
+Warning: Parameter "embed-matter" created outside of the guide.
+Warning: Parameter "embed-Did" created outside of the guide.
+Warning: Parameter "embed-say" created outside of the guide.
+Warning: Parameter "embed-town?" created outside of the guide.
+Warning: Parameter "embed-turkish" created outside of the guide.
+Warning: Parameter "embed-meze_bar_restaurant" created outside of the guide.
+Warning: Parameter "embed-meze_bar_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-meze_bar_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-meze_bar_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-8" created outside of the guide.
+Warning: Parameter "embed-anatolia" created outside of the guide.
+Warning: Parameter "embed-anatolia_post_code" created outside of the guide.
+Warning: Parameter "embed-anatolia_phone" created outside of the guide.
+Warning: Parameter "embed-anatolia_address" created outside of the guide.
+Warning: Parameter "embed-efes_restaurant" created outside of the guide.
+Warning: Parameter "embed-efes_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-efes_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-efes_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-anything" created outside of the guide.
+Warning: Parameter "embed-else" created outside of the guide.
+Warning: Parameter "embed-their" created outside of the guide.
+Warning: Parameter "embed-mail" created outside of the guide.
+Warning: Parameter "embed-postal" created outside of the guide.
+Iteration 1: -1116584.7125731062
+Warning: Parameter "embed-crossover" created outside of the guide.
+Warning: Parameter "embed-the_hotpot" created outside of the guide.
+Warning: Parameter "embed-the_hotpot_post_code" created outside of the guide.
+Warning: Parameter "embed-the_hotpot_phone" created outside of the guide.
+Warning: Parameter "embed-the_hotpot_address" created outside of the guide.
+Warning: Parameter "embed-hakka" created outside of the guide.
+Warning: Parameter "embed-hakka_post_code" created outside of the guide.
+Warning: Parameter "embed-hakka_phone" created outside of the guide.
+Warning: Parameter "embed-hakka_address" created outside of the guide.
+Warning: Parameter "embed-golden_wok" created outside of the guide.
+Warning: Parameter "embed-golden_wok_post_code" created outside of the guide.
+Warning: Parameter "embed-golden_wok_phone" created outside of the guide.
+Warning: Parameter "embed-golden_wok_address" created outside of the guide.
+Warning: Parameter "embed-saigon_city" created outside of the guide.
+Warning: Parameter "embed-saigon_city_phone" created outside of the guide.
+Warning: Parameter "embed-moderately" created outside of the guide.
+Warning: Parameter "embed-priced" created outside of the guide.
+Warning: Parameter "embed-Sorry" created outside of the guide.
+Warning: Parameter "embed-other" created outside of the guide.
+Warning: Parameter "embed-crosstalk" created outside of the guide.
+Warning: Parameter "embed-should" created outside of the guide.
+Warning: Parameter "embed-french" created outside of the guide.
+Warning: Parameter "embed-australian" created outside of the guide.
+Warning: Parameter "embed-cote" created outside of the guide.
+Warning: Parameter "embed-cote_post_code" created outside of the guide.
+Warning: Parameter "embed-cote_phone" created outside of the guide.
+Warning: Parameter "embed-cote_address" created outside of the guide.
+Warning: Parameter "embed-restaurant_two_two" created outside of the guide.
+Warning: Parameter "embed-restaurant_two_two_post_code" created outside of the guide.
+Warning: Parameter "embed-restaurant_two_two_phone" created outside of the guide.
+Warning: Parameter "embed-restaurant_two_two_address" created outside of the guide.
+Warning: Parameter "embed-telephone" created outside of the guide.
+Warning: Parameter "embed-any" created outside of the guide.
+Iteration 2: -868967.4711589795
+Warning: Parameter "embed-de_luca_cucina_and_bar" created outside of the guide.
+Warning: Parameter "embed-de_luca_cucina_and_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-de_luca_cucina_and_bar_phone" created outside of the guide.
+Warning: Parameter "embed-de_luca_cucina_and_bar_address" created outside of the guide.
+Warning: Parameter "embed-riverside_brasserie" created outside of the guide.
+Warning: Parameter "embed-riverside_brasserie_post_code" created outside of the guide.
+Warning: Parameter "embed-riverside_brasserie_phone" created outside of the guide.
+Warning: Parameter "embed-riverside_brasserie_address" created outside of the guide.
+Warning: Parameter "embed-restaurant_alimentum" created outside of the guide.
+Warning: Parameter "embed-restaurant_alimentum_post_code" created outside of the guide.
+Warning: Parameter "embed-restaurant_alimentum_phone" created outside of the guide.
+Warning: Parameter "embed-restaurant_alimentum_address" created outside of the guide.
+Warning: Parameter "embed-galleria" created outside of the guide.
+Warning: Parameter "embed-galleria_post_code" created outside of the guide.
+Warning: Parameter "embed-galleria_phone" created outside of the guide.
+Warning: Parameter "embed-galleria_address" created outside of the guide.
+Warning: Parameter "embed-cantonese" created outside of the guide.
+Warning: Parameter "embed-north_american" created outside of the guide.
+Warning: Parameter "embed-bedouin" created outside of the guide.
+Warning: Parameter "embed-bedouin_post_code" created outside of the guide.
+Warning: Parameter "embed-african" created outside of the guide.
+Warning: Parameter "embed-bedouin_phone" created outside of the guide.
+Warning: Parameter "embed-bedouin_address" created outside of the guide.
+Warning: Parameter "embed-midsummer_house_restaurant" created outside of the guide.
+Warning: Parameter "embed-midsummer_house_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-midsummer_house_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-midsummer_house_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-sesame_restaurant_and_bar" created outside of the guide.
+Warning: Parameter "embed-sesame_restaurant_and_bar_address" created outside of the guide.
+Warning: Parameter "embed-sesame_restaurant_and_bar_phone" created outside of the guide.
+Warning: Parameter "embed-sesame_restaurant_and_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-city_stop_restaurant" created outside of the guide.
+Warning: Parameter "embed-city_stop_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-city_stop_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-city_stop_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-the_cambridge_chop_house" created outside of the guide.
+Warning: Parameter "embed-the_cambridge_chop_house_post_code" created outside of the guide.
+Warning: Parameter "embed-the_cambridge_chop_house_phone" created outside of the guide.
+Warning: Parameter "embed-the_cambridge_chop_house_address" created outside of the guide.
+Warning: Parameter "embed-eraina" created outside of the guide.
+Warning: Parameter "embed-eraina_post_code" created outside of the guide.
+Warning: Parameter "embed-eraina_phone" created outside of the guide.
+Warning: Parameter "embed-eraina_address" created outside of the guide.
+Warning: Parameter "embed-peking_restaurant" created outside of the guide.
+Warning: Parameter "embed-peking_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-peking_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-peking_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-little_seoul" created outside of the guide.
+Warning: Parameter "embed-little_seoul_post_code" created outside of the guide.
+Warning: Parameter "embed-korean" created outside of the guide.
+Warning: Parameter "embed-little_seoul_phone" created outside of the guide.
+Warning: Parameter "embed-little_seoul_address" created outside of the guide.
+Warning: Parameter "embed-the_slug_and_lettuce" created outside of the guide.
+Warning: Parameter "embed-the_slug_and_lettuce_post_code" created outside of the guide.
+Warning: Parameter "embed-the_slug_and_lettuce_phone" created outside of the guide.
+Warning: Parameter "embed-the_slug_and_lettuce_address" created outside of the guide.
+Warning: Parameter "embed-curry_queen" created outside of the guide.
+Warning: Parameter "embed-curry_queen_address" created outside of the guide.
+Warning: Parameter "embed-curry_queen_phone" created outside of the guide.
+Warning: Parameter "embed-curry_queen_post_code" created outside of the guide.
+Warning: Parameter "embed-taj_tandoori" created outside of the guide.
+Warning: Parameter "embed-taj_tandoori_post_code" created outside of the guide.
+Warning: Parameter "embed-taj_tandoori_phone" created outside of the guide.
+Warning: Parameter "embed-taj_tandoori_address" created outside of the guide.
+Warning: Parameter "embed-the_golden_curry_address" created outside of the guide.
+Warning: Parameter "embed-the_golden_curry_phone" created outside of the guide.
+Warning: Parameter "embed-the_golden_curry_post_code" created outside of the guide.
+Warning: Parameter "embed-saigon_city_post_code" created outside of the guide.
+Warning: Parameter "embed-saigon_city_address" created outside of the guide.
+Warning: Parameter "embed-fitzbillies_restaurant" created outside of the guide.
+Warning: Parameter "embed-fitzbillies_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-fitzbillies_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-fitzbillies_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-loch_fyne" created outside of the guide.
+Warning: Parameter "embed-loch_fyne_post_code" created outside of the guide.
+Warning: Parameter "embed-seafood" created outside of the guide.
+Warning: Parameter "embed-loch_fyne_phone" created outside of the guide.
+Warning: Parameter "embed-loch_fyne_address" created outside of the guide.
+Warning: Parameter "embed-curry_garden" created outside of the guide.
+Warning: Parameter "embed-curry_garden_post_code" created outside of the guide.
+Warning: Parameter "embed-curry_garden_phone" created outside of the guide.
+Warning: Parameter "embed-curry_garden_address" created outside of the guide.
+Warning: Parameter "embed-saffron_brasserie" created outside of the guide.
+Warning: Parameter "embed-saffron_brasserie_post_code" created outside of the guide.
+Warning: Parameter "embed-saffron_brasserie_phone" created outside of the guide.
+Warning: Parameter "embed-saffron_brasserie_address" created outside of the guide.
+Warning: Parameter "embed-ugly_duckling" created outside of the guide.
+Warning: Parameter "embed-ugly_duckling_post_code" created outside of the guide.
+Warning: Parameter "embed-ugly_duckling_phone" created outside of the guide.
+Warning: Parameter "embed-ugly_duckling_address" created outside of the guide.
+Warning: Parameter "embed-hk_fusion" created outside of the guide.
+Warning: Parameter "embed-hk_fusion_post_code" created outside of the guide.
+Warning: Parameter "embed-fusion" created outside of the guide.
+Warning: Parameter "embed-hk_fusion_phone" created outside of the guide.
+Warning: Parameter "embed-hk_fusion_address" created outside of the guide.
+Warning: Parameter "embed-michaelhouse_cafe" created outside of the guide.
+Warning: Parameter "embed-michaelhouse_cafe_post_code" created outside of the guide.
+Warning: Parameter "embed-michaelhouse_cafe_phone" created outside of the guide.
+Warning: Parameter "embed-michaelhouse_cafe_address" created outside of the guide.
+Warning: Parameter "embed-darrys_cookhouse_and_wine_shop" created outside of the guide.
+Warning: Parameter "embed-darrys_cookhouse_and_wine_shop_post_code" created outside of the guide.
+Warning: Parameter "embed-darrys_cookhouse_and_wine_shop_phone" created outside of the guide.
+Warning: Parameter "embed-darrys_cookhouse_and_wine_shop_address" created outside of the guide.
+Warning: Parameter "embed-shiraz_restaurant" created outside of the guide.
+Warning: Parameter "embed-shiraz_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-shiraz_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-shiraz_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-gourmet_burger_kitchen" created outside of the guide.
+Warning: Parameter "embed-gourmet_burger_kitchen_post_code" created outside of the guide.
+Warning: Parameter "embed-gourmet_burger_kitchen_phone" created outside of the guide.
+Warning: Parameter "embed-gourmet_burger_kitchen_address" created outside of the guide.
+Warning: Parameter "embed-wagamama" created outside of the guide.
+Warning: Parameter "embed-wagamama_post_code" created outside of the guide.
+Warning: Parameter "embed-japanese" created outside of the guide.
+Warning: Parameter "embed-wagamama_phone" created outside of the guide.
+Warning: Parameter "embed-wagamama_address" created outside of the guide.
+Warning: Parameter "embed-tandoori_palace" created outside of the guide.
+Warning: Parameter "embed-tandoori_palace_post_code" created outside of the guide.
+Warning: Parameter "embed-tandoori_palace_phone" created outside of the guide.
+Warning: Parameter "embed-tandoori_palace_address" created outside of the guide.
+Warning: Parameter "embed-kymmoy" created outside of the guide.
+Warning: Parameter "embed-kymmoy_post_code" created outside of the guide.
+Warning: Parameter "embed-kymmoy_phone" created outside of the guide.
+Warning: Parameter "embed-kymmoy_address" created outside of the guide.
+Warning: Parameter "embed-bangkok_city" created outside of the guide.
+Warning: Parameter "embed-bangkok_city_post_code" created outside of the guide.
+Warning: Parameter "embed-bangkok_city_phone" created outside of the guide.
+Warning: Parameter "embed-bangkok_city_address" created outside of the guide.
+Warning: Parameter "embed-chiquito_restaurant_bar" created outside of the guide.
+Warning: Parameter "embed-chiquito_restaurant_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-mexican" created outside of the guide.
+Warning: Parameter "embed-chiquito_restaurant_bar_phone" created outside of the guide.
+Warning: Parameter "embed-chiquito_restaurant_bar_address" created outside of the guide.
+Warning: Parameter "embed-curry_king" created outside of the guide.
+Warning: Parameter "embed-curry_king_post_code" created outside of the guide.
+Warning: Parameter "embed-curry_king_phone" created outside of the guide.
+Warning: Parameter "embed-curry_king_address" created outside of the guide.
+Warning: Parameter "embed-backstreet_bistro" created outside of the guide.
+Warning: Parameter "embed-backstreet_bistro_post_code" created outside of the guide.
+Warning: Parameter "embed-backstreet_bistro_phone" created outside of the guide.
+Warning: Parameter "embed-backstreet_bistro_address" created outside of the guide.
+Warning: Parameter "embed-la_mimosa" created outside of the guide.
+Warning: Parameter "embed-la_mimosa_post_code" created outside of the guide.
+Warning: Parameter "embed-la_mimosa_phone" created outside of the guide.
+Warning: Parameter "embed-la_mimosa_address" created outside of the guide.
+Warning: Parameter "embed-panahar" created outside of the guide.
+Warning: Parameter "embed-panahar_post_code" created outside of the guide.
+Warning: Parameter "embed-panahar_phone" created outside of the guide.
+Warning: Parameter "embed-panahar_address" created outside of the guide.
+Warning: Parameter "embed-right" created outside of the guide.
+Iteration 3: -971795.6086085466
+Warning: Parameter "embed-jamaican" created outside of the guide.
+Warning: Parameter "embed-at" created outside of the guide.
+Warning: Parameter "embed-us" created outside of the guide.
+Iteration 4: -487959.5792004125
+Warning: Parameter "embed-id" created outside of the guide.
+Warning: Parameter "embed-traditional" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_cherry_hinton" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_cherry_hinton_post_code" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_cherry_hinton_phone" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_cherry_hinton_address" created outside of the guide.
+Warning: Parameter "embed-could" created outside of the guide.
+Warning: Parameter "embed-center" created outside of the guide.
+Warning: Parameter "embed-result" created outside of the guide.
+Warning: Parameter "embed-kosher" created outside of the guide.
+Warning: Parameter "embed-corsica" created outside of the guide.
+Warning: Parameter "embed-matches" created outside of the guide.
+Warning: Parameter "embed-your" created outside of the guide.
+Warning: Parameter "embed-request" created outside of the guide.
+Warning: Parameter "embed-one" created outside of the guide.
+Warning: Parameter "embed-meghna" created outside of the guide.
+Warning: Parameter "embed-meghna_post_code" created outside of the guide.
+Warning: Parameter "embed-meghna_phone" created outside of the guide.
+Warning: Parameter "embed-meghna_address" created outside of the guide.
+Warning: Parameter "embed-the_nirala" created outside of the guide.
+Warning: Parameter "embed-the_nirala_post_code" created outside of the guide.
+Warning: Parameter "embed-the_nirala_phone" created outside of the guide.
+Warning: Parameter "embed-the_nirala_address" created outside of the guide.
+Warning: Parameter "embed-please" created outside of the guide.
+Iteration 5: -529791.4463194241
+Warning: Parameter "embed-earetree" created outside of the guide.
+Warning: Parameter "embed-earatree" created outside of the guide.
+Warning: Parameter "embed-curry_prince" created outside of the guide.
+Warning: Parameter "embed-curry_prince_phone" created outside of the guide.
+Warning: Parameter "embed-english" created outside of the guide.
+Iteration 6: -347452.49323936406
+Warning: Parameter "embed-persian" created outside of the guide.
+Warning: Parameter "embed-alright" created outside of the guide.
+Warning: Parameter "embed-get" created outside of the guide.
+Iteration 7: -370829.5934911518
+Warning: Parameter "embed-find" created outside of the guide.
+Warning: Parameter "embed-hotel_du_vin_and_bistro" created outside of the guide.
+Warning: Parameter "embed-hotel_du_vin_and_bistro_phone" created outside of the guide.
+Warning: Parameter "embed-hotel_du_vin_and_bistro_post_code" created outside of the guide.
+Warning: Parameter "embed-uh" created outside of the guide.
+Warning: Parameter "embed-okay" created outside of the guide.
+Warning: Parameter "embed-pizza_express" created outside of the guide.
+Warning: Parameter "embed-Fen" created outside of the guide.
+Warning: Parameter "embed-Ditton" created outside of the guide.
+Warning: Parameter "embed-caribbean" created outside of the guide.
+Warning: Parameter "embed-polish" created outside of the guide.
+Warning: Parameter "embed-Ok" created outside of the guide.
+Warning: Parameter "embed-yippee_noodle_bar" created outside of the guide.
+Warning: Parameter "embed-yippee_noodle_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-yippee_noodle_bar_phone" created outside of the guide.
+Warning: Parameter "embed-yippee_noodle_bar_address" created outside of the guide.
+Warning: Parameter "embed-nubmer" created outside of the guide.
+Iteration 8: -482471.9549496936
+Warning: Parameter "embed-swiss" created outside of the guide.
+Warning: Parameter "embed-viet" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_fen_ditton" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_fen_ditton_post_code" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_fen_ditton_phone" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_fen_ditton_address" created outside of the guide.
+Warning: Parameter "embed-rajmahal" created outside of the guide.
+Warning: Parameter "embed-rajmahal_post_code" created outside of the guide.
+Warning: Parameter "embed-rajmahal_phone" created outside of the guide.
+Warning: Parameter "embed-rajmahal_address" created outside of the guide.
+Warning: Parameter "embed-curry_prince_post_code" created outside of the guide.
+Warning: Parameter "embed-curry_prince_address" created outside of the guide.
+Warning: Parameter "embed-la_tasca" created outside of the guide.
+Warning: Parameter "embed-la_tasca_post_code" created outside of the guide.
+Warning: Parameter "embed-la_tasca_phone" created outside of the guide.
+Warning: Parameter "embed-la_tasca_address" created outside of the guide.
+Warning: Parameter "embed-venetian" created outside of the guide.
+Iteration 9: -370680.7621785628
+Warning: Parameter "embed-romanian" created outside of the guide.
+Warning: Parameter "embed-lets" created outside of the guide.
+Warning: Parameter "embed-breath" created outside of the guide.
+Warning: Parameter "embed-bout" created outside of the guide.
+Warning: Parameter "embed-k" created outside of the guide.
+Warning: Parameter "embed-belgian" created outside of the guide.
+Iteration 10: -239162.90683462232
+Warning: Parameter "embed-the_copper_kettle" created outside of the guide.
+Warning: Parameter "embed-the_copper_kettle_post_code" created outside of the guide.
+Warning: Parameter "embed-the_copper_kettle_phone" created outside of the guide.
+Warning: Parameter "embed-the_copper_kettle_address" created outside of the guide.
+Warning: Parameter "embed-cotto" created outside of the guide.
+Warning: Parameter "embed-cotto_post_code" created outside of the guide.
+Warning: Parameter "embed-cotto_phone" created outside of the guide.
+Warning: Parameter "embed-cotto_address" created outside of the guide.
+Warning: Parameter "embed-restaurant_one_seven" created outside of the guide.
+Warning: Parameter "embed-restaurant_one_seven_post_code" created outside of the guide.
+Warning: Parameter "embed-restaurant_one_seven_phone" created outside of the guide.
+Warning: Parameter "embed-restaurant_one_seven_address" created outside of the guide.
+Warning: Parameter "embed-the_oak_bistro" created outside of the guide.
+Warning: Parameter "embed-well" created outside of the guide.
+Warning: Parameter "embed-take" created outside of the guide.
+Warning: Parameter "embed-mediteranean" created outside of the guide.
+Warning: Parameter "embed-just" created outside of the guide.
+Warning: Parameter "embed-give" created outside of the guide.
+Iteration 11: -283205.68391949433
+Warning: Parameter "embed-german" created outside of the guide.
+Warning: Parameter "embed-side" created outside of the guide.
+Warning: Parameter "embed-um" created outside of the guide.
+Warning: Parameter "embed-with" created outside of the guide.
+Warning: Parameter "embed-int" created outside of the guide.
+Warning: Parameter "embed-creative" created outside of the guide.
+Warning: Parameter "embed-the_varsity_restaurant" created outside of the guide.
+Warning: Parameter "embed-the_varsity_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-the_varsity_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-the_varsity_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-bloomsbury_restaurant" created outside of the guide.
+Warning: Parameter "embed-bloomsbury_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-bloomsbury_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-bloomsbury_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-bloomsbury" created outside of the guide.
+Warning: Parameter "embed-cuban" created outside of the guide.
+Iteration 12: -336964.44947313616
+Warning: Parameter "embed-central" created outside of the guide.
+Warning: Parameter "embed-signaporian" created outside of the guide.
+Warning: Parameter "embed-bit" created outside of the guide.
+Warning: Parameter "embed-confused" created outside of the guide.
+Warning: Parameter "embed-;" created outside of the guide.
+Warning: Parameter "embed-tell" created outside of the guide.
+Warning: Parameter "embed-again" created outside of the guide.
+Iteration 13: -321631.5783947388
+Warning: Parameter "embed-moroccan" created outside of the guide.
+Warning: Parameter "embed-types" created outside of the guide.
+Warning: Parameter "embed-the_oak_bistro_post_code" created outside of the guide.
+Warning: Parameter "embed-the_oak_bistro_phone" created outside of the guide.
+Warning: Parameter "embed-the_oak_bistro_address" created outside of the guide.
+Warning: Parameter "embed-jinling_noodle_bar" created outside of the guide.
+Warning: Parameter "embed-jinling_noodle_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-jinling_noodle_bar_phone" created outside of the guide.
+Warning: Parameter "embed-jinling_noodle_bar_address" created outside of the guide.
+Warning: Parameter "embed-ali_baba" created outside of the guide.
+Warning: Parameter "embed-ali_baba_post_code" created outside of the guide.
+Warning: Parameter "embed-lebanese" created outside of the guide.
+Warning: Parameter "embed-ali_baba_phone" created outside of the guide.
+Warning: Parameter "embed-ali_baba_address" created outside of the guide.
+Warning: Parameter "embed-hotel_du_vin_and_bistro_address" created outside of the guide.
+Warning: Parameter "embed-shanghai_family_restaurant" created outside of the guide.
+Warning: Parameter "embed-shanghai_family_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-shanghai_family_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-shanghai_family_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-lan_hong_house" created outside of the guide.
+Warning: Parameter "embed-lan_hong_house_post_code" created outside of the guide.
+Warning: Parameter "embed-lan_hong_house_phone" created outside of the guide.
+Warning: Parameter "embed-lan_hong_house_address" created outside of the guide.
+Warning: Parameter "embed-pizza_express_post_code" created outside of the guide.
+Warning: Parameter "embed-pizza_express_phone" created outside of the guide.
+Warning: Parameter "embed-pizza_express_address" created outside of the guide.
+Warning: Parameter "embed-modern_european" created outside of the guide.
+Warning: Parameter "embed-meditteranian" created outside of the guide.
+Warning: Parameter "embed-modern" created outside of the guide.
+Warning: Parameter "embed-europene" created outside of the guide.
+Warning: Parameter "embed-anywhere" created outside of the guide.
+Iteration 14: -233439.40762424804
+Warning: Parameter "embed-cow" created outside of the guide.
+Warning: Parameter "embed-pizza" created outside of the guide.
+Warning: Parameter "embed-kitchen" created outside of the guide.
+Warning: Parameter "embed-bar" created outside of the guide.
+Warning: Parameter "embed-the_cow_pizza_kitchen_and_bar_phone" created outside of the guide.
+Warning: Parameter "embed-the_cow_pizza_kitchen_and_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-malaysian" created outside of the guide.
+Warning: Parameter "embed-polynesian" created outside of the guide.
+Warning: Parameter "embed-sea" created outside of the guide.
+Warning: Parameter "embed-inaudible" created outside of the guide.
+Iteration 15: -293120.75685691857
+Warning: Parameter "embed-irish" created outside of the guide.
+Iteration 16: -167986.00891802262
+Warning: Parameter "embed-indonesian" created outside of the guide.
+Iteration 17: -155706.7562075848
+Warning: Parameter "embed-basque" created outside of the guide.
+Warning: Parameter "embed-Can" created outside of the guide.
+Warning: Parameter "embed-else?" created outside of the guide.
+Iteration 18: -139694.71712761765
+Warning: Parameter "embed-world" created outside of the guide.
+Warning: Parameter "embed-vegetarian" created outside of the guide.
+Iteration 19: -188269.55966251902
+Warning: Parameter "embed-yeah" created outside of the guide.
+Warning: Parameter "embed-expe" created outside of the guide.
+Iteration 20: -222964.938396139
+Warning: Parameter "embed-middle_eastern" created outside of the guide.
+Warning: Parameter "embed-oh" created outside of the guide.
+Warning: Parameter "embed-then" created outside of the guide.
+Warning: Parameter "embed-location" created outside of the guide.
+Warning: Parameter "embed-airatarin" created outside of the guide.
+Warning: Parameter "embed-luck" created outside of the guide.
+Warning: Parameter "embed-takeaway" created outside of the guide.
+Warning: Parameter "embed-the_good_luck_chinese_food_takeaway_phone" created outside of the guide.
+Warning: Parameter "embed-the_good_luck_chinese_food_takeaway_post_code" created outside of the guide.
+Iteration 21: -392974.97483752744
+Warning: Parameter "embed-cool" created outside of the guide.
+Warning: Parameter "embed-where" created outside of the guide.
+Warning: Parameter "embed-repeat" created outside of the guide.
+Warning: Parameter "embed-he" created outside of the guide.
+Iteration 22: -123060.35468038572
+Warning: Parameter "embed-they" created outside of the guide.
+Iteration 23: -122021.50290181632
+Warning: Parameter "embed-afghan" created outside of the guide.
+Warning: Parameter "embed-cata" created outside of the guide.
+Warning: Parameter "embed-catalan" created outside of the guide.
+Warning: Parameter "embed-unusual" created outside of the guide.
+Warning: Parameter "embed-over" created outside of the guide.
+Warning: Parameter "embed-class" created outside of the guide.
+Warning: Parameter "embed-cross" created outside of the guide.
+Iteration 24: -108927.5915195284
+Warning: Parameter "embed-6" created outside of the guide.
+Iteration 25: -195924.48071742852
+Warning: Parameter "embed-tuscan" created outside of the guide.
+Iteration 26: -108101.33288777483
+Warning: Parameter "embed-chineese" created outside of the guide.
+Iteration 27: -98743.56193977178
+Warning: Parameter "embed-show" created outside of the guide.
+Iteration 28: -137056.299722458
+Iteration 29: -116020.2680832317
+Warning: Parameter "embed-american" created outside of the guide.
+Warning: Parameter "embed-food?" created outside of the guide.
+Warning: Parameter "embed-sh" created outside of the guide.
+Warning: Parameter "embed-all" created outside of the guide.
+Warning: Parameter "embed-goodb" created outside of the guide.
+Iteration 30: -189823.91170141846
+Warning: Parameter "embed-thats" created outside of the guide.
+Warning: Parameter "embed-the_good_luck_chinese_food_takeaway_address" created outside of the guide.
+Warning: Parameter "embed-hi" created outside of the guide.
+Warning: Parameter "embed-christmas" created outside of the guide.
+Iteration 31: -222072.6416039735
+Warning: Parameter "embed-was" created outside of the guide.
+Warning: Parameter "embed-chiquito" created outside of the guide.
+Warning: Parameter "embed-my" created outside of the guide.
+Warning: Parameter "embed-mistakes" created outside of the guide.
+Warning: Parameter "embed-cough" created outside of the guide.
+Iteration 32: -162232.05567347113
+Warning: Parameter "embed-fine" created outside of the guide.
+Iteration 33: -131824.00074983021
+Iteration 34: -102024.77672131649
+Warning: Parameter "embed-so" created outside of the guide.
+Warning: Parameter "embed-somewhere" created outside of the guide.
+Warning: Parameter "embed-Sorry," created outside of the guide.
+Warning: Parameter "embed-can't" created outside of the guide.
+Warning: Parameter "embed-hear" created outside of the guide.
+Iteration 35: -199368.25473168588
+Warning: Parameter "embed-canapes" created outside of the guide.
+Warning: Parameter "embed-river" created outside of the guide.
+Warning: Parameter "embed-steakhouse" created outside of the guide.
+Warning: Parameter "embed-grill" created outside of the guide.
+Warning: Parameter "embed-the_river_bar_steakhouse_and_grill_phone" created outside of the guide.
+Iteration 36: -142810.21748107616
+Warning: Parameter "embed-another" created outside of the guide.
+Warning: Parameter "embed-breathing" created outside of the guide.
+Warning: Parameter "embed-belgium" created outside of the guide.
+Killed

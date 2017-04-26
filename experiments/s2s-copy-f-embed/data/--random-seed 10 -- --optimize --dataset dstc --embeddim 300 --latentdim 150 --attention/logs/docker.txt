@@ -1,0 +1,3317 @@
+Cloning into '/project'...
+remote: Counting objects: 627, done.[K
+remote: Compressing objects:   0% (1/359)   [Kremote: Compressing objects:   1% (4/359)   [Kremote: Compressing objects:   2% (8/359)   [Kremote: Compressing objects:   3% (11/359)   [Kremote: Compressing objects:   4% (15/359)   [Kremote: Compressing objects:   5% (18/359)   [Kremote: Compressing objects:   5% (20/359)   [Kremote: Compressing objects:   6% (22/359)   [Kremote: Compressing objects:   6% (23/359)   [Kremote: Compressing objects:   7% (26/359)   [Kremote: Compressing objects:   7% (28/359)   [Kremote: Compressing objects:   8% (29/359)   [Kremote: Compressing objects:   9% (33/359)   [Kremote: Compressing objects:  10% (36/359)   [Kremote: Compressing objects:  11% (40/359)   [Kremote: Compressing objects:  12% (44/359)   [Kremote: Compressing objects:  13% (47/359)   [Kremote: Compressing objects:  14% (51/359)   [Kremote: Compressing objects:  15% (54/359)   [Kremote: Compressing objects:  16% (58/359)   [Kremote: Compressing objects:  17% (62/359)   [Kremote: Compressing objects:  18% (65/359)   [Kremote: Compressing objects:  19% (69/359)   [Kremote: Compressing objects:  19% (70/359)   [Kremote: Compressing objects:  20% (72/359)   [Kremote: Compressing objects:  21% (76/359)   [Kremote: Compressing objects:  22% (79/359)   [Kremote: Compressing objects:  23% (83/359)   [Kremote: Compressing objects:  24% (87/359)   [Kremote: Compressing objects:  25% (90/359)   [Kremote: Compressing objects:  25% (91/359)   [Kremote: Compressing objects:  26% (94/359)   [Kremote: Compressing objects:  27% (97/359)   [Kremote: Compressing objects:  28% (101/359)   [Kremote: Compressing objects:  29% (105/359)   [Kremote: Compressing objects:  30% (108/359)   [Kremote: Compressing objects:  31% (112/359)   [Kremote: Compressing objects:  32% (115/359)   [Kremote: Compressing objects:  33% (119/359)   [Kremote: Compressing objects:  34% (123/359)   [Kremote: Compressing objects:  35% (126/359)   [Kremote: Compressing objects:  36% (130/359)   [Kremote: Compressing objects:  37% (133/359)   [Kremote: Compressing objects:  38% (137/359)   [Kremote: Compressing objects:  39% (141/359)   [Kremote: Compressing objects:  40% (144/359)   [Kremote: Compressing objects:  41% (148/359)   [Kremote: Compressing objects:  42% (151/359)   [Kremote: Compressing objects:  43% (155/359)   [Kremote: Compressing objects:  44% (158/359)   [Kremote: Compressing objects:  45% (162/359)   [Kremote: Compressing objects:  46% (166/359)   [Kremote: Compressing objects:  47% (169/359)   [Kremote: Compressing objects:  48% (173/359)   [Kremote: Compressing objects:  49% (176/359)   [Kremote: Compressing objects:  50% (180/359)   [Kremote: Compressing objects:  51% (184/359)   [Kremote: Compressing objects:  52% (187/359)   [Kremote: Compressing objects:  53% (191/359)   [Kremote: Compressing objects:  54% (194/359)   [Kremote: Compressing objects:  55% (198/359)   [Kremote: Compressing objects:  56% (202/359)   [Kremote: Compressing objects:  57% (205/359)   [Kremote: Compressing objects:  58% (209/359)   [Kremote: Compressing objects:  59% (212/359)   [Kremote: Compressing objects:  60% (216/359)   [Kremote: Compressing objects:  61% (219/359)   [Kremote: Compressing objects:  62% (223/359)   [Kremote: Compressing objects:  63% (227/359)   [Kremote: Compressing objects:  64% (230/359)   [Kremote: Compressing objects:  65% (234/359)   [Kremote: Compressing objects:  66% (237/359)   [Kremote: Compressing objects:  67% (241/359)   [Kremote: Compressing objects:  68% (245/359)   [Kremote: Compressing objects:  69% (248/359)   [Kremote: Compressing objects:  70% (252/359)   [Kremote: Compressing objects:  71% (255/359)   [Kremote: Compressing objects:  72% (259/359)   [Kremote: Compressing objects:  73% (263/359)   [Kremote: Compressing objects:  74% (266/359)   [Kremote: Compressing objects:  75% (270/359)   [Kremote: Compressing objects:  76% (273/359)   [Kremote: Compressing objects:  77% (277/359)   [Kremote: Compressing objects:  78% (281/359)   [Kremote: Compressing objects:  79% (284/359)   [Kremote: Compressing objects:  80% (288/359)   [Kremote: Compressing objects:  81% (291/359)   [Kremote: Compressing objects:  82% (295/359)   [Kremote: Compressing objects:  83% (298/359)   [Kremote: Compressing objects:  84% (302/359)   [Kremote: Compressing objects:  85% (306/359)   [Kremote: Compressing objects:  86% (309/359)   [Kremote: Compressing objects:  87% (313/359)   [Kremote: Compressing objects:  88% (316/359)   [Kremote: Compressing objects:  89% (320/359)   [Kremote: Compressing objects:  90% (324/359)   [Kremote: Compressing objects:  91% (327/359)   [Kremote: Compressing objects:  92% (331/359)   [Kremote: Compressing objects:  93% (334/359)   [Kremote: Compressing objects:  94% (338/359)   [Kremote: Compressing objects:  95% (342/359)   [Kremote: Compressing objects:  96% (345/359)   [Kremote: Compressing objects:  97% (349/359)   [Kremote: Compressing objects:  98% (352/359)   [Kremote: Compressing objects:  99% (356/359)   [Kremote: Compressing objects: 100% (359/359)   [Kremote: Compressing objects: 100% (359/359), done.[K
+Receiving objects:   0% (1/627)   Receiving objects:   1% (7/627)   Receiving objects:   2% (13/627)   Receiving objects:   3% (19/627)   Receiving objects:   4% (26/627)   Receiving objects:   5% (32/627)   Receiving objects:   6% (38/627)   Receiving objects:   7% (44/627)   Receiving objects:   8% (51/627)   Receiving objects:   9% (57/627)   Receiving objects:  10% (63/627)   Receiving objects:  11% (69/627)   Receiving objects:  12% (76/627)   Receiving objects:  13% (82/627)   Receiving objects:  14% (88/627)   Receiving objects:  15% (95/627)   Receiving objects:  16% (101/627)   Receiving objects:  17% (107/627)   Receiving objects:  18% (113/627)   Receiving objects:  19% (120/627)   Receiving objects:  20% (126/627)   Receiving objects:  21% (132/627)   Receiving objects:  22% (138/627)   Receiving objects:  23% (145/627)   Receiving objects:  24% (151/627)   Receiving objects:  25% (157/627)   Receiving objects:  26% (164/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  27% (170/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  28% (176/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  29% (182/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  30% (189/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  31% (195/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  32% (201/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  33% (207/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  34% (214/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  35% (220/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  36% (226/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  37% (232/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  38% (239/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  39% (245/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  40% (251/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  41% (258/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  42% (264/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  43% (270/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  44% (276/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  45% (283/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  46% (289/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  47% (295/627), 9.17 MiB | 18.33 MiB/s   Receiving objects:  47% (297/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  48% (301/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  49% (308/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  50% (314/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  51% (320/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  52% (327/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  53% (333/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  54% (339/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  55% (345/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  56% (352/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  57% (358/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  58% (364/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  59% (370/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  60% (377/627), 19.74 MiB | 19.74 MiB/s   Receiving objects:  61% (383/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  62% (389/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  63% (396/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  64% (402/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  65% (408/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  66% (414/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  67% (421/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  68% (427/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  69% (433/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  70% (439/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  71% (446/627), 30.61 MiB | 20.40 MiB/s   remote: Total 627 (delta 208), reused 587 (delta 168), pack-reused 0[K
+Receiving objects:  72% (452/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  73% (458/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  74% (464/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  75% (471/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  76% (477/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  77% (483/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  78% (490/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  79% (496/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  80% (502/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  81% (508/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  82% (515/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  83% (521/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  84% (527/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  85% (533/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  86% (540/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  87% (546/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  88% (552/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  89% (559/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  90% (565/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  91% (571/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  92% (577/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  93% (584/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  94% (590/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  95% (596/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  96% (602/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  97% (609/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  98% (615/627), 30.61 MiB | 20.40 MiB/s   Receiving objects:  99% (621/627), 30.61 MiB | 20.40 MiB/s   Receiving objects: 100% (627/627), 30.61 MiB | 20.40 MiB/s   Receiving objects: 100% (627/627), 36.70 MiB | 20.40 MiB/s, done.
+Resolving deltas:   0% (0/208)   Resolving deltas:   1% (3/208)   Resolving deltas:   6% (13/208)   Resolving deltas:   7% (15/208)   Resolving deltas:   8% (17/208)   Resolving deltas:  15% (32/208)   Resolving deltas:  20% (43/208)   Resolving deltas:  22% (47/208)   Resolving deltas:  27% (57/208)   Resolving deltas:  29% (61/208)   Resolving deltas:  32% (67/208)   Resolving deltas:  34% (71/208)   Resolving deltas:  45% (95/208)   Resolving deltas:  48% (100/208)   Resolving deltas:  49% (103/208)   Resolving deltas:  50% (105/208)   Resolving deltas:  52% (109/208)   Resolving deltas:  54% (114/208)   Resolving deltas:  64% (134/208)   Resolving deltas:  79% (165/208)   Resolving deltas:  80% (168/208)   Resolving deltas:  87% (181/208)   Resolving deltas:  89% (187/208)   Resolving deltas:  90% (188/208)   Resolving deltas:  93% (194/208)   Resolving deltas:  94% (197/208)   Resolving deltas:  95% (198/208)   Resolving deltas: 100% (208/208)   Resolving deltas: 100% (208/208), done.
+Checking connectivity... done.
+[37;40mnpm[0m [0m[32minfo[0m [0m[35mit worked if it ends with[0m ok
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35musing[0m npm@3.10.10
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35musing[0m node@v6.10.2
+[0m[?25l[[90m..................[0m] / normalizeTree: [7msill[0m [35minstall[0m loadCurrentTree[K[[7m    [27m[90m..............[0m] / fetchMetadata: [7msill[0m [35mmapToRegistry[0m uri https://registry.n[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mattempt[0m registry request try #1 at 11:30:23 PM
+[0m[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35mrequest[0m GET https://registry.npmjs.org/lodash
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mattempt[0m registry request try #1 at 11:30:23 PM
+[0m[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35mrequest[0m GET https://registry.npmjs.org/minimist
+[0m[?25l[[7m    [27m[90m..............[0m] - fetchMetadata: [32;40mhttp[0m [35mrequest[0m GET https://registry.npmjs.o[K[K[?25h[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/minimist
+[0m[?25l[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/minim[K[K[?25h[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/lodash
+[0m[?25l[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~preinstall: webppl-common@0.0.1
+[0m[?25l[[7m           [27m[90m.......[0m] | preinstall:webppl-common: [32minfo[0m [35mlifecycle[0m webppl-common@0[K[[7m              [27m[90m....[0m] \ extract:minimist: [7msill[0m [35mdoParallel[0m extract 2[K[[7m              [27m[90m....[0m] / extract:minimist: [7msill[0m [35mdoParallel[0m extract 2[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] | extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] - extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] - extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] - extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] / extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] / extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] / extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~preinstall: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m minimist@1.2.0~preinstall: minimist@1.2.0
+[0m[?25l[[7m                [27m[90m..[0m] - preinstall:minimist: [32minfo[0m [35mlifecycle[0m minimist@1.2.0~prein[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~install: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m minimist@1.2.0~install: minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~postinstall: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m minimist@1.2.0~postinstall: minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~install: webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~postinstall: webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~prepublish: webppl-common@0.0.1
+[0mwebppl-common@0.0.1 /project/models/common
++-- [40m[33mlodash@4.17.4[39m[49m 
+`-- [40m[33mminimist@1.2.0[39m[49m 
+
+[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m webppl-common@0.0.1 No repository field.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m webppl-common@0.0.1 No license field.
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mok[0m 
+[0m{
+  "batchSize": 5,
+  "latentDim": 150,
+  "maxDecoderSteps": 10,
+  "stepSize": 0.01,
+  "addWaitActions": false,
+  "useAttention": true,
+  "datasetName": "dstc"
+}
+Warning: Parameter "decoder-initb" created outside of the guide.
+Warning: Parameter "decoder-initw" created outside of the guide.
+Warning: Parameter "decoder-recurrentforgetb" created outside of the guide.
+Warning: Parameter "decoder-recurrentforgetw" created outside of the guide.
+Warning: Parameter "decoder-recurrentinputb" created outside of the guide.
+Warning: Parameter "decoder-recurrentinputw" created outside of the guide.
+Warning: Parameter "decoder-recurrentoutputb" created outside of the guide.
+Warning: Parameter "decoder-recurrentoutputw" created outside of the guide.
+Warning: Parameter "decoder-recurrentcandidateb" created outside of the guide.
+Warning: Parameter "decoder-recurrentcandidatew" created outside of the guide.
+Warning: Parameter "decoder-outputb" created outside of the guide.
+Warning: Parameter "decoder-outputw" created outside of the guide.
+Warning: Parameter "attention-1b" created outside of the guide.
+Warning: Parameter "attention-1w" created outside of the guide.
+Warning: Parameter "encoder-recurrentforgetb" created outside of the guide.
+Warning: Parameter "encoder-recurrentforgetw" created outside of the guide.
+Warning: Parameter "encoder-recurrentinputb" created outside of the guide.
+Warning: Parameter "encoder-recurrentinputw" created outside of the guide.
+Warning: Parameter "encoder-recurrentoutputb" created outside of the guide.
+Warning: Parameter "encoder-recurrentoutputw" created outside of the guide.
+Warning: Parameter "encoder-recurrentcandidateb" created outside of the guide.
+Warning: Parameter "encoder-recurrentcandidatew" created outside of the guide.
+Warning: Parameter "encoder-init" created outside of the guide.
+Warning: Parameter "embed-U:" created outside of the guide.
+Warning: Parameter "embed-MSG" created outside of the guide.
+Warning: Parameter "embed-<SILENCE>" created outside of the guide.
+Warning: Parameter "embed-$" created outside of the guide.
+Warning: Parameter "embed-^" created outside of the guide.
+Warning: Parameter "embed-A:" created outside of the guide.
+Warning: Parameter "embed-Hello" created outside of the guide.
+Warning: Parameter "embed-," created outside of the guide.
+Warning: Parameter "embed-welcome" created outside of the guide.
+Warning: Parameter "embed-to" created outside of the guide.
+Warning: Parameter "embed-the" created outside of the guide.
+Warning: Parameter "embed-Cambridge" created outside of the guide.
+Warning: Parameter "embed-restaurant" created outside of the guide.
+Warning: Parameter "embed-system" created outside of the guide.
+Warning: Parameter "embed-." created outside of the guide.
+Warning: Parameter "embed-You" created outside of the guide.
+Warning: Parameter "embed-can" created outside of the guide.
+Warning: Parameter "embed-ask" created outside of the guide.
+Warning: Parameter "embed-for" created outside of the guide.
+Warning: Parameter "embed-restaurants" created outside of the guide.
+Warning: Parameter "embed-by" created outside of the guide.
+Warning: Parameter "embed-area" created outside of the guide.
+Warning: Parameter "embed-price" created outside of the guide.
+Warning: Parameter "embed-range" created outside of the guide.
+Warning: Parameter "embed-or" created outside of the guide.
+Warning: Parameter "embed-food" created outside of the guide.
+Warning: Parameter "embed-type" created outside of the guide.
+Warning: Parameter "embed-How" created outside of the guide.
+Warning: Parameter "embed-may" created outside of the guide.
+Warning: Parameter "embed-I" created outside of the guide.
+Warning: Parameter "embed-help" created outside of the guide.
+Warning: Parameter "embed-you" created outside of the guide.
+Warning: Parameter "embed-?" created outside of the guide.
+Warning: Parameter "embed-moderately" created outside of the guide.
+Warning: Parameter "embed-priced" created outside of the guide.
+Warning: Parameter "embed-What" created outside of the guide.
+Warning: Parameter "embed-part" created outside of the guide.
+Warning: Parameter "embed-of" created outside of the guide.
+Warning: Parameter "embed-town" created outside of the guide.
+Warning: Parameter "embed-do" created outside of the guide.
+Warning: Parameter "embed-have" created outside of the guide.
+Warning: Parameter "embed-in" created outside of the guide.
+Warning: Parameter "embed-mind?" created outside of the guide.
+Warning: Parameter "embed-south" created outside of the guide.
+Warning: Parameter "embed-Did" created outside of the guide.
+Warning: Parameter "embed-say" created outside of the guide.
+Warning: Parameter "embed-are" created outside of the guide.
+Warning: Parameter "embed-looking" created outside of the guide.
+Warning: Parameter "embed-a" created outside of the guide.
+Warning: Parameter "embed-town?" created outside of the guide.
+Warning: Parameter "embed-yes" created outside of the guide.
+Warning: Parameter "embed-kind" created outside of the guide.
+Warning: Parameter "embed-would" created outside of the guide.
+Warning: Parameter "embed-like?" created outside of the guide.
+Warning: Parameter "embed-any" created outside of the guide.
+Warning: Parameter "embed-api_call" created outside of the guide.
+Warning: Parameter "embed-R_cuisine" created outside of the guide.
+Warning: Parameter "embed-moderate" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_cherry_hinton" created outside of the guide.
+Warning: Parameter "embed-R_post_code" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_cherry_hinton_post_code" created outside of the guide.
+Warning: Parameter "embed-italian" created outside of the guide.
+Warning: Parameter "embed-R_location" created outside of the guide.
+Warning: Parameter "embed-R_phone" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_cherry_hinton_phone" created outside of the guide.
+Warning: Parameter "embed-R_address" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_cherry_hinton_address" created outside of the guide.
+Warning: Parameter "embed-R_price" created outside of the guide.
+Warning: Parameter "embed-R_rating" created outside of the guide.
+Warning: Parameter "embed-0" created outside of the guide.
+Warning: Parameter "embed-restaurant_alimentum" created outside of the guide.
+Warning: Parameter "embed-restaurant_alimentum_post_code" created outside of the guide.
+Warning: Parameter "embed-european" created outside of the guide.
+Warning: Parameter "embed-restaurant_alimentum_phone" created outside of the guide.
+Warning: Parameter "embed-restaurant_alimentum_address" created outside of the guide.
+Warning: Parameter "embed-9" created outside of the guide.
+Warning: Parameter "embed-is" created outside of the guide.
+Warning: Parameter "embed-nice" created outside of the guide.
+Warning: Parameter "embed-place" created outside of the guide.
+Warning: Parameter "embed-and" created outside of the guide.
+Warning: Parameter "embed-prices" created outside of the guide.
+Warning: Parameter "embed-phone" created outside of the guide.
+Warning: Parameter "embed-number" created outside of the guide.
+Warning: Parameter "embed-The" created outside of the guide.
+Warning: Parameter "embed-address" created outside of the guide.
+Warning: Parameter "embed-Sure" created outside of the guide.
+Warning: Parameter "embed-on" created outside of the guide.
+Warning: Parameter "embed-good" created outside of the guide.
+Warning: Parameter "embed-bye" created outside of the guide.
+Warning: Parameter "embed-it" created outside of the guide.
+Warning: Parameter "embed-doesnt" created outside of the guide.
+Warning: Parameter "embed-matter" created outside of the guide.
+Warning: Parameter "embed-Ok" created outside of the guide.
+Warning: Parameter "embed-that" created outside of the guide.
+Warning: Parameter "embed-right?" created outside of the guide.
+Warning: Parameter "embed-Would" created outside of the guide.
+Warning: Parameter "embed-like" created outside of the guide.
+Warning: Parameter "embed-something" created outside of the guide.
+Warning: Parameter "embed-cheap" created outside of the guide.
+Warning: Parameter "embed-expensive" created outside of the guide.
+Warning: Parameter "embed-range?" created outside of the guide.
+Warning: Parameter "embed-turkish" created outside of the guide.
+Warning: Parameter "embed-meze_bar_restaurant" created outside of the guide.
+Warning: Parameter "embed-meze_bar_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-centre" created outside of the guide.
+Warning: Parameter "embed-meze_bar_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-meze_bar_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-10" created outside of the guide.
+Warning: Parameter "embed-anatolia" created outside of the guide.
+Warning: Parameter "embed-anatolia_post_code" created outside of the guide.
+Warning: Parameter "embed-anatolia_phone" created outside of the guide.
+Warning: Parameter "embed-anatolia_address" created outside of the guide.
+Warning: Parameter "embed-8" created outside of the guide.
+Warning: Parameter "embed-efes_restaurant" created outside of the guide.
+Warning: Parameter "embed-efes_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-efes_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-efes_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-5" created outside of the guide.
+Warning: Parameter "embed-serves" created outside of the guide.
+Warning: Parameter "embed-there" created outside of the guide.
+Warning: Parameter "embed-anything" created outside of the guide.
+Warning: Parameter "embed-else" created outside of the guide.
+Warning: Parameter "embed-what" created outside of the guide.
+Warning: Parameter "embed-post" created outside of the guide.
+Warning: Parameter "embed-code" created outside of the guide.
+Warning: Parameter "embed-hello" created outside of the guide.
+Warning: Parameter "embed-oh" created outside of the guide.
+Warning: Parameter "embed-your" created outside of the guide.
+Warning: Parameter "embed-yea" created outside of the guide.
+Warning: Parameter "embed-am" created outside of the guide.
+Warning: Parameter "embed-sorry" created outside of the guide.
+Warning: Parameter "embed-but" created outside of the guide.
+Warning: Parameter "embed-no" created outside of the guide.
+Warning: Parameter "embed-other" created outside of the guide.
+Warning: Parameter "embed-matches" created outside of the guide.
+Warning: Parameter "embed-request" created outside of the guide.
+Warning: Parameter "embed-frankie_and_bennys" created outside of the guide.
+Warning: Parameter "embed-frankie_and_bennys_post_code" created outside of the guide.
+Warning: Parameter "embed-frankie_and_bennys_phone" created outside of the guide.
+Warning: Parameter "embed-frankie_and_bennys_address" created outside of the guide.
+Warning: Parameter "embed-bedouin" created outside of the guide.
+Warning: Parameter "embed-bedouin_post_code" created outside of the guide.
+Warning: Parameter "embed-african" created outside of the guide.
+Warning: Parameter "embed-bedouin_phone" created outside of the guide.
+Warning: Parameter "embed-bedouin_address" created outside of the guide.
+Warning: Parameter "embed-4" created outside of the guide.
+Warning: Parameter "embed-midsummer_house_restaurant" created outside of the guide.
+Warning: Parameter "embed-midsummer_house_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-british" created outside of the guide.
+Warning: Parameter "embed-midsummer_house_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-midsummer_house_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-1" created outside of the guide.
+Warning: Parameter "embed-sesame_restaurant_and_bar" created outside of the guide.
+Warning: Parameter "embed-chinese" created outside of the guide.
+Warning: Parameter "embed-sesame_restaurant_and_bar_address" created outside of the guide.
+Warning: Parameter "embed-sesame_restaurant_and_bar_phone" created outside of the guide.
+Warning: Parameter "embed-sesame_restaurant_and_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-2" created outside of the guide.
+Warning: Parameter "embed-city_stop_restaurant" created outside of the guide.
+Warning: Parameter "embed-city_stop_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-city_stop_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-city_stop_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-north" created outside of the guide.
+Warning: Parameter "embed-the_cambridge_chop_house" created outside of the guide.
+Warning: Parameter "embed-the_cambridge_chop_house_post_code" created outside of the guide.
+Warning: Parameter "embed-the_cambridge_chop_house_phone" created outside of the guide.
+Warning: Parameter "embed-the_cambridge_chop_house_address" created outside of the guide.
+Warning: Parameter "embed-3" created outside of the guide.
+Warning: Parameter "embed-eraina" created outside of the guide.
+Warning: Parameter "embed-eraina_post_code" created outside of the guide.
+Warning: Parameter "embed-eraina_phone" created outside of the guide.
+Warning: Parameter "embed-eraina_address" created outside of the guide.
+Warning: Parameter "embed-peking_restaurant" created outside of the guide.
+Warning: Parameter "embed-peking_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-peking_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-peking_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-little_seoul" created outside of the guide.
+Warning: Parameter "embed-little_seoul_post_code" created outside of the guide.
+Warning: Parameter "embed-korean" created outside of the guide.
+Warning: Parameter "embed-little_seoul_phone" created outside of the guide.
+Warning: Parameter "embed-little_seoul_address" created outside of the guide.
+Warning: Parameter "embed-travellers_rest" created outside of the guide.
+Warning: Parameter "embed-travellers_rest_post_code" created outside of the guide.
+Warning: Parameter "embed-west" created outside of the guide.
+Warning: Parameter "embed-travellers_rest_phone" created outside of the guide.
+Warning: Parameter "embed-travellers_rest_address" created outside of the guide.
+Warning: Parameter "embed-maharajah_tandoori_restaurant" created outside of the guide.
+Warning: Parameter "embed-maharajah_tandoori_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-indian" created outside of the guide.
+Warning: Parameter "embed-maharajah_tandoori_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-maharajah_tandoori_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-the_slug_and_lettuce" created outside of the guide.
+Warning: Parameter "embed-the_slug_and_lettuce_post_code" created outside of the guide.
+Warning: Parameter "embed-gastropub" created outside of the guide.
+Warning: Parameter "embed-the_slug_and_lettuce_phone" created outside of the guide.
+Warning: Parameter "embed-the_slug_and_lettuce_address" created outside of the guide.
+Warning: Parameter "embed-curry_queen" created outside of the guide.
+Warning: Parameter "embed-curry_queen_address" created outside of the guide.
+Warning: Parameter "embed-curry_queen_phone" created outside of the guide.
+Warning: Parameter "embed-curry_queen_post_code" created outside of the guide.
+Warning: Parameter "embed-graffiti" created outside of the guide.
+Warning: Parameter "embed-graffiti_post_code" created outside of the guide.
+Warning: Parameter "embed-graffiti_phone" created outside of the guide.
+Warning: Parameter "embed-graffiti_address" created outside of the guide.
+Warning: Parameter "embed-taj_tandoori" created outside of the guide.
+Warning: Parameter "embed-taj_tandoori_post_code" created outside of the guide.
+Warning: Parameter "embed-taj_tandoori_phone" created outside of the guide.
+Warning: Parameter "embed-taj_tandoori_address" created outside of the guide.
+Warning: Parameter "embed-the_golden_curry" created outside of the guide.
+Warning: Parameter "embed-the_golden_curry_address" created outside of the guide.
+Warning: Parameter "embed-the_golden_curry_phone" created outside of the guide.
+Warning: Parameter "embed-the_golden_curry_post_code" created outside of the guide.
+Warning: Parameter "embed-saigon_city" created outside of the guide.
+Warning: Parameter "embed-saigon_city_post_code" created outside of the guide.
+Warning: Parameter "embed-asian_oriental" created outside of the guide.
+Warning: Parameter "embed-saigon_city_phone" created outside of the guide.
+Warning: Parameter "embed-saigon_city_address" created outside of the guide.
+Warning: Parameter "embed-hakka" created outside of the guide.
+Warning: Parameter "embed-hakka_post_code" created outside of the guide.
+Warning: Parameter "embed-hakka_phone" created outside of the guide.
+Warning: Parameter "embed-hakka_address" created outside of the guide.
+Warning: Parameter "embed-the_hotpot" created outside of the guide.
+Warning: Parameter "embed-the_hotpot_post_code" created outside of the guide.
+Warning: Parameter "embed-the_hotpot_phone" created outside of the guide.
+Warning: Parameter "embed-the_hotpot_address" created outside of the guide.
+Warning: Parameter "embed-clowns_cafe" created outside of the guide.
+Warning: Parameter "embed-clowns_cafe_post_code" created outside of the guide.
+Warning: Parameter "embed-clowns_cafe_phone" created outside of the guide.
+Warning: Parameter "embed-clowns_cafe_address" created outside of the guide.
+Warning: Parameter "embed-fitzbillies_restaurant" created outside of the guide.
+Warning: Parameter "embed-fitzbillies_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-fitzbillies_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-fitzbillies_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-loch_fyne" created outside of the guide.
+Warning: Parameter "embed-loch_fyne_post_code" created outside of the guide.
+Warning: Parameter "embed-seafood" created outside of the guide.
+Warning: Parameter "embed-loch_fyne_phone" created outside of the guide.
+Warning: Parameter "embed-loch_fyne_address" created outside of the guide.
+Warning: Parameter "embed-curry_garden" created outside of the guide.
+Warning: Parameter "embed-curry_garden_post_code" created outside of the guide.
+Warning: Parameter "embed-curry_garden_phone" created outside of the guide.
+Warning: Parameter "embed-curry_garden_address" created outside of the guide.
+Warning: Parameter "embed-saffron_brasserie" created outside of the guide.
+Warning: Parameter "embed-saffron_brasserie_post_code" created outside of the guide.
+Warning: Parameter "embed-saffron_brasserie_phone" created outside of the guide.
+Warning: Parameter "embed-saffron_brasserie_address" created outside of the guide.
+Warning: Parameter "embed-ugly_duckling" created outside of the guide.
+Warning: Parameter "embed-ugly_duckling_post_code" created outside of the guide.
+Warning: Parameter "embed-ugly_duckling_phone" created outside of the guide.
+Warning: Parameter "embed-ugly_duckling_address" created outside of the guide.
+Warning: Parameter "embed-grafton_hotel_restaurant" created outside of the guide.
+Warning: Parameter "embed-grafton_hotel_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-east" created outside of the guide.
+Warning: Parameter "embed-grafton_hotel_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-grafton_hotel_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-caffe_uno" created outside of the guide.
+Warning: Parameter "embed-caffe_uno_post_code" created outside of the guide.
+Warning: Parameter "embed-caffe_uno_phone" created outside of the guide.
+Warning: Parameter "embed-caffe_uno_address" created outside of the guide.
+Warning: Parameter "embed-hk_fusion" created outside of the guide.
+Warning: Parameter "embed-hk_fusion_post_code" created outside of the guide.
+Warning: Parameter "embed-fusion" created outside of the guide.
+Warning: Parameter "embed-hk_fusion_phone" created outside of the guide.
+Warning: Parameter "embed-hk_fusion_address" created outside of the guide.
+Warning: Parameter "embed-royal_standard" created outside of the guide.
+Warning: Parameter "embed-royal_standard_post_code" created outside of the guide.
+Warning: Parameter "embed-royal_standard_phone" created outside of the guide.
+Warning: Parameter "embed-royal_standard_address" created outside of the guide.
+Warning: Parameter "embed-michaelhouse_cafe" created outside of the guide.
+Warning: Parameter "embed-michaelhouse_cafe_post_code" created outside of the guide.
+Warning: Parameter "embed-michaelhouse_cafe_phone" created outside of the guide.
+Warning: Parameter "embed-michaelhouse_cafe_address" created outside of the guide.
+Warning: Parameter "embed-india_house" created outside of the guide.
+Warning: Parameter "embed-india_house_post_code" created outside of the guide.
+Warning: Parameter "embed-india_house_phone" created outside of the guide.
+Warning: Parameter "embed-india_house_address" created outside of the guide.
+Warning: Parameter "embed-don_pasquale_pizzeria" created outside of the guide.
+Warning: Parameter "embed-don_pasquale_pizzeria_post_code" created outside of the guide.
+Warning: Parameter "embed-don_pasquale_pizzeria_phone" created outside of the guide.
+Warning: Parameter "embed-don_pasquale_pizzeria_address" created outside of the guide.
+Warning: Parameter "embed-darrys_cookhouse_and_wine_shop" created outside of the guide.
+Warning: Parameter "embed-darrys_cookhouse_and_wine_shop_post_code" created outside of the guide.
+Warning: Parameter "embed-darrys_cookhouse_and_wine_shop_phone" created outside of the guide.
+Warning: Parameter "embed-darrys_cookhouse_and_wine_shop_address" created outside of the guide.
+Warning: Parameter "embed-sitar_tandoori" created outside of the guide.
+Warning: Parameter "embed-sitar_tandoori_post_code" created outside of the guide.
+Warning: Parameter "embed-sitar_tandoori_phone" created outside of the guide.
+Warning: Parameter "embed-sitar_tandoori_address" created outside of the guide.
+Warning: Parameter "embed-shiraz_restaurant" created outside of the guide.
+Warning: Parameter "embed-shiraz_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-mediterranean" created outside of the guide.
+Warning: Parameter "embed-shiraz_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-shiraz_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-pipasha_restaurant" created outside of the guide.
+Warning: Parameter "embed-pipasha_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-pipasha_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-pipasha_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-gourmet_burger_kitchen" created outside of the guide.
+Warning: Parameter "embed-gourmet_burger_kitchen_post_code" created outside of the guide.
+Warning: Parameter "embed-north_american" created outside of the guide.
+Warning: Parameter "embed-gourmet_burger_kitchen_phone" created outside of the guide.
+Warning: Parameter "embed-gourmet_burger_kitchen_address" created outside of the guide.
+Warning: Parameter "embed-cote" created outside of the guide.
+Warning: Parameter "embed-cote_post_code" created outside of the guide.
+Warning: Parameter "embed-french" created outside of the guide.
+Warning: Parameter "embed-cote_phone" created outside of the guide.
+Warning: Parameter "embed-cote_address" created outside of the guide.
+Warning: Parameter "embed-wagamama" created outside of the guide.
+Warning: Parameter "embed-wagamama_post_code" created outside of the guide.
+Warning: Parameter "embed-japanese" created outside of the guide.
+Warning: Parameter "embed-wagamama_phone" created outside of the guide.
+Warning: Parameter "embed-wagamama_address" created outside of the guide.
+Warning: Parameter "embed-tandoori_palace" created outside of the guide.
+Warning: Parameter "embed-tandoori_palace_post_code" created outside of the guide.
+Warning: Parameter "embed-tandoori_palace_phone" created outside of the guide.
+Warning: Parameter "embed-tandoori_palace_address" created outside of the guide.
+Warning: Parameter "embed-kymmoy" created outside of the guide.
+Warning: Parameter "embed-kymmoy_post_code" created outside of the guide.
+Warning: Parameter "embed-kymmoy_phone" created outside of the guide.
+Warning: Parameter "embed-kymmoy_address" created outside of the guide.
+Warning: Parameter "embed-cocum" created outside of the guide.
+Warning: Parameter "embed-cocum_post_code" created outside of the guide.
+Warning: Parameter "embed-cocum_phone" created outside of the guide.
+Warning: Parameter "embed-cocum_address" created outside of the guide.
+Warning: Parameter "embed-bangkok_city" created outside of the guide.
+Warning: Parameter "embed-bangkok_city_post_code" created outside of the guide.
+Warning: Parameter "embed-thai" created outside of the guide.
+Warning: Parameter "embed-bangkok_city_phone" created outside of the guide.
+Warning: Parameter "embed-bangkok_city_address" created outside of the guide.
+Warning: Parameter "embed-rice_boat" created outside of the guide.
+Warning: Parameter "embed-rice_boat_post_code" created outside of the guide.
+Warning: Parameter "embed-rice_boat_phone" created outside of the guide.
+Warning: Parameter "embed-rice_boat_address" created outside of the guide.
+Warning: Parameter "embed-chiquito_restaurant_bar" created outside of the guide.
+Warning: Parameter "embed-chiquito_restaurant_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-mexican" created outside of the guide.
+Warning: Parameter "embed-chiquito_restaurant_bar_phone" created outside of the guide.
+Warning: Parameter "embed-chiquito_restaurant_bar_address" created outside of the guide.
+Warning: Parameter "embed-curry_king" created outside of the guide.
+Warning: Parameter "embed-curry_king_post_code" created outside of the guide.
+Warning: Parameter "embed-curry_king_phone" created outside of the guide.
+Warning: Parameter "embed-curry_king_address" created outside of the guide.
+Warning: Parameter "embed-backstreet_bistro" created outside of the guide.
+Warning: Parameter "embed-backstreet_bistro_post_code" created outside of the guide.
+Warning: Parameter "embed-bistro" created outside of the guide.
+Warning: Parameter "embed-backstreet_bistro_phone" created outside of the guide.
+Warning: Parameter "embed-backstreet_bistro_address" created outside of the guide.
+Warning: Parameter "embed-la_mimosa" created outside of the guide.
+Warning: Parameter "embed-la_mimosa_post_code" created outside of the guide.
+Warning: Parameter "embed-la_mimosa_phone" created outside of the guide.
+Warning: Parameter "embed-la_mimosa_address" created outside of the guide.
+Warning: Parameter "embed-sala_thong" created outside of the guide.
+Warning: Parameter "embed-sala_thong_post_code" created outside of the guide.
+Warning: Parameter "embed-sala_thong_phone" created outside of the guide.
+Warning: Parameter "embed-sala_thong_address" created outside of the guide.
+Warning: Parameter "embed-panahar" created outside of the guide.
+Warning: Parameter "embed-panahar_post_code" created outside of the guide.
+Warning: Parameter "embed-panahar_phone" created outside of the guide.
+Warning: Parameter "embed-panahar_address" created outside of the guide.
+Warning: Parameter "embed-cambridge_lodge_restaurant" created outside of the guide.
+Warning: Parameter "embed-cambridge_lodge_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-cambridge_lodge_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-cambridge_lodge_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-stazione_restaurant_and_coffee_bar" created outside of the guide.
+Warning: Parameter "embed-stazione_restaurant_and_coffee_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-stazione_restaurant_and_coffee_bar_phone" created outside of the guide.
+Warning: Parameter "embed-stazione_restaurant_and_coffee_bar_address" created outside of the guide.
+Warning: Parameter "embed-restaurant_two_two" created outside of the guide.
+Warning: Parameter "embed-restaurant_two_two_post_code" created outside of the guide.
+Warning: Parameter "embed-restaurant_two_two_phone" created outside of the guide.
+Warning: Parameter "embed-restaurant_two_two_address" created outside of the guide.
+Warning: Parameter "embed-yu_garden" created outside of the guide.
+Warning: Parameter "embed-yu_garden_post_code" created outside of the guide.
+Warning: Parameter "embed-yu_garden_phone" created outside of the guide.
+Warning: Parameter "embed-yu_garden_address" created outside of the guide.
+Warning: Parameter "embed-greek" created outside of the guide.
+Warning: Parameter "embed-I'm" created outside of the guide.
+Warning: Parameter "embed-serving" created outside of the guide.
+Warning: Parameter "embed-great" created outside of the guide.
+Warning: Parameter "embed-thank" created outside of the guide.
+Warning: Parameter "embed-im" created outside of the guide.
+Warning: Parameter "embed-i" created outside of the guide.
+Warning: Parameter "embed-venue" created outside of the guide.
+Warning: Parameter "embed-id" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_fen_ditton" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_fen_ditton_post_code" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_fen_ditton_phone" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_fen_ditton_address" created outside of the guide.
+Warning: Parameter "embed-rajmahal" created outside of the guide.
+Warning: Parameter "embed-rajmahal_post_code" created outside of the guide.
+Warning: Parameter "embed-rajmahal_phone" created outside of the guide.
+Warning: Parameter "embed-rajmahal_address" created outside of the guide.
+Warning: Parameter "embed-curry_prince" created outside of the guide.
+Warning: Parameter "embed-curry_prince_post_code" created outside of the guide.
+Warning: Parameter "embed-curry_prince_phone" created outside of the guide.
+Warning: Parameter "embed-curry_prince_address" created outside of the guide.
+Warning: Parameter "embed-please" created outside of the guide.
+Iteration 0: -1294410.20729599
+Warning: Parameter "embed-want" created outside of the guide.
+Warning: Parameter "embed-find" created outside of the guide.
+Warning: Parameter "embed-an" created outside of the guide.
+Warning: Parameter "embed-vegetarian" created outside of the guide.
+Warning: Parameter "embed-result" created outside of the guide.
+Warning: Parameter "embed-Sorry" created outside of the guide.
+Warning: Parameter "embed-how" created outside of the guide.
+Warning: Parameter "embed-about" created outside of the guide.
+Warning: Parameter "embed-get" created outside of the guide.
+Warning: Parameter "embed-da_vinci_pizzeria" created outside of the guide.
+Warning: Parameter "embed-da_vinci_pizzeria_post_code" created outside of the guide.
+Warning: Parameter "embed-da_vinci_pizzeria_phone" created outside of the guide.
+Warning: Parameter "embed-da_vinci_pizzeria_address" created outside of the guide.
+Warning: Parameter "embed-7" created outside of the guide.
+Warning: Parameter "embed-royal_spice" created outside of the guide.
+Warning: Parameter "embed-royal_spice_post_code" created outside of the guide.
+Warning: Parameter "embed-royal_spice_phone" created outside of the guide.
+Warning: Parameter "embed-royal_spice_address" created outside of the guide.
+Warning: Parameter "embed-need" created outside of the guide.
+Warning: Parameter "embed-dont" created outside of the guide.
+Warning: Parameter "embed-care" created outside of the guide.
+Warning: Parameter "embed-prezzo" created outside of the guide.
+Warning: Parameter "embed-prezzo_post_code" created outside of the guide.
+Warning: Parameter "embed-prezzo_phone" created outside of the guide.
+Warning: Parameter "embed-prezzo_address" created outside of the guide.
+Warning: Parameter "embed-riverside_brasserie" created outside of the guide.
+Warning: Parameter "embed-riverside_brasserie_post_code" created outside of the guide.
+Warning: Parameter "embed-riverside_brasserie_phone" created outside of the guide.
+Warning: Parameter "embed-riverside_brasserie_address" created outside of the guide.
+Warning: Parameter "embed-de_luca_cucina_and_bar" created outside of the guide.
+Warning: Parameter "embed-de_luca_cucina_and_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-de_luca_cucina_and_bar_phone" created outside of the guide.
+Warning: Parameter "embed-de_luca_cucina_and_bar_address" created outside of the guide.
+Warning: Parameter "embed-restaurant_one_seven" created outside of the guide.
+Warning: Parameter "embed-restaurant_one_seven_post_code" created outside of the guide.
+Warning: Parameter "embed-restaurant_one_seven_phone" created outside of the guide.
+Warning: Parameter "embed-restaurant_one_seven_address" created outside of the guide.
+Warning: Parameter "embed-the_oak_bistro" created outside of the guide.
+Warning: Parameter "embed-the_oak_bistro_post_code" created outside of the guide.
+Warning: Parameter "embed-the_oak_bistro_phone" created outside of the guide.
+Warning: Parameter "embed-the_oak_bistro_address" created outside of the guide.
+Warning: Parameter "embed-jinling_noodle_bar" created outside of the guide.
+Warning: Parameter "embed-jinling_noodle_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-jinling_noodle_bar_phone" created outside of the guide.
+Warning: Parameter "embed-jinling_noodle_bar_address" created outside of the guide.
+Warning: Parameter "embed-bloomsbury_restaurant" created outside of the guide.
+Warning: Parameter "embed-bloomsbury_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-international" created outside of the guide.
+Warning: Parameter "embed-bloomsbury_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-bloomsbury_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-la_tasca" created outside of the guide.
+Warning: Parameter "embed-la_tasca_post_code" created outside of the guide.
+Warning: Parameter "embed-spanish" created outside of the guide.
+Warning: Parameter "embed-la_tasca_phone" created outside of the guide.
+Warning: Parameter "embed-la_tasca_address" created outside of the guide.
+Warning: Parameter "embed-galleria" created outside of the guide.
+Warning: Parameter "embed-galleria_post_code" created outside of the guide.
+Warning: Parameter "embed-galleria_phone" created outside of the guide.
+Warning: Parameter "embed-galleria_address" created outside of the guide.
+Warning: Parameter "embed-cotto" created outside of the guide.
+Warning: Parameter "embed-cotto_post_code" created outside of the guide.
+Warning: Parameter "embed-cotto_phone" created outside of the guide.
+Warning: Parameter "embed-cotto_address" created outside of the guide.
+Warning: Parameter "embed-yippee_noodle_bar" created outside of the guide.
+Warning: Parameter "embed-yippee_noodle_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-yippee_noodle_bar_phone" created outside of the guide.
+Warning: Parameter "embed-yippee_noodle_bar_address" created outside of the guide.
+Warning: Parameter "embed-ali_baba" created outside of the guide.
+Warning: Parameter "embed-ali_baba_post_code" created outside of the guide.
+Warning: Parameter "embed-lebanese" created outside of the guide.
+Warning: Parameter "embed-ali_baba_phone" created outside of the guide.
+Warning: Parameter "embed-ali_baba_address" created outside of the guide.
+Warning: Parameter "embed-saint_johns_chop_house" created outside of the guide.
+Warning: Parameter "embed-saint_johns_chop_house_post_code" created outside of the guide.
+Warning: Parameter "embed-saint_johns_chop_house_phone" created outside of the guide.
+Warning: Parameter "embed-saint_johns_chop_house_address" created outside of the guide.
+Warning: Parameter "embed-the_copper_kettle" created outside of the guide.
+Warning: Parameter "embed-the_copper_kettle_post_code" created outside of the guide.
+Warning: Parameter "embed-the_copper_kettle_phone" created outside of the guide.
+Warning: Parameter "embed-the_copper_kettle_address" created outside of the guide.
+Warning: Parameter "embed-golden_wok" created outside of the guide.
+Warning: Parameter "embed-golden_wok_post_code" created outside of the guide.
+Warning: Parameter "embed-golden_wok_phone" created outside of the guide.
+Warning: Parameter "embed-golden_wok_address" created outside of the guide.
+Warning: Parameter "embed-hotel_du_vin_and_bistro" created outside of the guide.
+Warning: Parameter "embed-hotel_du_vin_and_bistro_post_code" created outside of the guide.
+Warning: Parameter "embed-hotel_du_vin_and_bistro_phone" created outside of the guide.
+Warning: Parameter "embed-hotel_du_vin_and_bistro_address" created outside of the guide.
+Warning: Parameter "embed-the_varsity_restaurant" created outside of the guide.
+Warning: Parameter "embed-the_varsity_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-the_varsity_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-the_varsity_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-shanghai_family_restaurant" created outside of the guide.
+Warning: Parameter "embed-shanghai_family_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-shanghai_family_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-shanghai_family_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-meghna" created outside of the guide.
+Warning: Parameter "embed-meghna_post_code" created outside of the guide.
+Warning: Parameter "embed-meghna_phone" created outside of the guide.
+Warning: Parameter "embed-meghna_address" created outside of the guide.
+Warning: Parameter "embed-lan_hong_house" created outside of the guide.
+Warning: Parameter "embed-lan_hong_house_post_code" created outside of the guide.
+Warning: Parameter "embed-lan_hong_house_phone" created outside of the guide.
+Warning: Parameter "embed-lan_hong_house_address" created outside of the guide.
+Warning: Parameter "embed-pizza_express" created outside of the guide.
+Warning: Parameter "embed-pizza_express_post_code" created outside of the guide.
+Warning: Parameter "embed-pizza_express_phone" created outside of the guide.
+Warning: Parameter "embed-pizza_express_address" created outside of the guide.
+Warning: Parameter "embed-the_nirala" created outside of the guide.
+Warning: Parameter "embed-the_nirala_post_code" created outside of the guide.
+Warning: Parameter "embed-the_nirala_phone" created outside of the guide.
+Warning: Parameter "embed-the_nirala_address" created outside of the guide.
+Warning: Parameter "embed-whats" created outside of the guide.
+Warning: Parameter "embed-tur" created outside of the guide.
+Warning: Parameter "embed-rest" created outside of the guide.
+Warning: Parameter "embed-could" created outside of the guide.
+Warning: Parameter "embed-la_raza" created outside of the guide.
+Warning: Parameter "embed-la_raza_post_code" created outside of the guide.
+Warning: Parameter "embed-la_raza_phone" created outside of the guide.
+Warning: Parameter "embed-la_raza_address" created outside of the guide.
+Iteration 1: -932819.4220887424
+Warning: Parameter "embed-la_margherita" created outside of the guide.
+Warning: Parameter "embed-la_margherita_post_code" created outside of the guide.
+Warning: Parameter "embed-la_margherita_phone" created outside of the guide.
+Warning: Parameter "embed-la_margherita_address" created outside of the guide.
+Warning: Parameter "embed-thanh_binh" created outside of the guide.
+Warning: Parameter "embed-thanh_binh_post_code" created outside of the guide.
+Warning: Parameter "embed-vietnamese" created outside of the guide.
+Warning: Parameter "embed-thanh_binh_phone" created outside of the guide.
+Warning: Parameter "embed-thanh_binh_address" created outside of the guide.
+Warning: Parameter "embed-they" created outside of the guide.
+Warning: Parameter "embed-serve" created outside of the guide.
+Warning: Parameter "embed-eritrean" created outside of the guide.
+Warning: Parameter "embed-at" created outside of the guide.
+Warning: Parameter "embed-does" created outside of the guide.
+Warning: Parameter "embed-er" created outside of the guide.
+Warning: Parameter "embed-anyone" created outside of the guide.
+Warning: Parameter "embed-Can" created outside of the guide.
+Warning: Parameter "embed-with" created outside of the guide.
+Warning: Parameter "embed-else?" created outside of the guide.
+Warning: Parameter "embed-irish" created outside of the guide.
+Warning: Parameter "embed-alright" created outside of the guide.
+Warning: Parameter "embed-goodbye" created outside of the guide.
+Warning: Parameter "embed-cuban" created outside of the guide.
+Warning: Parameter "embed-6" created outside of the guide.
+Warning: Parameter "embed-tasty" created outside of the guide.
+Warning: Parameter "embed-okay" created outside of the guide.
+Warning: Parameter "embed-give" created outside of the guide.
+Warning: Parameter "embed-me" created outside of the guide.
+Iteration 2: -822253.3008498664
+Warning: Parameter "embed-pizza_hut_city_centre" created outside of the guide.
+Warning: Parameter "embed-rice_house" created outside of the guide.
+Warning: Parameter "embed-rice_house_post_code" created outside of the guide.
+Warning: Parameter "embed-rice_house_phone" created outside of the guide.
+Warning: Parameter "embed-rice_house_address" created outside of the guide.
+Warning: Parameter "embed-kohinoor" created outside of the guide.
+Warning: Parameter "embed-kohinoor_post_code" created outside of the guide.
+Warning: Parameter "embed-kohinoor_phone" created outside of the guide.
+Warning: Parameter "embed-kohinoor_address" created outside of the guide.
+Warning: Parameter "embed-golden_house" created outside of the guide.
+Warning: Parameter "embed-golden_house_post_code" created outside of the guide.
+Warning: Parameter "embed-golden_house_phone" created outside of the guide.
+Warning: Parameter "embed-golden_house_address" created outside of the guide.
+Warning: Parameter "embed-the_lucky_star" created outside of the guide.
+Warning: Parameter "embed-the_lucky_star_post_code" created outside of the guide.
+Warning: Parameter "embed-the_lucky_star_phone" created outside of the guide.
+Warning: Parameter "embed-the_lucky_star_address" created outside of the guide.
+Warning: Parameter "embed-nandos" created outside of the guide.
+Warning: Parameter "embed-nandos_post_code" created outside of the guide.
+Warning: Parameter "embed-portuguese" created outside of the guide.
+Warning: Parameter "embed-nandos_phone" created outside of the guide.
+Warning: Parameter "embed-nandos_address" created outside of the guide.
+Warning: Parameter "embed-mahal_of_cambridge" created outside of the guide.
+Warning: Parameter "embed-mahal_of_cambridge_post_code" created outside of the guide.
+Warning: Parameter "embed-mahal_of_cambridge_phone" created outside of the guide.
+Warning: Parameter "embed-mahal_of_cambridge_address" created outside of the guide.
+Warning: Parameter "embed-the_missing_sock" created outside of the guide.
+Warning: Parameter "embed-the_missing_sock_post_code" created outside of the guide.
+Warning: Parameter "embed-the_missing_sock_phone" created outside of the guide.
+Warning: Parameter "embed-the_missing_sock_address" created outside of the guide.
+Warning: Parameter "embed-zizzi_cambridge" created outside of the guide.
+Warning: Parameter "embed-zizzi_cambridge_post_code" created outside of the guide.
+Warning: Parameter "embed-zizzi_cambridge_phone" created outside of the guide.
+Warning: Parameter "embed-zizzi_cambridge_address" created outside of the guide.
+Warning: Parameter "embed-ask_post_code" created outside of the guide.
+Warning: Parameter "embed-ask_phone" created outside of the guide.
+Warning: Parameter "embed-ask_address" created outside of the guide.
+Warning: Parameter "embed-charlie_chan" created outside of the guide.
+Warning: Parameter "embed-charlie_chan_post_code" created outside of the guide.
+Warning: Parameter "embed-charlie_chan_phone" created outside of the guide.
+Warning: Parameter "embed-charlie_chan_address" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_city_centre_post_code" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_city_centre_phone" created outside of the guide.
+Warning: Parameter "embed-pizza_hut_city_centre_address" created outside of the guide.
+Warning: Parameter "embed-j_restaurant" created outside of the guide.
+Warning: Parameter "embed-j_restaurant_post_code" created outside of the guide.
+Warning: Parameter "embed-j_restaurant_phone" created outside of the guide.
+Warning: Parameter "embed-j_restaurant_address" created outside of the guide.
+Warning: Parameter "embed-the_gardenia" created outside of the guide.
+Warning: Parameter "embed-the_gardenia_post_code" created outside of the guide.
+Warning: Parameter "embed-the_gardenia_phone" created outside of the guide.
+Warning: Parameter "embed-the_gardenia_address" created outside of the guide.
+Warning: Parameter "embed-dojo_noodle_bar" created outside of the guide.
+Warning: Parameter "embed-dojo_noodle_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-dojo_noodle_bar_phone" created outside of the guide.
+Warning: Parameter "embed-dojo_noodle_bar_address" created outside of the guide.
+Warning: Parameter "embed-the_gandhi" created outside of the guide.
+Warning: Parameter "embed-the_gandhi_post_code" created outside of the guide.
+Warning: Parameter "embed-the_gandhi_phone" created outside of the guide.
+Warning: Parameter "embed-the_gandhi_address" created outside of the guide.
+Iteration 3: -787409.7320843138
+Warning: Parameter "embed-tell" created outside of the guide.
+Warning: Parameter "embed-luck" created outside of the guide.
+Warning: Parameter "embed-takeaway" created outside of the guide.
+Warning: Parameter "embed-christmas" created outside of the guide.
+Warning: Parameter "embed-american" created outside of the guide.
+Warning: Parameter "embed-uh" created outside of the guide.
+Warning: Parameter "embed-corsica" created outside of the guide.
+Warning: Parameter "embed-venue_address" created outside of the guide.
+Warning: Parameter "embed-venue_phone" created outside of the guide.
+Warning: Parameter "embed-venue_post_code" created outside of the guide.
+Warning: Parameter "embed-their" created outside of the guide.
+Iteration 4: -602286.126856847
+Warning: Parameter "embed-moroccan" created outside of the guide.
+Warning: Parameter "embed-crossover" created outside of the guide.
+Warning: Parameter "embed-anywhere" created outside of the guide.
+Warning: Parameter "embed-so" created outside of the guide.
+Warning: Parameter "embed-hi" created outside of the guide.
+Warning: Parameter "embed-scandinavian" created outside of the guide.
+Warning: Parameter "embed-bit" created outside of the guide.
+Warning: Parameter "embed-confused" created outside of the guide.
+Warning: Parameter "embed-;" created outside of the guide.
+Warning: Parameter "embed-again" created outside of the guide.
+Warning: Parameter "embed-scandin" created outside of the guide.
+Warning: Parameter "embed-bout" created outside of the guide.
+Warning: Parameter "embed-ye" created outside of the guide.
+Warning: Parameter "embed-Let" created outside of the guide.
+Warning: Parameter "embed-confirm" created outside of the guide.
+Warning: Parameter "embed-food?" created outside of the guide.
+Warning: Parameter "embed-addre" created outside of the guide.
+Iteration 5: -931441.0011404477
+Warning: Parameter "embed-steak" created outside of the guide.
+Warning: Parameter "embed-house" created outside of the guide.
+Warning: Parameter "embed-center" created outside of the guide.
+Warning: Parameter "embed-river" created outside of the guide.
+Warning: Parameter "embed-bar" created outside of the guide.
+Warning: Parameter "embed-steakhouse" created outside of the guide.
+Warning: Parameter "embed-grill" created outside of the guide.
+Warning: Parameter "embed-the_river_bar_steakhouse_and_grill_address" created outside of the guide.
+Warning: Parameter "embed-the_river_bar_steakhouse_and_grill_phone" created outside of the guide.
+Warning: Parameter "embed-should" created outside of the guide.
+Warning: Parameter "embed-telephone" created outside of the guide.
+Iteration 6: -441329.70186481846
+Warning: Parameter "embed-jamaican" created outside of the guide.
+Warning: Parameter "embed-world" created outside of the guide.
+Warning: Parameter "embed-the_good_luck_chinese_food_takeaway_address" created outside of the guide.
+Warning: Parameter "embed-more" created outside of the guide.
+Warning: Parameter "embed-afghan" created outside of the guide.
+Iteration 7: -517944.60275650694
+Warning: Parameter "embed-canapes" created outside of the guide.
+Warning: Parameter "embed-cow" created outside of the guide.
+Warning: Parameter "embed-pizza" created outside of the guide.
+Warning: Parameter "embed-kitchen" created outside of the guide.
+Warning: Parameter "embed-the_cow_pizza_kitchen_and_bar_address" created outside of the guide.
+Warning: Parameter "embed-the_cow_pizza_kitchen_and_bar_phone" created outside of the guide.
+Warning: Parameter "embed-english" created outside of the guide.
+Iteration 8: -417353.49632066506
+Warning: Parameter "embed-creative" created outside of the guide.
+Warning: Parameter "embed-modern_european" created outside of the guide.
+Warning: Parameter "embed-pan" created outside of the guide.
+Warning: Parameter "embed-asian" created outside of the guide.
+Warning: Parameter "embed-cough" created outside of the guide.
+Warning: Parameter "embed-addrss" created outside of the guide.
+Iteration 9: -378029.23037715873
+Warning: Parameter "embed-europ" created outside of the guide.
+Warning: Parameter "embed-um" created outside of the guide.
+Iteration 10: -291083.90703883255
+Warning: Parameter "embed-static" created outside of the guide.
+Warning: Parameter "embed-be" created outside of the guide.
+Warning: Parameter "embed-another" created outside of the guide.
+Warning: Parameter "embed-believe" created outside of the guide.
+Warning: Parameter "embed-postcode" created outside of the guide.
+Iteration 11: -345180.22301589005
+Warning: Parameter "embed-moroccon" created outside of the guide.
+Iteration 12: -194920.16996920184
+Warning: Parameter "embed-inaudible" created outside of the guide.
+Warning: Parameter "embed-right" created outside of the guide.
+Warning: Parameter "embed-now" created outside of the guide.
+Warning: Parameter "embed-indonesian" created outside of the guide.
+Warning: Parameter "embed-ok" created outside of the guide.
+Warning: Parameter "embed-if" created outside of the guide.
+Warning: Parameter "embed-chi" created outside of the guide.
+Warning: Parameter "embed-lets" created outside of the guide.
+Warning: Parameter "embed-look" created outside of the guide.
+Iteration 13: -333611.190728793
+Warning: Parameter "embed-russian" created outside of the guide.
+Warning: Parameter "embed-not" created outside of the guide.
+Warning: Parameter "embed-polynesian" created outside of the guide.
+Warning: Parameter "embed-yeah" created outside of the guide.
+Warning: Parameter "embed-german" created outside of the guide.
+Iteration 14: -281681.28227090056
+Warning: Parameter "embed-the_cow_pizza_kitchen_and_bar_post_code" created outside of the guide.
+Warning: Parameter "embed-breath" created outside of the guide.
+Warning: Parameter "embed-sh" created outside of the guide.
+Warning: Parameter "embed-all" created outside of the guide.
+Warning: Parameter "embed-goodb" created outside of the guide.
+Iteration 15: -270338.3241909758
+Warning: Parameter "embed-adra" created outside of the guide.
+Warning: Parameter "embed-hm" created outside of the guide.
+Warning: Parameter "embed-halal" created outside of the guide.
+Iteration 16: -247680.44950483617
+Warning: Parameter "embed-brazilian" created outside of the guide.
+Iteration 17: -235441.74550743273
+Warning: Parameter "embed-others" created outside of the guide.
+Iteration 18: -200943.36409041093
+Warning: Parameter "embed-just" created outside of the guide.
+Iteration 19: -192607.0244922789
+Warning: Parameter "embed-barbecue" created outside of the guide.
+Warning: Parameter "embed-fuck" created outside of the guide.
+Warning: Parameter "embed-beside" created outside of the guide.
+Warning: Parameter "embed-repeat" created outside of the guide.
+Warning: Parameter "embed-yourself" created outside of the guide.
+Warning: Parameter "embed-barbeque" created outside of the guide.
+Warning: Parameter "embed-aw" created outside of the guide.
+Warning: Parameter "embed-damn" created outside of the guide.
+Iteration 20: -232309.9902619507
+Iteration 21: -122491.72089745606
+Warning: Parameter "embed-scottish" created outside of the guide.
+Warning: Parameter "embed-its" created outside of the guide.
+Warning: Parameter "embed-thanks" created outside of the guide.
+Warning: Parameter "embed-sea" created outside of the guide.
+Iteration 22: -161088.23645050047
+Warning: Parameter "embed-cant" created outside of the guide.
+Warning: Parameter "embed-was" created outside of the guide.
+Warning: Parameter "embed-name" created outside of the guide.
+Warning: Parameter "embed-swiss" created outside of the guide.
+Warning: Parameter "embed-one" created outside of the guide.
+Iteration 23: -260541.61150032986
+Warning: Parameter "embed-chikkis" created outside of the guide.
+Iteration 24: -205657.24893194076
+Warning: Parameter "embed-traditional" created outside of the guide.
+Iteration 25: -106165.0518366266
+Warning: Parameter "embed-malaysian" created outside of the guide.
+Warning: Parameter "embed-ring" created outside of the guide.
+Warning: Parameter "embed-cantonese" created outside of the guide.
+Warning: Parameter "embed-nandos_city_centre" created outside of the guide.
+Iteration 26: -157442.17493248664
+Warning: Parameter "embed-where" created outside of the guide.
+Iteration 27: -148328.98510005893
+Iteration 28: -137083.58624543474
+Warning: Parameter "embed-sure" created outside of the guide.
+Warning: Parameter "embed-see" created outside of the guide.
+Warning: Parameter "embed-trying" created outside of the guide.
+Iteration 29: -139255.97946258666
+Warning: Parameter "embed-romanian" created outside of the guide.
+Warning: Parameter "embed-nandos_city_centre_address" created outside of the guide.
+Warning: Parameter "embed-persian" created outside of the guide.
+Iteration 30: -147008.45947227202
+Warning: Parameter "embed-b" created outside of the guide.
+Warning: Parameter "embed-basque" created outside of the guide.
+Iteration 31: -167843.36891579482
+Warning: Parameter "embed-sweedish" created outside of the guide.
+Warning: Parameter "embed-swedish" created outside of the guide.
+Warning: Parameter "embed-afternoon" created outside of the guide.
+Warning: Parameter "embed-belgian" created outside of the guide.
+Iteration 32: -133063.6985978928
+Warning: Parameter "embed-turkiesh" created outside of the guide.
+Warning: Parameter "embed-turkey" created outside of the guide.
+Warning: Parameter "embed-unitelligible" created outside of the guide.
+Warning: Parameter "embed-panasian" created outside of the guide.
+Warning: Parameter "embed-peace" created outside of the guide.
+Iteration 33: -224531.98515365232
+Iteration 34: -117474.0394425026
+Warning: Parameter "embed-foo" created outside of the guide.
+Warning: Parameter "embed-the_river_bar_steakhouse_and_grill_post_code" created outside of the guide.
+Warning: Parameter "embed-hungarian" created outside of the guide.
+Iteration 35: -220169.12751751943
+Iteration 36: -138523.37341909672
+Warning: Parameter "embed-There" created outside of the guide.
+Warning: Parameter "embed-want?" created outside of the guide.
+Warning: Parameter "embed-danish" created outside of the guide.
+Iteration 37: -187803.64967518367
+Warning: Parameter "embed-did" created outside of the guide.
+Iteration 38: -150178.0506681816
+Warning: Parameter "embed-Sorry," created outside of the guide.
+Warning: Parameter "embed-can't" created outside of the guide.
+Warning: Parameter "embed-hear" created outside of the guide.
+Iteration 39: -130192.77048994489
+Warning: Parameter "embed-modertley" created outside of the guide.
+Warning: Parameter "embed-venetian" created outside of the guide.
+Iteration 40: -136462.95137425698
+Iteration 41: -92351.73038159836
+Iteration 42: -142246.86716229984
+Warning: Parameter "embed-unusual" created outside of the guide.
+Iteration 43: -122916.2586148262
+Warning: Parameter "embed-austrian" created outside of the guide.
+Warning: Parameter "embed-australian" created outside of the guide.
+Warning: Parameter "embed-theres" created outside of the guide.
+Warning: Parameter "embed-such" created outside of the guide.
+Warning: Parameter "embed-scandinavia" created outside of the guide.
+Iteration 44: -110395.94936462797
+Warning: Parameter "embed-nor" created outside of the guide.
+Warning: Parameter "embed-ital" created outside of the guide.
+Iteration 45: -198972.431408062
+Iteration 46: -153132.1381748819
+Warning: Parameter "embed-middle_eastern" created outside of the guide.
+Warning: Parameter "embed-then" created outside of the guide.
+Warning: Parameter "embed-location" created outside of the guide.
+Iteration 47: -235780.21732085428
+Warning: Parameter "embed-old" created outside of the guide.
+Iteration 48: -192436.25046214947
+Warning: Parameter "embed-thats" created outside of the guide.
+Warning: Parameter "embed-correct" created outside of the guide.
+Iteration 49: -96951.86023314166
+Iteration 50: -162683.51393010005
+Warning: Parameter "embed-served" created outside of the guide.
+Warning: Parameter "embed-try" created outside of the guide.
+Warning: Parameter "embed-calling" created outside of the guide.
+Warning: Parameter "embed-minuet" created outside of the guide.
+Warning: Parameter "embed-well" created outside of the guide.
+Warning: Parameter "embed-take" created outside of the guide.
+Warning: Parameter "embed-know" created outside of the guide.
+Iteration 51: -201188.7097371011
+Iteration 52: -126441.49464218743
+Iteration 53: -215175.64656826836
+Iteration 54: -109919.16230700474
+Warning: Parameter "embed-located" created outside of the guide.
+Warning: Parameter "embed-very" created outside of the guide.
+Warning: Parameter "embed-much" created outside of the guide.
+Warning: Parameter "embed-preference" created outside of the guide.
+Iteration 55: -107670.35888919621
+Iteration 56: -103815.932732627
+Warning: Parameter "embed-k" created outside of the guide.
+Warning: Parameter "embed-pri" created outside of the guide.
+Iteration 57: -124181.58342577798
+Iteration 58: -183028.8666793898
+Warning: Parameter "embed-side" created outside of the guide.
+Warning: Parameter "embed-kosher" created outside of the guide.
+Iteration 59: -212950.93296764672
+Warning: Parameter "embed-catalan" created outside of the guide.
+Warning: Parameter "embed-show" created outside of the guide.
+Iteration 60: -119664.1522506292
+Warning: Parameter "embed-the_good_luck_chinese_food_takeaway_phone" created outside of the guide.
+Warning: Parameter "embed-the_good_luck_chinese_food_takeaway_post_code" created outside of the guide.
+Iteration 61: -152929.71193987608
+Iteration 62: -119501.90324659567
+Warning: Parameter "embed-belgium" created outside of the guide.
+Warning: Parameter "embed-moderat" created outside of the guide.
+Warning: Parameter "embed-fora" created outside of the guide.
+Iteration 63: -93035.48701011045
+Warning: Parameter "embed-usually" created outside of the guide.
+Warning: Parameter "embed-different" created outside of the guide.
+Warning: Parameter "embed-changed" created outside of the guide.
+Warning: Parameter "embed-my" created outside of the guide.
+Warning: Parameter "embed-mind" created outside of the guide.
+Warning: Parameter "embed-ah" created outside of the guide.
+Warning: Parameter "embed-gastro" created outside of the guide.
+Warning: Parameter "embed-pub" created outside of the guide.
+Iteration 64: -130780.76866688272
+Warning: Parameter "embed-somewhere" created outside of the guide.
+Warning: Parameter "embed-time" created outside of the guide.
+Iteration 65: -159220.94862011928
+Warning: Parameter "embed-adress" created outside of the guide.
+Warning: Parameter "embed-opean" created outside of the guide.
+Iteration 66: -138441.68300359076
+Warning: Parameter "embed-malyasian" created outside of the guide.
+Iteration 67: -127562.68525424243
+Warning: Parameter "embed-available" created outside of the guide.
+Iteration 68: -120149.43171807236
+Warning: Parameter "embed-darling" created outside of the guide.
+Warning: Parameter "embed-dear" created outside of the guide.
+Warning: Parameter "embed-thatll" created outside of the guide.
+Warning: Parameter "embed-excellent" created outside of the guide.
+Warning: Parameter "embed-arts" created outside of the guide.
+Warning: Parameter "embed-needs" created outside of the guide.
+Iteration 69: -111460.88127894765
+Warning: Parameter "embed-tuscan" created outside of the guide.
+Iteration 70: -106563.84694214119
+Warning: Parameter "embed-polish" created outside of the guide.
+Iteration 71: -102186.31492332871
+Iteration 72: -81861.014544433
+Iteration 73: -69188.72156317778
+Iteration 74: -117249.71946674591
+Iteration 75: -77597.48366952252
+Iteration 76: -121169.625691174
+Iteration 77: -82506.03395551052
+Warning: Parameter "embed-appleton" created outside of the guide.
+Warning: Parameter "embed-wiscon" created outside of the guide.
+Warning: Parameter "embed-really" created outside of the guide.
+Iteration 78: -60504.36245361223
+Iteration 79: -114337.2556393992
+Warning: Parameter "embed-ori" created outside of the guide.
+Warning: Parameter "embed-ran" created outside of the guide.
+Warning: Parameter "embed-ser" created outside of the guide.
+Iteration 80: -153241.3124963298
+Warning: Parameter "embed-venison" created outside of the guide.
+Warning: Parameter "embed-cross" created outside of the guide.
+Warning: Parameter "embed-talk" created outside of the guide.
+Warning: Parameter "embed-this" created outside of the guide.
+Iteration 81: -138448.66914156632
+Warning: Parameter "embed-kitalian" created outside of the guide.
+Warning: Parameter "embed-talian" created outside of the guide.
+Warning: Parameter "embed-catalen" created outside of the guide.
+Warning: Parameter "embed-res" created outside of the guide.
+Warning: Parameter "embed-catalin" created outside of the guide.
+Warning: Parameter "embed-bad" created outside of the guide.
+Iteration 82: -164371.00089770692
+Warning: Parameter "embed-includes" created outside of the guide.
+Iteration 83: -74738.88099826606
+Iteration 84: -87537.23972840617
+Iteration 85: -68527.05683861338
+Iteration 86: -85634.99062444112
+Warning: Parameter "embed-mail" created outside of the guide.
+Warning: Parameter "embed-postal" created outside of the guide.
+Iteration 87: -83027.58440492234
+Iteration 88: -112568.99906969872
+Warning: Parameter "embed-cancun" created outside of the guide.
+Iteration 89: -118261.22907931826
+Warning: Parameter "embed-singaporean" created outside of the guide.
+Iteration 90: -109335.37547574528
+Iteration 91: -139238.43436793628
+Warning: Parameter "embed-adddress" created outside of the guide.
+Iteration 92: -96399.01615158081
+Warning: Parameter "embed-modreately" created outside of the guide.
+Iteration 93: -84633.60116477008
+Warning: Parameter "embed-medium" created outside of the guide.
+Warning: Parameter "embed-turk" created outside of the guide.
+Iteration 94: -84403.94221475271
+Iteration 95: -114304.71520863604
+Warning: Parameter "embed-art" created outside of the guide.
+Warning: Parameter "embed-la_margheritas" created outside of the guide.
+Iteration 96: -75416.4028880145
+Warning: Parameter "embed-breathing" created outside of the guide.
+Iteration 97: -141308.6624520875
+Warning: Parameter "embed-fast" created outside of the guide.
+Iteration 98: -63766.04476133088
+Warning: Parameter "embed-7:30" created outside of the guide.
+Iteration 99: -125435.74838629826
+Iteration 100: -63897.665983791696
+Iteration 101: -74256.48281014094
+Warning: Parameter "embed-vietna" created outside of the guide.
+Warning: Parameter "embed-ne" created outside of the guide.
+Warning: Parameter "embed-modern" created outside of the guide.
+Warning: Parameter "embed-euorpean" created outside of the guide.
+Warning: Parameter "embed-That" created outside of the guide.
+Iteration 102: -138973.75459981646
+Iteration 103: -68203.1006525789
+Warning: Parameter "embed-catalanian" created outside of the guide.
+Iteration 104: -64042.87726257398
+Iteration 105: -85512.5280666526
+Warning: Parameter "embed-the_americas" created outside of the guide.
+Warning: Parameter "embed-jesus" created outside of the guide.
+Warning: Parameter "embed-christ" created outside of the guide.
+Warning: Parameter "embed-start" created outside of the guide.
+Warning: Parameter "embed-over" created outside of the guide.
+Warning: Parameter "embed-laughing" created outside of the guide.
+Warning: Parameter "embed-C.B" created outside of the guide.
+Warning: Parameter "embed-2," created outside of the guide.
+Warning: Parameter "embed-U.F" created outside of the guide.
+Iteration 106: -149457.9878510726
+Warning: Parameter "embed-canape" created outside of the guide.
+Iteration 107: -107951.91426417438
+Warning: Parameter "embed-go" created outside of the guide.
+Warning: Parameter "embed-back" created outside of the guide.
+Iteration 108: -136947.76652824215
+Warning: Parameter "embed-re" created outside of the guide.
+Iteration 109: -78208.76584908458
+Iteration 110: -92072.82885956966
+Iteration 111: -67312.71252725125
+Warning: Parameter "embed-p" created outside of the guide.
+Iteration 112: -121871.2791288316
+Warning: Parameter "embed-derately" created outside of the guide.
+Iteration 113: -71032.95931231622
+Iteration 114: -101652.8910358572
+Warning: Parameter "embed-baskaye" created outside of the guide.
+Warning: Parameter "embed-baskey" created outside of the guide.
+Iteration 115: -92928.3815843297
+Warning: Parameter "embed-airitran" created outside of the guide.
+Iteration 116: -91259.96732940494
+Iteration 117: -83124.01646572624
+Iteration 118: -113193.85065131444
+Iteration 119: -160943.6659567357
+Iteration 120: -71534.05566231534
+Iteration 121: -79222.82956484774
+Iteration 122: -114938.10126370427
+Iteration 123: -85393.63812091964
+Warning: Parameter "embed-bart" created outside of the guide.
+Warning: Parameter "embed-next" created outside of the guide.
+Warning: Parameter "embed-previews" created outside of the guide.
+Iteration 124: -101827.17663348289
+Iteration 125: -63518.407319424376
+Iteration 126: -108747.5038506634
+Warning: Parameter "embed-though" created outside of the guide.
+Warning: Parameter "embed-nandos_city_centre_phone" created outside of the guide.
+Iteration 127: -87163.83686597402
+Warning: Parameter "embed-fine" created outside of the guide.
+Iteration 128: -105361.03626615704
+Iteration 129: -65111.85233062177
+Warning: Parameter "embed-ad" created outside of the guide.
+Warning: Parameter "embed-choice" created outside of the guide.
+Iteration 130: -141328.92472123535
+Iteration 131: -79163.76114889796
+Iteration 132: -134225.64871914798
+Warning: Parameter "embed-us" created outside of the guide.
+Warning: Parameter "embed-gasper" created outside of the guide.
+Warning: Parameter "embed-o" created outside of the guide.
+Warning: Parameter "embed-kay" created outside of the guide.
+Iteration 133: -102056.40919364891
+Iteration 134: -79857.86107851515
+Iteration 135: -76846.85568500725
+Iteration 136: -64379.80561288271
+Warning: Parameter "embed-bat" created outside of the guide.
+Iteration 137: -58902.72254763825
+Warning: Parameter "embed-umh" created outside of the guide.
+Iteration 138: -112646.68716697115
+Iteration 139: -83486.17081649548
+Iteration 140: -62056.380068950464
+Iteration 141: -104351.72849752275
+Warning: Parameter "embed-change" created outside of the guide.
+Warning: Parameter "embed-airatarin" created outside of the guide.
+Iteration 142: -92273.93625945416
+Warning: Parameter "embed-worthless" created outside of the guide.
+Warning: Parameter "embed-sells" created outside of the guide.
+Iteration 143: -92576.66324145919
+Warning: Parameter "embed-knocking" created outside of the guide.
+Iteration 144: -62654.094950787534
+Warning: Parameter "embed-train" created outside of the guide.
+Warning: Parameter "embed-arotrian" created outside of the guide.
+Iteration 145: -76805.06352802066
+Iteration 146: -58292.36103260867
+Warning: Parameter "embed-4," created outside of the guide.
+Warning: Parameter "embed-L.E" created outside of the guide.
+Iteration 147: -102708.15151447964
+Warning: Parameter "embed-cool" created outside of the guide.
+Iteration 148: -74133.58508308919
+Iteration 149: -56750.08823835547
+Iteration 150: -55789.42903513154
+Warning: Parameter "embed-eat" created outside of the guide.
+Iteration 151: -59099.55815003533
+Iteration 152: -60552.74985523645
+Iteration 153: -56775.99153707845
+Iteration 154: -64567.521429183864
+Warning: Parameter "embed-caribbean" created outside of the guide.
+Iteration 155: -85736.52034589491
+Iteration 156: -94301.90922505817
+Iteration 157: -60493.42143143587
+Iteration 158: -62872.56967080162
+Warning: Parameter "embed-got" created outside of the guide.
+Iteration 159: -92295.84841704732
+Iteration 160: -102051.41183118305
+Iteration 161: -54927.30002046564
+Iteration 162: -89950.53087962362
+Warning: Parameter "embed-portugeuse" created outside of the guide.
+Iteration 163: -104165.97580081793
+Iteration 164: -78680.30271603733
+Warning: Parameter "embed-cost" created outside of the guide.
+Warning: Parameter "embed-has" created outside of the guide.
+Warning: Parameter "embed-int" created outside of the guide.
+Warning: Parameter "embed-bloomsbury" created outside of the guide.
+Warning: Parameter "embed-rerestaurant" created outside of the guide.
+Iteration 165: -94640.33796362656
+Iteration 166: -72295.27814858305
+Warning: Parameter "embed-portugese" created outside of the guide.
+Iteration 167: -117746.39175909804
+Iteration 168: -60525.006534958804
+Iteration 169: -70771.42739737443
+Iteration 170: -105871.95018600699
+Iteration 171: -76830.92969092457
+Iteration 172: -63934.42949504895
+Iteration 173: -77618.76830608516
+Iteration 174: -40999.03110680606
+Iteration 175: -58435.99029581734
+Iteration 176: -43025.14188071518
+Warning: Parameter "embed-halo" created outside of the guide.
+Iteration 177: -65657.73666781321
+Warning: Parameter "embed-he" created outside of the guide.
+Iteration 178: -55660.86962295224
+Warning: Parameter "embed-mediteranean" created outside of the guide.
+Iteration 179: -61771.41358014725
+Iteration 180: -54416.91355417664
+Warning: Parameter "embed-thing" created outside of the guide.
+Warning: Parameter "embed-let" created outside of the guide.
+Iteration 181: -56993.81353550024
+Iteration 182: -55921.2770917848
+Iteration 183: -38975.189862415275
+Iteration 184: -46094.34101476737
+Warning: Parameter "embed-s" created outside of the guide.
+Iteration 185: -49677.845304926566
+Iteration 186: -102851.53245414817
+Iteration 187: -35790.61822454981
+Iteration 188: -27338.645179496314
+Warning: Parameter "embed-australasian" created outside of the guide.
+Warning: Parameter "embed-hindi" created outside of the guide.
+Warning: Parameter "embed-said" created outside of the guide.
+Iteration 189: -85840.43285521145
+Warning: Parameter "embed-vanessa" created outside of the guide.
+Warning: Parameter "embed-wait" created outside of the guide.
+Warning: Parameter "embed-cambridge" created outside of the guide.
+Iteration 190: -77656.90270419714
+Iteration 191: -41413.45411132383
+Iteration 192: -67696.58722507714
+Iteration 193: -63493.3997007601
+Warning: Parameter "embed-who" created outside of the guide.
+Iteration 194: -80507.60351817979
+Iteration 195: -49582.69525961137
+Iteration 196: -56988.34289801907
+Warning: Parameter "embed-welsh" created outside of the guide.
+Iteration 197: -99284.11529062592
+Warning: Parameter "embed-central" created outside of the guide.
+Iteration 198: -80783.78813927216
+Warning: Parameter "embed-europene" created outside of the guide.
+Warning: Parameter "embed-wrong" created outside of the guide.
+Iteration 199: -83394.09793275985
+Iteration 200: -72285.36784545238
+Warning: Parameter "embed-bask" created outside of the guide.
+Warning: Parameter "embed-ko" created outside of the guide.
+Warning: Parameter "embed-lcoated" created outside of the guide.
+Warning: Parameter "embed-iam" created outside of the guide.
+Warning: Parameter "embed-searching" created outside of the guide.
+Warning: Parameter "embed-cute" created outside of the guide.
+Warning: Parameter "embed-ffood" created outside of the guide.
+Warning: Parameter "embed-earetree" created outside of the guide.
+Warning: Parameter "embed-earatree" created outside of the guide.
+Warning: Parameter "embed-tow" created outside of the guide.
+Warning: Parameter "embed-vietnam" created outside of the guide.
+Warning: Parameter "embed-done" created outside of the guide.
+Warning: Parameter "embed-we" created outside of the guide.
+Warning: Parameter "embed-endonesian" created outside of the guide.
+Warning: Parameter "embed-meant" created outside of the guide.
+Warning: Parameter "embed-plea" created outside of the guide.
+Warning: Parameter "embed-taquita" created outside of the guide.
+Warning: Parameter "embed-t" created outside of the guide.
+Warning: Parameter "embed-ea" created outside of the guide.
+Warning: Parameter "embed-wanna" created outside of the guide.
+Warning: Parameter "embed-says" created outside of the guide.
+Warning: Parameter "embed-m" created outside of the guide.
+Warning: Parameter "embed-pizza_hutt" created outside of the guide.
+Warning: Parameter "embed-ones" created outside of the guide.
+Warning: Parameter "embed-fdod" created outside of the guide.
+Warning: Parameter "embed-every" created outside of the guide.
+Warning: Parameter "embed-moron" created outside of the guide.
+Warning: Parameter "embed-sucks" created outside of the guide.
+Warning: Parameter "embed-oriental" created outside of the guide.
+Warning: Parameter "embed-Fen" created outside of the guide.
+Warning: Parameter "embed-Ditton" created outside of the guide.
+Warning: Parameter "embed-spice" created outside of the guide.
+Warning: Parameter "embed-welch" created outside of the guide.
+Warning: Parameter "embed-shows" created outside of the guide.
+Warning: Parameter "embed-wha" created outside of the guide.
+Warning: Parameter "embed-day" created outside of the guide.
+Warning: Parameter "embed-sounds" created outside of the guide.
+Warning: Parameter "embed-awesome" created outside of the guide.
+Warning: Parameter "embed-expen" created outside of the guide.
+Warning: Parameter "embed-as" created outside of the guide.
+Warning: Parameter "embed-long" created outside of the guide.
+Warning: Parameter "embed-restauarant" created outside of the guide.
+Warning: Parameter "embed-probably" created outside of the guide.
+Warning: Parameter "embed-hate" created outside of the guide.
+Warning: Parameter "embed-out" created outside of the guide.
+Warning: Parameter "embed-chineese" created outside of the guide.
+Warning: Parameter "embed-inner" created outside of the guide.
+Warning: Parameter "embed-nymber" created outside of the guide.
+Warning: Parameter "embed-unintelligent" created outside of the guide.
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG api_call R_cuisine south cheap $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine south moderate $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , shiraz_restaurant_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG api_call turkish R_location R_price $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 200,
+  "runtimeInSeconds": 4744.073,
+  "objectiveValue": -72285.36784545238,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 455
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 437
+    }
+  }
+}
+Iteration 201: -106046.22886440658
+Warning: Parameter "embed-ostro" created outside of the guide.
+Warning: Parameter "embed-noice" created outside of the guide.
+Warning: Parameter "embed-nosie" created outside of the guide.
+Iteration 202: -76216.74689010563
+Iteration 203: -57415.65652482914
+Warning: Parameter "embed-parts" created outside of the guide.
+Iteration 204: -96892.61336906525
+Iteration 205: -48492.86446025105
+Warning: Parameter "embed-laugh" created outside of the guide.
+Iteration 206: -113997.18208653161
+Warning: Parameter "embed-continental" created outside of the guide.
+Iteration 207: -59765.010272845524
+Iteration 208: -86289.87163058268
+Iteration 209: -64938.31457263133
+Warning: Parameter "embed-chiquito" created outside of the guide.
+Warning: Parameter "embed-mistakes" created outside of the guide.
+Iteration 210: -104250.23386839293
+Iteration 211: -36492.144312711425
+Iteration 212: -62571.38920737578
+Iteration 213: -52470.839291642915
+Iteration 214: -111905.1147224274
+Warning: Parameter "embed-stop" created outside of the guide.
+Iteration 215: -85053.20027331097
+Warning: Parameter "embed-restaurnt" created outside of the guide.
+Iteration 216: -67089.18112941133
+Iteration 217: -38799.09345552434
+Iteration 218: -64153.020886542225
+Iteration 219: -28395.047135331144
+Iteration 220: -95443.4162205634
+Iteration 221: -74409.09305035551
+Iteration 222: -66532.20838530926
+Warning: Parameter "embed-moder" created outside of the guide.
+Iteration 223: -53541.641915514374
+Iteration 224: -48028.49667502768
+Iteration 225: -62739.12453417018
+Iteration 226: -40259.7272269452
+Iteration 227: -44534.32971688135
+Warning: Parameter "embed-than" created outside of the guide.
+Iteration 228: -83591.67996008697
+Iteration 229: -39125.63328459013
+Iteration 230: -82118.29328814065
+Warning: Parameter "embed-thare" created outside of the guide.
+Warning: Parameter "embed-restuarant" created outside of the guide.
+Iteration 231: -74205.3651541883
+Iteration 232: -73236.05308720269
+Iteration 233: -48565.65538537561
+Iteration 234: -38301.06643089806
+Iteration 235: -83649.42927155866
+Iteration 236: -53504.501961521455
+Iteration 237: -45361.03917142957
+Iteration 238: -24704.94415336922
+Warning: Parameter "embed-europone" created outside of the guide.
+Iteration 239: -59682.90224240484
+Iteration 240: -34301.3250243199
+Iteration 241: -54416.56532744522
+Iteration 242: -50336.5071975969
+Iteration 243: -56920.84316028807
+Warning: Parameter "embed-cata" created outside of the guide.
+Iteration 244: -74125.63892540216
+Warning: Parameter "embed-option" created outside of the guide.
+Iteration 245: -20898.758453033817
+Iteration 246: -82503.98050311854
+Iteration 247: -60783.37775238879
+Warning: Parameter "embed-wondering" created outside of the guide.
+Iteration 248: -43286.84883300995
+Warning: Parameter "embed-blow" created outside of the guide.
+Iteration 249: -96517.78852983542
+Iteration 250: -65247.08186147039
+Iteration 251: -48740.882787233975
+Iteration 252: -51294.793303200444
+Iteration 253: -49115.42496335601
+Iteration 254: -58795.18318156756
+Iteration 255: -75969.23834427868
+Iteration 256: -109089.43815894268
+Iteration 257: -51471.761762196715
+Warning: Parameter "embed-ly" created outside of the guide.
+Iteration 258: -68842.97142112546
+Iteration 259: -19864.422041995807
+Warning: Parameter "embed-eirtrean" created outside of the guide.
+Iteration 260: -93471.72837040493
+Iteration 261: -92681.6728093287
+Iteration 262: -38141.455337506915
+Warning: Parameter "embed-expe" created outside of the guide.
+Iteration 263: -63587.65778421481
+Iteration 264: -67628.93843047597
+Iteration 265: -72485.74406276671
+Iteration 266: -58442.48687567716
+Iteration 267: -47785.78333359485
+Iteration 268: -40890.64305512035
+Warning: Parameter "embed-park" created outside of the guide.
+Iteration 269: -51493.23701778754
+Iteration 270: -54441.2535527835
+Iteration 271: -53277.712303308595
+Iteration 272: -93965.56775940792
+Iteration 273: -54466.054176748585
+Warning: Parameter "embed-alternative" created outside of the guide.
+Iteration 274: -89712.74001180247
+Iteration 275: -43659.722143700914
+Warning: Parameter "embed-nandos_city_centre_post_code" created outside of the guide.
+Warning: Parameter "embed-areas" created outside of the guide.
+Iteration 276: -67583.26213749862
+Iteration 277: -53263.999049377206
+Iteration 278: -30033.673699432624
+Iteration 279: -42061.26484006606
+Iteration 280: -79836.2051180975
+Iteration 281: -76073.10564775327
+Iteration 282: -42029.403165669864
+Warning: Parameter "embed-signature" created outside of the guide.
+Warning: Parameter "embed-dish" created outside of the guide.
+Iteration 283: -84200.54793845581
+Warning: Parameter "embed-cana" created outside of the guide.
+Warning: Parameter "embed-venues" created outside of the guide.
+Warning: Parameter "embed-talking" created outside of the guide.
+Iteration 284: -91586.79441446296
+Iteration 285: -48571.48681275491
+Iteration 286: -52695.54610709327
+Iteration 287: -84925.66683483221
+Iteration 288: -49681.20295799245
+Warning: Parameter "embed-class" created outside of the guide.
+Iteration 289: -76938.28472462532
+Iteration 290: -42750.520715339546
+Iteration 291: -45325.896571078134
+Iteration 292: -72978.84675235859
+Iteration 293: -45877.97404966614
+Iteration 294: -32537.787561265857
+Iteration 295: -36563.732732048986
+Warning: Parameter "embed-mia" created outside of the guide.
+Iteration 296: -58106.744809545125
+Iteration 297: -60258.64556329309
+Warning: Parameter "embed-some" created outside of the guide.
+Iteration 298: -97734.21690077521
+Iteration 299: -65710.09208681343
+Iteration 300: -44500.83546169166
+Iteration 301: -62935.76109266862
+Iteration 302: -62362.987570162615
+Iteration 303: -42677.38800024063
+Iteration 304: -40371.599152321956
+Iteration 305: -42571.57306747802
+Iteration 306: -43150.00452803498
+Iteration 307: -31211.997679804692
+Iteration 308: -55871.42991806897
+Iteration 309: -45958.84521644933
+Iteration 310: -55295.732596416354
+Warning: Parameter "embed-wheres" created outside of the guide.
+Iteration 311: -71671.46032057634
+Iteration 312: -33670.78923563253
+Iteration 313: -27265.66595298081
+Iteration 314: -83474.3103886403
+Iteration 315: -55502.47200926443
+Iteration 316: -90121.05013891206
+Iteration 317: -49778.617663912155
+Warning: Parameter "embed-pizza_hut" created outside of the guide.
+Warning: Parameter "embed-crosstalk" created outside of the guide.
+Iteration 318: -47918.145879619355
+Iteration 319: -51623.278096816095
+Iteration 320: -39060.63074384707
+Iteration 321: -63175.52471786264
+Iteration 322: -51272.67392947034
+Iteration 323: -85978.08458569543
+Iteration 324: -56080.670929062304
+Iteration 325: -48583.74231548648
+Iteration 326: -44959.28667080128
+Iteration 327: -65066.629922390195
+Iteration 328: -51178.57840250654
+Iteration 329: -66158.30150515468
+Iteration 330: -51291.46110981973
+Warning: Parameter "embed-regular" created outside of the guide.
+Warning: Parameter "embed-ecuadorean" created outside of the guide.
+Iteration 331: -61400.70713129669
+Iteration 332: -53609.83564948065
+Iteration 333: -61753.34738723681
+Iteration 334: -23039.161061880885
+Iteration 335: -81891.26020918907
+Warning: Parameter "embed-restaraunt" created outside of the guide.
+Warning: Parameter "embed-medterranean" created outside of the guide.
+Iteration 336: -46862.17336076361
+Iteration 337: -24302.14445883543
+Iteration 338: -49485.4966800837
+Warning: Parameter "embed-restauran" created outside of the guide.
+Warning: Parameter "embed-ooh" created outside of the guide.
+Iteration 339: -32916.80300412747
+Iteration 340: -15468.669602228214
+Iteration 341: -47055.367152464634
+Iteration 342: -89757.23625302929
+Iteration 343: -22585.89118209713
+Iteration 344: -43560.71598107976
+Iteration 345: -41089.90240577469
+Warning: Parameter "embed-deosnt" created outside of the guide.
+Iteration 346: -57894.58204568625
+Iteration 347: -44269.71372151344
+Iteration 348: -54209.13099579784
+Iteration 349: -82478.76253250295
+Iteration 350: -17503.301650187474
+Iteration 351: -37220.79718388606
+Warning: Parameter "embed-resataurant" created outside of the guide.
+Warning: Parameter "embed-unintellgible" created outside of the guide.
+Iteration 352: -69305.75326290273
+Iteration 353: -56244.60798008572
+Iteration 354: -46413.39365540148
+Iteration 355: -69693.5301283429
+Iteration 356: -49295.93593049019
+Iteration 357: -37536.72787185276
+Iteration 358: -35631.43440803813
+Iteration 359: -29333.30861961662
+Iteration 360: -29787.28628750125
+Iteration 361: -34088.74889187253
+Iteration 362: -96165.55272309967
+Iteration 363: -31135.126797310913
+Iteration 364: -37932.80936598508
+Iteration 365: -51532.89605522484
+Warning: Parameter "embed-air" created outside of the guide.
+Warning: Parameter "embed-tran" created outside of the guide.
+Iteration 366: -50694.59205182433
+Iteration 367: -39160.39761369
+Iteration 368: -46862.01077799771
+Iteration 369: -16350.551994623174
+Warning: Parameter "embed-ger" created outside of the guide.
+Warning: Parameter "embed-perfect" created outside of the guide.
+Iteration 370: -127205.76553045418
+Warning: Parameter "embed-music" created outside of the guide.
+Iteration 371: -26565.87694032987
+Iteration 372: -34694.640513755076
+Iteration 373: -24282.38136159509
+Iteration 374: -49197.184002510454
+Warning: Parameter "embed-finally" created outside of the guide.
+Iteration 375: -33657.82586605718
+Iteration 376: -56213.25695893909
+Iteration 377: -32488.35926717343
+Iteration 378: -25634.345268737226
+Iteration 379: -20351.139486451564
+Iteration 380: -24305.641540812812
+Iteration 381: -58821.07178272799
+Iteration 382: -33780.73599278166
+Iteration 383: -40088.128332489185
+Iteration 384: -22089.948609370473
+Iteration 385: -36206.52328399362
+Iteration 386: -44704.53959813988
+Iteration 387: -55225.53292931389
+Iteration 388: -46317.546157816796
+Iteration 389: -41440.5564321894
+Iteration 390: -49393.65786712276
+Iteration 391: -38181.067502602746
+Warning: Parameter "embed-scotch" created outside of the guide.
+Warning: Parameter "embed-loo" created outside of the guide.
+Warning: Parameter "embed-think" created outside of the guide.
+Iteration 392: -40517.60995910309
+Iteration 393: -24573.26425953575
+Iteration 394: -55272.31063556125
+Iteration 395: -51789.53556528578
+Warning: Parameter "embed-types" created outside of the guide.
+Iteration 396: -34839.57804584158
+Iteration 397: -44457.797905604275
+Iteration 398: -17861.107922638297
+Warning: Parameter "embed-D.P" created outside of the guide.
+Iteration 399: -75069.12365953397
+Iteration 400: -43170.88094775789
+Warning: Parameter "embed-ven" created outside of the guide.
+Warning: Parameter "embed-af" created outside of the guide.
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine south expensive $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , frankie_and_bennys is on frankie_and_bennys_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG the south of town $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 400,
+  "runtimeInSeconds": 9363.49,
+  "objectiveValue": -43170.88094775789,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 538
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 516
+    }
+  }
+}
+Iteration 401: -27338.95123421262
+Warning: Parameter "embed-singapore" created outside of the guide.
+Iteration 402: -37895.64850228408
+Iteration 403: -32346.489187038493
+Iteration 404: -33235.31724463713
+Iteration 405: -32175.064846428864
+Warning: Parameter "embed-new" created outside of the guide.
+Warning: Parameter "embed-selection" created outside of the guide.
+Iteration 406: -56841.56726653161
+Iteration 407: -18257.88701662956
+Iteration 408: -50084.92193906627
+Iteration 409: -19850.337744619053
+Iteration 410: -40823.61082750673
+Iteration 411: -29610.850065794795
+Iteration 412: -65842.25599474504
+Iteration 413: -41329.71252404076
+Warning: Parameter "embed-nubmer" created outside of the guide.
+Iteration 414: -95026.79690238973
+Iteration 415: -24338.952946593006
+Iteration 416: -24232.160905221936
+Iteration 417: -21072.52133666026
+Iteration 418: -14707.3215440264
+Iteration 419: -31260.32833558667
+Iteration 420: -30684.68321955464
+Iteration 421: -38963.58999898555
+Iteration 422: -30861.871215449373
+Iteration 423: -97456.78138486305
+Iteration 424: -18495.62493268151
+Iteration 425: -44277.4157163811
+Iteration 426: -32144.43035840498
+Iteration 427: -46702.05970474417
+Iteration 428: -12229.897057243972
+Iteration 429: -54186.28310279757
+Iteration 430: -38747.695996315895
+Iteration 431: -52983.55641048263
+Warning: Parameter "embed-little_seouls" created outside of the guide.
+Iteration 432: -25754.08211783978
+Warning: Parameter "embed-free" created outside of the guide.
+Iteration 433: -98697.73057621124
+Iteration 434: -13660.181324531528
+Iteration 435: -33929.032380667006
+Iteration 436: -41592.20254402601
+Warning: Parameter "embed-city" created outside of the guide.
+Iteration 437: -118727.18263966551
+Iteration 438: -33756.33040267732
+Iteration 439: -56083.68755040328
+Iteration 440: -36795.62699945216
+Iteration 441: -38802.946135081096
+Iteration 442: -68628.68998996174
+Iteration 443: -70201.32879315688
+Iteration 444: -44615.38119923739
+Iteration 445: -43350.356029075214
+Iteration 446: -39150.61826742523
+Warning: Parameter "embed-cannabis" created outside of the guide.
+Iteration 447: -60113.46446614857
+Iteration 448: -52083.362552609455
+Iteration 449: -28762.052573162167
+Iteration 450: -20846.905137232414
+Iteration 451: -36829.63968551278
+Iteration 452: -57604.4535410199
+Iteration 453: -31432.742474973253
+Warning: Parameter "embed-euro" created outside of the guide.
+Iteration 454: -57534.42469265643
+Warning: Parameter "embed-canope" created outside of the guide.
+Iteration 455: -36246.94602886054
+Iteration 456: -45788.27669396366
+Iteration 457: -27081.999437358616
+Iteration 458: -40543.13604379433
+Iteration 459: -31714.920072756177
+Iteration 460: -32202.7412901173
+Iteration 461: -38055.969945187266
+Iteration 462: -49579.63432177846
+Iteration 463: -39054.70040740223
+Warning: Parameter "embed-decide" created outside of the guide.
+Warning: Parameter "embed-ty" created outside of the guide.
+Iteration 464: -69446.19535099901
+Iteration 465: -39991.349084087225
+Iteration 466: -34412.248033165604
+Iteration 467: -44251.154453749936
+Iteration 468: -39096.723725042146
+Iteration 469: -39191.39357857573
+Iteration 470: -38541.59423048925
+Iteration 471: -46904.90116040444
+Iteration 472: -70476.32345179563
+Iteration 473: -18321.092180614483
+Iteration 474: -24239.647637308124
+Iteration 475: -44704.17490013564
+Iteration 476: -41409.778196603154
+Iteration 477: -41730.863754451704
+Iteration 478: -28089.5738736201
+Iteration 479: -44795.98078719131
+Iteration 480: -21264.41262548154
+Iteration 481: -77956.31434215157
+Iteration 482: -52289.035264468796
+Iteration 483: -56035.57357339186
+Iteration 484: -33803.293814980905
+Iteration 485: -29715.514295170975
+Iteration 486: -41932.51890841611
+Iteration 487: -54032.683164237525
+Iteration 488: -71352.3537367177
+Iteration 489: -47884.006580902686
+Iteration 490: -24020.078948158258
+Iteration 491: -26904.555311504402
+Iteration 492: -38526.41252864427
+Iteration 493: -55072.53603903539
+Iteration 494: -50118.28372677845
+Iteration 495: -57987.73786679096
+Iteration 496: -53750.36383301411
+Iteration 497: -24432.126010324333
+Iteration 498: -52935.888200797424
+Iteration 499: -54930.04157060825
+Iteration 500: -32176.35797016068
+Iteration 501: -37495.87055060289
+Iteration 502: -38281.69904128879
+Iteration 503: -62939.25406605331
+Iteration 504: -73256.9753110566
+Iteration 505: -41266.621147172205
+Iteration 506: -23076.235854519666
+Iteration 507: -29549.416628210318
+Iteration 508: -26915.823370959817
+Iteration 509: -33244.05125728731
+Iteration 510: -42360.07668158166
+Iteration 511: -23819.36002336398
+Iteration 512: -26234.139001311636
+Iteration 513: -35979.86883786988
+Iteration 514: -31951.079439748843
+Iteration 515: -28666.215363627376
+Iteration 516: -48791.46264320731
+Warning: Parameter "embed-might" created outside of the guide.
+Iteration 517: -58256.52549181064
+Warning: Parameter "embed-hang" created outside of the guide.
+Warning: Parameter "embed-up" created outside of the guide.
+Iteration 518: -20699.388460146445
+Iteration 519: -30182.11383067892
+Iteration 520: -29778.42848258534
+Warning: Parameter "embed-mediteranian" created outside of the guide.
+Iteration 521: -43340.11217837388
+Iteration 522: -61967.87358395786
+Iteration 523: -53419.959467526074
+Iteration 524: -76604.32274619426
+Warning: Parameter "embed-his" created outside of the guide.
+Iteration 525: -56340.38088316253
+Iteration 526: -35813.147581787845
+Iteration 527: -42036.66070360076
+Iteration 528: -20916.77821068998
+Iteration 529: -59759.45043051752
+Iteration 530: -26706.543647211027
+Iteration 531: -30606.86405714517
+Iteration 532: -39805.79656325381
+Iteration 533: -47469.16902200644
+Iteration 534: -21203.95100118097
+Iteration 535: -57259.105403276255
+Iteration 536: -35670.286528536984
+Iteration 537: -22592.16140747175
+Iteration 538: -20597.45942327863
+Iteration 539: -53905.61543124226
+Iteration 540: -48240.306764127876
+Iteration 541: -32508.02610710803
+Iteration 542: -64153.65728958653
+Iteration 543: -48757.37960207981
+Iteration 544: -19746.319778590598
+Iteration 545: -46995.668703601965
+Warning: Parameter "embed-ph" created outside of the guide.
+Iteration 546: -54668.41109041319
+Iteration 547: -49882.49984999261
+Iteration 548: -59699.33631458471
+Iteration 549: -47827.44348155565
+Iteration 550: -20537.092149628694
+Iteration 551: -52186.201544575924
+Warning: Parameter "embed-labonese" created outside of the guide.
+Warning: Parameter "embed-restaruant" created outside of the guide.
+Iteration 552: -30229.56220707035
+Iteration 553: -30377.973100240455
+Iteration 554: -56305.06791160306
+Iteration 555: -35467.30466058647
+Iteration 556: -56035.21880966617
+Iteration 557: -23969.03174753362
+Iteration 558: -49280.65120006179
+Iteration 559: -89822.96409837212
+Warning: Parameter "embed-huh" created outside of the guide.
+Iteration 560: -65683.72441432154
+Iteration 561: -29186.115934315603
+Iteration 562: -31808.12486212844
+Iteration 563: -58049.32972898044
+Iteration 564: -36123.09362225728
+Iteration 565: -17131.25001359119
+Iteration 566: -79280.09363979677
+Iteration 567: -35730.26427588056
+Iteration 568: -25760.360426482363
+Iteration 569: -38206.21531400715
+Iteration 570: -57714.028606593994
+Iteration 571: -20586.631555474796
+Iteration 572: -23122.90346569061
+Iteration 573: -29005.63770409943
+Iteration 574: -42856.51919804928
+Iteration 575: -46909.69192988978
+Iteration 576: -13348.338475715358
+Iteration 577: -28385.76480562814
+Iteration 578: -30220.10165908723
+Iteration 579: -48795.653808543786
+Iteration 580: -32508.08782538031
+Iteration 581: -30039.363640678184
+Iteration 582: -55700.67467485284
+Iteration 583: -35451.11182126894
+Iteration 584: -29877.998282685767
+Iteration 585: -71093.53702070222
+Iteration 586: -19586.55469301717
+Iteration 587: -49497.71450979312
+Iteration 588: -51682.45946863586
+Iteration 589: -20175.836320505285
+Iteration 590: -43082.879027946394
+Iteration 591: -37153.63292985106
+Iteration 592: -11216.863334204185
+Warning: Parameter "embed-water" created outside of the guide.
+Warning: Parameter "embed-cherries" created outside of the guide.
+Iteration 593: -41282.79908772812
+Iteration 594: -38699.65420201241
+Iteration 595: -19836.11068176363
+Iteration 596: -53990.357735318314
+Iteration 597: -33916.49359620333
+Iteration 598: -27174.23313940721
+Iteration 599: -31423.65691791407
+Iteration 600: -12898.252105114994
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG Would you like something in the cheap , moderate , or expensive price range? $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG api_call the_good_luck_chinese_food_takeaway_post_code $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 600,
+  "runtimeInSeconds": 13793.666,
+  "objectiveValue": -12898.252105114994,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 627
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 580
+    }
+  }
+}
+Iteration 601: -41563.06352369549
+Iteration 602: -32262.06352286085
+Iteration 603: -35583.52522931319
+Iteration 604: -39511.297024572006
+Iteration 605: -21798.427457145037
+Iteration 606: -33405.10472124635
+Iteration 607: -34029.612485002704
+Iteration 608: -24890.146726126306
+Iteration 609: -29501.593632099117
+Iteration 610: -40593.106040644416
+Iteration 611: -40003.46241978918
+Iteration 612: -20467.17148270053
+Iteration 613: -35023.27089553528
+Iteration 614: -64988.89646807376
+Iteration 615: -49305.233923868145
+Iteration 616: -14640.283272513534
+Iteration 617: -17549.31065287271
+Iteration 618: -26132.336134511504
+Iteration 619: -31455.65623991999
+Iteration 620: -50438.87609347307
+Iteration 621: -37522.12385480703
+Iteration 622: -23069.44761520242
+Iteration 623: -20857.061083459208
+Iteration 624: -43523.54626832056
+Iteration 625: -26344.944673330127
+Iteration 626: -34464.04346969697
+Iteration 627: -36096.15253046994
+Iteration 628: -24869.54135854
+Warning: Parameter "embed-medetanian" created outside of the guide.
+Iteration 629: -48450.21132834583
+Iteration 630: -39592.04724452177
+Iteration 631: -36511.34793717487
+Iteration 632: -93415.66821542334
+Iteration 633: -40850.28631653525
+Iteration 634: -36346.67234775357
+Iteration 635: -92339.87240429629
+Iteration 636: -36782.09457938299
+Iteration 637: -44106.922054213064
+Iteration 638: -52816.99844951962
+Iteration 639: -48766.348509774376
+Iteration 640: -75804.60110540815
+Iteration 641: -27333.192997748953
+Iteration 642: -44541.72067753849
+Iteration 643: -40502.06385840126
+Iteration 644: -73403.95806136602
+Iteration 645: -47720.088797105396
+Iteration 646: -36715.98851517097
+Iteration 647: -39152.69294505474
+Iteration 648: -25173.963091315847
+Iteration 649: -26272.03745603919
+Iteration 650: -26082.04405865642
+Iteration 651: -23730.888838665243
+Iteration 652: -49461.10420568692
+Iteration 653: -45721.7321796536
+Iteration 654: -31586.964396942625
+Iteration 655: -34561.262854888686
+Iteration 656: -28911.411072815175
+Iteration 657: -32494.744527945073
+Iteration 658: -51153.11744855396
+Iteration 659: -37715.19273560182
+Iteration 660: -19172.97692583974
+Iteration 661: -32037.07028007066
+Iteration 662: -22338.281211820657
+Iteration 663: -43955.43223846213
+Iteration 664: -24034.95275353658
+Iteration 665: -55720.49843157607
+Iteration 666: -31135.095329754025
+Iteration 667: -36321.93319456854
+Iteration 668: -31550.163354853736
+Iteration 669: -39205.2706966413
+Iteration 670: -58831.878841686375
+Iteration 671: -33183.44094774546
+Iteration 672: -45652.16795899377
+Iteration 673: -42643.74466816086
+Iteration 674: -27852.778923488033
+Iteration 675: -48927.548999673185
+Iteration 676: -28148.822815310854
+Iteration 677: -33356.693958875956
+Iteration 678: -37393.5102438809
+Iteration 679: -13652.22948382634
+Iteration 680: -24179.948279764376
+Iteration 681: -41085.36904721676
+Iteration 682: -65792.64262232301
+Warning: Parameter "embed-signaporian" created outside of the guide.
+Iteration 683: -48182.168512128716
+Iteration 684: -21678.71469963926
+Iteration 685: -15701.118617095308
+Iteration 686: -37811.72126604374
+Iteration 687: -48914.02837477422
+Iteration 688: -18809.33934203197
+Iteration 689: -62018.99587993254
+Iteration 690: -56743.09109032615
+Warning: Parameter "embed-takes" created outside of the guide.
+Iteration 691: -54354.11909707382
+Iteration 692: -47787.73721935594
+Iteration 693: -46908.53745275721
+Iteration 694: -22640.429931023602
+Iteration 695: -30293.567080121727
+Iteration 696: -24144.46859221466
+Iteration 697: -43404.47864363155
+Iteration 698: -54457.04664331783
+Iteration 699: -21528.35880705321
+Iteration 700: -14071.979316820236
+Iteration 701: -63906.741755854615
+Iteration 702: -23935.395958847566
+Iteration 703: -30730.224121660478
+Iteration 704: -28244.49738590445
+Iteration 705: -46142.38890984014
+Iteration 706: -17305.617215545375
+Iteration 707: -48743.14854352206
+Iteration 708: -40722.47415165059
+Iteration 709: -11639.531435626406
+Iteration 710: -22999.78596298386
+Iteration 711: -37711.68871245683
+Iteration 712: -61227.22777521813
+Iteration 713: -20842.202546209348
+Iteration 714: -24306.89527972253
+Iteration 715: -56168.58801135926
+Iteration 716: -39668.55922512432
+Iteration 717: -61394.71547148941
+Iteration 718: -71459.9157432224
+Iteration 719: -31684.70454099175
+Iteration 720: -80001.03396752369
+Iteration 721: -45570.18934293068
+Iteration 722: -27432.928275815502
+Iteration 723: -41263.46336137784
+Iteration 724: -31943.395242835788
+Iteration 725: -27340.69600516847
+Iteration 726: -80570.42404151153
+Iteration 727: -14310.63018544502
+Iteration 728: -38887.52730092735
+Warning: Parameter "embed-vegitarian" created outside of the guide.
+Iteration 729: -49982.81204061049
+Iteration 730: -29369.010179699064
+Iteration 731: -21647.437223015062
+Iteration 732: -22774.717709285054
+Iteration 733: -56095.77284190221
+Iteration 734: -25065.673536000337
+Iteration 735: -29504.766506823646
+Iteration 736: -29507.1053344226
+Iteration 737: -51501.4092848085
+Iteration 738: -39432.89636249303
+Iteration 739: -18473.295420482686
+Iteration 740: -22470.642097468924
+Iteration 741: -29782.618664364705
+Iteration 742: -42124.61386286243
+Iteration 743: -22100.25107893525
+Warning: Parameter "embed-ever" created outside of the guide.
+Warning: Parameter "embed-surprise" created outside of the guide.
+Iteration 744: -72027.80046340884
+Iteration 745: -34573.58094371162
+Iteration 746: -24996.502978198598
+Iteration 747: -34205.59663194499
+Iteration 748: -37158.53042277247
+Iteration 749: -17846.254884556532
+Warning: Parameter "embed-zip" created outside of the guide.
+Iteration 750: -23562.817652469876
+Iteration 751: -44142.407215417865
+Iteration 752: -30028.677766970362
+Iteration 753: -26093.22397098423
+Iteration 754: -24734.353073685434
+Iteration 755: -46393.81094524537
+Iteration 756: -22631.65615223366
+Iteration 757: -42147.918637267045
+Iteration 758: -34078.147230605864
+Iteration 759: -26533.30087150626
+Iteration 760: -31876.54117851474
+Iteration 761: -19602.11971357224
+Iteration 762: -14537.417820005148
+Iteration 763: -21611.225778287884
+Iteration 764: -56797.12205003724
+Iteration 765: -16870.76964181138
+Iteration 766: -57909.072475797715
+Iteration 767: -34474.15516852876
+Iteration 768: -23527.838003406887
+Iteration 769: -27260.727095440005
+Iteration 770: -34662.368361297595
+Iteration 771: -30405.196541235608
+Iteration 772: -18440.366129219965
+Iteration 773: -70398.72386425505
+Iteration 774: -29688.813357299743
+Iteration 775: -42413.83294379697
+Warning: Parameter "embed-india" created outside of the guide.
+Iteration 776: -33948.61459659846
+Iteration 777: -19478.955593282364
+Iteration 778: -31399.823817396427
+Iteration 779: -10583.984002803118
+Iteration 780: -37155.53407457061
+Iteration 781: -27277.972093411594
+Iteration 782: -22507.341363405005
+Iteration 783: -23049.56788439342
+Iteration 784: -44996.524432305145
+Iteration 785: -48574.96457184981
+Iteration 786: -84371.08287928088
+Iteration 787: -22779.307661290084
+Iteration 788: -19380.36367961749
+Iteration 789: -37082.769357848825
+Iteration 790: -45688.6515232039
+Iteration 791: -21940.97535254115
+Iteration 792: -44355.86738634876
+Iteration 793: -25535.902960098934
+Iteration 794: -21940.945876655438
+Iteration 795: -52799.51988432278
+Iteration 796: -23290.43916887659
+Iteration 797: -99286.9942148105
+Iteration 798: -43246.560881307625
+Iteration 799: -37008.401028046035
+Iteration 800: -51028.66399796048
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What part of town do you have in mind? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine south expensive $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG the good luck chinese food in the expensive price range $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG api_call R_cuisine south moderate $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 800,
+  "runtimeInSeconds": 18381.773,
+  "objectiveValue": -51028.66399796048,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 605
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 578
+    }
+  }
+}
+Iteration 801: -16470.160893501252
+Iteration 802: -16797.998620268456
+Iteration 803: -27198.04015669113
+Iteration 804: -28214.33662738635
+Iteration 805: -43223.561359672465
+Iteration 806: -25308.248522248472
+Iteration 807: -37669.89523698658
+Iteration 808: -35154.97322297854
+Iteration 809: -42180.8225393086
+Iteration 810: -29998.524622938257
+Iteration 811: -24105.114222027067
+Iteration 812: -20695.060032353795
+Iteration 813: -28133.08079631584
+Iteration 814: -24046.331425411194
+Iteration 815: -35575.282043133186
+Iteration 816: -27787.564510771783
+Iteration 817: -41034.39609509049
+Iteration 818: -26622.061751497884
+Iteration 819: -43320.66579040925
+Iteration 820: -29594.12643944531
+Iteration 821: -36150.29074672684
+Iteration 822: -43631.40037986817
+Iteration 823: -31144.19615657458
+Iteration 824: -33077.93368714421
+Iteration 825: -26265.29295910893
+Iteration 826: -15364.938011273445
+Iteration 827: -52433.40489741296
+Iteration 828: -34961.06732632547
+Iteration 829: -19701.086409912834
+Iteration 830: -22852.417511344727
+Iteration 831: -27489.05523061744
+Iteration 832: -33072.219133713275
+Iteration 833: -15847.415277829547
+Iteration 834: -66660.28834023865
+Iteration 835: -12523.918033147165
+Iteration 836: -31067.767820490695
+Iteration 837: -18767.37510165468
+Iteration 838: -25303.935234735538
+Iteration 839: -22995.613533275904
+Warning: Parameter "embed-cut" created outside of the guide.
+Iteration 840: -12850.414440862563
+Iteration 841: -29599.914300413442
+Iteration 842: -26512.40230215538
+Iteration 843: -25911.86701871873
+Iteration 844: -25746.89147326732
+Iteration 845: -29770.559033701993
+Iteration 846: -28165.864636183385
+Iteration 847: -25153.90640252231
+Iteration 848: -65453.05530800132
+Iteration 849: -11270.917287965667
+Iteration 850: -34523.15875323898
+Iteration 851: -38471.59423678391
+Iteration 852: -14230.358128524016
+Iteration 853: -38464.51993763679
+Iteration 854: -21063.629693343795
+Iteration 855: -55405.471153210194
+Iteration 856: -61256.0268792728
+Iteration 857: -20106.568629337304
+Iteration 858: -46530.55680997879
+Iteration 859: -42284.728367290525
+Iteration 860: -28988.12403138326
+Iteration 861: -35255.17421544857
+Iteration 862: -20481.183237840083
+Iteration 863: -39890.0990553161
+Iteration 864: -39992.18051322726
+Iteration 865: -50525.9163989967
+Iteration 866: -19047.52084710748
+Iteration 867: -13070.469195302032
+Iteration 868: -23805.882283085757
+Iteration 869: -17114.66635370474
+Iteration 870: -58276.89234685147
+Iteration 871: -39826.98811237367
+Iteration 872: -34249.19676784831
+Iteration 873: -65901.60779627328
+Iteration 874: -20502.788534942836
+Iteration 875: -24556.83275121274
+Iteration 876: -19099.548084730868
+Iteration 877: -95321.1710482875
+Iteration 878: -35304.66643011035
+Iteration 879: -36383.5594937413
+Iteration 880: -59836.73275300241
+Iteration 881: -15476.851692275728
+Iteration 882: -28004.875856072835
+Iteration 883: -64124.61999842443
+Iteration 884: -65872.83316044239
+Iteration 885: -25180.66583620893
+Iteration 886: -28064.068862740183
+Iteration 887: -13014.174690174606
+Iteration 888: -46334.19010507786
+Iteration 889: -27323.60942709626
+Iteration 890: -21599.420074238853
+Iteration 891: -38099.81315860238
+Iteration 892: -24690.003871877623
+Iteration 893: -13629.87389500639
+Iteration 894: -69628.13126740223
+Iteration 895: -36357.756288979836
+Iteration 896: -26147.228577801947
+Iteration 897: -35642.20938072025
+Iteration 898: -15648.086341368107
+Iteration 899: -33321.94183069374
+Iteration 900: -35106.27967867152
+Iteration 901: -21648.25827413335
+Iteration 902: -42442.05820858892
+Iteration 903: -23941.943583708475
+Iteration 904: -50473.47452715786
+Iteration 905: -20351.529842459466
+Iteration 906: -35564.33166459855
+Iteration 907: -31925.58506598063
+Iteration 908: -21803.785415361977
+Iteration 909: -28259.463698730542
+Iteration 910: -66185.61420077084
+Iteration 911: -23046.81169918358
+Iteration 912: -23897.04531011549
+Iteration 913: -18072.559335978418
+Iteration 914: -63948.55513908955
+Warning: Parameter "embed-viet" created outside of the guide.
+Iteration 915: -57687.85528408333
+Iteration 916: -41512.46364189273
+Iteration 917: -31862.035402375066
+Iteration 918: -29797.637281592277
+Iteration 919: -25394.153046407417
+Iteration 920: -19903.787341913863
+Iteration 921: -71711.16319279012
+Iteration 922: -25893.546661477398
+Iteration 923: -23902.401461100402
+Iteration 924: -76810.0574834196
+Iteration 925: -36642.88597511847
+Iteration 926: -31698.792999221187
+Iteration 927: -67953.42172321034
+Iteration 928: -63454.47624502196
+Iteration 929: -38527.12511503854
+Iteration 930: -10691.477393344467
+Iteration 931: -30204.44826239522
+Iteration 932: -60303.193406718645
+Iteration 933: -23443.9720446372
+Iteration 934: -17581.523199944193
+Iteration 935: -28990.355395902825
+Iteration 936: -48091.438868512756
+Iteration 937: -39720.56632239048
+Iteration 938: -21800.066124367553
+Iteration 939: -31111.587561675304
+Iteration 940: -41769.18671861659
+Iteration 941: -23670.626019456264
+Iteration 942: -22219.60610391038
+Iteration 943: -21307.539316499882
+Iteration 944: -17568.549392044122
+Iteration 945: -23464.04088435104
+Iteration 946: -23213.77571916562
+Iteration 947: -33300.814495158826
+Iteration 948: -21447.32657524
+Iteration 949: -28370.273124838855
+Iteration 950: -29281.280609453468
+Iteration 951: -50283.38289231368
+Iteration 952: -27800.810977440706
+Iteration 953: -23691.67955426589
+Iteration 954: -22817.89111817224
+Iteration 955: -51207.0593509651
+Iteration 956: -30034.58573707532
+Iteration 957: -43684.919609962686
+Iteration 958: -44019.89915557256
+Iteration 959: -29740.743084964288
+Iteration 960: -58761.18259732514
+Iteration 961: -24200.898267845103
+Iteration 962: -8425.943587686317
+Iteration 963: -32709.236169824966
+Iteration 964: -33641.30174554585
+Iteration 965: -13305.383067074732
+Iteration 966: -45902.533359237685
+Warning: Parameter "embed-polynesia" created outside of the guide.
+Iteration 967: -50646.96085513337
+Iteration 968: -33379.2669849269
+Iteration 969: -27118.17369386914
+Iteration 970: -48628.76207814854
+Iteration 971: -47628.150017759755
+Iteration 972: -52383.708965064725
+Iteration 973: -54095.609758155944
+Iteration 974: -47761.93826296823
+Iteration 975: -24339.56890604106
+Iteration 976: -24173.20514947354
+Iteration 977: -42234.47517032941
+Iteration 978: -29939.624623199434
+Iteration 979: -20983.202969187056
+Iteration 980: -45648.99882581119
+Iteration 981: -32151.339753896536
+Iteration 982: -15859.480594707984
+Iteration 983: -40912.17907273684
+Iteration 984: -26787.3450679628
+Iteration 985: -36331.65865065979
+Iteration 986: -28119.653607392993
+Iteration 987: -20506.285069847567
+Iteration 988: -21585.826389503593
+Iteration 989: -14189.269539662318
+Iteration 990: -35543.28666724771
+Iteration 991: -21021.65074962545
+Iteration 992: -38322.83707526803
+Iteration 993: -30447.757492399607
+Iteration 994: -27340.516039108585
+Iteration 995: -13820.328227265783
+Iteration 996: -45244.75659816366
+Iteration 997: -32359.28932078219
+Iteration 998: -29341.330540360996
+Iteration 999: -21093.42026778476
+Iteration 1000: -36502.21674643981
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG Would you like something in the cheap , moderate , or expensive price range? $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG api_call R_cuisine south expensive $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG the_nirala serves chinese food $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 1000,
+  "runtimeInSeconds": 22875.7,
+  "objectiveValue": -36502.21674643981,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 705
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 625
+    }
+  }
+}
+Iteration 1001: -23693.259106662634
+Iteration 1002: -16336.66074401975
+Iteration 1003: -22322.287178037546
+Iteration 1004: -18309.023163113266
+Iteration 1005: -14736.678686414729
+Iteration 1006: -9153.357816182517
+Iteration 1007: -24286.77854234833
+Iteration 1008: -20826.882954685334
+Iteration 1009: -62538.246134126915
+Iteration 1010: -14633.564174384985
+Iteration 1011: -15887.310102453926
+Iteration 1012: -42073.44996948308
+Iteration 1013: -29864.65991657434
+Iteration 1014: -42844.37467222822
+Warning: Parameter "embed-indians" created outside of the guide.
+Iteration 1015: -20181.428794994335
+Iteration 1016: -30819.514738940154
+Iteration 1017: -31588.762694546152
+Iteration 1018: -29869.821885712943
+Iteration 1019: -18707.7473265641
+Iteration 1020: -30982.32552248496
+Iteration 1021: -20866.534124767957
+Iteration 1022: -18071.43552553459
+Iteration 1023: -29425.619134014454
+Iteration 1024: -13654.797780737108
+Iteration 1025: -33902.71175056749
+Iteration 1026: -36479.25433024592
+Iteration 1027: -41153.6725860968
+Iteration 1028: -33468.38067458529
+Iteration 1029: -24640.610147864456
+Iteration 1030: -30745.745954609873
+Iteration 1031: -36942.50379453206
+Iteration 1032: -24564.112095017095
+Iteration 1033: -17934.84586191094
+Iteration 1034: -34030.835834597296
+Iteration 1035: -32411.62352628324
+Iteration 1036: -15486.961174711869
+Iteration 1037: -17833.50042031785
+Iteration 1038: -44550.04750027066
+Iteration 1039: -43774.21100467463
+Iteration 1040: -12311.703426547747
+Iteration 1041: -23158.850229143347
+Iteration 1042: -24285.75067468348
+Iteration 1043: -48889.49442862557
+Iteration 1044: -18489.56130094614
+Iteration 1045: -17003.700666961093
+Iteration 1046: -25509.47651185011
+Iteration 1047: -34661.99604659482
+Iteration 1048: -42896.61114776128
+Iteration 1049: -17509.5513837776
+Iteration 1050: -75181.0607595209
+Iteration 1051: -56455.70538416208
+Iteration 1052: -16779.191425446013
+Iteration 1053: -36950.24405387337
+Iteration 1054: -33790.48586451847
+Iteration 1055: -28672.47214029116
+Iteration 1056: -52012.913434506285
+Iteration 1057: -23290.71428601175
+Iteration 1058: -37156.41809637198
+Iteration 1059: -42214.235348725415
+Iteration 1060: -18850.162304110396
+Iteration 1061: -29229.12935384931
+Iteration 1062: -39005.25088662976
+Iteration 1063: -16346.65182092588
+Iteration 1064: -19209.9226367462
+Iteration 1065: -39685.14657205707
+Iteration 1066: -39720.00904875568
+Iteration 1067: -18377.99886463585
+Iteration 1068: -27282.702120534967
+Iteration 1069: -51890.97555632816
+Iteration 1070: -27573.67910853023
+Iteration 1071: -40939.75188350161
+Iteration 1072: -34774.97411249592
+Iteration 1073: -15548.509127181494
+Iteration 1074: -28990.701941678664
+Iteration 1075: -15691.360272835092
+Iteration 1076: -21746.103793824732
+Iteration 1077: -41671.66912127469
+Iteration 1078: -41461.15956497247
+Iteration 1079: -39249.10551747898
+Iteration 1080: -25688.80316348644
+Iteration 1081: -24521.210795046463
+Iteration 1082: -32729.33045616315
+Iteration 1083: -32625.540072517208
+Iteration 1084: -32671.66076904703
+Iteration 1085: -29351.45387878533
+Iteration 1086: -24991.963132217417
+Iteration 1087: -29452.72166293664
+Iteration 1088: -22771.832749746623
+Iteration 1089: -26682.98939347271
+Iteration 1090: -66823.82487672547
+Iteration 1091: -28764.83928422944
+Iteration 1092: -19426.061833458298
+Iteration 1093: -22883.058606696588
+Iteration 1094: -58073.63875434014
+Iteration 1095: -21692.25040349509
+Iteration 1096: -21590.182897949533
+Iteration 1097: -43603.61707610577
+Iteration 1098: -31712.981321081
+Warning: Parameter "embed-meditteranian" created outside of the guide.
+Iteration 1099: -40992.30714446563
+Iteration 1100: -23641.309317285348
+Iteration 1101: -27519.211797148906
+Iteration 1102: -32138.17589306242
+Iteration 1103: -35381.36836945857
+Iteration 1104: -24138.058074381326
+Iteration 1105: -24075.526998804762
+Iteration 1106: -53335.846161346664
+Iteration 1107: -26155.68037459516
+Iteration 1108: -63064.23703991066
+Iteration 1109: -39799.47412021111
+Iteration 1110: -35236.80745631933
+Iteration 1111: -17171.173980942454
+Iteration 1112: -43074.30526446752
+Iteration 1113: -72973.10651789152
+Iteration 1114: -14905.281095848832
+Iteration 1115: -21925.81844486288
+Iteration 1116: -40890.21022148051
+Iteration 1117: -23381.517193412146
+Iteration 1118: -21150.212615802415
+Iteration 1119: -16144.470959949644
+Iteration 1120: -22318.184801772968
+Iteration 1121: -75094.03159337454
+Iteration 1122: -19831.530733997963
+Iteration 1123: -32228.007831731018
+Iteration 1124: -26968.67060465436
+Iteration 1125: -29854.704900491983
+Iteration 1126: -36025.364404128464
+Iteration 1127: -47518.67001212528
+Iteration 1128: -38416.96094603556
+Iteration 1129: -25839.888130843345
+Iteration 1130: -24550.734992677695
+Iteration 1131: -27037.940326521522
+Iteration 1132: -20772.684570643436
+Iteration 1133: -46903.80964804282
+Iteration 1134: -64351.48289303324
+Iteration 1135: -26419.168521034568
+Iteration 1136: -14659.351229954751
+Iteration 1137: -38217.57915786802
+Iteration 1138: -45417.60226096758
+Iteration 1139: -14151.517024008579
+Iteration 1140: -28315.01866384291
+Iteration 1141: -61146.61991980041
+Iteration 1142: -11459.715716948469
+Iteration 1143: -44704.451625712594
+Iteration 1144: -27107.915519062954
+Iteration 1145: -48582.30593927443
+Iteration 1146: -22145.209030824284
+Iteration 1147: -21779.7300114739
+Iteration 1148: -13536.345681832283
+Iteration 1149: -21855.200019427768
+Iteration 1150: -29405.526966560683
+Iteration 1151: -41862.40483488276
+Iteration 1152: -25005.728873063796
+Iteration 1153: -20852.501478659535
+Iteration 1154: -48170.290894119644
+Iteration 1155: -33961.99828643116
+Iteration 1156: -47707.555234243366
+Iteration 1157: -20056.71647179029
+Iteration 1158: -24005.935975440592
+Iteration 1159: -19609.6047491161
+Iteration 1160: -29055.518759976247
+Iteration 1161: -32907.5238978162
+Iteration 1162: -56269.57983194342
+Iteration 1163: -25866.992564428747
+Iteration 1164: -40869.147706784264
+Iteration 1165: -48674.422082497564
+Iteration 1166: -22435.300192817187
+Iteration 1167: -29692.748035973644
+Iteration 1168: -10064.681333090784
+Iteration 1169: -32124.99279201953
+Iteration 1170: -29141.753971128554
+Iteration 1171: -38972.710224248185
+Iteration 1172: -22163.86727717445
+Iteration 1173: -38401.75833329043
+Iteration 1174: -20532.321651838134
+Iteration 1175: -24271.279600433896
+Iteration 1176: -37717.21943168794
+Iteration 1177: -19854.337664463525
+Iteration 1178: -17396.669407489306
+Iteration 1179: -70967.72812781992
+Iteration 1180: -31194.684433176888
+Iteration 1181: -12547.472579631281
+Iteration 1182: -20995.24595189454
+Iteration 1183: -14819.577340507498
+Iteration 1184: -15975.961801063057
+Iteration 1185: -27404.989582468468
+Iteration 1186: -54995.760598163804
+Iteration 1187: -31271.522358643193
+Iteration 1188: -31240.192729305996
+Iteration 1189: -21097.041287571945
+Iteration 1190: -29105.411720639087
+Iteration 1191: -40036.198146040806
+Iteration 1192: -36428.82548239522
+Iteration 1193: -14217.54989867307
+Iteration 1194: -23027.989609469398
+Iteration 1195: -13570.758470338187
+Iteration 1196: -14738.941322838296
+Iteration 1197: -66379.56338306297
+Iteration 1198: -25320.053687506468
+Iteration 1199: -30710.942684187183
+Iteration 1200: -14377.99190137908
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine south expensive $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG the good luck chinese food takeaway is a nice place in the south of town and the prices are expensive $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG peking_restaurant is a nice restaurant in the south of town serving chinese food $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 1200,
+  "runtimeInSeconds": 27373.878,
+  "objectiveValue": -14377.99190137908,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 724
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 642
+    }
+  }
+}
+Iteration 1201: -35707.11173308805
+Iteration 1202: -16640.66324374416
+Iteration 1203: -21224.154464239324
+Iteration 1204: -29858.543704607717
+Iteration 1205: -21695.067320516733
+Iteration 1206: -14748.982405950372
+Iteration 1207: -15226.47843649392
+Iteration 1208: -26674.833334249695
+Iteration 1209: -10719.58472071354
+Iteration 1210: -45540.06197380411
+Iteration 1211: -75924.62224161386
+Iteration 1212: -47099.966062347776
+Iteration 1213: -10411.539065729261
+Iteration 1214: -22563.47612040851
+Iteration 1215: -41332.41159569297
+Iteration 1216: -40431.93639991752
+Iteration 1217: -27360.36839397889
+Iteration 1218: -25114.901234212935
+Iteration 1219: -38839.398883549875
+Iteration 1220: -40200.39287117048
+Iteration 1221: -14846.184697849618
+Iteration 1222: -24497.892619523165
+Iteration 1223: -30004.634850216953
+Iteration 1224: -24501.00824350323
+Iteration 1225: -55034.97242441954
+Iteration 1226: -13733.87855246496
+Iteration 1227: -17113.911880480762
+Iteration 1228: -21166.851966622442
+Iteration 1229: -35431.71886263912
+Iteration 1230: -22218.13277462092
+Iteration 1231: -35914.001567832296
+Iteration 1232: -73842.51749060181
+Iteration 1233: -21594.23983293685
+Iteration 1234: -20557.907338720863
+Iteration 1235: -19777.822591560893
+Iteration 1236: -22726.076286069623
+Iteration 1237: -55670.43473511832
+Iteration 1238: -30168.650389960716
+Iteration 1239: -33572.20293305661
+Iteration 1240: -32568.831418295762
+Iteration 1241: -42929.32259243409
+Iteration 1242: -10463.226547245344
+Iteration 1243: -14866.020839898145
+Iteration 1244: -36904.56126447462
+Iteration 1245: -30230.93562370304
+Iteration 1246: -20559.13616776794
+Iteration 1247: -49325.41280486156
+Iteration 1248: -27353.502484666595
+Iteration 1249: -35899.89177624642
+Iteration 1250: -23455.00815158062
+Iteration 1251: -13294.561207679018
+Iteration 1252: -36285.547776094005
+Iteration 1253: -39027.77118219329
+Iteration 1254: -26348.94507081819
+Iteration 1255: -12441.52525221262
+Iteration 1256: -9408.553699162641
+Iteration 1257: -37994.97288731633
+Iteration 1258: -15189.826879000706
+Iteration 1259: -14817.533716969268
+Iteration 1260: -39909.20702006109
+Iteration 1261: -35305.68737647536
+Iteration 1262: -33781.96327163168
+Iteration 1263: -23230.75733573655
+Iteration 1264: -34730.18331443622
+Iteration 1265: -29075.549180719827
+Iteration 1266: -32929.768962931324
+Iteration 1267: -55567.601975219266
+Iteration 1268: -18460.517575421072
+Iteration 1269: -22640.410637084304
+Iteration 1270: -18603.271181508662
+Iteration 1271: -34525.92866250176
+Iteration 1272: -44074.533474543285
+Iteration 1273: -60819.64604993
+Iteration 1274: -19290.25117543306
+Iteration 1275: -51616.23573951167
+Iteration 1276: -27231.392257443058
+Iteration 1277: -49381.39487132168
+Iteration 1278: -22497.999995020447
+Iteration 1279: -34230.53051626783
+Iteration 1280: -30169.093431811874
+Iteration 1281: -34920.24861818862
+Iteration 1282: -27880.434585172974
+Iteration 1283: -18752.969024000322
+Iteration 1284: -32313.69767193109
+Iteration 1285: -21814.504801153413
+Iteration 1286: -27055.25840247221
+Iteration 1287: -11875.432152608331
+Iteration 1288: -32175.688364006473
+Iteration 1289: -22994.466229907
+Iteration 1290: -59290.33314266319
+Iteration 1291: -21320.03172808439
+Iteration 1292: -31143.242387031463
+Iteration 1293: -22158.859479802522
+Iteration 1294: -43488.654747668974
+Iteration 1295: -38956.03691761957
+Iteration 1296: -7951.718090060954
+Iteration 1297: -25504.314548307735
+Iteration 1298: -11974.46135042957
+Iteration 1299: -38112.27736551054
+Iteration 1300: -67333.72633291812
+Iteration 1301: -27565.852935887695
+Iteration 1302: -16767.38272140708
+Iteration 1303: -31228.409016672038
+Iteration 1304: -24745.099050546884
+Iteration 1305: -21406.718978933422
+Iteration 1306: -21272.32554295404
+Iteration 1307: -21501.945744466884
+Iteration 1308: -25346.023121240487
+Iteration 1309: -24980.23970179959
+Iteration 1310: -33989.68992131729
+Iteration 1311: -14422.24266222255
+Iteration 1312: -25659.195529390443
+Iteration 1313: -19037.837893065098
+Iteration 1314: -34377.958003311534
+Iteration 1315: -29954.228333857485
+Iteration 1316: -54965.73011899502
+Iteration 1317: -30426.87259345285
+Iteration 1318: -24554.151451859227
+Iteration 1319: -39918.97305138618
+Iteration 1320: -17116.193240250028
+Iteration 1321: -38534.81704225061
+Iteration 1322: -27040.287304315014
+Iteration 1323: -48834.489486109494
+Iteration 1324: -26158.708025266005
+Iteration 1325: -14193.586282626437
+Iteration 1326: -29751.15144060098
+Iteration 1327: -16288.374566286288
+Iteration 1328: -21397.14455485141
+Iteration 1329: -28359.373112709905
+Iteration 1330: -14017.537509958514
+Iteration 1331: -30248.00147517072
+Iteration 1332: -25067.305096191703
+Iteration 1333: -29739.230525595594
+Iteration 1334: -47800.67607804662
+Iteration 1335: -38720.652748334294
+Iteration 1336: -31368.51121608902
+Iteration 1337: -15705.229982994704
+Iteration 1338: -34125.1990002565
+Iteration 1339: -39865.51196449153
+Iteration 1340: -38406.50478188123
+Iteration 1341: -18049.34171612396
+Iteration 1342: -41554.43470691831
+Iteration 1343: -35541.49224747915
+Iteration 1344: -19277.25780875534
+Iteration 1345: -20882.00730776642
+Iteration 1346: -38904.93208816831
+Iteration 1347: -20303.67533537642
+Iteration 1348: -39934.52178758858
+Iteration 1349: -29919.022828025383
+Iteration 1350: -17098.77799461387
+Iteration 1351: -35836.59359586661
+Iteration 1352: -16746.568507898955
+Iteration 1353: -12153.341211552786
+Iteration 1354: -34640.29516764008
+Iteration 1355: -38463.04092906338
+Iteration 1356: -58449.05412810646
+Iteration 1357: -18944.43721058986
+Iteration 1358: -17683.658000276017
+Iteration 1359: -21746.138461819184
+Iteration 1360: -74392.51264188658
+Iteration 1361: -17666.67657868517
+Iteration 1362: -27190.30247317257
+Iteration 1363: -19704.63022800677
+Iteration 1364: -17934.916342059765
+Iteration 1365: -41567.110536785236
+Iteration 1366: -19782.33494526089
+Iteration 1367: -43893.20211972614
+Iteration 1368: -57060.733722829544
+Iteration 1369: -18754.80150973236
+Iteration 1370: -17960.986564384933
+Iteration 1371: -38876.38601964899
+Iteration 1372: -27531.17869211233
+Iteration 1373: -20931.722263739928
+Iteration 1374: -16431.70104261798
+Iteration 1375: -29121.0197290525
+Iteration 1376: -16044.047687147979
+Iteration 1377: -29919.246227861764
+Iteration 1378: -51325.38412165955
+Iteration 1379: -56202.878221712286
+Iteration 1380: -53391.40600457408
+Iteration 1381: -20859.511232928093
+Iteration 1382: -49847.9346775721
+Iteration 1383: -25107.06074375728
+Iteration 1384: -23824.012060469635
+Iteration 1385: -38615.92414425613
+Iteration 1386: -51098.85167381108
+Iteration 1387: -22868.424727927966
+Iteration 1388: -14396.59310823518
+Iteration 1389: -54464.717670092956
+Iteration 1390: -8379.734853366686
+Iteration 1391: -21622.618724671374
+Iteration 1392: -30315.883587856548
+Iteration 1393: -19117.39048713788
+Iteration 1394: -24489.97262405475
+Iteration 1395: -38264.45537605713
+Iteration 1396: -41664.0757452533
+Iteration 1397: -18642.242830533574
+Iteration 1398: -12958.558200530835
+Iteration 1399: -28962.174771035865
+Iteration 1400: -17342.19447764436
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine south expensive $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG the good luck chinese food takeaway is a great restaurant $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG the good luck chinese food takeaway is a great restaurant serving chinese food and it is in the moderate price range $
+
+{
+  "index": 1400,
+  "runtimeInSeconds": 31921.331,
+  "objectiveValue": -17342.19447764436,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 736
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 643
+    }
+  }
+}
+Iteration 1401: -28236.15849987014
+Iteration 1402: -24543.566803515932
+Iteration 1403: -28916.57333467977
+Iteration 1404: -31943.452662718355
+Iteration 1405: -31954.14576841525
+Iteration 1406: -16451.109834341274
+Iteration 1407: -28728.83504023046
+Iteration 1408: -26098.54073632004
+Iteration 1409: -22044.715593988014
+Iteration 1410: -25120.41007873986
+Iteration 1411: -67358.4253162304
+Iteration 1412: -37313.23080830469
+Iteration 1413: -22143.17740063244
+Iteration 1414: -18769.371439506085
+Iteration 1415: -19900.004891431785
+Iteration 1416: -27180.929421720728
+Iteration 1417: -41657.55152497779
+Iteration 1418: -16364.639512269132
+Iteration 1419: -22474.689564195374
+Iteration 1420: -33345.71431329445
+Iteration 1421: -32586.191698137667
+Iteration 1422: -59601.112406341534
+Iteration 1423: -20645.192524144666
+Iteration 1424: -79917.65142735005
+Iteration 1425: -31390.115987070134
+Iteration 1426: -26765.937053160924
+Iteration 1427: -21460.503207455142
+Iteration 1428: -28153.265738442442
+Iteration 1429: -33294.16878404495
+Iteration 1430: -27809.144165490685
+Iteration 1431: -32534.267131699846
+Iteration 1432: -22612.240815932768
+Iteration 1433: -13935.448324172323
+Iteration 1434: -24350.178946905817
+Iteration 1435: -15048.47865167294
+Iteration 1436: -72344.55642222601
+Iteration 1437: -24689.974746052365
+Iteration 1438: -84193.1174647272
+Iteration 1439: -71817.76493749364
+Iteration 1440: -16635.903476232772
+Iteration 1441: -78469.8958137061
+Iteration 1442: -30340.216874941496
+Iteration 1443: -49061.58717407493
+Iteration 1444: -37165.59427127779
+Iteration 1445: -27153.60287727258
+Iteration 1446: -17132.62388190871
+Iteration 1447: -13164.933064915196
+Iteration 1448: -62965.88615591421
+Iteration 1449: -28677.902346562692
+Iteration 1450: -25532.24688973198
+Iteration 1451: -18673.579922144512
+Iteration 1452: -46114.02893837295
+Iteration 1453: -12124.747566626304
+Iteration 1454: -35513.66037586839
+Iteration 1455: -28117.876630827523
+Iteration 1456: -23927.640600756837
+Iteration 1457: -27253.424908188284
+Iteration 1458: -34390.993586419696
+Iteration 1459: -40696.77657994515
+Iteration 1460: -19065.61334273011
+Iteration 1461: -34800.92119249742
+Iteration 1462: -37393.23338579781
+Iteration 1463: -32882.74692808965
+Iteration 1464: -25284.460535680388
+Iteration 1465: -21980.00999142442
+Iteration 1466: -35771.550793095295
+Iteration 1467: -51439.57089510919
+Iteration 1468: -19688.6173937765
+Iteration 1469: -12406.955121568195
+Iteration 1470: -25672.069321789797
+Iteration 1471: -64023.85566813554
+Iteration 1472: -31271.367631912035
+Iteration 1473: -36237.05384616391
+Iteration 1474: -29299.410815590192
+Iteration 1475: -24765.836009708644
+Iteration 1476: -31664.948246422784
+Iteration 1477: -17760.62134674848
+Iteration 1478: -23834.89602319808
+Iteration 1479: -17717.88751695198
+Iteration 1480: -45864.519830996964
+Iteration 1481: -16221.75827220121
+Iteration 1482: -34278.96470160418
+Iteration 1483: -21694.935846849072
+Iteration 1484: -38000.664336770766
+Iteration 1485: -16629.13546312977
+Iteration 1486: -23717.41556917655
+Iteration 1487: -15854.405165901302
+Iteration 1488: -28844.596516067773
+Iteration 1489: -28729.24793292345
+Iteration 1490: -33133.70124511998
+Iteration 1491: -56394.57620781847
+Iteration 1492: -37962.13995608518
+Iteration 1493: -11886.706427955458
+Iteration 1494: -20464.822924806307
+Iteration 1495: -27100.000701075274
+Iteration 1496: -16041.587477810051
+Iteration 1497: -23463.078798534865
+Iteration 1498: -62819.33343606637
+Iteration 1499: -30378.97770286452
+Iteration 1500: -20212.37613719216
+Iteration 1501: -45482.05644964759
+Iteration 1502: -12800.665450592289
+Iteration 1503: -9559.648005728443
+Iteration 1504: -20718.33275213573
+Iteration 1505: -35560.69265977949
+Iteration 1506: -38920.81061302057
+Iteration 1507: -29140.628663275114
+Iteration 1508: -17120.27258014506
+Iteration 1509: -48122.47589621198
+Iteration 1510: -9836.895374238806
+Iteration 1511: -25041.649068788764
+Iteration 1512: -39842.73802061066
+Iteration 1513: -29532.451350609765
+Iteration 1514: -47298.16705954295
+Iteration 1515: -17477.053086125234
+Iteration 1516: -17358.511714481552
+Iteration 1517: -10555.91738981977
+Iteration 1518: -29260.557018031534
+Iteration 1519: -20523.27947257384
+Iteration 1520: -17327.345281802216
+Iteration 1521: -23339.527975280194
+Iteration 1522: -28039.848002853258
+Iteration 1523: -42374.200367191195
+Iteration 1524: -36151.433877046606
+Iteration 1525: -24351.797936499606
+Iteration 1526: -17204.04334038573
+Iteration 1527: -25673.55128900072
+Iteration 1528: -25729.0606527201
+Iteration 1529: -20256.372951695565
+Iteration 1530: -26730.58565293156
+Iteration 1531: -22844.26331736114
+Iteration 1532: -32030.835412189055
+Iteration 1533: -51438.15799549584
+Iteration 1534: -20505.875628742488
+Iteration 1535: -28814.227067583553
+Iteration 1536: -17292.27328577289
+Iteration 1537: -16307.477389601745
+Iteration 1538: -27271.01079876861
+Iteration 1539: -18919.75542845591
+Iteration 1540: -37478.48222510692
+Iteration 1541: -29470.501628414575
+Iteration 1542: -17484.416165828294
+Iteration 1543: -11600.692069836006
+Iteration 1544: -35467.1208405193
+Iteration 1545: -35923.68198917715
+Iteration 1546: -26151.13117028063
+Iteration 1547: -29348.783984686797
+Iteration 1548: -30561.249590999378
+Iteration 1549: -35466.1853220047
+Iteration 1550: -35768.175864712735
+Iteration 1551: -17941.654285473778
+Iteration 1552: -50613.60383878808
+Iteration 1553: -30253.493989806
+Iteration 1554: -21934.681554021874
+Iteration 1555: -33386.10478698897
+Iteration 1556: -41640.96087303021
+Iteration 1557: -8890.099455651458
+Iteration 1558: -40761.66334382485
+Iteration 1559: -20003.186559900852
+Iteration 1560: -30310.17973597702
+Iteration 1561: -18932.64442522282
+Iteration 1562: -36522.66837698463
+Iteration 1563: -22397.036145230995
+Iteration 1564: -16121.538977535613
+Iteration 1565: -20011.42584416733
+Iteration 1566: -50847.64512498283
+Iteration 1567: -21896.270315964804
+Iteration 1568: -25771.21994527378
+Iteration 1569: -30646.705588178404
+Iteration 1570: -28583.12260798696
+Iteration 1571: -31031.57707467906
+Iteration 1572: -21216.85283763247
+Iteration 1573: -32390.295512076176
+Iteration 1574: -41051.62377912909
+Iteration 1575: -25282.85965952231
+Iteration 1576: -38397.490724813164
+Iteration 1577: -23366.53515116558
+Iteration 1578: -20842.034315674642
+Iteration 1579: -26804.765919386864
+Iteration 1580: -27965.943326266493
+Iteration 1581: -38363.24506968789
+Iteration 1582: -26615.430546808446
+Iteration 1583: -39231.7879496435
+Iteration 1584: -16917.117974631925
+Iteration 1585: -21492.193131400658
+Iteration 1586: -34911.99464839411
+Iteration 1587: -34540.93519736029
+Iteration 1588: -70166.24522954244
+Iteration 1589: -29178.64334534152
+Iteration 1590: -34985.772316695155
+Iteration 1591: -21108.442164581527
+Iteration 1592: -13958.630632072587
+Iteration 1593: -35168.35401237324
+Iteration 1594: -41321.845161736615
+Iteration 1595: -15394.159338696065
+Iteration 1596: -28869.76836378282
+Iteration 1597: -26226.836591505937
+Iteration 1598: -35840.34015138529
+Iteration 1599: -12035.754403928133
+Iteration 1600: -23793.443165683024
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine south expensive $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG the good luck chinese food takeaway is a nice place in the south of town and the prices are expensive $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 1600,
+  "runtimeInSeconds": 36508.622,
+  "objectiveValue": -23793.443165683024,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 767
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 662
+    }
+  }
+}
+Iteration 1601: -31242.079575741962
+Iteration 1602: -26743.474687854927
+Iteration 1603: -48327.47460961431
+Iteration 1604: -35621.75571403814
+Iteration 1605: -17143.575682526272
+Iteration 1606: -16221.08236939775
+Iteration 1607: -28351.699678296776
+Iteration 1608: -62685.36854177913
+Iteration 1609: -46727.06483753546
+Iteration 1610: -33713.08772503376
+Iteration 1611: -16930.76400773254
+Iteration 1612: -15521.332120179397
+Iteration 1613: -22712.288164339527
+Iteration 1614: -34495.39961074842
+Iteration 1615: -28121.927297138787
+Iteration 1616: -16373.169964894194
+Iteration 1617: -23568.713963226135
+Iteration 1618: -65092.50123111616
+Iteration 1619: -30208.81012799169
+Iteration 1620: -14050.447976422856
+Iteration 1621: -33208.02744950188
+Iteration 1622: -19705.845791530737
+Iteration 1623: -19444.438380811454
+Iteration 1624: -17557.943884700628
+Iteration 1625: -24895.142578639956
+Iteration 1626: -36246.79737575699
+Iteration 1627: -25987.511286123317
+Iteration 1628: -30858.399985202737
+Iteration 1629: -35387.96325990894
+Iteration 1630: -27599.91560925291
+Iteration 1631: -15717.617826425747
+Iteration 1632: -46109.496987214785
+Iteration 1633: -23146.065595420037
+Iteration 1634: -51282.19364215763
+Iteration 1635: -19712.82725867227
+Iteration 1636: -26082.483697658958
+Iteration 1637: -21700.91519126113
+Iteration 1638: -13749.371083929896
+Iteration 1639: -38509.77792311067
+Iteration 1640: -31885.944271436092
+Iteration 1641: -30436.188094292404
+Iteration 1642: -23741.006011688452
+Iteration 1643: -17907.32950846489
+Iteration 1644: -22821.904848315477
+Iteration 1645: -21006.01513259368
+Iteration 1646: -11156.725108451328
+Iteration 1647: -24778.788326895716
+Iteration 1648: -33610.89543288446
+Iteration 1649: -14894.109059301407
+Iteration 1650: -18049.313637041192
+Iteration 1651: -38074.52524835512
+Iteration 1652: -29534.534930512797
+Iteration 1653: -24582.152072653935
+Iteration 1654: -31827.747160181643
+Iteration 1655: -16181.327434344632
+Iteration 1656: -23127.12692002551
+Iteration 1657: -31313.81012281361
+Iteration 1658: -24584.63488130273
+Iteration 1659: -8078.152423669489
+Iteration 1660: -43716.40408391062
+Iteration 1661: -41914.2393588827
+Iteration 1662: -11161.301679357877
+Iteration 1663: -18330.05803759163
+Iteration 1664: -20689.960977768602
+Iteration 1665: -29347.923934051312
+Iteration 1666: -27642.906179169036
+Iteration 1667: -30178.265864809866
+Iteration 1668: -22701.3870899162
+Iteration 1669: -21679.072666853586
+Iteration 1670: -22143.172207145428
+Iteration 1671: -12701.703301922264
+Iteration 1672: -24378.39069785476
+Iteration 1673: -39509.27318600528
+Iteration 1674: -31590.74361803855
+Iteration 1675: -30037.36596504608
+Iteration 1676: -18423.606533005437
+Iteration 1677: -42069.936249338214
+Iteration 1678: -22677.64351258846
+Iteration 1679: -28384.024134795167
+Iteration 1680: -24695.194628240737
+Iteration 1681: -26842.986754643913
+Iteration 1682: -14409.254014359542
+Iteration 1683: -36713.56450873145
+Iteration 1684: -44629.995037253306
+Iteration 1685: -38827.02245481783
+Iteration 1686: -15504.340338475326
+Iteration 1687: -36192.39226967785
+Iteration 1688: -32025.647555483116
+Iteration 1689: -16687.10370020777
+Iteration 1690: -32331.29561288454
+Iteration 1691: -25911.48223036219
+Iteration 1692: -46897.805932084215
+Iteration 1693: -57463.812997494264
+Iteration 1694: -18871.458958001887
+Iteration 1695: -22192.06007590504
+Iteration 1696: -35049.72104629341
+Iteration 1697: -23277.397674847554
+Iteration 1698: -24018.39223097239
+Iteration 1699: -16375.90556512777
+Iteration 1700: -12536.499054273534
+Iteration 1701: -40140.32877999228
+Iteration 1702: -31338.11519248533
+Iteration 1703: -14487.210819658905
+Iteration 1704: -27614.078906785806
+Killed

@@ -1,0 +1,721 @@
+Cloning into '/project'...
+remote: Counting objects: 623, done.[K
+remote: Compressing objects:   0% (1/358)   [Kremote: Compressing objects:   1% (4/358)   [Kremote: Compressing objects:   2% (8/358)   [Kremote: Compressing objects:   3% (11/358)   [Kremote: Compressing objects:   4% (15/358)   [Kremote: Compressing objects:   5% (18/358)   [Kremote: Compressing objects:   5% (20/358)   [Kremote: Compressing objects:   6% (22/358)   [Kremote: Compressing objects:   6% (23/358)   [Kremote: Compressing objects:   7% (26/358)   [Kremote: Compressing objects:   7% (28/358)   [Kremote: Compressing objects:   8% (29/358)   [Kremote: Compressing objects:   9% (33/358)   [Kremote: Compressing objects:   9% (34/358)   [Kremote: Compressing objects:  10% (36/358)   [Kremote: Compressing objects:  11% (40/358)   [Kremote: Compressing objects:  12% (43/358)   [Kremote: Compressing objects:  13% (47/358)   [Kremote: Compressing objects:  14% (51/358)   [Kremote: Compressing objects:  15% (54/358)   [Kremote: Compressing objects:  16% (58/358)   [Kremote: Compressing objects:  17% (61/358)   [Kremote: Compressing objects:  18% (65/358)   [Kremote: Compressing objects:  19% (69/358)   [Kremote: Compressing objects:  19% (70/358)   [Kremote: Compressing objects:  20% (72/358)   [Kremote: Compressing objects:  21% (76/358)   [Kremote: Compressing objects:  22% (79/358)   [Kremote: Compressing objects:  23% (83/358)   [Kremote: Compressing objects:  24% (86/358)   [Kremote: Compressing objects:  25% (90/358)   [Kremote: Compressing objects:  25% (91/358)   [Kremote: Compressing objects:  26% (94/358)   [Kremote: Compressing objects:  27% (97/358)   [Kremote: Compressing objects:  28% (101/358)   [Kremote: Compressing objects:  29% (104/358)   [Kremote: Compressing objects:  30% (108/358)   [Kremote: Compressing objects:  31% (111/358)   [Kremote: Compressing objects:  32% (115/358)   [Kremote: Compressing objects:  33% (119/358)   [Kremote: Compressing objects:  34% (122/358)   [Kremote: Compressing objects:  35% (126/358)   [Kremote: Compressing objects:  36% (129/358)   [Kremote: Compressing objects:  37% (133/358)   [Kremote: Compressing objects:  38% (137/358)   [Kremote: Compressing objects:  39% (140/358)   [Kremote: Compressing objects:  40% (144/358)   [Kremote: Compressing objects:  41% (147/358)   [Kremote: Compressing objects:  42% (151/358)   [Kremote: Compressing objects:  43% (154/358)   [Kremote: Compressing objects:  44% (158/358)   [Kremote: Compressing objects:  45% (162/358)   [Kremote: Compressing objects:  46% (165/358)   [Kremote: Compressing objects:  47% (169/358)   [Kremote: Compressing objects:  48% (172/358)   [Kremote: Compressing objects:  49% (176/358)   [Kremote: Compressing objects:  50% (179/358)   [Kremote: Compressing objects:  51% (183/358)   [Kremote: Compressing objects:  52% (187/358)   [Kremote: Compressing objects:  53% (190/358)   [Kremote: Compressing objects:  54% (194/358)   [Kremote: Compressing objects:  55% (197/358)   [Kremote: Compressing objects:  56% (201/358)   [Kremote: Compressing objects:  57% (205/358)   [Kremote: Compressing objects:  58% (208/358)   [Kremote: Compressing objects:  59% (212/358)   [Kremote: Compressing objects:  60% (215/358)   [Kremote: Compressing objects:  61% (219/358)   [Kremote: Compressing objects:  62% (222/358)   [Kremote: Compressing objects:  63% (226/358)   [Kremote: Compressing objects:  64% (230/358)   [Kremote: Compressing objects:  65% (233/358)   [Kremote: Compressing objects:  66% (237/358)   [Kremote: Compressing objects:  67% (240/358)   [Kremote: Compressing objects:  68% (244/358)   [Kremote: Compressing objects:  69% (248/358)   [Kremote: Compressing objects:  70% (251/358)   [Kremote: Compressing objects:  71% (255/358)   [Kremote: Compressing objects:  72% (258/358)   [Kremote: Compressing objects:  73% (262/358)   [Kremote: Compressing objects:  74% (265/358)   [Kremote: Compressing objects:  75% (269/358)   [Kremote: Compressing objects:  76% (273/358)   [Kremote: Compressing objects:  77% (276/358)   [Kremote: Compressing objects:  78% (280/358)   [Kremote: Compressing objects:  79% (283/358)   [Kremote: Compressing objects:  80% (287/358)   [Kremote: Compressing objects:  81% (290/358)   [Kremote: Compressing objects:  82% (294/358)   [Kremote: Compressing objects:  83% (298/358)   [Kremote: Compressing objects:  84% (301/358)   [Kremote: Compressing objects:  85% (305/358)   [Kremote: Compressing objects:  86% (308/358)   [Kremote: Compressing objects:  87% (312/358)   [Kremote: Compressing objects:  88% (316/358)   [Kremote: Compressing objects:  89% (319/358)   [Kremote: Compressing objects:  90% (323/358)   [Kremote: Compressing objects:  91% (326/358)   [Kremote: Compressing objects:  92% (330/358)   [Kremote: Compressing objects:  93% (333/358)   [Kremote: Compressing objects:  94% (337/358)   [Kremote: Compressing objects:  95% (341/358)   [Kremote: Compressing objects:  96% (344/358)   [Kremote: Compressing objects:  97% (348/358)   [Kremote: Compressing objects:  98% (351/358)   [Kremote: Compressing objects:  99% (355/358)   [Kremote: Compressing objects: 100% (358/358)   [Kremote: Compressing objects: 100% (358/358), done.[K
+Receiving objects:   0% (1/623)   Receiving objects:   1% (7/623)   Receiving objects:   2% (13/623)   Receiving objects:   3% (19/623)   Receiving objects:   4% (25/623)   Receiving objects:   5% (32/623)   Receiving objects:   6% (38/623)   Receiving objects:   7% (44/623)   Receiving objects:   8% (50/623)   Receiving objects:   9% (57/623)   Receiving objects:  10% (63/623)   Receiving objects:  11% (69/623)   Receiving objects:  12% (75/623)   Receiving objects:  13% (81/623)   Receiving objects:  14% (88/623)   Receiving objects:  15% (94/623)   Receiving objects:  16% (100/623)   Receiving objects:  17% (106/623)   Receiving objects:  18% (113/623)   Receiving objects:  19% (119/623)   Receiving objects:  20% (125/623)   Receiving objects:  21% (131/623)   Receiving objects:  22% (138/623)   Receiving objects:  23% (144/623)   Receiving objects:  24% (150/623)   Receiving objects:  25% (156/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  26% (162/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  27% (169/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  28% (175/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  29% (181/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  30% (187/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  31% (194/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  32% (200/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  33% (206/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  34% (212/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  35% (219/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  36% (225/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  37% (231/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  38% (237/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  39% (243/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  39% (249/623), 8.31 MiB | 16.62 MiB/s   Receiving objects:  40% (250/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  41% (256/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  42% (262/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  43% (268/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  44% (275/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  45% (281/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  46% (287/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  47% (293/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  48% (300/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  49% (306/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  50% (312/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  51% (318/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  52% (324/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  53% (331/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  54% (337/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  55% (343/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  56% (349/623), 17.68 MiB | 17.68 MiB/s   Receiving objects:  57% (356/623), 27.16 MiB | 18.10 MiB/s   Receiving objects:  58% (362/623), 27.16 MiB | 18.10 MiB/s   Receiving objects:  59% (368/623), 27.16 MiB | 18.10 MiB/s   Receiving objects:  60% (374/623), 27.16 MiB | 18.10 MiB/s   Receiving objects:  61% (381/623), 27.16 MiB | 18.10 MiB/s   Receiving objects:  62% (387/623), 27.16 MiB | 18.10 MiB/s   Receiving objects:  63% (393/623), 27.16 MiB | 18.10 MiB/s   Receiving objects:  64% (399/623), 27.16 MiB | 18.10 MiB/s   Receiving objects:  65% (405/623), 27.16 MiB | 18.10 MiB/s   Receiving objects:  66% (412/623), 27.16 MiB | 18.10 MiB/s   Receiving objects:  67% (418/623), 27.16 MiB | 18.10 MiB/s   Receiving objects:  67% (419/623), 36.50 MiB | 18.25 MiB/s   remote: Total 623 (delta 205), reused 583 (delta 165), pack-reused 0[K
+Receiving objects:  68% (424/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  69% (430/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  70% (437/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  71% (443/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  72% (449/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  73% (455/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  74% (462/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  75% (468/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  76% (474/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  77% (480/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  78% (486/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  79% (493/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  80% (499/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  81% (505/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  82% (511/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  83% (518/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  84% (524/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  85% (530/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  86% (536/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  87% (543/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  88% (549/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  89% (555/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  90% (561/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  91% (567/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  92% (574/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  93% (580/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  94% (586/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  95% (592/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  96% (599/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  97% (605/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  98% (611/623), 36.50 MiB | 18.25 MiB/s   Receiving objects:  99% (617/623), 36.50 MiB | 18.25 MiB/s   Receiving objects: 100% (623/623), 36.50 MiB | 18.25 MiB/s   Receiving objects: 100% (623/623), 36.70 MiB | 18.25 MiB/s, done.
+Resolving deltas:   0% (0/205)   Resolving deltas:   3% (8/205)   Resolving deltas:   5% (11/205)   Resolving deltas:   6% (13/205)   Resolving deltas:   7% (16/205)   Resolving deltas:  15% (31/205)   Resolving deltas:  20% (42/205)   Resolving deltas:  22% (46/205)   Resolving deltas:  27% (56/205)   Resolving deltas:  29% (60/205)   Resolving deltas:  32% (66/205)   Resolving deltas:  35% (72/205)   Resolving deltas:  45% (93/205)   Resolving deltas:  47% (97/205)   Resolving deltas:  48% (100/205)   Resolving deltas:  49% (102/205)   Resolving deltas:  50% (103/205)   Resolving deltas:  51% (106/205)   Resolving deltas:  54% (111/205)   Resolving deltas:  63% (130/205)   Resolving deltas:  78% (161/205)   Resolving deltas:  80% (164/205)   Resolving deltas:  86% (177/205)   Resolving deltas:  89% (183/205)   Resolving deltas:  92% (190/205)   Resolving deltas:  94% (193/205)   Resolving deltas:  95% (195/205)   Resolving deltas: 100% (205/205)   Resolving deltas: 100% (205/205), done.
+Checking connectivity... done.
+[37;40mnpm[0m [0m[32minfo[0m [0m[35mit worked if it ends with[0m ok
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35musing[0m npm@3.10.10
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35musing[0m node@v6.10.2
+[0m[?25l[[90m..................[0m] / normalizeTree: [7msill[0m [35minstall[0m loadCurrentTree[K[[7m    [27m[90m..............[0m] / fetchMetadata: [7msill[0m [35mmapToRegistry[0m uri https://registry.n[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mattempt[0m registry request try #1 at 8:11:50 PM
+[0m[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35mrequest[0m GET https://registry.npmjs.org/lodash
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mattempt[0m registry request try #1 at 8:11:50 PM
+[0m[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35mrequest[0m GET https://registry.npmjs.org/minimist
+[0m[?25l[[7m    [27m[90m..............[0m] - fetchMetadata: [32;40mhttp[0m [35mrequest[0m GET https://registry.npmjs.o[K[K[?25h[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/minimist
+[0m[?25l[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/minim[K[K[?25h[37;40mnpm[0m [0m[32;40mhttp[0m [0m[35m200[0m https://registry.npmjs.org/lodash
+[0m[?25l[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] \ fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[[7m    [27m[90m..............[0m] | fetchMetadata: [32;40mhttp[0m [35m200[0m https://registry.npmjs.org/lodas[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~preinstall: webppl-common@0.0.1
+[0m[?25l[[7m              [27m[90m....[0m] - fetch: [7msill[0m [35mdoParallel[0m fetch 2[K[[7m              [27m[90m....[0m] | extract:minimist: [7msill[0m [35mdoParallel[0m extract 2[K[[7m              [27m[90m....[0m] / extract:minimist: [7msill[0m [35mdoParallel[0m extract 2[K[[7m               [27m[90m...[0m] | extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] - extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] / extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] - extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] | extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] | extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] / extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] / extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] / extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[[7m               [27m[90m...[0m] \ extract:minimist: [34;40mverb[0m [35mgentlyRm[0m don't care about content[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~preinstall: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m minimist@1.2.0~preinstall: minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~install: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m minimist@1.2.0~install: minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m lodash@4.17.4~postinstall: lodash@4.17.4
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m minimist@1.2.0~postinstall: minimist@1.2.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlinkStuff[0m webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~install: webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~postinstall: webppl-common@0.0.1
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m webppl-common@0.0.1~prepublish: webppl-common@0.0.1
+[0mwebppl-common@0.0.1 /project/models/common
++-- [40m[33mlodash@4.17.4[39m[49m 
+`-- [40m[33mminimist@1.2.0[39m[49m 
+
+[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m webppl-common@0.0.1 No repository field.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m webppl-common@0.0.1 No license field.
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mok[0m 
+[0m{
+  "batchSize": 5,
+  "latentDim": 50,
+  "maxDecoderSteps": 10,
+  "stepSize": 0.01,
+  "addWaitActions": false,
+  "useAttention": true,
+  "datasetName": "dstc"
+}
+Warning: Parameter "decoder-initb" created outside of the guide.
+Warning: Parameter "decoder-initw" created outside of the guide.
+Warning: Parameter "decoder-recurrentforgetb" created outside of the guide.
+Warning: Parameter "decoder-recurrentforgetw" created outside of the guide.
+Warning: Parameter "decoder-recurrentinputb" created outside of the guide.
+Warning: Parameter "decoder-recurrentinputw" created outside of the guide.
+Warning: Parameter "decoder-recurrentoutputb" created outside of the guide.
+Warning: Parameter "decoder-recurrentoutputw" created outside of the guide.
+Warning: Parameter "decoder-recurrentcandidateb" created outside of the guide.
+Warning: Parameter "decoder-recurrentcandidatew" created outside of the guide.
+Warning: Parameter "decoder-outputb" created outside of the guide.
+Warning: Parameter "decoder-outputw" created outside of the guide.
+Warning: Parameter "attention-1b" created outside of the guide.
+Warning: Parameter "attention-1w" created outside of the guide.
+Warning: Parameter "encoder-recurrentforgetb" created outside of the guide.
+Warning: Parameter "encoder-recurrentforgetw" created outside of the guide.
+Warning: Parameter "encoder-recurrentinputb" created outside of the guide.
+Warning: Parameter "encoder-recurrentinputw" created outside of the guide.
+Warning: Parameter "encoder-recurrentoutputb" created outside of the guide.
+Warning: Parameter "encoder-recurrentoutputw" created outside of the guide.
+Warning: Parameter "encoder-recurrentcandidateb" created outside of the guide.
+Warning: Parameter "encoder-recurrentcandidatew" created outside of the guide.
+Warning: Parameter "encoder-init" created outside of the guide.
+Iteration 0: -1206098.2516562152
+Iteration 1: -1326900.0068116062
+Iteration 2: -1331566.9089542623
+Iteration 3: -1286271.7888508854
+Iteration 4: -1158837.807109301
+Iteration 5: -969668.389956995
+Iteration 6: -1019605.2037743265
+Iteration 7: -1050694.3749436685
+Iteration 8: -683684.9434415333
+Iteration 9: -734002.8146206836
+Iteration 10: -818780.817366858
+Iteration 11: -732545.16213649
+Iteration 12: -817905.6714081829
+Iteration 13: -659090.601228302
+Iteration 14: -678454.2771014273
+Iteration 15: -501585.50805825094
+Iteration 16: -563512.1030605072
+Iteration 17: -553527.6379459953
+Iteration 18: -597288.6052993546
+Iteration 19: -763956.434434362
+Iteration 20: -637222.4238119103
+Iteration 21: -523275.06460591656
+Iteration 22: -570729.6200853977
+Iteration 23: -740735.8727305214
+Iteration 24: -479466.0411192166
+Iteration 25: -675602.6064183188
+Iteration 26: -512761.3455336511
+Iteration 27: -752396.1459398879
+Iteration 28: -474538.79831511463
+Iteration 29: -475674.26365536096
+Iteration 30: -525101.9571085596
+Iteration 31: -558628.1365410961
+Iteration 32: -386397.1102206434
+Iteration 33: -571524.9575759629
+Iteration 34: -489605.08661467524
+Iteration 35: -471750.0543274065
+Iteration 36: -354457.46431718394
+Iteration 37: -450096.8656806999
+Iteration 38: -478434.32222168834
+Iteration 39: -420806.5230123854
+Iteration 40: -323234.13308685075
+Iteration 41: -378568.06534088316
+Iteration 42: -375427.2132505177
+Iteration 43: -313079.4677950107
+Iteration 44: -435884.60903423023
+Iteration 45: -332957.4071966222
+Iteration 46: -286119.9018855044
+Iteration 47: -456713.74702115037
+Iteration 48: -398249.6114974212
+Iteration 49: -450183.33171250724
+Iteration 50: -396211.34279918263
+Iteration 51: -438715.27223780815
+Iteration 52: -273659.62119217054
+Iteration 53: -589525.3766884041
+Iteration 54: -291915.5630088831
+Iteration 55: -422247.84140827873
+Iteration 56: -251542.9445553068
+Iteration 57: -281226.4721897176
+Iteration 58: -265127.0240467436
+Iteration 59: -212135.367691115
+Iteration 60: -259837.61326916094
+Iteration 61: -279565.36749022274
+Iteration 62: -187608.65854007538
+Iteration 63: -247462.71731459617
+Iteration 64: -223030.00465302126
+Iteration 65: -310871.8453862887
+Iteration 66: -288631.14792492735
+Iteration 67: -234331.4142908167
+Iteration 68: -164187.41982862778
+Iteration 69: -237023.49536933322
+Iteration 70: -323840.9401470384
+Iteration 71: -215114.30427355462
+Iteration 72: -220734.32653921316
+Iteration 73: -224297.35269771187
+Iteration 74: -249649.43389333895
+Iteration 75: -155894.6874484085
+Iteration 76: -187363.61891544235
+Iteration 77: -145752.49565000724
+Iteration 78: -211715.64056599227
+Iteration 79: -171641.38626016103
+Iteration 80: -223441.8501486409
+Iteration 81: -118296.95556247106
+Iteration 82: -194005.50624731844
+Iteration 83: -193969.14384894012
+Iteration 84: -187005.03611239855
+Iteration 85: -149431.14846553377
+Iteration 86: -252986.2480014899
+Iteration 87: -150023.05324951754
+Iteration 88: -234190.8992314093
+Iteration 89: -125092.86692565426
+Iteration 90: -117278.8336840025
+Iteration 91: -142305.72096843008
+Iteration 92: -138263.03174250227
+Iteration 93: -130838.55815367472
+Iteration 94: -248966.0963977256
+Iteration 95: -135112.05555284524
+Iteration 96: -128956.41499483782
+Iteration 97: -113220.63536275971
+Iteration 98: -364026.7765862237
+Iteration 99: -90704.26077257204
+Iteration 100: -133884.76127085666
+Iteration 101: -161416.95309173554
+Iteration 102: -136979.32703936798
+Iteration 103: -121914.22711635267
+Iteration 104: -86831.93942222741
+Iteration 105: -138679.45477822062
+Iteration 106: -205537.76557325563
+Iteration 107: -119711.768151555
+Iteration 108: -175478.10987362626
+Iteration 109: -178054.17435786888
+Iteration 110: -162321.20437417403
+Iteration 111: -110348.25047948767
+Iteration 112: -138428.6336062046
+Iteration 113: -134633.5520307394
+Iteration 114: -183089.96999295408
+Iteration 115: -147417.61218654743
+Iteration 116: -135135.4577707613
+Iteration 117: -179307.1103497874
+Iteration 118: -174192.75434984005
+Iteration 119: -139725.99305069802
+Iteration 120: -175698.00950157756
+Iteration 121: -111066.5279171103
+Iteration 122: -130896.94600452909
+Iteration 123: -139895.60200598935
+Iteration 124: -137317.484431208
+Iteration 125: -124682.51040206634
+Iteration 126: -121482.01949473794
+Iteration 127: -96646.83265199774
+Iteration 128: -98764.26949487386
+Iteration 129: -138125.35970765678
+Iteration 130: -119263.91608044985
+Iteration 131: -164886.02101545347
+Iteration 132: -154488.83825363082
+Iteration 133: -107175.6506691842
+Iteration 134: -224155.76330192154
+Iteration 135: -140787.81458745312
+Iteration 136: -122325.95101834477
+Iteration 137: -124401.57595879945
+Iteration 138: -169944.90127140755
+Iteration 139: -146764.10999524101
+Iteration 140: -200146.92878449633
+Iteration 141: -97283.93450557331
+Iteration 142: -142556.12075240855
+Iteration 143: -124585.1068789813
+Iteration 144: -220142.64474135218
+Iteration 145: -105957.6500353215
+Iteration 146: -137134.08411784002
+Iteration 147: -137329.12911572304
+Iteration 148: -154536.91527304013
+Iteration 149: -119668.55138657142
+Iteration 150: -148390.59181065686
+Iteration 151: -115276.02692264921
+Iteration 152: -86839.46343307801
+Iteration 153: -120468.86445960973
+Iteration 154: -96668.14202061709
+Iteration 155: -111001.16455191943
+Iteration 156: -93495.32889811505
+Iteration 157: -165337.69573625887
+Iteration 158: -148479.5993000268
+Iteration 159: -117502.99070966356
+Iteration 160: -137136.58479362732
+Iteration 161: -136658.5921740424
+Iteration 162: -160166.25325535538
+Iteration 163: -217367.19923840367
+Iteration 164: -97616.01258628529
+Iteration 165: -127041.17309846924
+Iteration 166: -107323.06404886463
+Iteration 167: -88033.8187946125
+Iteration 168: -161447.83909406763
+Iteration 169: -125275.24194313762
+Iteration 170: -112469.7424660835
+Iteration 171: -149779.51094618152
+Iteration 172: -117735.64901192828
+Iteration 173: -56743.014568328144
+Iteration 174: -125750.44765765157
+Iteration 175: -106479.24175594488
+Iteration 176: -157546.38468152535
+Iteration 177: -148007.41143119425
+Iteration 178: -126733.44925940245
+Iteration 179: -107811.98228863897
+Iteration 180: -89913.08501210102
+Iteration 181: -97595.16789868777
+Iteration 182: -149039.3886037414
+Iteration 183: -63838.88014991051
+Iteration 184: -125521.21765590744
+Iteration 185: -122175.54498841499
+Iteration 186: -115572.79155763272
+Iteration 187: -83568.31561524786
+Iteration 188: -103069.66408513163
+Iteration 189: -105791.59334284294
+Iteration 190: -104730.56988714627
+Iteration 191: -120529.09399125936
+Iteration 192: -121812.58247687067
+Iteration 193: -79154.13985638811
+Iteration 194: -88673.89906793709
+Iteration 195: -101915.23013285559
+Iteration 196: -139982.9876215198
+Iteration 197: -93680.81438832055
+Iteration 198: -110104.78520014817
+Iteration 199: -83845.0616812246
+Iteration 200: -115920.58159180942
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price or or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG I'm sorry but there is no restaurant serving thanh_binh_address food $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG I'm sorry but there is no restaurant serving international food $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , the_missing_sock is on restaurant_alimentum_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG efes_restaurant is a restaurant at what of town $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 200,
+  "runtimeInSeconds": 6986.346,
+  "objectiveValue": -115920.58159180942,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 300
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 315
+    }
+  }
+}
+Iteration 201: -89603.36142639416
+Iteration 202: -135960.7852418315
+Iteration 203: -123275.91012698959
+Iteration 204: -96576.55559899626
+Iteration 205: -106088.24516960583
+Iteration 206: -114656.97986894555
+Iteration 207: -66850.66119075932
+Iteration 208: -135370.41006243124
+Iteration 209: -76238.66716389691
+Iteration 210: -120570.8078354148
+Iteration 211: -80163.53593847806
+Iteration 212: -67967.22618734883
+Iteration 213: -108748.93655093099
+Iteration 214: -73982.2182911952
+Iteration 215: -124520.16424961631
+Iteration 216: -152363.3314468118
+Iteration 217: -90163.97613823989
+Iteration 218: -79863.0886957996
+Iteration 219: -92974.77779580688
+Iteration 220: -93496.12819582545
+Iteration 221: -123503.98301184062
+Iteration 222: -76414.06806087463
+Iteration 223: -77463.68256731016
+Iteration 224: -49597.350327577304
+Iteration 225: -102406.71723936456
+Iteration 226: -85974.64991907448
+Iteration 227: -101391.94581154198
+Iteration 228: -93352.77296073617
+Iteration 229: -93859.02590211223
+Iteration 230: -111102.70675409226
+Iteration 231: -63103.92969459304
+Iteration 232: -77656.33632420356
+Iteration 233: -104667.60296268166
+Iteration 234: -52641.08019321394
+Iteration 235: -75918.09818236415
+Iteration 236: -93467.61298667247
+Iteration 237: -76066.7291378384
+Iteration 238: -77871.28169042
+Iteration 239: -93289.79769116876
+Iteration 240: -98205.9070578962
+Iteration 241: -108072.64231059438
+Iteration 242: -75897.06895041927
+Iteration 243: -137545.266889005
+Iteration 244: -67601.80045108484
+Iteration 245: -97596.89843186764
+Iteration 246: -87864.94801308274
+Iteration 247: -83697.37342425657
+Iteration 248: -68862.3885776173
+Iteration 249: -78085.94750829252
+Iteration 250: -66850.16296514566
+Iteration 251: -144613.16855870473
+Iteration 252: -101986.62679544635
+Iteration 253: -83470.22191197774
+Iteration 254: -93281.59866587528
+Iteration 255: -110258.07327649319
+Iteration 256: -81149.0952672208
+Iteration 257: -54550.27392193348
+Iteration 258: -88955.6923800395
+Iteration 259: -64566.717051163025
+Iteration 260: -91035.91390003591
+Iteration 261: -112072.34376716484
+Iteration 262: -91444.56248864313
+Iteration 263: -68080.21838240806
+Iteration 264: -84719.2683458374
+Iteration 265: -99596.8475393543
+Iteration 266: -79565.83180018885
+Iteration 267: -82361.35152860628
+Iteration 268: -84493.0556978902
+Iteration 269: -123805.25080653603
+Iteration 270: -103791.9806463289
+Iteration 271: -54934.15010604709
+Iteration 272: -102023.18644253052
+Iteration 273: -113320.73080429451
+Iteration 274: -78961.85390702217
+Iteration 275: -80407.80922367264
+Iteration 276: -86168.95433668919
+Iteration 277: -149894.8834272219
+Iteration 278: -99653.65528052502
+Iteration 279: -76093.83794555275
+Iteration 280: -84280.6885396256
+Iteration 281: -148494.29526725216
+Iteration 282: -47761.32415621553
+Iteration 283: -109613.3979823072
+Iteration 284: -66595.97426283328
+Iteration 285: -80345.66758525513
+Iteration 286: -60343.387265558136
+Iteration 287: -102263.5797952188
+Iteration 288: -74072.44750299779
+Iteration 289: -65796.70347906162
+Iteration 290: -73839.013044134
+Iteration 291: -58588.70633178848
+Iteration 292: -78463.87085428622
+Iteration 293: -76007.33101355363
+Iteration 294: -64785.09493086054
+Iteration 295: -78978.35029294934
+Iteration 296: -70196.17240893045
+Iteration 297: -94790.00733865981
+Iteration 298: -62640.94190516967
+Iteration 299: -71478.82324448135
+Iteration 300: -150425.74957777967
+Iteration 301: -57788.51569524869
+Iteration 302: -105192.80425030708
+Iteration 303: -64867.15210003511
+Iteration 304: -51849.597371642725
+Iteration 305: -64758.53681818932
+Iteration 306: -56681.62686287779
+Iteration 307: -84234.14766365144
+Iteration 308: -92029.96699554476
+Iteration 309: -128190.47185630213
+Iteration 310: -61849.40548226901
+Iteration 311: -161752.28777564788
+Iteration 312: -68889.6621556307
+Iteration 313: -78520.85141670561
+Iteration 314: -67730.2239933307
+Iteration 315: -93701.06707577243
+Iteration 316: -56906.341509644284
+Iteration 317: -104622.40404610455
+Iteration 318: -68761.95419392269
+Iteration 319: -78745.12854827105
+Iteration 320: -75074.54948161401
+Iteration 321: -91560.57592360995
+Iteration 322: -124764.7590793267
+Iteration 323: -117494.11006255154
+Iteration 324: -92315.31428345657
+Iteration 325: -94704.78847980693
+Iteration 326: -69723.68981567396
+Iteration 327: -79006.93443233674
+Iteration 328: -94325.72798046988
+Iteration 329: -73862.77829561842
+Iteration 330: -66668.67562465723
+Iteration 331: -133915.3475068205
+Iteration 332: -109291.79096376442
+Iteration 333: -94447.4332293585
+Iteration 334: -58742.72235841531
+Iteration 335: -82228.46101119475
+Iteration 336: -78079.72347597321
+Iteration 337: -91794.25454042795
+Iteration 338: -70123.11841332252
+Iteration 339: -65538.99287367641
+Iteration 340: -70360.61591412053
+Iteration 341: -79129.05580597828
+Iteration 342: -49091.287056560664
+Iteration 343: -64893.44518480696
+Iteration 344: -78340.58689935163
+Iteration 345: -52989.14672233998
+Iteration 346: -54088.1342261998
+Iteration 347: -81644.24429082697
+Iteration 348: -78552.50285527683
+Iteration 349: -84859.66051456655
+Iteration 350: -113611.13728380042
+Iteration 351: -70905.89871434521
+Iteration 352: -91783.50263548875
+Iteration 353: -65934.84560606084
+Iteration 354: -47649.15077023617
+Iteration 355: -103627.79505482734
+Iteration 356: -64197.485212864376
+Iteration 357: -44723.07413839717
+Iteration 358: -58063.848256720536
+Iteration 359: -69314.52355404239
+Iteration 360: -96544.75084730906
+Iteration 361: -67759.13292022234
+Iteration 362: -43711.630399219175
+Iteration 363: -117016.23618425745
+Iteration 364: -67710.21298646893
+Iteration 365: -79632.60468897798
+Iteration 366: -63758.28611024923
+Iteration 367: -53660.94799177286
+Iteration 368: -63141.2470712058
+Iteration 369: -51656.59621526019
+Iteration 370: -61137.75220155281
+Iteration 371: -37277.36991829428
+Iteration 372: -61984.54061875113
+Iteration 373: -67290.09204626532
+Iteration 374: -90736.09059395532
+Iteration 375: -56067.82897499292
+Iteration 376: -48429.812650062006
+Iteration 377: -117701.34536838086
+Iteration 378: -61279.46628921165
+Iteration 379: -43478.023306097915
+Iteration 380: -89803.90852807523
+Iteration 381: -60577.9713676198
+Iteration 382: -72002.17106221608
+Iteration 383: -38472.785950728845
+Iteration 384: -62799.025880350324
+Iteration 385: -69024.02172628047
+Iteration 386: -95094.4029879657
+Iteration 387: -61847.64664692737
+Iteration 388: -62804.20842095499
+Iteration 389: -60077.49610823242
+Iteration 390: -56075.705249638006
+Iteration 391: -58403.80616329936
+Iteration 392: -52745.02519267258
+Iteration 393: -80472.94121984458
+Iteration 394: -48045.83041463371
+Iteration 395: -68360.8977491158
+Iteration 396: -36924.29419377358
+Iteration 397: -70506.69873151771
+Iteration 398: -58697.884134699365
+Iteration 399: -68542.88779739548
+Iteration 400: -102592.09164510052
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG Would you like something in the cheap , moderate , or expensive price range? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG Let me confirm , You are looking for a restaurant and the of town? $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , on good on da_vinci_pizzeria chinese south of please takeaway saint_johns_chop_house is the_good_luck_chinese_food_takeaway_phone $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG I am sorry but there is no other korean restaurant that matches your request $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 400,
+  "runtimeInSeconds": 13686.334,
+  "objectiveValue": -102592.09164510052,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 424
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 434
+    }
+  }
+}
+Iteration 401: -63219.19317195893
+Iteration 402: -129743.24144053561
+Iteration 403: -77631.68730273194
+Iteration 404: -56468.310941910764
+Iteration 405: -48827.778258908635
+Iteration 406: -72740.94603889146
+Iteration 407: -38770.67609156412
+Iteration 408: -44220.71009156323
+Iteration 409: -55502.46596191373
+Iteration 410: -79352.04574508478
+Iteration 411: -71539.80114782508
+Iteration 412: -55112.427783785846
+Iteration 413: -71950.60928863454
+Iteration 414: -60479.97937221521
+Iteration 415: -35694.91529945555
+Iteration 416: -47941.94171419908
+Iteration 417: -41747.66723747429
+Iteration 418: -41727.377435147806
+Iteration 419: -38469.30301741328
+Iteration 420: -74277.43851452343
+Iteration 421: -46725.051068018154
+Iteration 422: -63925.674500905574
+Iteration 423: -44241.31008886159
+Iteration 424: -78878.74320496009
+Iteration 425: -90111.3958371471
+Iteration 426: -37472.35761785667
+Iteration 427: -81350.59705480232
+Iteration 428: -49585.47240036222
+Iteration 429: -37818.62960652175
+Iteration 430: -113255.73104462819
+Iteration 431: -60805.6125203902
+Iteration 432: -35462.173814114525
+Iteration 433: -73406.52881789215
+Iteration 434: -59504.36716576195
+Iteration 435: -61792.57741086587
+Iteration 436: -36852.316663604804
+Iteration 437: -50286.52678020347
+Iteration 438: -100187.53885217023
+Iteration 439: -79394.19253979466
+Iteration 440: -42438.57855384364
+Iteration 441: -42737.61295468494
+Iteration 442: -35725.17520850123
+Iteration 443: -81171.6637663343
+Iteration 444: -41965.863588110085
+Iteration 445: -39122.42247168047
+Iteration 446: -83336.02009906691
+Iteration 447: -91614.92756211739
+Iteration 448: -78966.95500752013
+Iteration 449: -27846.546327717726
+Iteration 450: -79723.91313403787
+Iteration 451: -72867.19313467958
+Iteration 452: -86252.27479442443
+Iteration 453: -39667.75072780468
+Iteration 454: -63052.69796679177
+Iteration 455: -84507.17329271472
+Iteration 456: -58406.16388233096
+Iteration 457: -63807.055935956705
+Iteration 458: -59469.89022580462
+Iteration 459: -33900.921648782096
+Iteration 460: -38779.70450944412
+Iteration 461: -69848.91508931063
+Iteration 462: -53161.67456815711
+Iteration 463: -31833.526807773593
+Iteration 464: -46556.15460781112
+Iteration 465: -75989.81529890276
+Iteration 466: -57239.30550056296
+Iteration 467: -68476.36478521996
+Iteration 468: -55221.05294044212
+Iteration 469: -56727.71173967864
+Iteration 470: -52555.05724241392
+Iteration 471: -34110.65150012067
+Iteration 472: -66579.28957704263
+Iteration 473: -47298.1644747198
+Iteration 474: -39720.33175837975
+Iteration 475: -32532.532545921877
+Iteration 476: -35451.02899650102
+Iteration 477: -64831.09929718618
+Iteration 478: -53671.221688648184
+Iteration 479: -170865.0027866601
+Iteration 480: -36370.5417593182
+Iteration 481: -76211.5230759548
+Iteration 482: -35503.07532978138
+Iteration 483: -55393.02666547017
+Iteration 484: -72841.24436317789
+Iteration 485: -106511.41923035846
+Iteration 486: -68798.06733939062
+Iteration 487: -53900.838196727294
+Iteration 488: -43992.0557310577
+Iteration 489: -61059.9675206293
+Iteration 490: -36238.891797829136
+Iteration 491: -39899.65823031723
+Iteration 492: -70556.35362481105
+Iteration 493: -61127.21541947214
+Iteration 494: -78292.23329320388
+Iteration 495: -37824.78487933146
+Iteration 496: -78027.48240048802
+Iteration 497: -96187.0719588975
+Iteration 498: -85298.53430817713
+Iteration 499: -79661.05111725407
+Iteration 500: -69391.90393266833
+Iteration 501: -80527.67643083377
+Iteration 502: -61437.503651800915
+Iteration 503: -35741.753782325315
+Iteration 504: -111984.53570265495
+Iteration 505: -71599.09568097496
+Iteration 506: -34320.873264545255
+Iteration 507: -65728.6283239198
+Iteration 508: -59371.61333851989
+Iteration 509: -72679.4712155056
+Iteration 510: -66251.77700733146
+Iteration 511: -44226.14937358393
+Iteration 512: -68939.0531390207
+Iteration 513: -57350.19366710043
+Iteration 514: -51503.197163317105
+Iteration 515: -95637.11895807069
+Iteration 516: -75373.5675733507
+Iteration 517: -42112.47790571621
+Iteration 518: -39027.558905298436
+Iteration 519: -62472.14622620934
+Iteration 520: -31199.246710512532
+Iteration 521: -59954.172947224164
+Iteration 522: -60481.850445151336
+Iteration 523: -36867.814725469245
+Iteration 524: -106683.41605096975
+Iteration 525: -62765.385025256175
+Iteration 526: -66406.42322122963
+Iteration 527: -34215.67904141406
+Iteration 528: -65885.62568049619
+Iteration 529: -42256.5007336728
+Iteration 530: -97364.10317347298

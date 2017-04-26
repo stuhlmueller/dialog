@@ -1,0 +1,1 @@
+--random-seed 11 -- --optimize --dataset dstc --embeddim 300 --latentdim 150 --no-attention

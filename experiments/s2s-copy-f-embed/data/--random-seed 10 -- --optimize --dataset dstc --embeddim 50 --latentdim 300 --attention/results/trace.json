@@ -1,0 +1,1 @@
+[{"index":200,"runtimeInSeconds":5272.219,"objectiveValue":-90126.50123210788,"trainingStats":{"dialogs":{"total":200,"correct":0},"responses":{"total":12429,"correct":425}},"devStats":{"dialogs":{"total":200,"correct":0},"responses":{"total":13184,"correct":422}}}]

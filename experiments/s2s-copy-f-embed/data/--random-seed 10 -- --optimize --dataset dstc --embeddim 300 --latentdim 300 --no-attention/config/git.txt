@@ -1,0 +1,5 @@
+commit fb3857bec8f9ad1af9b2b6bbd59b6bdd37ef1c5e
+Author: Andreas Stuhlmueller <andreas@stuhlmueller.org>
+Date:   Mon Apr 24 16:25:10 2017 -0700
+
+    Use word embedding (train end-to-end)
