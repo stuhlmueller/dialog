@@ -306,6 +306,10 @@ var main = function(options) {
       _.assign(stats.responsesInCurrentDialog, { total: 0, correct: 0 })
     };
     var callbackOnStep = function(x) {  // { action, modelAction, desiredAction }
+      if (x.desiredAction.what === 'WAIT') {
+        assert.ok(!addWaitActions, 'need to adapt evaluation')
+        return;
+      }
       var isCorrect = x.modelAction && (x.modelAction.toString() === x.desiredAction.toString() + ' $');
       var update = function(obj) {
         _.assign(obj, {
