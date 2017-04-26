@@ -1,3 +1,7 @@
+- With embedding (s2s-copy-f-embed), after 24h, still less than 10% per-response accuracy
+
+- Without embedding, DSTC is infeasible (word vectors of size 1000)
+
 - Plain S2S + attention does near-perfectly on babi 1:
 
     (venv) $ jq -c '[input_filename, .[-1].objectiveValue, .[-1].devStats.responses.correct]' data/*/results/trace.json
