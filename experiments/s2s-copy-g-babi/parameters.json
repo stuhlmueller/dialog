@@ -1,0 +1,20 @@
+{
+  "aws_ami": "ami-a0edc8c0", 
+  "aws_ami_comment": "ubuntu 16.10, us-west-1, Docker", 
+  "aws_ami_user": "ubuntu", 
+  "aws_instance_type": "c4.large", 
+  "aws_region": "us-west-1", 
+  "experiment_conditions": [
+    "--random-seed 10 -- --optimize --dataset babi --evalEvery 100 --attention",
+    "--random-seed 10 -- --optimize --dataset babi --evalEvery 100 --no-attention",
+    "--random-seed 11 -- --optimize --dataset babi --evalEvery 100 --attention",
+    "--random-seed 11 -- --optimize --dataset babi --evalEvery 100 --no-attention",
+    "--random-seed 12 -- --optimize --dataset babi --evalEvery 100 --attention",
+    "--random-seed 12 -- --optimize --dataset babi --evalEvery 100 --no-attention",
+    "--random-seed 13 -- --optimize --dataset babi --evalEvery 100 --attention",
+    "--random-seed 13 -- --optimize --dataset babi --evalEvery 100 --no-attention",
+    "--random-seed 14 -- --optimize --dataset babi --evalEvery 100 --attention",
+    "--random-seed 14 -- --optimize --dataset babi --evalEvery 100 --no-attention"
+  ], 
+  "experiment_name": "s2s-copy-g-babi"
+}
