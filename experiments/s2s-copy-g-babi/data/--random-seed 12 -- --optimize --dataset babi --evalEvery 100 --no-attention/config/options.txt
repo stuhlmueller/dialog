@@ -1,0 +1,1 @@
+--random-seed 12 -- --optimize --dataset babi --evalEvery 100 --no-attention

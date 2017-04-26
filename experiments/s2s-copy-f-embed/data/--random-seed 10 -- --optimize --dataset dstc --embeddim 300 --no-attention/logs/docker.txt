@@ -12540,3 +12540,4953 @@ Iteration 8391: -82413.88291702273
 Iteration 8392: -46860.280833664714
 Iteration 8393: -76081.5049714951
 Iteration 8394: -59888.770853176895
+Iteration 8395: -54491.41520403992
+Iteration 8396: -64645.58513115567
+Iteration 8397: -39881.81847815695
+Iteration 8398: -53996.97075231397
+Iteration 8399: -60515.05874869786
+Iteration 8400: -53481.242629480286
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine north moderate $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , prezzo is on prezzo_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG restaurant_one_seven serves british food $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 8400,
+  "runtimeInSeconds": 97559.051,
+  "objectiveValue": -53481.242629480286,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 434
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 437
+    }
+  }
+}
+Iteration 8401: -60850.915576366846
+Iteration 8402: -53289.2619373135
+Iteration 8403: -55464.05312323102
+Iteration 8404: -60885.455685949586
+Iteration 8405: -36388.399077628725
+Iteration 8406: -47002.801364494284
+Iteration 8407: -49590.115002905404
+Iteration 8408: -58674.49645771863
+Iteration 8409: -63745.123393199785
+Iteration 8410: -54047.570163992525
+Iteration 8411: -59871.99187206513
+Iteration 8412: -56437.945914497315
+Iteration 8413: -60577.09541066363
+Iteration 8414: -69886.9076781737
+Iteration 8415: -71755.46550865719
+Iteration 8416: -63664.914015451104
+Iteration 8417: -59933.0119173258
+Iteration 8418: -60652.76601553735
+Iteration 8419: -89499.50449696508
+Iteration 8420: -62147.42754314319
+Iteration 8421: -35213.696602042015
+Iteration 8422: -49230.431136817715
+Iteration 8423: -45996.16578018397
+Iteration 8424: -60872.112912785225
+Iteration 8425: -45959.35533116226
+Iteration 8426: -52726.316229962606
+Iteration 8427: -71995.12701858729
+Iteration 8428: -81120.76109607494
+Iteration 8429: -37173.91077802036
+Iteration 8430: -61135.80769229801
+Iteration 8431: -48170.94448755512
+Iteration 8432: -65038.180039782696
+Iteration 8433: -80133.96678817894
+Iteration 8434: -60681.12105124345
+Iteration 8435: -88700.5766270291
+Iteration 8436: -44692.264906879056
+Iteration 8437: -63525.20251143136
+Iteration 8438: -31686.74978151162
+Iteration 8439: -50279.50573043203
+Iteration 8440: -92813.2383450531
+Iteration 8441: -42972.2228467054
+Iteration 8442: -60750.59974873905
+Iteration 8443: -95555.70646761199
+Iteration 8444: -41679.95184187348
+Iteration 8445: -58210.722226183905
+Iteration 8446: -33933.237458795855
+Iteration 8447: -59998.84387016961
+Iteration 8448: -72227.61396800472
+Iteration 8449: -54789.84957350569
+Iteration 8450: -42141.0532406108
+Iteration 8451: -44186.344166875846
+Iteration 8452: -36080.36419992781
+Iteration 8453: -62333.100352996276
+Iteration 8454: -52549.391355735504
+Iteration 8455: -56688.47161465731
+Iteration 8456: -58473.37632737261
+Iteration 8457: -97532.73964232126
+Iteration 8458: -49571.61216568783
+Iteration 8459: -69221.29713793164
+Iteration 8460: -42165.80177260649
+Iteration 8461: -52334.54099309748
+Iteration 8462: -68758.04554950046
+Iteration 8463: -58666.29803353153
+Iteration 8464: -74291.04878986062
+Iteration 8465: -77377.6738043212
+Iteration 8466: -71355.02625319088
+Iteration 8467: -66962.61078777847
+Iteration 8468: -60368.01546646844
+Iteration 8469: -62082.19089905576
+Iteration 8470: -60470.971621618344
+Iteration 8471: -81118.77151559584
+Iteration 8472: -41783.81482625826
+Iteration 8473: -52235.04604980706
+Iteration 8474: -72010.2719060196
+Iteration 8475: -58341.935556597455
+Iteration 8476: -60149.82182722525
+Iteration 8477: -70214.78204179792
+Iteration 8478: -67043.92405565822
+Iteration 8479: -80777.33234882107
+Iteration 8480: -108487.63296824305
+Iteration 8481: -76607.45897517621
+Iteration 8482: -53152.479351232745
+Iteration 8483: -60198.12513900833
+Iteration 8484: -87311.9301682649
+Iteration 8485: -49894.30379886274
+Iteration 8486: -43628.54489425783
+Iteration 8487: -73318.52450361555
+Iteration 8488: -56159.95328588901
+Iteration 8489: -87881.93463779426
+Iteration 8490: -61344.702000016165
+Iteration 8491: -61614.957553594104
+Iteration 8492: -52008.59254518397
+Iteration 8493: -60127.120237838746
+Iteration 8494: -79538.44065339275
+Iteration 8495: -79867.34012921632
+Iteration 8496: -60449.54337721654
+Iteration 8497: -60304.68927823114
+Iteration 8498: -57812.30857103688
+Iteration 8499: -69303.19803706818
+Iteration 8500: -32148.622909560752
+Iteration 8501: -48240.95514542925
+Iteration 8502: -53750.45957583946
+Iteration 8503: -34109.790052898265
+Iteration 8504: -83771.26008321664
+Iteration 8505: -38667.17290827417
+Iteration 8506: -47828.44016406691
+Iteration 8507: -65238.53008209948
+Iteration 8508: -61462.622969252916
+Iteration 8509: -53525.24221725092
+Iteration 8510: -41111.38269495243
+Iteration 8511: -92384.7688308827
+Iteration 8512: -60626.36413080813
+Iteration 8513: -50467.19242313572
+Iteration 8514: -45304.029419321385
+Iteration 8515: -55173.285745467925
+Iteration 8516: -55995.60066866354
+Iteration 8517: -48600.74723431077
+Iteration 8518: -51977.73144586299
+Iteration 8519: -47389.72951386371
+Iteration 8520: -57041.884607519205
+Iteration 8521: -53159.258762361875
+Iteration 8522: -51518.05157882961
+Iteration 8523: -58419.05298713282
+Iteration 8524: -52202.17346150739
+Iteration 8525: -59510.89422355176
+Iteration 8526: -74546.4159660955
+Iteration 8527: -63673.64132539768
+Iteration 8528: -59048.44797541847
+Iteration 8529: -72073.91476497217
+Iteration 8530: -79999.89835878348
+Iteration 8531: -48656.530004642824
+Iteration 8532: -60292.53173863992
+Iteration 8533: -48698.11959684646
+Iteration 8534: -77403.79061837337
+Iteration 8535: -108772.13407140646
+Iteration 8536: -40544.29305090696
+Iteration 8537: -81890.02458319168
+Iteration 8538: -39981.85786987237
+Iteration 8539: -88215.61254314212
+Iteration 8540: -71252.98814556701
+Iteration 8541: -65192.56315578796
+Iteration 8542: -60596.25598493403
+Iteration 8543: -79412.7815031812
+Iteration 8544: -50927.81301021033
+Iteration 8545: -61379.11352192979
+Iteration 8546: -54150.758059665815
+Iteration 8547: -62779.007991951396
+Iteration 8548: -83728.86201282377
+Iteration 8549: -45305.275509228566
+Iteration 8550: -62644.58666391162
+Iteration 8551: -41120.23572603271
+Iteration 8552: -52612.566996215166
+Iteration 8553: -49027.20683827743
+Iteration 8554: -50831.920493465106
+Iteration 8555: -52464.761678972245
+Iteration 8556: -45451.4663513965
+Iteration 8557: -48060.10191513731
+Iteration 8558: -76803.49118838222
+Iteration 8559: -55210.13426227657
+Iteration 8560: -47238.98756553268
+Iteration 8561: -62130.77077477942
+Iteration 8562: -56132.99177066705
+Iteration 8563: -57582.66223203275
+Iteration 8564: -68404.96030277226
+Iteration 8565: -60198.54071110257
+Iteration 8566: -87080.29503248511
+Iteration 8567: -58838.43111192477
+Iteration 8568: -77348.92950397714
+Iteration 8569: -37250.484802779916
+Iteration 8570: -68623.40969640756
+Iteration 8571: -28565.527812382563
+Iteration 8572: -40314.64387452261
+Iteration 8573: -53734.14274407771
+Iteration 8574: -53284.196539776785
+Iteration 8575: -50871.638732765394
+Iteration 8576: -54284.80580359148
+Iteration 8577: -50434.97188021482
+Iteration 8578: -59164.351015234846
+Iteration 8579: -45984.49379941516
+Iteration 8580: -72911.84642222855
+Iteration 8581: -42771.13189422967
+Iteration 8582: -31555.139291114203
+Iteration 8583: -104478.6367009804
+Iteration 8584: -61179.206936166585
+Iteration 8585: -55414.35745195085
+Iteration 8586: -79063.36748962605
+Iteration 8587: -40451.644001735214
+Iteration 8588: -51353.55328340345
+Iteration 8589: -58988.601718999525
+Iteration 8590: -61402.02287147067
+Iteration 8591: -47531.86259013119
+Iteration 8592: -71324.22080740069
+Iteration 8593: -74793.76045471773
+Iteration 8594: -49645.98705519944
+Iteration 8595: -32308.08568351855
+Iteration 8596: -54694.98106692976
+Iteration 8597: -48785.17482271727
+Iteration 8598: -67923.73945519696
+Iteration 8599: -48915.344422731265
+Iteration 8600: -50700.588927697485
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG api_call R_cuisine north cheap $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG What part of town do you have in mind? $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , saint_johns_chop_house is on saint_johns_chop_house_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG the centre part of town . $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 8600,
+  "runtimeInSeconds": 99816.852,
+  "objectiveValue": -50700.588927697485,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 446
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 434
+    }
+  }
+}
+Iteration 8601: -66457.73835400418
+Iteration 8602: -38683.99367667385
+Iteration 8603: -67316.74579142338
+Iteration 8604: -69858.70062958112
+Iteration 8605: -44764.760916090585
+Iteration 8606: -39428.58139808798
+Iteration 8607: -51382.99293417389
+Iteration 8608: -81055.98625156775
+Iteration 8609: -64438.48772791887
+Iteration 8610: -71926.63836166596
+Iteration 8611: -32078.682837507
+Iteration 8612: -41371.119365316874
+Iteration 8613: -49614.22579788302
+Iteration 8614: -30247.732556213967
+Iteration 8615: -46500.40752781146
+Iteration 8616: -52113.512769721194
+Iteration 8617: -94910.22060899794
+Iteration 8618: -101167.71748574382
+Iteration 8619: -43423.08392729454
+Iteration 8620: -50896.12182132125
+Iteration 8621: -46056.46668008203
+Iteration 8622: -35060.881668653434
+Iteration 8623: -65422.46311722823
+Iteration 8624: -65922.19099141094
+Iteration 8625: -60759.16236077885
+Iteration 8626: -62003.369232466146
+Iteration 8627: -46702.40338190012
+Iteration 8628: -61351.32573578365
+Iteration 8629: -60536.29126365417
+Iteration 8630: -59086.025844961136
+Iteration 8631: -45503.005681097675
+Iteration 8632: -67730.42816069273
+Iteration 8633: -51803.15450760201
+Iteration 8634: -48169.270847599655
+Iteration 8635: -44737.874533518385
+Iteration 8636: -33498.73788038779
+Iteration 8637: -72753.52813435798
+Iteration 8638: -54478.777931414574
+Iteration 8639: -82850.2987940401
+Iteration 8640: -42045.783180950915
+Iteration 8641: -72552.23238162555
+Iteration 8642: -55872.96005228833
+Iteration 8643: -79249.54030611961
+Iteration 8644: -86435.78854516453
+Iteration 8645: -80997.82358919852
+Iteration 8646: -48248.92810264669
+Iteration 8647: -50932.02403949271
+Iteration 8648: -50487.066186303644
+Iteration 8649: -55570.827733395636
+Iteration 8650: -91731.10266301858
+Iteration 8651: -62364.377752241126
+Iteration 8652: -64080.66234165892
+Iteration 8653: -82436.59179430638
+Iteration 8654: -66874.16152725353
+Iteration 8655: -50719.11392117834
+Iteration 8656: -55904.50061028903
+Iteration 8657: -54581.54683798748
+Iteration 8658: -64177.79777495008
+Iteration 8659: -50174.99257775472
+Iteration 8660: -72180.28496846944
+Iteration 8661: -63366.96062450006
+Iteration 8662: -39538.0709615592
+Iteration 8663: -51796.3632095021
+Iteration 8664: -36157.85309795331
+Iteration 8665: -47817.365427107674
+Iteration 8666: -77412.16723975955
+Iteration 8667: -48739.744784075694
+Iteration 8668: -53762.3848699665
+Iteration 8669: -58794.40219337185
+Iteration 8670: -78228.90299845356
+Iteration 8671: -43323.48363247666
+Iteration 8672: -74373.18328364966
+Iteration 8673: -70770.33653575879
+Iteration 8674: -75040.34418963832
+Iteration 8675: -56548.01651947138
+Iteration 8676: -32180.711783449777
+Iteration 8677: -78546.22012669397
+Iteration 8678: -52569.81288816373
+Iteration 8679: -54123.105189719965
+Iteration 8680: -50989.03385905013
+Iteration 8681: -45939.3295991618
+Iteration 8682: -54631.47386016645
+Iteration 8683: -69404.2334953727
+Iteration 8684: -45037.15988745419
+Iteration 8685: -92512.14891780126
+Iteration 8686: -58831.8250173498
+Iteration 8687: -49102.63017485971
+Iteration 8688: -49459.666482558096
+Iteration 8689: -77356.00694542956
+Iteration 8690: -50592.446735261474
+Iteration 8691: -73849.57485357106
+Iteration 8692: -79067.85557826725
+Iteration 8693: -48804.417349064905
+Iteration 8694: -48097.237156863725
+Iteration 8695: -48452.11722294407
+Iteration 8696: -63278.4692531846
+Iteration 8697: -73556.21112206021
+Iteration 8698: -80474.84723087472
+Iteration 8699: -45453.688072826095
+Iteration 8700: -52708.03373316056
+Iteration 8701: -71286.0157200184
+Iteration 8702: -63854.10652713546
+Iteration 8703: -42953.88784340687
+Iteration 8704: -62376.760023607305
+Iteration 8705: -39848.22132213967
+Iteration 8706: -53070.84113608404
+Iteration 8707: -56705.437565506014
+Iteration 8708: -63090.89301888891
+Iteration 8709: -52782.8064998988
+Iteration 8710: -54629.28400829236
+Iteration 8711: -71421.20063832078
+Iteration 8712: -74767.87182016695
+Iteration 8713: -51613.23702980898
+Iteration 8714: -53765.14399333235
+Iteration 8715: -97333.9565592093
+Iteration 8716: -56948.658530493325
+Iteration 8717: -87937.64820240762
+Iteration 8718: -42207.84096003599
+Iteration 8719: -40125.829324866216
+Iteration 8720: -68375.48704743087
+Iteration 8721: -52489.89373809547
+Iteration 8722: -56192.4047499751
+Iteration 8723: -53883.737853026134
+Iteration 8724: -67339.54563914907
+Iteration 8725: -69854.69410386882
+Iteration 8726: -56529.21602668614
+Iteration 8727: -39930.79683671306
+Iteration 8728: -77881.87287739839
+Iteration 8729: -54459.96663437159
+Iteration 8730: -60866.83993707952
+Iteration 8731: -79921.66613929678
+Iteration 8732: -59915.01504972968
+Iteration 8733: -67804.18366161347
+Iteration 8734: -56946.91159186646
+Iteration 8735: -89966.1335795809
+Iteration 8736: -40543.71288888041
+Iteration 8737: -53737.206192555095
+Iteration 8738: -53859.73218894232
+Iteration 8739: -48436.16809051432
+Iteration 8740: -77430.54541926083
+Iteration 8741: -33483.384912357316
+Iteration 8742: -40457.335768891455
+Iteration 8743: -95889.63030534146
+Iteration 8744: -50541.58229627635
+Iteration 8745: -55617.038126092906
+Iteration 8746: -58678.54628838061
+Iteration 8747: -63776.91212566825
+Iteration 8748: -42083.5564309619
+Iteration 8749: -56050.2144287279
+Iteration 8750: -43564.15060886149
+Iteration 8751: -47722.20312579457
+Iteration 8752: -39873.415281096866
+Iteration 8753: -116290.1980471566
+Iteration 8754: -76761.79897815567
+Iteration 8755: -110313.93972747632
+Iteration 8756: -64333.37755883235
+Iteration 8757: -40602.37530127455
+Iteration 8758: -58556.82988661327
+Iteration 8759: -112650.62667151149
+Iteration 8760: -36583.98988054286
+Iteration 8761: -51267.932881187844
+Iteration 8762: -73986.73907004281
+Iteration 8763: -41014.96838863869
+Iteration 8764: -62776.77584766841
+Iteration 8765: -54220.84772234641
+Iteration 8766: -79527.62851764334
+Iteration 8767: -71406.44890532532
+Iteration 8768: -57821.88046632709
+Iteration 8769: -50190.22836153818
+Iteration 8770: -76521.24378462757
+Iteration 8771: -41720.17682436482
+Iteration 8772: -68667.13278125275
+Iteration 8773: -86402.43194551622
+Iteration 8774: -71968.38097139965
+Iteration 8775: -83173.42529734927
+Iteration 8776: -75698.23958130139
+Iteration 8777: -42670.05914301763
+Iteration 8778: -41450.96166036281
+Iteration 8779: -79256.73319184745
+Iteration 8780: -71476.20854530412
+Iteration 8781: -56267.0785975531
+Iteration 8782: -49165.86700428696
+Iteration 8783: -57103.237504350946
+Iteration 8784: -76032.65116533374
+Iteration 8785: -39279.48189180063
+Iteration 8786: -54448.95185357721
+Iteration 8787: -59148.948351562656
+Iteration 8788: -59276.898641611675
+Iteration 8789: -67182.55363873618
+Iteration 8790: -63314.12319906759
+Iteration 8791: -61218.607203221894
+Iteration 8792: -86656.18865022216
+Iteration 8793: -58888.794648533876
+Iteration 8794: -57758.0566333809
+Iteration 8795: -57740.89221891961
+Iteration 8796: -51079.80049433781
+Iteration 8797: -50075.02640505817
+Iteration 8798: -46524.01048875981
+Iteration 8799: -75491.17748220063
+Iteration 8800: -64201.69439502133
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG api_call R_cuisine west $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine east expensive $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , india_house is on india_house_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG Sorry there is no kosher restaurant in the south of town $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 8800,
+  "runtimeInSeconds": 102086.723,
+  "objectiveValue": -64201.69439502133,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 432
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 420
+    }
+  }
+}
+Iteration 8801: -48742.20085527103
+Iteration 8802: -87707.39213082904
+Iteration 8803: -74618.61571778354
+Iteration 8804: -46093.88089737888
+Iteration 8805: -43884.32841236121
+Iteration 8806: -44114.45795979125
+Iteration 8807: -39756.65169914108
+Iteration 8808: -66576.31915309322
+Iteration 8809: -57729.35407413972
+Iteration 8810: -40907.920314998286
+Iteration 8811: -83862.08355214502
+Iteration 8812: -53272.21462389633
+Iteration 8813: -72455.44897456352
+Iteration 8814: -29620.66793379378
+Iteration 8815: -46627.89807572633
+Iteration 8816: -70686.26684144251
+Iteration 8817: -53982.19699952187
+Iteration 8818: -68079.09391305287
+Iteration 8819: -45037.88731909598
+Iteration 8820: -44064.46636397065
+Iteration 8821: -76055.48965288067
+Iteration 8822: -54290.663322909124
+Iteration 8823: -43481.392798065426
+Iteration 8824: -65681.05667674338
+Iteration 8825: -59800.790506157864
+Iteration 8826: -48167.87035223422
+Iteration 8827: -47044.00138377247
+Iteration 8828: -45160.777260551455
+Iteration 8829: -54736.198395272644
+Iteration 8830: -69960.99009217812
+Iteration 8831: -47904.03268487722
+Iteration 8832: -51141.31031732984
+Iteration 8833: -48973.48023639509
+Iteration 8834: -45510.03609759531
+Iteration 8835: -60765.32444515414
+Iteration 8836: -61198.99417278627
+Iteration 8837: -65489.12481289834
+Iteration 8838: -71709.57978006102
+Iteration 8839: -117989.81881994236
+Iteration 8840: -59593.96689993011
+Iteration 8841: -41133.25024870239
+Iteration 8842: -47568.93112952326
+Iteration 8843: -54696.821159836174
+Iteration 8844: -54836.66884550002
+Iteration 8845: -58960.748745654426
+Iteration 8846: -69123.42487571284
+Iteration 8847: -63566.42866890963
+Iteration 8848: -66186.93243121977
+Iteration 8849: -60202.7989019439
+Iteration 8850: -37540.40823931653
+Iteration 8851: -108343.3847477416
+Iteration 8852: -57675.82100274463
+Iteration 8853: -82918.64365892431
+Iteration 8854: -59112.94637065303
+Iteration 8855: -53187.080914901264
+Iteration 8856: -49991.17104491669
+Iteration 8857: -59623.05477185097
+Iteration 8858: -67156.70467136754
+Iteration 8859: -81427.60783809268
+Iteration 8860: -68958.41636844998
+Iteration 8861: -63580.10466490245
+Iteration 8862: -71942.88513006033
+Iteration 8863: -58017.092226382374
+Iteration 8864: -56296.55846248461
+Iteration 8865: -96609.22542959111
+Iteration 8866: -63147.28078449157
+Iteration 8867: -51969.03124979054
+Iteration 8868: -75583.84743071203
+Iteration 8869: -53608.02019032099
+Iteration 8870: -40329.81173370313
+Iteration 8871: -47249.496088710825
+Iteration 8872: -47389.704093501125
+Iteration 8873: -41804.31487367297
+Iteration 8874: -61654.41030785965
+Iteration 8875: -53922.64465988555
+Iteration 8876: -55317.80690560901
+Iteration 8877: -92904.52090453268
+Iteration 8878: -55935.89394261507
+Iteration 8879: -38970.77199201807
+Iteration 8880: -50993.40261225334
+Iteration 8881: -59090.91699479376
+Iteration 8882: -43182.52734407586
+Iteration 8883: -64548.38138942781
+Iteration 8884: -74764.19452411485
+Iteration 8885: -49287.52817338574
+Iteration 8886: -51447.066294966666
+Iteration 8887: -60918.72660553719
+Iteration 8888: -62860.01681344789
+Iteration 8889: -46614.613442248636
+Iteration 8890: -80570.28362456089
+Iteration 8891: -61850.30949468775
+Iteration 8892: -85278.2989501941
+Iteration 8893: -70147.78118915616
+Iteration 8894: -54652.0080394959
+Iteration 8895: -47757.871407519066
+Iteration 8896: -65138.75485895187
+Iteration 8897: -48736.28032629946
+Iteration 8898: -62893.39312711549
+Iteration 8899: -66948.0333474754
+Iteration 8900: -43541.42538580442
+Iteration 8901: -40244.290037654566
+Iteration 8902: -48149.75629413034
+Iteration 8903: -62045.1102557996
+Iteration 8904: -42812.62460117624
+Iteration 8905: -79969.12333191046
+Iteration 8906: -50917.445326932706
+Iteration 8907: -70835.3411306925
+Iteration 8908: -31032.930572851394
+Iteration 8909: -62765.87034000187
+Iteration 8910: -57307.76098375315
+Iteration 8911: -57942.25595358803
+Iteration 8912: -61881.229531106546
+Iteration 8913: -52611.95458480548
+Iteration 8914: -51592.54079448868
+Iteration 8915: -61081.864065502734
+Iteration 8916: -46345.1376865293
+Iteration 8917: -70371.57637230952
+Iteration 8918: -140416.1401724317
+Iteration 8919: -49704.69577031165
+Iteration 8920: -57133.84823029716
+Iteration 8921: -36103.30939924504
+Iteration 8922: -54064.03028610374
+Iteration 8923: -53657.267916743054
+Iteration 8924: -64914.80213251237
+Iteration 8925: -60493.49763493847
+Iteration 8926: -51784.9108715069
+Iteration 8927: -92640.61168134022
+Iteration 8928: -53046.97611366782
+Iteration 8929: -73322.62723912808
+Iteration 8930: -75129.42105773432
+Iteration 8931: -49578.00457844118
+Iteration 8932: -76897.47389362728
+Iteration 8933: -48674.08680481252
+Iteration 8934: -42514.75130024276
+Iteration 8935: -67427.89328896585
+Iteration 8936: -57283.62229836269
+Iteration 8937: -38696.7481619183
+Iteration 8938: -55103.390955624185
+Iteration 8939: -70894.79095119341
+Iteration 8940: -54221.91999898101
+Iteration 8941: -42275.68506202748
+Iteration 8942: -70797.49191628466
+Iteration 8943: -49270.39834264185
+Iteration 8944: -51897.011565533765
+Iteration 8945: -40654.51021284961
+Iteration 8946: -42729.129778208095
+Iteration 8947: -61589.19319532954
+Iteration 8948: -36493.241891646714
+Iteration 8949: -62703.68745447607
+Iteration 8950: -54431.240732146616
+Iteration 8951: -47728.31709742326
+Iteration 8952: -51371.2428302461
+Iteration 8953: -58532.82346381627
+Iteration 8954: -62132.39128795039
+Iteration 8955: -45560.09970519489
+Iteration 8956: -43505.67125208424
+Iteration 8957: -82954.61144469798
+Iteration 8958: -59258.5025447592
+Iteration 8959: -38384.71630596614
+Iteration 8960: -54200.71091907908
+Iteration 8961: -52622.45193761421
+Iteration 8962: -56287.51198589277
+Iteration 8963: -66628.51597311972
+Iteration 8964: -81066.57233978559
+Iteration 8965: -69762.71579973858
+Iteration 8966: -48661.09810642896
+Iteration 8967: -42436.68907583382
+Iteration 8968: -88377.20974644853
+Iteration 8969: -44729.29695987699
+Iteration 8970: -53304.226754644216
+Iteration 8971: -45345.676618895595
+Iteration 8972: -69549.00266764984
+Iteration 8973: -56768.81291701003
+Iteration 8974: -85056.52782908262
+Iteration 8975: -58546.38466226051
+Iteration 8976: -53094.31020752095
+Iteration 8977: -45012.99642149821
+Iteration 8978: -44377.05097390901
+Iteration 8979: -60205.217601214244
+Iteration 8980: -60649.25356688549
+Iteration 8981: -46455.863431301506
+Iteration 8982: -54119.362282614646
+Iteration 8983: -44417.00133447163
+Iteration 8984: -46274.398492406406
+Iteration 8985: -75203.07058313639
+Iteration 8986: -66445.42231272647
+Iteration 8987: -57019.96743497
+Iteration 8988: -65742.15179472897
+Iteration 8989: -59251.83299587725
+Iteration 8990: -51047.14561635092
+Iteration 8991: -47654.691647207816
+Iteration 8992: -57940.65906118573
+Iteration 8993: -52661.774995391206
+Iteration 8994: -53877.96634191217
+Iteration 8995: -59091.53253214315
+Iteration 8996: -44401.62156063916
+Iteration 8997: -47413.956958771494
+Iteration 8998: -45984.27996548675
+Iteration 8999: -48296.89115507022
+Iteration 9000: -46096.177465913264
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG api_call R_cuisine south cheap $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine south expensive $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , riverside_brasserie is on riverside_brasserie_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG frankie_and_bennys is a great restaurant $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 9000,
+  "runtimeInSeconds": 104317.016,
+  "objectiveValue": -46096.177465913264,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 427
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 431
+    }
+  }
+}
+Iteration 9001: -69071.74839114069
+Iteration 9002: -42248.955817843744
+Iteration 9003: -56024.000580899
+Iteration 9004: -69959.48346420992
+Iteration 9005: -40480.38683866357
+Iteration 9006: -49083.871729523395
+Iteration 9007: -104301.20647610998
+Iteration 9008: -41560.170645101374
+Iteration 9009: -48739.73642218016
+Iteration 9010: -75995.03029246569
+Iteration 9011: -55008.25654835337
+Iteration 9012: -75147.66542313821
+Iteration 9013: -62534.9442143331
+Iteration 9014: -91687.1145734105
+Iteration 9015: -44903.197362868166
+Iteration 9016: -56511.02823933233
+Iteration 9017: -44756.38935738582
+Iteration 9018: -57842.45433330527
+Iteration 9019: -53571.12307202948
+Iteration 9020: -35609.93276669671
+Iteration 9021: -53608.62117678454
+Iteration 9022: -42692.0510481703
+Iteration 9023: -49405.710557511746
+Iteration 9024: -82208.49145559307
+Iteration 9025: -69702.00590432259
+Iteration 9026: -73757.93819929255
+Iteration 9027: -53745.0319661239
+Iteration 9028: -40252.577373601576
+Iteration 9029: -67019.7764406645
+Iteration 9030: -72838.8660051457
+Iteration 9031: -67883.57609874457
+Iteration 9032: -63724.52555167882
+Iteration 9033: -40138.464139090334
+Iteration 9034: -61327.86552202729
+Iteration 9035: -111707.67077192011
+Iteration 9036: -76836.52141299397
+Iteration 9037: -70253.57388628506
+Iteration 9038: -70635.20277187036
+Iteration 9039: -57962.691996052476
+Iteration 9040: -54891.36058990561
+Iteration 9041: -48585.826711784655
+Iteration 9042: -49240.99213781172
+Iteration 9043: -62373.95394479503
+Iteration 9044: -114804.77328388991
+Iteration 9045: -65579.5034255133
+Iteration 9046: -54587.0071162338
+Iteration 9047: -61640.03345157013
+Iteration 9048: -68427.95703433073
+Iteration 9049: -49120.058022285404
+Iteration 9050: -65256.036937653356
+Iteration 9051: -95825.83933975165
+Iteration 9052: -93222.33765642176
+Iteration 9053: -67376.19017146647
+Iteration 9054: -59961.434810571096
+Iteration 9055: -58253.66322795242
+Iteration 9056: -87169.80028844447
+Iteration 9057: -63159.91120791199
+Iteration 9058: -47051.359622708354
+Iteration 9059: -63122.70764438065
+Iteration 9060: -67682.69292736241
+Iteration 9061: -35201.75319600327
+Iteration 9062: -77553.23802343477
+Iteration 9063: -97061.17517413668
+Iteration 9064: -64550.133949927214
+Iteration 9065: -57352.249856582705
+Iteration 9066: -74291.91510535587
+Iteration 9067: -63929.18729007962
+Iteration 9068: -46505.75567608802
+Iteration 9069: -56513.76330841005
+Iteration 9070: -61607.45747543727
+Iteration 9071: -60668.93061174599
+Iteration 9072: -63279.83313682869
+Iteration 9073: -74661.64352256336
+Iteration 9074: -96499.13440422068
+Iteration 9075: -48298.48229285625
+Iteration 9076: -40275.26877735465
+Iteration 9077: -37487.165421521604
+Iteration 9078: -72104.02116016598
+Iteration 9079: -61563.90468807461
+Iteration 9080: -47303.95336725685
+Iteration 9081: -52666.605271733126
+Iteration 9082: -49510.065101834865
+Iteration 9083: -59719.79885408952
+Iteration 9084: -68064.54329761803
+Iteration 9085: -62893.68373042423
+Iteration 9086: -82043.53295586826
+Iteration 9087: -71397.21397523311
+Iteration 9088: -55625.95256963101
+Iteration 9089: -50908.480989317235
+Iteration 9090: -49977.17303479858
+Iteration 9091: -42290.41417409479
+Iteration 9092: -54911.09726171634
+Iteration 9093: -53192.84094347607
+Iteration 9094: -51044.6676172614
+Iteration 9095: -66686.66918871316
+Iteration 9096: -70505.45479748807
+Iteration 9097: -54406.05549980287
+Iteration 9098: -107670.27658464215
+Iteration 9099: -53921.65562716639
+Iteration 9100: -46049.1593655707
+Iteration 9101: -67675.69689054198
+Iteration 9102: -51528.91521508541
+Iteration 9103: -60995.44994132776
+Iteration 9104: -44563.129810435894
+Iteration 9105: -61631.24510591742
+Iteration 9106: -80272.52399270283
+Iteration 9107: -80355.24021231974
+Iteration 9108: -40709.53952399698
+Iteration 9109: -59565.133314235325
+Iteration 9110: -55300.601138860715
+Iteration 9111: -38306.113612025045
+Iteration 9112: -34364.11358484924
+Iteration 9113: -28113.298955233353
+Iteration 9114: -50419.54231950655
+Iteration 9115: -52254.50598672327
+Iteration 9116: -62771.28708660247
+Iteration 9117: -58486.13711806051
+Iteration 9118: -60243.27276589539
+Iteration 9119: -38989.38033705146
+Iteration 9120: -42269.74026868837
+Iteration 9121: -54107.58405569552
+Iteration 9122: -71755.12570094565
+Iteration 9123: -66114.88051042729
+Iteration 9124: -68128.11388686026
+Iteration 9125: -61480.03708085827
+Iteration 9126: -79530.17587515336
+Iteration 9127: -114365.64525858017
+Iteration 9128: -58042.76510252301
+Iteration 9129: -62487.021456424285
+Iteration 9130: -52646.65175208947
+Iteration 9131: -46884.50372409516
+Iteration 9132: -53060.80767424388
+Iteration 9133: -48746.518726449896
+Iteration 9134: -52281.966007305
+Iteration 9135: -55212.98321366957
+Iteration 9136: -58226.16677593661
+Iteration 9137: -54490.535620098264
+Iteration 9138: -85126.66015795608
+Iteration 9139: -42642.40857040449
+Iteration 9140: -66963.98621559227
+Iteration 9141: -79336.33965316751
+Iteration 9142: -70091.84796623363
+Iteration 9143: -56906.12771207385
+Iteration 9144: -52880.761553122255
+Iteration 9145: -74263.98244651275
+Iteration 9146: -42212.76947009473
+Iteration 9147: -66842.9773326555
+Iteration 9148: -54748.15005309339
+Iteration 9149: -67085.02726488461
+Iteration 9150: -87412.18822339103
+Iteration 9151: -86010.25612694924
+Iteration 9152: -52681.35678040594
+Iteration 9153: -55136.94337752547
+Iteration 9154: -81053.90722589054
+Iteration 9155: -46232.044960512154
+Iteration 9156: -69814.3329839929
+Iteration 9157: -39200.463454016404
+Iteration 9158: -47739.43676188901
+Iteration 9159: -34965.73422090875
+Iteration 9160: -58139.02393231369
+Iteration 9161: -62072.02988063752
+Iteration 9162: -55901.903403674194
+Iteration 9163: -61876.360187444036
+Iteration 9164: -86208.84253103181
+Iteration 9165: -73968.39903701658
+Iteration 9166: -76945.72944303653
+Iteration 9167: -52958.00274346066
+Iteration 9168: -64969.01978180928
+Iteration 9169: -47509.168200772714
+Iteration 9170: -62737.739686945766
+Iteration 9171: -47975.57795410396
+Iteration 9172: -46185.25882294675
+Iteration 9173: -50500.47186841987
+Iteration 9174: -103016.57750337351
+Iteration 9175: -42608.16513416402
+Iteration 9176: -37981.63606495016
+Iteration 9177: -39992.53782836278
+Iteration 9178: -74290.63508075265
+Iteration 9179: -49647.023938516024
+Iteration 9180: -56635.92553375002
+Iteration 9181: -58754.82986458155
+Iteration 9182: -50795.024109083104
+Iteration 9183: -43312.541064235505
+Iteration 9184: -125460.69587133828
+Iteration 9185: -42739.38062444445
+Iteration 9186: -88109.49003458199
+Iteration 9187: -46705.9565743547
+Iteration 9188: -40362.06709607563
+Iteration 9189: -68530.65388384153
+Iteration 9190: -85638.72545752859
+Iteration 9191: -48683.3473970644
+Iteration 9192: -37815.766067086945
+Iteration 9193: -88294.88345468334
+Iteration 9194: -55549.04312903363
+Iteration 9195: -50222.627661505336
+Iteration 9196: -53815.47373648767
+Iteration 9197: -41220.77016893136
+Iteration 9198: -64078.19632002046
+Iteration 9199: -50381.992277916186
+Iteration 9200: -60614.851359083324
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG What part of town do you have in mind? $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG west R_price $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG little_seoul is a nice place in the centre of town $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 9200,
+  "runtimeInSeconds": 106642.251,
+  "objectiveValue": -60614.851359083324,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 419
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 420
+    }
+  }
+}
+Iteration 9201: -47652.204063907775
+Iteration 9202: -92684.61449980809
+Iteration 9203: -83412.53842394627
+Iteration 9204: -55001.40744797994
+Iteration 9205: -75087.29527617879
+Iteration 9206: -79285.32083824162
+Iteration 9207: -66321.84783778604
+Iteration 9208: -40266.17836784718
+Iteration 9209: -63835.736624283156
+Iteration 9210: -71862.32300346489
+Iteration 9211: -43341.47538190798
+Iteration 9212: -49336.68499826784
+Iteration 9213: -61684.62797042659
+Iteration 9214: -50841.749479368606
+Iteration 9215: -58056.768111113364
+Iteration 9216: -51109.51093646838
+Iteration 9217: -72587.45972537872
+Iteration 9218: -80280.35750405023
+Iteration 9219: -65768.43362137675
+Iteration 9220: -57142.594415101004
+Iteration 9221: -56052.34297440449
+Iteration 9222: -71648.8206247514
+Iteration 9223: -94162.87310590752
+Iteration 9224: -45333.57968451686
+Iteration 9225: -47440.30673933555
+Iteration 9226: -66680.87657087394
+Iteration 9227: -39490.01184232116
+Iteration 9228: -73131.23042021078
+Iteration 9229: -103770.55149601675
+Iteration 9230: -65445.705545432334
+Iteration 9231: -49110.284318574864
+Iteration 9232: -58899.70335406251
+Iteration 9233: -50399.60147010905
+Iteration 9234: -40452.412588602696
+Iteration 9235: -44515.23566966957
+Iteration 9236: -36767.81690293177
+Iteration 9237: -49345.60743160432
+Iteration 9238: -86062.56982979533
+Iteration 9239: -37281.03500723272
+Iteration 9240: -60256.772414182415
+Iteration 9241: -43772.39706497546
+Iteration 9242: -52204.48790246852
+Iteration 9243: -69132.36814494646
+Iteration 9244: -62189.07931809211
+Iteration 9245: -31600.90358824311
+Iteration 9246: -38620.16663568375
+Iteration 9247: -53748.418850382186
+Iteration 9248: -136660.82375164205
+Iteration 9249: -37278.73947835973
+Iteration 9250: -62565.397000298086
+Iteration 9251: -85671.24132432972
+Iteration 9252: -48062.3272620472
+Iteration 9253: -46420.63173562352
+Iteration 9254: -33810.759764812145
+Iteration 9255: -51590.788655677374
+Iteration 9256: -86686.00262473023
+Iteration 9257: -54165.54366868312
+Iteration 9258: -62295.236009424836
+Iteration 9259: -66686.58801431963
+Iteration 9260: -66743.27585468077
+Iteration 9261: -66086.7181825006
+Iteration 9262: -78903.21142404403
+Iteration 9263: -45608.293518382445
+Iteration 9264: -62788.840620964824
+Iteration 9265: -67519.96547128327
+Iteration 9266: -34608.617149567355
+Iteration 9267: -44091.98626698895
+Iteration 9268: -42635.01807700615
+Iteration 9269: -59079.504337477156
+Iteration 9270: -51319.80977287017
+Iteration 9271: -74820.84598559099
+Iteration 9272: -71872.52328657138
+Iteration 9273: -58800.05275587874
+Iteration 9274: -34201.08088615053
+Iteration 9275: -44392.52757423948
+Iteration 9276: -72904.3345110055
+Iteration 9277: -56570.56915213037
+Iteration 9278: -47066.123967314525
+Iteration 9279: -77143.472720612
+Iteration 9280: -53364.189670158834
+Iteration 9281: -69306.69034594693
+Iteration 9282: -106380.1199179304
+Iteration 9283: -66124.431445172
+Iteration 9284: -51258.4297510969
+Iteration 9285: -46441.2734768899
+Iteration 9286: -38912.33230107315
+Iteration 9287: -39983.88337653888
+Iteration 9288: -65870.10134359388
+Iteration 9289: -40266.05066297897
+Iteration 9290: -38893.49032248273
+Iteration 9291: -57406.27866380618
+Iteration 9292: -46410.458144001896
+Iteration 9293: -112472.49093646299
+Iteration 9294: -49206.317988287665
+Iteration 9295: -74544.13064424865
+Iteration 9296: -52113.76587063474
+Iteration 9297: -60627.822710574736
+Iteration 9298: -73198.84249414623
+Iteration 9299: -48279.891944252595
+Iteration 9300: -69121.37117713445
+Iteration 9301: -49309.772148746895
+Iteration 9302: -41119.39336405949
+Iteration 9303: -56299.630524619446
+Iteration 9304: -48734.146336785976
+Iteration 9305: -68785.12584451797
+Iteration 9306: -34018.011025490145
+Iteration 9307: -66370.85716138346
+Iteration 9308: -48403.6133389678
+Iteration 9309: -49632.49835938165
+Iteration 9310: -48247.65407721305
+Iteration 9311: -37187.91961531041
+Iteration 9312: -47542.962804988085
+Iteration 9313: -76242.67246867447
+Iteration 9314: -96434.27261874262
+Iteration 9315: -46142.05036555148
+Iteration 9316: -73380.24292447107
+Iteration 9317: -68628.61613672068
+Iteration 9318: -47853.008281276
+Iteration 9319: -53732.931329324216
+Iteration 9320: -36846.792211292945
+Iteration 9321: -60210.60081524092
+Iteration 9322: -59545.23760875832
+Iteration 9323: -83928.89673170488
+Iteration 9324: -47050.910097212865
+Iteration 9325: -44138.25308279762
+Iteration 9326: -51530.763819996195
+Iteration 9327: -73488.76973310992
+Iteration 9328: -72035.45361733004
+Iteration 9329: -52296.937356988376
+Iteration 9330: -46504.28160485032
+Iteration 9331: -46672.490409690814
+Iteration 9332: -53352.17123154628
+Iteration 9333: -62989.06079325858
+Iteration 9334: -59465.40513064656
+Iteration 9335: -45265.137435758355
+Iteration 9336: -58181.88828042759
+Iteration 9337: -52709.22871227009
+Iteration 9338: -48350.47215244528
+Iteration 9339: -45929.859718483356
+Iteration 9340: -67746.82801689362
+Iteration 9341: -85943.75712287964
+Iteration 9342: -48965.39952141867
+Iteration 9343: -47379.38995827553
+Iteration 9344: -54358.2218457809
+Iteration 9345: -45152.06873354543
+Iteration 9346: -46381.649843519765
+Iteration 9347: -79379.318848055
+Iteration 9348: -49025.943613074654
+Iteration 9349: -43742.7526764572
+Iteration 9350: -41167.042190079366
+Iteration 9351: -62103.29001289102
+Iteration 9352: -54610.62982699556
+Iteration 9353: -53320.67089597514
+Iteration 9354: -43812.15978093461
+Iteration 9355: -54429.90928198816
+Iteration 9356: -69210.28001794977
+Iteration 9357: -35364.50556603785
+Iteration 9358: -65987.76819872498
+Iteration 9359: -64191.39904645497
+Iteration 9360: -58171.20018392771
+Iteration 9361: -59770.64693599437
+Iteration 9362: -41152.68468033574
+Iteration 9363: -100090.67177582518
+Iteration 9364: -64764.468861380534
+Iteration 9365: -51604.28858773056
+Iteration 9366: -39401.56272311641
+Iteration 9367: -70388.04656155634
+Iteration 9368: -109831.61061600909
+Iteration 9369: -65900.36354016866
+Iteration 9370: -58602.82769209341
+Iteration 9371: -89229.60979918626
+Iteration 9372: -49026.27727894747
+Iteration 9373: -44487.41213357912
+Iteration 9374: -47382.446560544035
+Iteration 9375: -39796.5724211263
+Iteration 9376: -69612.11470661275
+Iteration 9377: -72031.53092252238
+Iteration 9378: -45753.08819420472
+Iteration 9379: -70532.68364890513
+Iteration 9380: -44993.184831630344
+Iteration 9381: -65261.58040951298
+Iteration 9382: -88277.83219359275
+Iteration 9383: -57049.181108693185
+Iteration 9384: -67835.96460997283
+Iteration 9385: -79179.3319304501
+Iteration 9386: -75419.34422173041
+Iteration 9387: -63558.870320679984
+Iteration 9388: -46298.01027329095
+Iteration 9389: -93335.59874020972
+Iteration 9390: -60745.953428352164
+Iteration 9391: -49999.13842013531
+Iteration 9392: -44504.38957212629
+Iteration 9393: -42614.818537777704
+Iteration 9394: -74015.67888181753
+Iteration 9395: -50501.68114334563
+Iteration 9396: -94013.67994053754
+Iteration 9397: -75130.68662410403
+Iteration 9398: -48235.68662569053
+Iteration 9399: -113168.65662246446
+Iteration 9400: -79015.37917198152
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , michaelhouse_cafe is on michaelhouse_cafe_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG the_missing_sock serves international food $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 9400,
+  "runtimeInSeconds": 108927.47,
+  "objectiveValue": -79015.37917198152,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 431
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 426
+    }
+  }
+}
+Iteration 9401: -70856.13062618556
+Iteration 9402: -50784.77229040524
+Iteration 9403: -66168.70789467367
+Iteration 9404: -82677.70796298605
+Iteration 9405: -58525.08364263933
+Iteration 9406: -52891.31695601654
+Iteration 9407: -54297.22402556402
+Iteration 9408: -72154.21931840462
+Iteration 9409: -57141.2183733966
+Iteration 9410: -82204.71465994872
+Iteration 9411: -33958.07871064362
+Iteration 9412: -45967.85052717448
+Iteration 9413: -56670.82078586578
+Iteration 9414: -35548.49602427251
+Iteration 9415: -66470.96182204944
+Iteration 9416: -78690.25268100394
+Iteration 9417: -89264.19185626056
+Iteration 9418: -61022.998499979796
+Iteration 9419: -58938.973641458964
+Iteration 9420: -36773.20902487265
+Iteration 9421: -48068.42909392561
+Iteration 9422: -71472.37247411748
+Iteration 9423: -60332.58883145562
+Iteration 9424: -40206.21057420804
+Iteration 9425: -109656.28243263307
+Iteration 9426: -72151.82684206244
+Iteration 9427: -53657.70529611676
+Iteration 9428: -38533.86633916303
+Iteration 9429: -66816.41532376365
+Iteration 9430: -72439.89759051497
+Iteration 9431: -56890.368971897544
+Iteration 9432: -77459.55099449962
+Iteration 9433: -70709.56623700552
+Iteration 9434: -92634.79005495497
+Iteration 9435: -44957.68191248904
+Iteration 9436: -48490.2132575203
+Iteration 9437: -63720.53514269679
+Iteration 9438: -56689.53692250156
+Iteration 9439: -69539.37617045535
+Iteration 9440: -57541.6660277039
+Iteration 9441: -62317.394457297036
+Iteration 9442: -56422.348327567466
+Iteration 9443: -41306.8579315773
+Iteration 9444: -70686.7999195384
+Iteration 9445: -55541.186019243585
+Iteration 9446: -49135.41642246283
+Iteration 9447: -48547.35389479778
+Iteration 9448: -51799.033382484675
+Iteration 9449: -50736.30486394203
+Iteration 9450: -34389.33635246715
+Iteration 9451: -59994.76162220553
+Iteration 9452: -62172.418417403314
+Iteration 9453: -57052.01245793269
+Iteration 9454: -67278.78254318229
+Iteration 9455: -50323.16090431195
+Iteration 9456: -44462.92246635343
+Iteration 9457: -48610.755386321536
+Iteration 9458: -32608.43562504397
+Iteration 9459: -39664.40481053491
+Iteration 9460: -105887.16319320642
+Iteration 9461: -43569.01334954017
+Iteration 9462: -54469.70694451463
+Iteration 9463: -86902.43021046085
+Iteration 9464: -59223.56929667171
+Iteration 9465: -48897.92666586998
+Iteration 9466: -101063.42604847324
+Iteration 9467: -41964.93755389372
+Iteration 9468: -77701.53016667128
+Iteration 9469: -69443.892874906
+Iteration 9470: -45658.93162051702
+Iteration 9471: -39924.59253464702
+Iteration 9472: -70031.9072076228
+Iteration 9473: -67581.65797464497
+Iteration 9474: -32440.979260452117
+Iteration 9475: -58628.86971451618
+Iteration 9476: -67681.3581998306
+Iteration 9477: -42989.03063586028
+Iteration 9478: -66306.93206232529
+Iteration 9479: -59776.362344397734
+Iteration 9480: -66390.0293595067
+Iteration 9481: -48426.72720794365
+Iteration 9482: -42844.54645008273
+Iteration 9483: -63827.19009131486
+Iteration 9484: -95628.48645346361
+Iteration 9485: -65808.52526128902
+Iteration 9486: -81351.88377870053
+Iteration 9487: -78930.40386517445
+Iteration 9488: -51178.534213565596
+Iteration 9489: -48805.80408544933
+Iteration 9490: -62447.99370942205
+Iteration 9491: -62154.65721859352
+Iteration 9492: -49968.89407715228
+Iteration 9493: -67940.49522731297
+Iteration 9494: -47687.862395678116
+Iteration 9495: -59444.11765039482
+Iteration 9496: -52015.67719690794
+Iteration 9497: -54123.34911136779
+Iteration 9498: -66690.56169500793
+Iteration 9499: -56631.25210374921
+Iteration 9500: -58518.7882705766
+Iteration 9501: -41565.797950207845
+Iteration 9502: -37717.78413961238
+Iteration 9503: -46296.11259255173
+Iteration 9504: -70484.97271343108
+Iteration 9505: -71880.18414085117
+Iteration 9506: -38356.411159570474
+Iteration 9507: -75199.53594770099
+Iteration 9508: -47028.854054872616
+Iteration 9509: -55220.30153662589
+Iteration 9510: -45903.19592523859
+Iteration 9511: -44766.171009129226
+Iteration 9512: -61843.100227507275
+Iteration 9513: -137530.1164201791
+Iteration 9514: -65662.58630809515
+Iteration 9515: -59124.873024772394
+Iteration 9516: -76541.06569341502
+Iteration 9517: -67496.05587962756
+Iteration 9518: -94244.36198040385
+Iteration 9519: -39748.58666263988
+Iteration 9520: -55189.40083354342
+Iteration 9521: -61015.69613672682
+Iteration 9522: -70795.27893501354
+Iteration 9523: -50936.076647377966
+Iteration 9524: -60915.026909573746
+Iteration 9525: -55373.8650357368
+Iteration 9526: -59171.717742881614
+Iteration 9527: -54313.82909412207
+Iteration 9528: -58453.79115868272
+Iteration 9529: -87967.5707989051
+Iteration 9530: -76934.72033469965
+Iteration 9531: -35872.594032771354
+Iteration 9532: -60121.769148560605
+Iteration 9533: -51498.80560807901
+Iteration 9534: -58567.36023407293
+Iteration 9535: -44180.57936136495
+Iteration 9536: -64317.794360044
+Iteration 9537: -66145.73646226221
+Iteration 9538: -88635.30990754237
+Iteration 9539: -43462.528775250976
+Iteration 9540: -76536.29887886676
+Iteration 9541: -89437.93420182863
+Iteration 9542: -50589.2196678548
+Iteration 9543: -78483.20449133002
+Iteration 9544: -60468.21841024431
+Iteration 9545: -80679.56314390246
+Iteration 9546: -56141.218331055316
+Iteration 9547: -69793.2555132191
+Iteration 9548: -64856.63606421731
+Iteration 9549: -60228.429837162825
+Iteration 9550: -52885.208057054166
+Iteration 9551: -46385.10902768916
+Iteration 9552: -53461.74697055845
+Iteration 9553: -78741.2710697199
+Iteration 9554: -83243.51793552817
+Iteration 9555: -33089.89566206902
+Iteration 9556: -51955.285525761356
+Iteration 9557: -40922.23930369982
+Iteration 9558: -63831.80312971972
+Iteration 9559: -46843.26680756501
+Iteration 9560: -42979.45371595931
+Iteration 9561: -44128.11899745413
+Iteration 9562: -63674.512714563214
+Iteration 9563: -54998.670864979125
+Iteration 9564: -58092.73817195136
+Iteration 9565: -46954.17085537861
+Iteration 9566: -52646.48691864002
+Iteration 9567: -60945.75786489057
+Iteration 9568: -52466.62729536847
+Iteration 9569: -60822.54260582009
+Iteration 9570: -61531.84297580379
+Iteration 9571: -104605.13330854311
+Iteration 9572: -37313.903206578456
+Iteration 9573: -61688.32314871091
+Iteration 9574: -96187.13564020899
+Iteration 9575: -71956.27462046666
+Iteration 9576: -41647.20084985071
+Iteration 9577: -39283.92362503149
+Iteration 9578: -56073.078792496904
+Iteration 9579: -56147.547777381726
+Iteration 9580: -66453.52602934469
+Iteration 9581: -71070.14225539991
+Iteration 9582: -47135.185162597365
+Iteration 9583: -62789.88341245189
+Iteration 9584: -67035.41246784135
+Iteration 9585: -78434.44104694614
+Iteration 9586: -56705.504522463765
+Iteration 9587: -107089.80671991133
+Iteration 9588: -53928.71593762727
+Iteration 9589: -38442.795000398386
+Iteration 9590: -35304.419714114694
+Iteration 9591: -54942.25243426408
+Iteration 9592: -37776.09256672493
+Iteration 9593: -57701.73274858034
+Iteration 9594: -60456.24798309693
+Iteration 9595: -86126.23683818811
+Iteration 9596: -63614.346866514075
+Iteration 9597: -88032.1768538005
+Iteration 9598: -99592.70415508108
+Iteration 9599: -74430.48955312847
+Iteration 9600: -74416.92529289568
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG Would you like something in the cheap , moderate , or expensive price range? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , maharajah_tandoori_restaurant is on maharajah_tandoori_restaurant_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG sala_thong serves thai food $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 9600,
+  "runtimeInSeconds": 111215.171,
+  "objectiveValue": -74416.92529289568,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 430
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 429
+    }
+  }
+}
+Iteration 9601: -73128.55705461444
+Iteration 9602: -73189.30572548328
+Iteration 9603: -48355.09753844973
+Iteration 9604: -62871.15607675861
+Iteration 9605: -45237.228292605345
+Iteration 9606: -65948.2347472321
+Iteration 9607: -57351.11300708763
+Iteration 9608: -73845.00378138092
+Iteration 9609: -60036.31734061599
+Iteration 9610: -57705.27419266203
+Iteration 9611: -57206.0029375629
+Iteration 9612: -64517.357206326975
+Iteration 9613: -40242.314895621814
+Iteration 9614: -93351.75769457773
+Iteration 9615: -41328.485572122634
+Iteration 9616: -61895.32953514679
+Iteration 9617: -118844.17831400225
+Iteration 9618: -41916.977799780914
+Iteration 9619: -77954.36108947927
+Iteration 9620: -46425.72641526399
+Iteration 9621: -56287.882348763065
+Iteration 9622: -96854.03897660217
+Iteration 9623: -57395.64823467287
+Iteration 9624: -61015.554894467175
+Iteration 9625: -119793.95522993588
+Iteration 9626: -49545.535520171055
+Iteration 9627: -70279.9999345408
+Iteration 9628: -90293.3219182738
+Iteration 9629: -53771.59040253254
+Iteration 9630: -56932.50849896552
+Iteration 9631: -104206.10644504703
+Iteration 9632: -70214.82582417624
+Iteration 9633: -120461.9090542461
+Iteration 9634: -73084.67569868905
+Iteration 9635: -37845.83097995446
+Iteration 9636: -61419.44793195217
+Iteration 9637: -48707.93167845458
+Iteration 9638: -85501.93637506188
+Iteration 9639: -77814.5376683631
+Iteration 9640: -67275.64870252875
+Iteration 9641: -50224.669073700614
+Iteration 9642: -116849.41345782421
+Iteration 9643: -60160.138941831305
+Iteration 9644: -51945.95002017128
+Iteration 9645: -40259.36616929488
+Iteration 9646: -64735.28560089285
+Iteration 9647: -62984.6250521386
+Iteration 9648: -71418.18385673892
+Iteration 9649: -57783.090562159785
+Iteration 9650: -61120.536951010676
+Iteration 9651: -71198.0615097006
+Iteration 9652: -51756.47861369602
+Iteration 9653: -66319.0833686437
+Iteration 9654: -37974.85135572353
+Iteration 9655: -71191.88797815813
+Iteration 9656: -79380.18869813508
+Iteration 9657: -56037.022685478674
+Iteration 9658: -79194.24778726928
+Iteration 9659: -43177.78242050405
+Iteration 9660: -50649.7569950228
+Iteration 9661: -64500.45055039542
+Iteration 9662: -67914.28498915763
+Iteration 9663: -38604.83337242927
+Iteration 9664: -35101.47428898011
+Iteration 9665: -37903.321959882975
+Iteration 9666: -50303.992098562514
+Iteration 9667: -52113.30659896139
+Iteration 9668: -74419.905046184
+Iteration 9669: -79647.06082087274
+Iteration 9670: -52687.15244461841
+Iteration 9671: -48720.52384698055
+Iteration 9672: -68057.2412224958
+Iteration 9673: -47032.32691723984
+Iteration 9674: -66240.84854063972
+Iteration 9675: -58575.767234677594
+Iteration 9676: -53947.03787879973
+Iteration 9677: -37488.82364838607
+Iteration 9678: -62517.44568312894
+Iteration 9679: -72978.91334332162
+Iteration 9680: -50372.97124211015
+Iteration 9681: -41141.50884527714
+Iteration 9682: -70528.9399459047
+Iteration 9683: -70453.11500782
+Iteration 9684: -49166.97291419312
+Iteration 9685: -41670.85611679606
+Iteration 9686: -94563.6103668772
+Iteration 9687: -52722.91857885198
+Iteration 9688: -91469.18546669552
+Iteration 9689: -68170.28543042597
+Iteration 9690: -68346.72322924824
+Iteration 9691: -52354.94450800558
+Iteration 9692: -42364.46783783399
+Iteration 9693: -51043.82576951025
+Iteration 9694: -66968.87685990761
+Iteration 9695: -72377.00858497944
+Iteration 9696: -54270.60361517387
+Iteration 9697: -46221.16257003013
+Iteration 9698: -77551.31399321117
+Iteration 9699: -78511.3911220044
+Iteration 9700: -45299.3890024677
+Iteration 9701: -74054.72281981462
+Iteration 9702: -102336.74822317631
+Iteration 9703: -74593.30581897755
+Iteration 9704: -55047.781865262215
+Iteration 9705: -53063.85953281262
+Iteration 9706: -43878.542964424945
+Iteration 9707: -75488.47846489126
+Iteration 9708: -86388.13335549893
+Iteration 9709: -84407.0627754203
+Iteration 9710: -52450.467772682685
+Iteration 9711: -52512.00445604102
+Iteration 9712: -61614.63991615489
+Iteration 9713: -76765.63068932864
+Iteration 9714: -68820.19919331554
+Iteration 9715: -88163.82746496935
+Iteration 9716: -61374.5102958575
+Iteration 9717: -41520.347724810636
+Iteration 9718: -76583.2193848875
+Iteration 9719: -58829.07033883005
+Iteration 9720: -51280.912781522464
+Iteration 9721: -57718.58943757779
+Iteration 9722: -45365.42572715923
+Iteration 9723: -39129.671931817495
+Iteration 9724: -70821.55096304498
+Iteration 9725: -55384.889800208824
+Iteration 9726: -100762.0503050647
+Iteration 9727: -59718.35826543625
+Iteration 9728: -58188.57358236665
+Iteration 9729: -58074.10032712783
+Iteration 9730: -60988.33897474754
+Iteration 9731: -64396.750104233164
+Iteration 9732: -80316.10451356861
+Iteration 9733: -83210.39776113439
+Iteration 9734: -48125.09195654867
+Iteration 9735: -67359.76607325318
+Iteration 9736: -69720.62532630077
+Iteration 9737: -78388.85488541744
+Iteration 9738: -71817.99105801377
+Iteration 9739: -43592.91577656511
+Iteration 9740: -57815.95846964519
+Iteration 9741: -39458.93142916109
+Iteration 9742: -96376.96358225739
+Iteration 9743: -56903.690094651334
+Iteration 9744: -58255.594307539715
+Iteration 9745: -78966.00157054294
+Iteration 9746: -53711.88478479945
+Iteration 9747: -35657.86049854734
+Iteration 9748: -49194.25619948738
+Iteration 9749: -73813.59970093299
+Iteration 9750: -68685.31954569559
+Iteration 9751: -54106.69177454529
+Iteration 9752: -42376.9811174243
+Iteration 9753: -63678.05730626174
+Iteration 9754: -48064.8615718233
+Iteration 9755: -101808.2054702813
+Iteration 9756: -48262.86855697619
+Iteration 9757: -55143.7204009176
+Iteration 9758: -25766.924423682034
+Iteration 9759: -58014.68385254935
+Iteration 9760: -41091.3747606894
+Iteration 9761: -63877.99062553747
+Iteration 9762: -46828.849114207755
+Iteration 9763: -38726.02793575145
+Iteration 9764: -53391.18001694636
+Iteration 9765: -42970.35826399039
+Iteration 9766: -54310.92352441131
+Iteration 9767: -52720.95436009628
+Iteration 9768: -104288.04907080386
+Iteration 9769: -48943.19743766923
+Iteration 9770: -49447.71190191294
+Iteration 9771: -61412.32875636741
+Iteration 9772: -73883.80680889184
+Iteration 9773: -86538.6976220057
+Iteration 9774: -31618.284734565434
+Iteration 9775: -43506.10559837588
+Iteration 9776: -54159.227665295264
+Iteration 9777: -73753.76391102534
+Iteration 9778: -58957.00546320655
+Iteration 9779: -48411.68253244201
+Iteration 9780: -63882.79518259744
+Iteration 9781: -60182.79343383572
+Iteration 9782: -45003.553041961124
+Iteration 9783: -43726.999904513985
+Iteration 9784: -74223.04611319279
+Iteration 9785: -55183.79638696119
+Iteration 9786: -41848.46328733054
+Iteration 9787: -97917.14342604614
+Iteration 9788: -67487.794687625
+Iteration 9789: -81579.81014865251
+Iteration 9790: -51760.807174231086
+Iteration 9791: -101376.69927177374
+Iteration 9792: -53620.310346027676
+Iteration 9793: -56726.60119479853
+Iteration 9794: -67139.99135404923
+Iteration 9795: -74957.36981860384
+Iteration 9796: -54003.031691968274
+Iteration 9797: -64778.849959380634
+Iteration 9798: -43102.92810098097
+Iteration 9799: -54702.47584975694
+Iteration 9800: -81156.46374280885
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG What part of town do you have in mind? $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , la_raza is on la_raza_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG the_gandhi serves indian food $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG the_lucky_star is a great restaurant $
+
+{
+  "index": 9800,
+  "runtimeInSeconds": 113534.858,
+  "objectiveValue": -81156.46374280885,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 421
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 437
+    }
+  }
+}
+Iteration 9801: -50627.806146129275
+Iteration 9802: -65081.23617950799
+Iteration 9803: -64690.10541161112
+Iteration 9804: -38420.33112247354
+Iteration 9805: -81912.59791237673
+Iteration 9806: -45948.38155099121
+Iteration 9807: -55605.63482305768
+Iteration 9808: -78439.7496087472
+Iteration 9809: -44018.43696619772
+Iteration 9810: -62221.827241408406
+Iteration 9811: -46258.97070930837
+Iteration 9812: -51641.200867655214
+Iteration 9813: -58866.0132028807
+Iteration 9814: -68205.54466965438
+Iteration 9815: -64997.011231290235
+Iteration 9816: -90342.78555957647
+Iteration 9817: -83001.83575621436
+Iteration 9818: -45357.32173997673
+Iteration 9819: -85192.1640801067
+Iteration 9820: -50791.95204066364
+Iteration 9821: -87015.94474553452
+Iteration 9822: -60816.51553370338
+Iteration 9823: -45398.343233809406
+Iteration 9824: -59219.22010484482
+Iteration 9825: -45834.86926626591
+Iteration 9826: -43097.717788629525
+Iteration 9827: -91916.99533935162
+Iteration 9828: -47637.48734412896
+Iteration 9829: -46120.359193705626
+Iteration 9830: -39496.80329239197
+Iteration 9831: -54583.47947229817
+Iteration 9832: -108384.37654570329
+Iteration 9833: -48088.451662974614
+Iteration 9834: -47459.856094426585
+Iteration 9835: -44255.26322223414
+Iteration 9836: -67715.7179870774
+Iteration 9837: -88039.82887326209
+Iteration 9838: -58864.240548760245
+Iteration 9839: -53960.09169505534
+Iteration 9840: -39894.693575876
+Iteration 9841: -36840.103689333
+Iteration 9842: -70515.05719726613
+Iteration 9843: -62868.781094342055
+Iteration 9844: -62845.18962145
+Iteration 9845: -65312.2818381307
+Iteration 9846: -46133.70997770809
+Iteration 9847: -52183.45917767397
+Iteration 9848: -84927.01736483167
+Iteration 9849: -42912.629756867595
+Iteration 9850: -74242.24692861806
+Iteration 9851: -52050.710423191675
+Iteration 9852: -34102.2253517823
+Iteration 9853: -68943.34020570823
+Iteration 9854: -51031.65318834649
+Iteration 9855: -52468.62269429542
+Iteration 9856: -60035.84126484774
+Iteration 9857: -70338.83054407021
+Iteration 9858: -45314.95615134771
+Iteration 9859: -68787.60771575867
+Iteration 9860: -102156.73621334581
+Iteration 9861: -53770.27064785051
+Iteration 9862: -81811.8176700895
+Iteration 9863: -53074.796365818656
+Iteration 9864: -43576.10294327176
+Iteration 9865: -92665.21320445566
+Iteration 9866: -43125.72495253768
+Iteration 9867: -58810.675942471564
+Iteration 9868: -61998.1680807251
+Iteration 9869: -81163.12349451745
+Iteration 9870: -87947.96473102683
+Iteration 9871: -50258.19434322914
+Iteration 9872: -57731.92548880628
+Iteration 9873: -50010.1790820555
+Iteration 9874: -70230.63485185629
+Iteration 9875: -84819.0958014473
+Iteration 9876: -125908.89322103634
+Iteration 9877: -51162.692386477334
+Iteration 9878: -43912.99544287274
+Iteration 9879: -58495.85136860394
+Iteration 9880: -39409.370223938975
+Iteration 9881: -51440.40659073223
+Iteration 9882: -38944.32970378023
+Iteration 9883: -58020.622775048985
+Iteration 9884: -51293.46400542497
+Iteration 9885: -63427.17088323771
+Iteration 9886: -80883.3243941942
+Iteration 9887: -50071.79025360463
+Iteration 9888: -83369.60019060668
+Iteration 9889: -69137.78181701458
+Iteration 9890: -51160.37007456812
+Iteration 9891: -34670.96938201087
+Iteration 9892: -52990.03493944921
+Iteration 9893: -73477.56532967387
+Iteration 9894: -55662.14409153999
+Iteration 9895: -47815.7750906217
+Iteration 9896: -93622.94934433531
+Iteration 9897: -73076.63382738654
+Iteration 9898: -57798.081097628725
+Iteration 9899: -53111.74841042757
+Iteration 9900: -60563.11600763298
+Iteration 9901: -73176.81603452357
+Iteration 9902: -49621.82122162592
+Iteration 9903: -43876.80983899533
+Iteration 9904: -46516.94381623763
+Iteration 9905: -55248.57829099189
+Iteration 9906: -75203.77992164748
+Iteration 9907: -60124.1262144442
+Iteration 9908: -45668.27415714739
+Iteration 9909: -58516.29300012037
+Iteration 9910: -71063.5617001922
+Iteration 9911: -45081.83890851222
+Iteration 9912: -63731.04017102516
+Iteration 9913: -34800.51338912382
+Iteration 9914: -45156.93538138753
+Iteration 9915: -55670.39738517146
+Iteration 9916: -51704.81755753803
+Iteration 9917: -55842.08340061574
+Iteration 9918: -62862.38315773657
+Iteration 9919: -59915.10045352662
+Iteration 9920: -68506.84772605488
+Iteration 9921: -77332.59162337027
+Iteration 9922: -63347.26557205944
+Iteration 9923: -60045.89058618109
+Iteration 9924: -51579.97124560119
+Iteration 9925: -50899.55351483383
+Iteration 9926: -63907.8003309897
+Iteration 9927: -84216.83663526153
+Iteration 9928: -63801.05382514344
+Iteration 9929: -35853.54273494718
+Iteration 9930: -67261.34538735339
+Iteration 9931: -67938.18843153113
+Iteration 9932: -41359.803495141736
+Iteration 9933: -40533.40274228873
+Iteration 9934: -62754.304453107405
+Iteration 9935: -73993.69560125981
+Iteration 9936: -68965.57679761399
+Iteration 9937: -60729.87842842732
+Iteration 9938: -40518.95572807093
+Iteration 9939: -73497.81436382799
+Iteration 9940: -53848.606789290905
+Iteration 9941: -64961.90599169115
+Iteration 9942: -59815.03135818292
+Iteration 9943: -57291.63606172549
+Iteration 9944: -47689.32052911515
+Iteration 9945: -58788.329150418955
+Iteration 9946: -51582.09006975031
+Iteration 9947: -80896.90522139016
+Iteration 9948: -62558.764742652485
+Iteration 9949: -35857.112823101364
+Iteration 9950: -54434.16878735384
+Iteration 9951: -46029.93093047175
+Iteration 9952: -47082.69506473777
+Iteration 9953: -60625.72593072044
+Iteration 9954: -57570.65137033709
+Iteration 9955: -64383.87211861301
+Iteration 9956: -48170.22058244632
+Iteration 9957: -66191.81888607923
+Iteration 9958: -54951.613518782644
+Iteration 9959: -54046.095271246704
+Iteration 9960: -38391.72964177992
+Iteration 9961: -74354.75730064085
+Iteration 9962: -79888.96993605411
+Iteration 9963: -33362.46976572626
+Iteration 9964: -57452.73622299078
+Iteration 9965: -41434.917362119966
+Iteration 9966: -62916.90669812079
+Iteration 9967: -53625.54968021222
+Iteration 9968: -45174.00428091381
+Iteration 9969: -65872.96785096797
+Iteration 9970: -52935.22316764491
+Iteration 9971: -61187.60381506785
+Iteration 9972: -58318.57661808911
+Iteration 9973: -66461.75745317583
+Iteration 9974: -81345.23087028862
+Iteration 9975: -74587.75360364426
+Iteration 9976: -80534.59690797793
+Iteration 9977: -71607.00966706971
+Iteration 9978: -48136.02767286354
+Iteration 9979: -47014.43585855799
+Iteration 9980: -45269.72607732838
+Iteration 9981: -40632.92403072027
+Iteration 9982: -41773.394122479986
+Iteration 9983: -57710.34091636582
+Iteration 9984: -77079.00821211057
+Iteration 9985: -85955.24599472442
+Iteration 9986: -63739.2345217514
+Iteration 9987: -65838.20705490744
+Iteration 9988: -41323.7573149737
+Iteration 9989: -57093.469491897784
+Iteration 9990: -71564.91741256982
+Iteration 9991: -69281.39668721748
+Iteration 9992: -76619.20720204526
+Iteration 9993: -43810.12671803228
+Iteration 9994: -34377.434203731675
+Iteration 9995: -62622.895537515455
+Iteration 9996: -66545.1348670852
+Iteration 9997: -52228.2186798099
+Iteration 9998: -46233.93670475739
+Iteration 9999: -37200.75471931011
+Iteration 10000: -57970.30836169933
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG What part of town do you have in mind? $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , prezzo is on prezzo_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG don_pasquale_pizzeria is a great restaurant serving italian food in the moderate price range $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 10000,
+  "runtimeInSeconds": 115757.016,
+  "objectiveValue": -57970.30836169933,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 429
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 422
+    }
+  }
+}
+Iteration 10001: -40453.39163208659
+Iteration 10002: -47651.233042655476
+Iteration 10003: -48779.77826799977
+Iteration 10004: -45619.3603624103
+Iteration 10005: -50786.535016322116
+Iteration 10006: -66498.1418545946
+Iteration 10007: -70781.12458168117
+Iteration 10008: -64961.88052739485
+Iteration 10009: -68877.21934330516
+Iteration 10010: -51531.9664309567
+Iteration 10011: -65882.42766599514
+Iteration 10012: -41137.14864949001
+Iteration 10013: -84455.85005439956
+Iteration 10014: -69060.62260700198
+Iteration 10015: -55233.509651009415
+Iteration 10016: -27041.60540333095
+Iteration 10017: -69260.03956175526
+Iteration 10018: -120567.37482856595
+Iteration 10019: -52915.15136335098
+Iteration 10020: -55194.733978518045
+Iteration 10021: -52127.24770907404
+Iteration 10022: -72665.96715240694
+Iteration 10023: -49758.668958639275
+Iteration 10024: -50526.761474152314
+Iteration 10025: -57282.87237353589
+Iteration 10026: -54669.607450638214
+Iteration 10027: -66379.81725278986
+Iteration 10028: -40763.147943442964
+Iteration 10029: -48628.39028687663
+Iteration 10030: -59522.91019198285
+Iteration 10031: -57050.7993409204
+Iteration 10032: -86036.75487784021
+Iteration 10033: -41406.58253138237
+Iteration 10034: -81965.40608471609
+Iteration 10035: -59300.02408110583
+Iteration 10036: -54996.76185649815
+Iteration 10037: -44147.525589514946
+Iteration 10038: -54950.17662603878
+Iteration 10039: -39570.74882203463
+Iteration 10040: -47072.73449053894
+Iteration 10041: -85539.61300384396
+Iteration 10042: -63383.10521329333
+Iteration 10043: -60706.08014433505
+Iteration 10044: -59256.77174779989
+Iteration 10045: -78228.90425494089
+Iteration 10046: -71129.19249545645
+Iteration 10047: -66216.98889344194
+Iteration 10048: -72700.14108675272
+Iteration 10049: -53924.37221795473
+Iteration 10050: -64008.46459201812
+Iteration 10051: -65269.02848473846
+Iteration 10052: -64697.42391419639
+Iteration 10053: -70700.41923638148
+Iteration 10054: -79703.3149719352
+Iteration 10055: -72356.31837001274
+Iteration 10056: -60994.38174970988
+Iteration 10057: -68346.61749490048
+Iteration 10058: -120793.4011797821
+Iteration 10059: -61166.048843879194
+Iteration 10060: -70227.45310452906
+Iteration 10061: -57959.934822771706
+Iteration 10062: -89179.22507021186
+Iteration 10063: -52641.33711734822
+Iteration 10064: -67887.99096483324
+Iteration 10065: -47603.39558722808
+Iteration 10066: -47941.33151500775
+Iteration 10067: -80409.03765121754
+Iteration 10068: -48041.87432196599
+Iteration 10069: -45995.60888851838
+Iteration 10070: -67245.16358220104
+Iteration 10071: -54772.09198308877
+Iteration 10072: -48605.59878217299
+Iteration 10073: -83844.29833097411
+Iteration 10074: -63631.77871624091
+Iteration 10075: -54929.07261128148
+Iteration 10076: -47661.12448307625
+Iteration 10077: -72153.62622649709
+Iteration 10078: -39353.36203814297
+Iteration 10079: -48667.96595559173
+Iteration 10080: -60388.770191242096
+Iteration 10081: -72083.04595069544
+Iteration 10082: -60195.62240062691
+Iteration 10083: -50784.53680316614
+Iteration 10084: -45303.59474456886
+Iteration 10085: -65317.36439550951
+Iteration 10086: -46965.52109801457
+Iteration 10087: -79303.21620463739
+Iteration 10088: -121145.80313037957
+Iteration 10089: -51993.22320252311
+Iteration 10090: -45118.05180693567
+Iteration 10091: -58847.570621785984
+Iteration 10092: -83454.75692007432
+Iteration 10093: -76211.07798623669
+Iteration 10094: -67261.35060952192
+Iteration 10095: -91257.34816121659
+Iteration 10096: -58340.68409240849
+Iteration 10097: -81554.50851515663
+Iteration 10098: -57069.215148462295
+Iteration 10099: -49607.90405344996
+Iteration 10100: -46994.645120161826
+Iteration 10101: -69921.0537054335
+Iteration 10102: -47588.86520851998
+Iteration 10103: -49009.79240977961
+Iteration 10104: -130214.36449724266
+Iteration 10105: -84876.94337447267
+Iteration 10106: -71712.26309760254
+Iteration 10107: -45704.323765767236
+Iteration 10108: -57101.64680831622
+Iteration 10109: -63073.00001610354
+Iteration 10110: -58916.994393037916
+Iteration 10111: -113507.0929501497
+Iteration 10112: -65829.30703838289
+Iteration 10113: -62995.11580467759
+Iteration 10114: -64169.59463181625
+Iteration 10115: -48508.813702221545
+Iteration 10116: -61491.927461811225
+Iteration 10117: -50326.93480493407
+Iteration 10118: -38500.63364873473
+Iteration 10119: -57734.852068235596
+Iteration 10120: -69758.42427357957
+Iteration 10121: -46867.27720643692
+Iteration 10122: -41157.78164782046
+Iteration 10123: -72381.97763685726
+Iteration 10124: -52038.34555954188
+Iteration 10125: -105863.96188086494
+Iteration 10126: -49331.49893046269
+Iteration 10127: -66720.82626057944
+Iteration 10128: -61266.99633519953
+Iteration 10129: -62342.895317523384
+Iteration 10130: -78591.6848619255
+Iteration 10131: -52000.644445627084
+Iteration 10132: -34029.91011521235
+Iteration 10133: -39668.85952759248
+Iteration 10134: -40491.26692872463
+Iteration 10135: -58891.18469211177
+Iteration 10136: -42411.22708417332
+Iteration 10137: -55541.19987353169
+Iteration 10138: -46567.92519916097
+Iteration 10139: -76636.0925317376
+Iteration 10140: -63486.918872282375
+Iteration 10141: -55245.79277557719
+Iteration 10142: -69798.50527971517
+Iteration 10143: -41498.49063304771
+Iteration 10144: -59399.33018772482
+Iteration 10145: -70642.57275225144
+Iteration 10146: -109076.70592654744
+Iteration 10147: -55557.16080700829
+Iteration 10148: -76471.63261355665
+Iteration 10149: -51097.58917040414
+Iteration 10150: -65203.99047175727
+Iteration 10151: -67198.01343446059
+Iteration 10152: -57119.72992948944
+Iteration 10153: -69463.03180912945
+Iteration 10154: -55958.3509573945
+Iteration 10155: -88180.92759929481
+Iteration 10156: -55359.30981694961
+Iteration 10157: -59001.895536467404
+Iteration 10158: -63113.96386075636
+Iteration 10159: -40859.142670734735
+Iteration 10160: -61692.83111844853
+Iteration 10161: -78837.5711265549
+Iteration 10162: -58603.501767923015
+Iteration 10163: -51893.89081535127
+Iteration 10164: -75032.55449459981
+Iteration 10165: -40679.05322776234
+Iteration 10166: -47926.68330457972
+Iteration 10167: -78108.1601145882
+Iteration 10168: -38097.72441497156
+Iteration 10169: -50132.77711201198
+Iteration 10170: -39090.44188058965
+Iteration 10171: -51821.268371096376
+Iteration 10172: -60719.115280743456
+Iteration 10173: -86329.11807420618
+Iteration 10174: -44879.09571412576
+Iteration 10175: -74913.98888879508
+Iteration 10176: -64717.99133636974
+Iteration 10177: -46987.86141936484
+Iteration 10178: -40490.402200494085
+Iteration 10179: -79965.52503359083
+Iteration 10180: -53958.64867999684
+Iteration 10181: -61578.40381594959
+Iteration 10182: -36977.41247664207
+Iteration 10183: -36071.951558701294
+Iteration 10184: -46408.41455341493
+Iteration 10185: -43958.624645885364
+Iteration 10186: -47933.694147513095
+Iteration 10187: -55844.65794672562
+Iteration 10188: -52331.2826282385
+Iteration 10189: -58464.07522496991
+Iteration 10190: -56171.00402609725
+Iteration 10191: -61846.75933802822
+Iteration 10192: -59667.59389235625
+Iteration 10193: -51650.06112141074
+Iteration 10194: -56398.31466047829
+Iteration 10195: -52556.7219767033
+Iteration 10196: -85826.4687361978
+Iteration 10197: -83277.4420452058
+Iteration 10198: -51975.57636431976
+Iteration 10199: -64931.12378408219
+Iteration 10200: -65088.662435050326
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG api_call R_cuisine east R_price $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine south moderate $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , yippee_noodle_bar is on yippee_noodle_bar_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG da_vinci_pizzeria serves italian food $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 10200,
+  "runtimeInSeconds": 118043.037,
+  "objectiveValue": -65088.662435050326,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 434
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 433
+    }
+  }
+}
+Iteration 10201: -44295.50039831074
+Iteration 10202: -58991.86864089162
+Iteration 10203: -37781.63952951437
+Iteration 10204: -51126.73401448759
+Iteration 10205: -49286.61306581182
+Iteration 10206: -60780.37519154193
+Iteration 10207: -82897.43132079116
+Iteration 10208: -64739.246336886
+Iteration 10209: -68711.08476618602
+Iteration 10210: -45600.47696010383
+Iteration 10211: -55091.34532000687
+Iteration 10212: -84316.9501272896
+Iteration 10213: -68385.88817685447
+Iteration 10214: -66624.1983275023
+Iteration 10215: -39423.56526311157
+Iteration 10216: -55125.45888103228
+Iteration 10217: -75745.11683011636
+Iteration 10218: -54440.5592065089
+Iteration 10219: -70058.90849072351
+Iteration 10220: -68296.38488834101
+Iteration 10221: -71323.86898396231
+Iteration 10222: -50892.47414453608
+Iteration 10223: -42449.563534347755
+Iteration 10224: -50203.66932354453
+Iteration 10225: -45924.82492040238
+Iteration 10226: -64417.80199973939
+Iteration 10227: -69029.30479282867
+Iteration 10228: -76392.02029771739
+Iteration 10229: -68433.2990495269
+Iteration 10230: -58404.1766412742
+Iteration 10231: -69476.3597842118
+Iteration 10232: -35677.798717910155
+Iteration 10233: -52301.2508140251
+Iteration 10234: -52072.69347875091
+Iteration 10235: -63883.13792969418
+Iteration 10236: -59509.2763050541
+Iteration 10237: -61979.59551093919
+Iteration 10238: -32415.811078746723
+Iteration 10239: -85339.3598387027
+Iteration 10240: -34993.53726231681
+Iteration 10241: -74308.60590546322
+Iteration 10242: -67259.4004303494
+Iteration 10243: -54187.788549962796
+Iteration 10244: -41908.30011137536
+Iteration 10245: -81231.48905130022
+Iteration 10246: -43790.95762321298
+Iteration 10247: -71204.12981047896
+Iteration 10248: -45144.540262199065
+Iteration 10249: -42646.48234443848
+Iteration 10250: -43499.5052942438
+Iteration 10251: -57537.47499838953
+Iteration 10252: -111500.82792481502
+Iteration 10253: -75363.59341264989
+Iteration 10254: -42006.2596908868
+Iteration 10255: -39586.83115540728
+Iteration 10256: -48444.09303299378
+Iteration 10257: -105047.66431708935
+Iteration 10258: -53041.91268632923
+Iteration 10259: -74915.83918535463
+Iteration 10260: -39322.73196841491
+Iteration 10261: -58695.65584278333
+Iteration 10262: -121940.57696402547
+Iteration 10263: -46611.78651976633
+Iteration 10264: -82656.81683159685
+Iteration 10265: -71111.30623543082
+Iteration 10266: -46985.849298124194
+Iteration 10267: -65282.30169551654
+Iteration 10268: -49782.041671532854
+Iteration 10269: -140503.8091373446
+Iteration 10270: -54286.95333359989
+Iteration 10271: -36390.424144903365
+Iteration 10272: -51837.1481743221
+Iteration 10273: -64017.31976187867
+Iteration 10274: -62298.15568084384
+Iteration 10275: -50279.48105301929
+Iteration 10276: -66102.49924980113
+Iteration 10277: -84479.75045608076
+Iteration 10278: -49509.7634831351
+Iteration 10279: -69876.02555491295
+Iteration 10280: -56351.491492346795
+Iteration 10281: -46056.71863920255
+Iteration 10282: -57529.27725921136
+Iteration 10283: -43983.38532079585
+Iteration 10284: -37770.80131771338
+Iteration 10285: -31809.871061503
+Iteration 10286: -56732.49973721083
+Iteration 10287: -46277.64292532409
+Iteration 10288: -65356.32248569703
+Iteration 10289: -45225.96099598594
+Iteration 10290: -47287.73810098232
+Iteration 10291: -57881.91712485461
+Iteration 10292: -51648.84168769969
+Iteration 10293: -71836.47894972561
+Iteration 10294: -23622.806702365986
+Iteration 10295: -51935.027698280464
+Iteration 10296: -54959.31830467781
+Iteration 10297: -65679.57533824841
+Iteration 10298: -82579.89400832538
+Iteration 10299: -34669.886035028794
+Iteration 10300: -34744.53778692824
+Iteration 10301: -66419.33211476763
+Iteration 10302: -58027.79229269931
+Iteration 10303: -49201.146212314714
+Iteration 10304: -110219.1561578346
+Iteration 10305: -58941.839059487276
+Iteration 10306: -69839.05324958728
+Iteration 10307: -61533.687576805285
+Iteration 10308: -59462.41744256224
+Iteration 10309: -45177.281349148434
+Iteration 10310: -65929.33624614764
+Iteration 10311: -44175.530298318285
+Iteration 10312: -49217.232922263356
+Iteration 10313: -69342.88132134397
+Iteration 10314: -80223.7972552459
+Iteration 10315: -69409.81322666009
+Iteration 10316: -71533.8658410639
+Iteration 10317: -33369.00880509388
+Iteration 10318: -60647.773840236696
+Iteration 10319: -115901.05253092517
+Iteration 10320: -91057.48157398887
+Iteration 10321: -73587.59706192186
+Iteration 10322: -79239.16284135915
+Iteration 10323: -64173.584928446806
+Iteration 10324: -44388.01016423822
+Iteration 10325: -63851.02664148988
+Iteration 10326: -84579.5160472965
+Iteration 10327: -42063.51580552412
+Iteration 10328: -63878.276827857466
+Iteration 10329: -63743.04158293832
+Iteration 10330: -39875.1876009848
+Iteration 10331: -41743.45577456035
+Iteration 10332: -55626.82425867943
+Iteration 10333: -98138.9688538571
+Iteration 10334: -45219.10309732068
+Iteration 10335: -82622.56593812347
+Iteration 10336: -48754.39330921388
+Iteration 10337: -62818.01283309739
+Iteration 10338: -35499.95645658349
+Iteration 10339: -68101.34952388723
+Iteration 10340: -69409.61403853228
+Iteration 10341: -66535.38976705863
+Iteration 10342: -38258.51231511082
+Iteration 10343: -56826.794482007615
+Iteration 10344: -38728.07513095073
+Iteration 10345: -41528.66379268093
+Iteration 10346: -86973.30485578439
+Iteration 10347: -67539.53573854729
+Iteration 10348: -66932.07137922557
+Iteration 10349: -49835.788725012266
+Iteration 10350: -52265.71449421218
+Iteration 10351: -52566.209893811276
+Iteration 10352: -119053.86376858299
+Iteration 10353: -58220.733240310525
+Iteration 10354: -30792.49624293504
+Iteration 10355: -74919.13351250833
+Iteration 10356: -42003.05347170126
+Iteration 10357: -98947.61538663963
+Iteration 10358: -35036.36358226723
+Iteration 10359: -68848.56642911817
+Iteration 10360: -64520.39160334044
+Iteration 10361: -60231.79439095561
+Iteration 10362: -32744.991544665667
+Iteration 10363: -67249.50704498476
+Iteration 10364: -42421.042908311516
+Iteration 10365: -53837.0080568652
+Iteration 10366: -52384.7474901219
+Iteration 10367: -113125.50362213272
+Iteration 10368: -53592.956378681905
+Iteration 10369: -78535.73932827447
+Iteration 10370: -59928.3997644633
+Iteration 10371: -44483.59581447408
+Iteration 10372: -68237.29953375774
+Iteration 10373: -57310.08034949738
+Iteration 10374: -55878.849914154096
+Iteration 10375: -49526.22728020883
+Iteration 10376: -55762.80200551221
+Iteration 10377: -69587.48572523707
+Iteration 10378: -38454.335951182016
+Iteration 10379: -73513.99522925768
+Iteration 10380: -60289.94904366634
+Iteration 10381: -38444.44807788258
+Iteration 10382: -59598.3090307482
+Iteration 10383: -42752.360232147395
+Iteration 10384: -70301.2999294921
+Iteration 10385: -68153.18004666657
+Iteration 10386: -63348.17439292976
+Iteration 10387: -56432.77542501613
+Iteration 10388: -45987.62861786627
+Iteration 10389: -40897.23938555282
+Iteration 10390: -94070.68487613743
+Iteration 10391: -50443.548306657765
+Iteration 10392: -39280.30839799894
+Iteration 10393: -53945.649695586886
+Iteration 10394: -59433.146491021005
+Iteration 10395: -63220.91244431858
+Iteration 10396: -38131.72816155985
+Iteration 10397: -54862.00542127902
+Iteration 10398: -55303.59505282611
+Iteration 10399: -81428.24108631047
+Iteration 10400: -37505.123005478104
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG Would you like something in the cheap , moderate , or expensive price range? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG What part of town do you have in mind? $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , hotel_du_vin_and_bistro is on hotel_du_vin_and_bistro_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG Sure , frankie_and_bennys is on frankie_and_bennys_address $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 10400,
+  "runtimeInSeconds": 120314.876,
+  "objectiveValue": -37505.123005478104,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 423
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 448
+    }
+  }
+}
+Iteration 10401: -34142.819122406574
+Iteration 10402: -65895.83035679223
+Iteration 10403: -73546.73399497541
+Iteration 10404: -46357.405682188255
+Iteration 10405: -52975.00569146385
+Iteration 10406: -51513.570253561425
+Iteration 10407: -39065.99495685163
+Iteration 10408: -49899.219002490456
+Iteration 10409: -94937.82536880985
+Iteration 10410: -51190.95248196398
+Iteration 10411: -50550.42952940106
+Iteration 10412: -30922.58967225621
+Iteration 10413: -48739.46870085619
+Iteration 10414: -31642.104238185933
+Iteration 10415: -51322.5289557019
+Iteration 10416: -92137.26977190796
+Iteration 10417: -68997.91709660875
+Iteration 10418: -49313.53187149781
+Iteration 10419: -60755.43960873087
+Iteration 10420: -49882.255459856715
+Iteration 10421: -52083.93231288705
+Iteration 10422: -60251.75112833658
+Iteration 10423: -41029.29474247337
+Iteration 10424: -66742.52320745795
+Iteration 10425: -99465.4719029512
+Iteration 10426: -73332.62590775259
+Iteration 10427: -55421.693814468024
+Iteration 10428: -49569.15022553113
+Iteration 10429: -44971.39897004754
+Iteration 10430: -40674.897346799386
+Iteration 10431: -52983.018858335185
+Iteration 10432: -37238.11930600471
+Iteration 10433: -87887.47072651285
+Iteration 10434: -77423.24314880611
+Iteration 10435: -75904.84781892046
+Iteration 10436: -45034.578829766506
+Iteration 10437: -60865.904312704246
+Iteration 10438: -54388.55022058912
+Iteration 10439: -65611.59036809068
+Iteration 10440: -60823.24512510178
+Iteration 10441: -37542.28497737362
+Iteration 10442: -94590.96140968958
+Iteration 10443: -68933.17524347347
+Iteration 10444: -81525.5965411681
+Iteration 10445: -70434.8637691316
+Iteration 10446: -63889.425762167404
+Iteration 10447: -66480.13200532086
+Iteration 10448: -56526.718823965224
+Iteration 10449: -44546.756152709255
+Iteration 10450: -68160.00971134617
+Iteration 10451: -64600.39865230334
+Iteration 10452: -74894.23615929979
+Iteration 10453: -60857.329250775576
+Iteration 10454: -53111.71962055301
+Iteration 10455: -34493.741600494555
+Iteration 10456: -58094.42217632139
+Iteration 10457: -39988.57774551337
+Iteration 10458: -109676.81795722159
+Iteration 10459: -57045.18538763542
+Iteration 10460: -70742.30707930983
+Iteration 10461: -64419.67593496906
+Iteration 10462: -62751.88682625604
+Iteration 10463: -33537.06585974134
+Iteration 10464: -53741.48856472171
+Iteration 10465: -63159.30924788961
+Iteration 10466: -84907.93629843855
+Iteration 10467: -44127.00277171002
+Iteration 10468: -65776.93802723098
+Iteration 10469: -65281.22176259717
+Iteration 10470: -78490.0124392787
+Iteration 10471: -68659.93806914307
+Iteration 10472: -45525.62492645223
+Iteration 10473: -50053.7428056685
+Iteration 10474: -43112.0286445711
+Iteration 10475: -51407.45348005362
+Iteration 10476: -35166.47967326351
+Iteration 10477: -65574.84183823381
+Iteration 10478: -86214.11200976925
+Iteration 10479: -44422.04379086908
+Iteration 10480: -37399.04065867919
+Iteration 10481: -39704.09200300833
+Iteration 10482: -41583.06866265299
+Iteration 10483: -59132.01653935474
+Iteration 10484: -69561.45849731682
+Iteration 10485: -39023.340532141614
+Iteration 10486: -45513.08412841725
+Iteration 10487: -44790.48760843584
+Iteration 10488: -56897.59493585436
+Iteration 10489: -54653.06881108249
+Iteration 10490: -84926.74668006095
+Iteration 10491: -43347.22363395444
+Iteration 10492: -62686.32777587289
+Iteration 10493: -49978.96393117675
+Iteration 10494: -57191.00963831093
+Iteration 10495: -60472.83190395719
+Iteration 10496: -50317.06458356428
+Iteration 10497: -55873.09670663669
+Iteration 10498: -49128.498308654285
+Iteration 10499: -66482.06978159556
+Iteration 10500: -60610.583871087496
+Iteration 10501: -70672.61292647212
+Iteration 10502: -53273.95780997471
+Iteration 10503: -41121.63296491068
+Iteration 10504: -44312.78494796129
+Iteration 10505: -74994.68773140277
+Iteration 10506: -45886.663537669185
+Iteration 10507: -85015.20195043608
+Iteration 10508: -63566.28241912019
+Iteration 10509: -57882.12285980634
+Iteration 10510: -52017.13864579059
+Iteration 10511: -62511.287016401664
+Iteration 10512: -66209.69844027929
+Iteration 10513: -48662.16249027042
+Iteration 10514: -85270.51415354047
+Iteration 10515: -58542.555678637334
+Iteration 10516: -50446.13657950642
+Iteration 10517: -70183.10319071532
+Iteration 10518: -29475.36228126769
+Iteration 10519: -47892.4032238732
+Iteration 10520: -69222.81826201917
+Iteration 10521: -54621.3820123588
+Iteration 10522: -74214.01328784898
+Iteration 10523: -46590.26889150599
+Iteration 10524: -70936.09758907331
+Iteration 10525: -60657.766287191735
+Iteration 10526: -72838.50984836275
+Iteration 10527: -117845.23906420784
+Iteration 10528: -91874.16953678898
+Iteration 10529: -35731.98593431105
+Iteration 10530: -55400.12888333658
+Iteration 10531: -47241.242472738326
+Iteration 10532: -42143.798606656674
+Iteration 10533: -62085.45885623314
+Iteration 10534: -58527.4007679453
+Iteration 10535: -57949.71976386737
+Iteration 10536: -85630.89941378799
+Iteration 10537: -55775.71092171948
+Iteration 10538: -59582.40143580242
+Iteration 10539: -62734.564666349856
+Iteration 10540: -89659.63294093728
+Iteration 10541: -51034.796648846655
+Iteration 10542: -50619.218158038166
+Iteration 10543: -76137.03081955691
+Iteration 10544: -55583.11249332165
+Iteration 10545: -59502.53365337923
+Iteration 10546: -78742.02467452246
+Iteration 10547: -94122.89358540178
+Iteration 10548: -45374.9298872431
+Iteration 10549: -51552.890143676756
+Iteration 10550: -37917.197807166216
+Iteration 10551: -93228.46195646518
+Iteration 10552: -52612.983547463184
+Iteration 10553: -59728.48748611336
+Iteration 10554: -53496.91630943783
+Iteration 10555: -37879.33514039949
+Iteration 10556: -89644.00284236504
+Iteration 10557: -97379.30974633672
+Iteration 10558: -57580.44352552423
+Iteration 10559: -49647.93305503793
+Iteration 10560: -64754.93836780201
+Iteration 10561: -63161.76964649429
+Iteration 10562: -39503.61402122493
+Iteration 10563: -49959.85218737923
+Iteration 10564: -64979.83935934118
+Iteration 10565: -69948.44071644945
+Iteration 10566: -76880.83730923114
+Iteration 10567: -71130.87084315317
+Iteration 10568: -95427.36164444372
+Iteration 10569: -65340.33080387906
+Iteration 10570: -71020.5976949091
+Iteration 10571: -60872.18261625096
+Iteration 10572: -58225.66155688089
+Iteration 10573: -69383.97309504008
+Iteration 10574: -62133.60317735953
+Iteration 10575: -88672.38405602664
+Iteration 10576: -80606.97905008668
+Iteration 10577: -65013.16559828597
+Iteration 10578: -79101.39047689422
+Iteration 10579: -58464.13027218585
+Iteration 10580: -54977.94195954548
+Iteration 10581: -70765.06584584832
+Iteration 10582: -63789.25002938815
+Iteration 10583: -46067.45566908983
+Iteration 10584: -55418.70784738868
+Iteration 10585: -73325.51859041463
+Iteration 10586: -54731.98467248475
+Iteration 10587: -86259.34044081157
+Iteration 10588: -95595.3452651517
+Iteration 10589: -59250.31268811428
+Iteration 10590: -48098.16832596621
+Iteration 10591: -27571.327436652406
+Iteration 10592: -50779.88175995758
+Iteration 10593: -53341.0892809058
+Iteration 10594: -60699.48635227984
+Iteration 10595: -46871.96953429977
+Iteration 10596: -56274.8736170977
+Iteration 10597: -50558.20238406203
+Iteration 10598: -66791.18233883702
+Iteration 10599: -60021.556766792135
+Iteration 10600: -38257.895318938725
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG What kind of food would you like? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine south cheap $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , la_margherita is on la_margherita_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG meghna is a nice place in the north of town and the prices are moderate $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 10600,
+  "runtimeInSeconds": 122614.336,
+  "objectiveValue": -38257.895318938725,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 431
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 432
+    }
+  }
+}
+Iteration 10601: -69175.4649235921
+Iteration 10602: -40670.62226256076
+Iteration 10603: -56108.8214407431
+Iteration 10604: -49278.83079915826
+Iteration 10605: -53319.24760122637
+Iteration 10606: -46010.23344868157
+Iteration 10607: -56348.38090866529
+Iteration 10608: -53936.8221918552
+Iteration 10609: -58092.45550233308
+Iteration 10610: -54866.531775678726
+Iteration 10611: -53783.189729363345
+Iteration 10612: -105479.72996495408
+Iteration 10613: -50133.96583675834
+Iteration 10614: -69120.85672518669
+Iteration 10615: -66109.21374660112
+Iteration 10616: -63432.173945210496
+Iteration 10617: -79513.84007993255
+Iteration 10618: -63463.54328555874
+Iteration 10619: -50053.73065167154
+Iteration 10620: -116429.46359682058
+Iteration 10621: -67054.37835234433
+Iteration 10622: -86723.48507379752
+Iteration 10623: -75791.4579370283
+Iteration 10624: -38880.52486400178
+Iteration 10625: -57946.53309211301
+Iteration 10626: -46906.12564471499
+Iteration 10627: -54947.70164612095
+Iteration 10628: -59696.626247704844
+Iteration 10629: -49709.39766499619
+Iteration 10630: -93290.06681776882
+Iteration 10631: -63085.30948518977
+Iteration 10632: -55695.866027594966
+Iteration 10633: -51303.37340882098
+Iteration 10634: -60604.273141784965
+Iteration 10635: -75764.04464702024
+Iteration 10636: -86550.18825523394
+Iteration 10637: -63411.07346620795
+Iteration 10638: -53463.879275757
+Iteration 10639: -76297.97005393247
+Iteration 10640: -63347.3860643144
+Iteration 10641: -52785.69427419036
+Iteration 10642: -49551.36983082784
+Iteration 10643: -59495.51348243816
+Iteration 10644: -71925.92960608371
+Iteration 10645: -100370.31869720422
+Iteration 10646: -49918.24865941581
+Iteration 10647: -62993.09493870753
+Iteration 10648: -73421.95328596978
+Iteration 10649: -62689.32556643314
+Iteration 10650: -45857.84864417307
+Iteration 10651: -72991.56406926377
+Iteration 10652: -63024.456411609004
+Iteration 10653: -69716.90305512467
+Iteration 10654: -54579.34381464214
+Iteration 10655: -41952.938942160996
+Iteration 10656: -40856.264330625
+Iteration 10657: -47704.83013332549
+Iteration 10658: -44283.7492471062
+Iteration 10659: -79653.58846312291
+Iteration 10660: -49940.40293098159
+Iteration 10661: -56735.89793183593
+Iteration 10662: -87090.90484130093
+Iteration 10663: -47088.418258854486
+Iteration 10664: -48433.31210952489
+Iteration 10665: -67353.73245854513
+Iteration 10666: -47447.44142560952
+Iteration 10667: -37607.364309935496
+Iteration 10668: -47223.72009791773
+Iteration 10669: -66982.36907540624
+Iteration 10670: -49839.02886205635
+Iteration 10671: -60500.556686964
+Iteration 10672: -43953.92323388934
+Iteration 10673: -79263.57080880708
+Iteration 10674: -59028.533900762006
+Iteration 10675: -53470.3727739371
+Iteration 10676: -65192.313183505205
+Iteration 10677: -102962.75402789727
+Iteration 10678: -57658.4639777888
+Iteration 10679: -75767.32253659391
+Iteration 10680: -51978.761485039824
+Iteration 10681: -54856.67803878024
+Iteration 10682: -52585.53728611192
+Iteration 10683: -43087.20480728189
+Iteration 10684: -54599.66614274496
+Iteration 10685: -72565.84234584284
+Iteration 10686: -47274.47553669501
+Iteration 10687: -39750.27717503847
+Iteration 10688: -54076.85240190004
+Iteration 10689: -40494.851423151275
+Iteration 10690: -50674.504499696406
+Iteration 10691: -66561.69455224884
+Iteration 10692: -77657.46432943647
+Iteration 10693: -48525.58923229038
+Iteration 10694: -42701.63763730222
+Iteration 10695: -60827.86360009923
+Iteration 10696: -37276.85766611368
+Iteration 10697: -30235.81165150827
+Iteration 10698: -118153.84862798582
+Iteration 10699: -60200.01516191502
+Iteration 10700: -52365.437347251274
+Iteration 10701: -62360.74178683332
+Iteration 10702: -57436.18448258585
+Iteration 10703: -41534.62210081427
+Iteration 10704: -50612.2819407266
+Iteration 10705: -47728.14474926748
+Iteration 10706: -56490.45898362051
+Iteration 10707: -35589.9054482213
+Iteration 10708: -78338.38236347618
+Iteration 10709: -45130.238590407156
+Iteration 10710: -63983.503193855395
+Iteration 10711: -53790.42624754836
+Iteration 10712: -51498.947617777725
+Iteration 10713: -73395.29163987351
+Iteration 10714: -77980.26476056222
+Iteration 10715: -51817.906444762455
+Iteration 10716: -68212.41168478137
+Iteration 10717: -43788.03714313083
+Iteration 10718: -55103.94307102375
+Iteration 10719: -122057.26477436261
+Iteration 10720: -54885.15475866635
+Iteration 10721: -73002.5527574057
+Iteration 10722: -60474.972551448096
+Iteration 10723: -34843.683935428206
+Iteration 10724: -104663.87700596223
+Iteration 10725: -74185.05240146986
+Iteration 10726: -38561.98703970217
+Iteration 10727: -68392.70092044884
+Iteration 10728: -47611.92632025453
+Iteration 10729: -59745.396148071806
+Iteration 10730: -101151.91189397067
+Iteration 10731: -75959.5000060603
+Iteration 10732: -28627.413617081347
+Iteration 10733: -95542.60817516933
+Iteration 10734: -44084.89598876966
+Iteration 10735: -60742.26622264096
+Iteration 10736: -59347.08785555461
+Iteration 10737: -31911.276254584754
+Iteration 10738: -62039.98213132262
+Iteration 10739: -62859.87304729377
+Iteration 10740: -53569.01120074243
+Iteration 10741: -72668.7147656512
+Iteration 10742: -69347.29271005529
+Iteration 10743: -55446.077047522245
+Iteration 10744: -44134.2175220462
+Iteration 10745: -72225.9044655133
+Iteration 10746: -67270.88976038857
+Iteration 10747: -52494.58412408412
+Iteration 10748: -55704.680017265426
+Iteration 10749: -103333.8759029547
+Iteration 10750: -36100.07751607185
+Iteration 10751: -61611.17096610294
+Iteration 10752: -37575.32027098345
+Iteration 10753: -50866.43109587239
+Iteration 10754: -54503.23377211698
+Iteration 10755: -68598.88020806156
+Iteration 10756: -73079.56053028425
+Iteration 10757: -75923.8495823267
+Iteration 10758: -42273.25569568593
+Iteration 10759: -68242.4073612943
+Iteration 10760: -98653.68612838392
+Iteration 10761: -59842.28235588122
+Iteration 10762: -26373.873433248995
+Iteration 10763: -52036.2881438
+Iteration 10764: -49092.55924081655
+Iteration 10765: -56545.539104872485
+Iteration 10766: -79100.90116115005
+Iteration 10767: -32909.85174047503
+Iteration 10768: -73330.04516352703
+Iteration 10769: -59810.413365499015
+Iteration 10770: -86784.99750122408
+Iteration 10771: -53931.67906556934
+Iteration 10772: -42425.11911952876
+Iteration 10773: -57919.52250482629
+Iteration 10774: -81852.72759083316
+Iteration 10775: -37791.20219853642
+Iteration 10776: -75046.09056301987
+Iteration 10777: -61819.66890421448
+Iteration 10778: -60305.062379709765
+Iteration 10779: -59554.7277025018
+Iteration 10780: -40220.50801204575
+Iteration 10781: -84370.80535809067
+Iteration 10782: -33697.95411806431
+Iteration 10783: -53602.22440886896
+Iteration 10784: -50252.35114627694
+Iteration 10785: -44996.76450992515
+Iteration 10786: -98023.43319183639
+Iteration 10787: -42491.66150588265
+Iteration 10788: -47213.42620584375
+Iteration 10789: -57808.93612261993
+Iteration 10790: -75284.087134777
+Iteration 10791: -72323.10598621484
+Iteration 10792: -84086.83350434326
+Iteration 10793: -41103.745690495285
+Iteration 10794: -58777.90162397517
+Iteration 10795: -40834.12808405019
+Iteration 10796: -44139.17269193091
+Iteration 10797: -73635.11046618254
+Iteration 10798: -84562.26743676991
+Iteration 10799: -49047.29545863873
+Iteration 10800: -68944.13697311902
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG I am sorry but there is no other italian restaurant in the west of town $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG little_seoul is a great restaurant serving seafood food and it is in the expensive price range $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , prezzo is on prezzo_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG restaurant_alimentum serves modern_european food $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 10800,
+  "runtimeInSeconds": 124897.353,
+  "objectiveValue": -68944.13697311902,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 432
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 425
+    }
+  }
+}
+Iteration 10801: -67433.74384852969
+Iteration 10802: -47006.08505077082
+Iteration 10803: -102078.41810647801
+Iteration 10804: -47159.88668408866
+Iteration 10805: -44968.126831653855
+Iteration 10806: -87379.78798052258
+Iteration 10807: -89635.1337802392
+Iteration 10808: -45217.54363522208
+Iteration 10809: -67377.80956918
+Iteration 10810: -36022.086447675945
+Iteration 10811: -92644.49255507861
+Iteration 10812: -61425.87409736511
+Iteration 10813: -68635.14623451205
+Iteration 10814: -99533.23159133898
+Iteration 10815: -69618.51381043559
+Iteration 10816: -30312.92498916972
+Iteration 10817: -68191.64342054128
+Iteration 10818: -55982.518719168205
+Iteration 10819: -51927.309067888054
+Iteration 10820: -60452.98606473085
+Iteration 10821: -82550.89453617542
+Iteration 10822: -42135.08603180971
+Iteration 10823: -47493.36710476181
+Iteration 10824: -79330.15088230082
+Iteration 10825: -112222.96920387544
+Iteration 10826: -79324.0765957598
+Iteration 10827: -39635.43511491757
+Iteration 10828: -49825.019558679734
+Iteration 10829: -46866.470723483966
+Iteration 10830: -53480.21050450017
+Iteration 10831: -63740.62839332846
+Iteration 10832: -63440.41834830489
+Iteration 10833: -56478.16269954928
+Iteration 10834: -48137.52180106012
+Iteration 10835: -54664.00986918414
+Iteration 10836: -62969.22599457416
+Iteration 10837: -43721.82747875536
+Iteration 10838: -84347.70637913092
+Iteration 10839: -50677.03593533506
+Iteration 10840: -68060.14965852014
+Iteration 10841: -74262.39358315185
+Iteration 10842: -63756.09752968614
+Iteration 10843: -61954.25953499302
+Iteration 10844: -40950.22293347206
+Iteration 10845: -59074.342612930835
+Iteration 10846: -45956.26692217428
+Iteration 10847: -37657.21681534083
+Iteration 10848: -52053.780108897525
+Iteration 10849: -41407.97043849741
+Iteration 10850: -27246.220740169
+Iteration 10851: -53012.11224665732
+Iteration 10852: -65564.95660325154
+Iteration 10853: -73364.40041919638
+Iteration 10854: -81591.28087974389
+Iteration 10855: -54947.09188562257
+Iteration 10856: -55473.98909053385
+Iteration 10857: -71212.38953711094
+Iteration 10858: -57902.755800550534
+Iteration 10859: -83872.6520199577
+Iteration 10860: -66996.83160067558
+Iteration 10861: -66703.90665494175
+Iteration 10862: -49596.018053806365
+Iteration 10863: -54853.79045615613
+Iteration 10864: -64595.64802343257
+Iteration 10865: -105975.1912002562
+Iteration 10866: -53793.870721491796
+Iteration 10867: -63379.78448989492
+Iteration 10868: -60838.86399111887
+Iteration 10869: -52535.674681256416
+Iteration 10870: -89554.40230332587
+Iteration 10871: -55361.94376227074
+Iteration 10872: -70759.74200859014
+Iteration 10873: -54278.168231218195
+Iteration 10874: -82170.12060084593
+Iteration 10875: -57049.47442719387
+Iteration 10876: -42898.69156284315
+Iteration 10877: -65795.68410079199
+Iteration 10878: -55035.91404933904
+Iteration 10879: -76261.73369527592
+Iteration 10880: -43685.71627979971
+Iteration 10881: -49812.29355689418
+Iteration 10882: -77159.05968258079
+Iteration 10883: -42491.624283263656
+Iteration 10884: -66952.46851458577
+Iteration 10885: -77514.79497724978
+Iteration 10886: -75513.85484086617
+Iteration 10887: -74152.48643996663
+Iteration 10888: -73165.48523736987
+Iteration 10889: -55346.37407914912
+Iteration 10890: -82228.06043911255
+Iteration 10891: -35843.59445509365
+Iteration 10892: -66676.6453838742
+Iteration 10893: -44094.580997401026
+Iteration 10894: -46756.336998326675
+Iteration 10895: -66222.94230873125
+Iteration 10896: -99203.05282142285
+Iteration 10897: -74012.66039497315
+Iteration 10898: -78955.43243130154
+Iteration 10899: -36409.117583528394
+Iteration 10900: -86782.2637373795
+Iteration 10901: -42139.785296756665
+Iteration 10902: -61473.75558284468
+Iteration 10903: -60709.470257068155
+Iteration 10904: -73633.26436157232
+Iteration 10905: -61594.914552834234
+Iteration 10906: -60073.70814961222
+Iteration 10907: -42438.869052222224
+Iteration 10908: -58058.58186255991
+Iteration 10909: -61291.71208707324
+Iteration 10910: -78421.11397758589
+Iteration 10911: -118877.50053926728
+Iteration 10912: -62555.43505316004
+Iteration 10913: -70106.01704173123
+Iteration 10914: -74743.19852808939
+Iteration 10915: -63457.33423381094
+Iteration 10916: -38083.766329989805
+Iteration 10917: -88415.74426851593
+Iteration 10918: -53714.71838349481
+Iteration 10919: -80112.93218077488
+Iteration 10920: -39507.678863238754
+Iteration 10921: -80459.5967302856
+Iteration 10922: -87816.53850191343
+Iteration 10923: -59006.95002154977
+Iteration 10924: -51585.527479155324
+Iteration 10925: -65236.70897468602
+Iteration 10926: -47341.9515936833
+Iteration 10927: -55159.04013137961
+Iteration 10928: -88141.1186473059
+Iteration 10929: -101795.1301897327
+Iteration 10930: -58155.84328615393
+Iteration 10931: -58098.056600138276
+Iteration 10932: -82857.26517620742
+Iteration 10933: -41888.220575075684
+Iteration 10934: -50798.37906718326
+Iteration 10935: -39257.02550101143
+Iteration 10936: -41333.50505574303
+Iteration 10937: -48544.26147388365
+Iteration 10938: -42935.89718722949
+Iteration 10939: -49076.72879253585
+Iteration 10940: -32545.565808202653
+Iteration 10941: -44756.2075472742
+Iteration 10942: -65100.12241110697
+Iteration 10943: -48173.923089791395
+Iteration 10944: -72940.83404047225
+Iteration 10945: -47444.92914300272
+Iteration 10946: -63338.76304205735
+Iteration 10947: -44125.87956769189
+Iteration 10948: -54464.92332171459
+Iteration 10949: -46076.59080767538
+Iteration 10950: -57376.16937439095
+Iteration 10951: -69864.70800496505
+Iteration 10952: -42515.579994175176
+Iteration 10953: -31593.7367536449
+Iteration 10954: -62223.64824683366
+Iteration 10955: -87059.61072259185
+Iteration 10956: -57366.47715289134
+Iteration 10957: -56258.49304295357
+Iteration 10958: -52333.13741021389
+Iteration 10959: -65179.50632520268
+Iteration 10960: -109669.21502869586
+Iteration 10961: -49194.70880800374
+Iteration 10962: -54334.420181142545
+Iteration 10963: -66408.44184008693
+Iteration 10964: -54364.93232930184
+Iteration 10965: -66875.97155126026
+Iteration 10966: -49471.26576933009
+Iteration 10967: -41161.01927776388
+Iteration 10968: -58057.999015832225
+Iteration 10969: -69851.06564555304
+Iteration 10970: -45725.27260102461
+Iteration 10971: -48568.73262661206
+Iteration 10972: -50107.093086782486
+Iteration 10973: -55892.82826791373
+Iteration 10974: -62474.20840055293
+Iteration 10975: -29454.2760558032
+Iteration 10976: -40716.50907051706
+Iteration 10977: -32840.50584232502
+Iteration 10978: -47543.18115807259
+Iteration 10979: -54705.78376323997
+Iteration 10980: -73518.97216749954
+Iteration 10981: -44629.31713404672
+Iteration 10982: -70763.70722614734
+Iteration 10983: -84340.56241914627
+Iteration 10984: -60936.69081401695
+Iteration 10985: -55772.21015364555
+Iteration 10986: -76836.50473605744
+Iteration 10987: -63933.0644349552
+Iteration 10988: -43833.16811083042
+Iteration 10989: -64892.86753918296
+Iteration 10990: -86053.21311872402
+Iteration 10991: -65079.74274140675
+Iteration 10992: -55478.31918098
+Iteration 10993: -47081.19849862958
+Iteration 10994: -54098.77014886277
+Iteration 10995: -57438.072441486176
+Iteration 10996: -62794.89146334074
+Iteration 10997: -38953.70553085003
+Iteration 10998: -48847.16076907593
+Iteration 10999: -42207.511251473385
+Iteration 11000: -66719.90856679213
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG the river bar steakhouse and grill is a nice place in the centre of town $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine R_location cheap $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG The phone number of cambridge_lodge_restaurant is cambridge_lodge_restaurant_phone $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG pipasha_restaurant serves indian food $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 11000,
+  "runtimeInSeconds": 127159.789,
+  "objectiveValue": -66719.90856679213,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 441
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 431
+    }
+  }
+}
+Iteration 11001: -86027.20758530746
+Iteration 11002: -43849.66509340205
+Iteration 11003: -45201.82190198131
+Iteration 11004: -101769.08006423374
+Iteration 11005: -56914.46663534148
+Iteration 11006: -69986.45787649993
+Iteration 11007: -44981.030429149716
+Iteration 11008: -33689.69174434919
+Iteration 11009: -73277.43518205562
+Iteration 11010: -73275.49008912037
+Iteration 11011: -58544.93465165933
+Iteration 11012: -56963.10814927482
+Iteration 11013: -50752.96197435028
+Iteration 11014: -48978.40291768357
+Iteration 11015: -49987.57064209385
+Iteration 11016: -46383.26408054975
+Iteration 11017: -48449.05782277556
+Iteration 11018: -61263.151653925626
+Iteration 11019: -51694.54368916777
+Iteration 11020: -46758.16369616061
+Iteration 11021: -53699.56165334523
+Iteration 11022: -48488.415867006675
+Iteration 11023: -47675.114653001765
+Iteration 11024: -64744.1196333892
+Iteration 11025: -79719.58845073596
+Iteration 11026: -50567.18252042702
+Iteration 11027: -54536.62653826974
+Iteration 11028: -63036.69220950287
+Iteration 11029: -45613.35798036305
+Iteration 11030: -66206.99596307545
+Iteration 11031: -52599.853015342385
+Iteration 11032: -45320.4599257959
+Iteration 11033: -47907.42684697783
+Iteration 11034: -59485.81680434127
+Iteration 11035: -51268.96623444976
+Iteration 11036: -53210.96166964949
+Iteration 11037: -50147.934777308976
+Iteration 11038: -54166.53891737606
+Iteration 11039: -62160.52729327507
+Iteration 11040: -86118.32961718617
+Iteration 11041: -74253.69134706611
+Iteration 11042: -39494.43899145461
+Iteration 11043: -51027.7906958376
+Iteration 11044: -59920.60554386311
+Iteration 11045: -58257.90029422138
+Iteration 11046: -36935.14086561762
+Iteration 11047: -59904.25784202373
+Iteration 11048: -54365.39098734895
+Iteration 11049: -46305.62089447461
+Iteration 11050: -57048.75241896479
+Iteration 11051: -69512.02781218229
+Iteration 11052: -51523.91236425812
+Iteration 11053: -48112.03652307962
+Iteration 11054: -81482.13794996146
+Iteration 11055: -43523.26517909628
+Iteration 11056: -64491.34912234284
+Iteration 11057: -46068.38575024746
+Iteration 11058: -49672.64579840335
+Iteration 11059: -63470.275543721225
+Iteration 11060: -55578.41613478801
+Iteration 11061: -68319.68859951726
+Iteration 11062: -57869.24087313685
+Iteration 11063: -65962.4817944643
+Iteration 11064: -49354.83249031601
+Iteration 11065: -58529.34125445579
+Iteration 11066: -45023.88335482797
+Iteration 11067: -61023.81077777845
+Iteration 11068: -35535.03671680606
+Iteration 11069: -79145.35851413998
+Iteration 11070: -105290.4134647515
+Iteration 11071: -68837.94865770634
+Iteration 11072: -70218.53902469017
+Iteration 11073: -38670.5775198477
+Iteration 11074: -53132.99226134251
+Iteration 11075: -68160.66263587654
+Iteration 11076: -66918.44868377771
+Iteration 11077: -45350.44666783402
+Iteration 11078: -57376.916326448874
+Iteration 11079: -59466.27153427742
+Iteration 11080: -46857.45458957279
+Iteration 11081: -68544.78264521358
+Iteration 11082: -67097.62021405908
+Iteration 11083: -50427.82473315068
+Iteration 11084: -64731.75601011493
+Iteration 11085: -53184.60154375098
+Iteration 11086: -47314.37730356652
+Iteration 11087: -89219.47515539984
+Iteration 11088: -55248.717782737745
+Iteration 11089: -55812.034012700475
+Iteration 11090: -82660.88141923984
+Iteration 11091: -51983.835323693886
+Iteration 11092: -52816.29155698823
+Iteration 11093: -49529.31818804866
+Iteration 11094: -78583.50493397105
+Iteration 11095: -77134.36098098163
+Iteration 11096: -54404.6781495766
+Iteration 11097: -45540.0136214104
+Iteration 11098: -45122.65498232401
+Iteration 11099: -69094.89485981366
+Iteration 11100: -77310.0789501914
+Iteration 11101: -52438.18312499229
+Iteration 11102: -73407.07908307949
+Iteration 11103: -60205.98706053116
+Iteration 11104: -46469.433263854145
+Iteration 11105: -69955.05408931614
+Iteration 11106: -79520.39914917512
+Iteration 11107: -46184.47173160562
+Iteration 11108: -53816.2320436548
+Iteration 11109: -76464.34064168071
+Iteration 11110: -32694.88611007097
+Iteration 11111: -63662.44539658076
+Iteration 11112: -86301.09187387233
+Iteration 11113: -39493.78829513071
+Iteration 11114: -83174.15132474495
+Iteration 11115: -51509.24691335594
+Iteration 11116: -48491.915343573695
+Iteration 11117: -45144.38519161101
+Iteration 11118: -73187.4223122664
+Iteration 11119: -52987.98603038877
+Iteration 11120: -43990.43627722261
+Iteration 11121: -54624.79152739317
+Iteration 11122: -40651.75422407305
+Iteration 11123: -72353.66825364737
+Iteration 11124: -45250.20104879982
+Iteration 11125: -87384.78115932905
+Iteration 11126: -57653.259965757235
+Iteration 11127: -47531.6722992945
+Iteration 11128: -41957.20312816984
+Iteration 11129: -64001.15831972252
+Iteration 11130: -83928.42717622721
+Iteration 11131: -54995.48382794942
+Iteration 11132: -48091.57352585304
+Iteration 11133: -73320.73338461059
+Iteration 11134: -68017.59204798786
+Iteration 11135: -79531.68255067868
+Iteration 11136: -76939.0875883312
+Iteration 11137: -52415.93979031864
+Iteration 11138: -43038.08429573075
+Iteration 11139: -44198.712022717846
+Iteration 11140: -86153.39842699087
+Iteration 11141: -95321.83504917342
+Iteration 11142: -55318.98439526399
+Iteration 11143: -36773.275959987506
+Iteration 11144: -46586.68755627304
+Iteration 11145: -33008.7335987272
+Iteration 11146: -48373.84658286526
+Iteration 11147: -58257.99271420107
+Iteration 11148: -40684.391336511144
+Iteration 11149: -52829.53386727386
+Iteration 11150: -57279.40679857921
+Iteration 11151: -59828.10318399355
+Iteration 11152: -61281.583835340185
+Iteration 11153: -40926.38011796776
+Iteration 11154: -46939.178129158754
+Iteration 11155: -36655.606400664845
+Iteration 11156: -56018.621475156506
+Iteration 11157: -45788.22734748542
+Iteration 11158: -71971.30434078371
+Iteration 11159: -55663.45640378752
+Iteration 11160: -47965.023919361876
+Iteration 11161: -63310.262393227655
+Iteration 11162: -54114.479714207504
+Iteration 11163: -45100.3903019001
+Iteration 11164: -64173.962204299096
+Iteration 11165: -77507.06087694367
+Iteration 11166: -76134.28370308479
+Iteration 11167: -72446.73997945056
+Iteration 11168: -61774.744145780955
+Iteration 11169: -66129.64682467922
+Iteration 11170: -52289.27023215973
+Iteration 11171: -54178.19021340133
+Iteration 11172: -56310.743788082145
+Iteration 11173: -50329.703079496365
+Iteration 11174: -30116.397263183695
+Iteration 11175: -41909.38788234864
+Iteration 11176: -49514.486457307394
+Iteration 11177: -56659.605395616476
+Iteration 11178: -55670.18916577112
+Iteration 11179: -53420.50470852819
+Iteration 11180: -64281.23260574429
+Iteration 11181: -107467.33363403621
+Iteration 11182: -54052.754119984624
+Iteration 11183: -54739.47120658911
+Iteration 11184: -52576.55197445669
+Iteration 11185: -50673.730928953155
+Iteration 11186: -43730.62672985875
+Iteration 11187: -42403.23615415926
+Iteration 11188: -62285.07547144574
+Iteration 11189: -52124.3363370394
+Iteration 11190: -59299.74700753346
+Iteration 11191: -60437.882750556884
+Iteration 11192: -44415.496298708924
+Iteration 11193: -44716.389579800816
+Iteration 11194: -56991.002601487584
+Iteration 11195: -67130.62841288815
+Iteration 11196: -56211.91990817648
+Iteration 11197: -51028.793809198214
+Iteration 11198: -51041.28367038151
+Iteration 11199: -51279.84508702683
+Iteration 11200: -50944.68099073757
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG api_call R_cuisine mind? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG What part of town do you have in mind? $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , the_missing_sock is on the_missing_sock_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG I'm sorry but there is no restaurant serving corsica food $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 11200,
+  "runtimeInSeconds": 129379.281,
+  "objectiveValue": -50944.68099073757,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 445
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 424
+    }
+  }
+}
+Iteration 11201: -68816.5732498978
+Iteration 11202: -59483.889502366685
+Iteration 11203: -44682.93463728743
+Iteration 11204: -43346.97058055347
+Iteration 11205: -45428.406151913754
+Iteration 11206: -51714.71281936768
+Iteration 11207: -55890.18514967162
+Iteration 11208: -47813.84830422424
+Iteration 11209: -135877.40918491443
+Iteration 11210: -37445.93260607038
+Iteration 11211: -94444.05016649247
+Iteration 11212: -49683.61686514668
+Iteration 11213: -47433.72017150808
+Iteration 11214: -61013.25233680849
+Iteration 11215: -54223.527017174165
+Iteration 11216: -72531.9580580763
+Iteration 11217: -53169.91954511554
+Iteration 11218: -56147.793893284535
+Iteration 11219: -53767.467461181135
+Iteration 11220: -49707.119737253786
+Iteration 11221: -49310.131760414915
+Iteration 11222: -51796.43490424973
+Iteration 11223: -59209.93872774571
+Iteration 11224: -51122.13690303181
+Iteration 11225: -71164.18849912168
+Iteration 11226: -64757.98725715288
+Iteration 11227: -70811.03053921397
+Iteration 11228: -66197.70826224587
+Iteration 11229: -51831.846155739426
+Iteration 11230: -47787.57185087785
+Iteration 11231: -51462.77617476813
+Iteration 11232: -47953.158238646036
+Iteration 11233: -33726.271007898955
+Iteration 11234: -53279.59173990713
+Iteration 11235: -73447.56774007184
+Iteration 11236: -45528.65290642092
+Iteration 11237: -58411.861620752294
+Iteration 11238: -62624.08343434188
+Iteration 11239: -73024.73145451049
+Iteration 11240: -44484.82815142959
+Iteration 11241: -49366.13043187841
+Iteration 11242: -32486.529731667022
+Iteration 11243: -107152.29075987318
+Iteration 11244: -85043.11301299967
+Iteration 11245: -38254.65336707806
+Iteration 11246: -38776.672091151115
+Iteration 11247: -50927.46339877474
+Iteration 11248: -46415.44766029653
+Iteration 11249: -88366.0480084155
+Iteration 11250: -69304.38517101671
+Iteration 11251: -58611.053194860164
+Iteration 11252: -75063.3501643368
+Iteration 11253: -62016.4876514466
+Iteration 11254: -41527.18068446936
+Iteration 11255: -54018.01058638497
+Iteration 11256: -36734.24509472414
+Iteration 11257: -49707.070996255345
+Iteration 11258: -31189.825828364374
+Iteration 11259: -91425.57351103761
+Iteration 11260: -33944.28346765782
+Iteration 11261: -50906.899327756044
+Iteration 11262: -60313.75978240097
+Iteration 11263: -77616.97351444922
+Iteration 11264: -65194.98610189828
+Iteration 11265: -92708.55805945916
+Iteration 11266: -58097.80441737201
+Iteration 11267: -35641.25586196064
+Iteration 11268: -48361.76931438285
+Iteration 11269: -47915.68720724412
+Iteration 11270: -58581.379167463514
+Iteration 11271: -46089.223398534086
+Iteration 11272: -37241.83589366877
+Iteration 11273: -63527.64338469174
+Iteration 11274: -105298.40195471812
+Iteration 11275: -64181.71848185496
+Iteration 11276: -70434.09187677786
+Iteration 11277: -56373.76752815235
+Iteration 11278: -78215.41655194195
+Iteration 11279: -66257.9213720515
+Iteration 11280: -58812.74516917244
+Iteration 11281: -67429.48761550791
+Iteration 11282: -51430.807538065455
+Iteration 11283: -56467.41480698149
+Iteration 11284: -63465.27218902196
+Iteration 11285: -59666.25272199399
+Iteration 11286: -60406.95572947999
+Iteration 11287: -50408.2078312454
+Iteration 11288: -42223.72597664171
+Iteration 11289: -68976.14883356582
+Iteration 11290: -80514.10130539046
+Iteration 11291: -50283.60682173701
+Iteration 11292: -79255.13650691204
+Iteration 11293: -49951.18733804931
+Iteration 11294: -34094.18401005114
+Iteration 11295: -88118.99258554897
+Iteration 11296: -64147.3915777793
+Iteration 11297: -69196.92447314663
+Iteration 11298: -90528.63540284571
+Iteration 11299: -84923.19835499155
+Iteration 11300: -49004.77967801223
+Iteration 11301: -33808.44984162725
+Iteration 11302: -39844.577974170286
+Iteration 11303: -32750.380197225775
+Iteration 11304: -38707.14189647554
+Iteration 11305: -94902.87871109798
+Iteration 11306: -63652.27362164192
+Iteration 11307: -80354.50633219333
+Iteration 11308: -46290.773002375696
+Iteration 11309: -52628.12842833069
+Iteration 11310: -54065.459972415636
+Iteration 11311: -57769.14411935348
+Iteration 11312: -81335.33555564674
+Iteration 11313: -43886.13855182455
+Iteration 11314: -46838.19362933831
+Iteration 11315: -67321.0644883946
+Iteration 11316: -64388.196481128805
+Iteration 11317: -49890.060613350186
+Iteration 11318: -65364.69458808497
+Iteration 11319: -70579.58812264315
+Iteration 11320: -54384.67790194647
+Iteration 11321: -69438.85346743104
+Iteration 11322: -79904.72320896525
+Iteration 11323: -44912.98034595875
+Iteration 11324: -79500.50575178956
+Iteration 11325: -37823.74587824129
+Iteration 11326: -60776.410031429565
+Iteration 11327: -67224.69498692176
+Iteration 11328: -54635.68827514648
+Iteration 11329: -46063.191434330685
+Iteration 11330: -50702.32549021099
+Iteration 11331: -61884.64074217919
+Iteration 11332: -62280.26853684156
+Iteration 11333: -37724.3468017341
+Iteration 11334: -47905.51855466302
+Iteration 11335: -45575.39821801981
+Iteration 11336: -38999.04547220197
+Iteration 11337: -58771.09900804732
+Iteration 11338: -65576.13125075102
+Iteration 11339: -93474.70122223838
+Iteration 11340: -90108.3426777732
+Iteration 11341: -79482.86053041951
+Iteration 11342: -61286.48338455131
+Iteration 11343: -57989.20078646101
+Iteration 11344: -47029.31794835317
+Iteration 11345: -90481.15531639017
+Iteration 11346: -47218.71813923755
+Iteration 11347: -56282.089631885945
+Iteration 11348: -47809.95059854684
+Iteration 11349: -53394.545859973565
+Iteration 11350: -107001.42507394557
+Iteration 11351: -76759.72177281484
+Iteration 11352: -128780.84224457771
+Iteration 11353: -70192.91955418832
+Iteration 11354: -89776.90227935117
+Iteration 11355: -53947.32523642831
+Iteration 11356: -65367.456318633805
+Iteration 11357: -59236.69723065236
+Iteration 11358: -54669.74526238851
+Iteration 11359: -57353.317653409016
+Iteration 11360: -44343.202310085646
+Iteration 11361: -94918.12493503641
+Iteration 11362: -61755.53533778849
+Iteration 11363: -66518.03270555983
+Iteration 11364: -42808.7655047569
+Iteration 11365: -68454.96121066481
+Iteration 11366: -81617.55091064524
+Iteration 11367: -55505.11879102142
+Iteration 11368: -41615.70811370701
+Iteration 11369: -55817.87222574959
+Iteration 11370: -54586.159508348675
+Iteration 11371: -94319.93207101386
+Iteration 11372: -43037.81670216885
+Iteration 11373: -57005.63364052108
+Iteration 11374: -66984.52330867622
+Iteration 11375: -57584.91336446278
+Iteration 11376: -52014.73927497605
+Iteration 11377: -53432.38456743145
+Iteration 11378: -88124.2683164065
+Iteration 11379: -58512.93368336311
+Iteration 11380: -75193.87548921372
+Iteration 11381: -67922.8189513315
+Iteration 11382: -51700.41613197019
+Iteration 11383: -60461.17333795674
+Iteration 11384: -50343.71231252901
+Iteration 11385: -81114.52167350729
+Iteration 11386: -84173.93416646488
+Iteration 11387: -47835.63322095526
+Iteration 11388: -66039.46627714837
+Iteration 11389: -101101.50073507689
+Iteration 11390: -42636.263523381065
+Iteration 11391: -45643.40952195125
+Iteration 11392: -53205.34531531865
+Iteration 11393: -50395.32131361832
+Iteration 11394: -55174.374425529684
+Iteration 11395: -45053.14365860172
+Iteration 11396: -43057.9588636893
+Iteration 11397: -27057.817268943705
+Iteration 11398: -46675.69656857951
+Iteration 11399: -68040.48752811192
+Iteration 11400: -50529.22319844524
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG Did you say you are looking for a restaurant in the east of town? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine R_location expensive $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , peking_restaurant is on peking_restaurant_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG peking_restaurant is in the expensive price range $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 11400,
+  "runtimeInSeconds": 131671.717,
+  "objectiveValue": -50529.22319844524,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 444
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 437
+    }
+  }
+}
+Iteration 11401: -36920.060497344566
+Iteration 11402: -51248.59101545104
+Iteration 11403: -56151.51998382482
+Iteration 11404: -60816.59375110725
+Iteration 11405: -34089.68150868839
+Iteration 11406: -56258.041450663724
+Iteration 11407: -49296.41854728769
+Iteration 11408: -76795.8551473893
+Iteration 11409: -58885.50050587636
+Iteration 11410: -42333.70148440771
+Iteration 11411: -60732.39688175418
+Iteration 11412: -58727.91980926663
+Iteration 11413: -78565.02883943518
+Iteration 11414: -39436.86636466732
+Iteration 11415: -64061.65823295404
+Iteration 11416: -46237.839511799764
+Iteration 11417: -49628.74618078468
+Iteration 11418: -57517.67641836289
+Iteration 11419: -69196.23186295578
+Iteration 11420: -47246.40679000019
+Iteration 11421: -48952.806725144204
+Iteration 11422: -77117.74784952997
+Iteration 11423: -73033.44629724244
+Iteration 11424: -63444.807822920586
+Iteration 11425: -40961.47663124832
+Iteration 11426: -69410.67634437095
+Iteration 11427: -25804.274195534825
+Iteration 11428: -65427.80163274148
+Iteration 11429: -54343.13675369127
+Iteration 11430: -56394.008635685976
+Iteration 11431: -79100.44720974573
+Iteration 11432: -77528.07664647757
+Iteration 11433: -66250.46728601346
+Iteration 11434: -43439.59628620253
+Iteration 11435: -73844.2519016038
+Iteration 11436: -73761.91202792352
+Iteration 11437: -55023.12267583111
+Iteration 11438: -49226.3435771102
+Iteration 11439: -53156.35485617713
+Iteration 11440: -47633.34310013078
+Iteration 11441: -69950.40931694722
+Iteration 11442: -45289.9870670412
+Iteration 11443: -84341.71024591195
+Iteration 11444: -63712.983930148584
+Iteration 11445: -85196.00724445366
+Iteration 11446: -62521.94830469585
+Iteration 11447: -59305.58259274272
+Iteration 11448: -34306.62026272937
+Iteration 11449: -64614.54464080652
+Iteration 11450: -68473.88589431466
+Iteration 11451: -65176.00227070774
+Iteration 11452: -64116.28019275195
+Iteration 11453: -51915.086726740345
+Iteration 11454: -45647.03509040962
+Iteration 11455: -62325.395547150634
+Iteration 11456: -60859.561073777244
+Iteration 11457: -48815.138524196314
+Iteration 11458: -66892.69586919095
+Iteration 11459: -52369.0064992532
+Iteration 11460: -45011.75994559425
+Iteration 11461: -41181.036753513305
+Iteration 11462: -53311.20348524175
+Iteration 11463: -59994.993411908814
+Iteration 11464: -54142.62203912173
+Iteration 11465: -47560.9259744862
+Iteration 11466: -63028.01931884038
+Iteration 11467: -57716.59838010973
+Iteration 11468: -65961.2337360462
+Iteration 11469: -61502.97800416036
+Iteration 11470: -60481.304883179204
+Iteration 11471: -73385.30339611295
+Iteration 11472: -71537.59925463272
+Iteration 11473: -69179.26797819279
+Iteration 11474: -44856.413549594276
+Iteration 11475: -49092.45153694846
+Iteration 11476: -46487.254018022475
+Iteration 11477: -71237.40003940457
+Iteration 11478: -49328.03588846875
+Iteration 11479: -80993.82263550375
+Iteration 11480: -78392.13090996117
+Iteration 11481: -42515.06786407509
+Iteration 11482: -48303.889548655774
+Iteration 11483: -29823.753066035977
+Iteration 11484: -63581.49832234359
+Iteration 11485: -55632.03450011467
+Iteration 11486: -41528.6088087443
+Iteration 11487: -42976.66631529859
+Iteration 11488: -38398.59523056442
+Iteration 11489: -63412.08703207429
+Iteration 11490: -49793.51112816383
+Iteration 11491: -79705.00721906219
+Iteration 11492: -49960.99133820697
+Iteration 11493: -60062.68046814279
+Iteration 11494: -53912.616881326976
+Iteration 11495: -66887.32125162665
+Iteration 11496: -70102.76786647456
+Iteration 11497: -33350.69121995009
+Iteration 11498: -57046.70584207149
+Iteration 11499: -43035.34508521057
+Iteration 11500: -67295.78420636512
+Iteration 11501: -50474.80965482792
+Iteration 11502: -42441.31966493534
+Iteration 11503: -43163.635905900104
+Iteration 11504: -88113.18056705268
+Iteration 11505: -43454.36365303656
+Iteration 11506: -80812.97252914467
+Iteration 11507: -64099.52390950243
+Iteration 11508: -43262.69527999402
+Iteration 11509: -79005.63598027515
+Iteration 11510: -39295.95841820322
+Iteration 11511: -86368.43065647518
+Iteration 11512: -69949.15365918
+Iteration 11513: -62447.56197485273
+Iteration 11514: -35156.03362900963
+Iteration 11515: -36911.33583748124
+Iteration 11516: -58743.52468074996
+Iteration 11517: -92054.73494699242
+Iteration 11518: -48135.535889425075
+Iteration 11519: -56615.54129304513
+Iteration 11520: -87441.37963389803
+Iteration 11521: -35694.82692475676
+Iteration 11522: -67463.62135272866
+Iteration 11523: -64487.15393832424
+Iteration 11524: -80055.95025714482
+Iteration 11525: -46396.22042723433
+Iteration 11526: -66733.37188825289
+Iteration 11527: -107606.44697737289
+Iteration 11528: -56733.4381917253
+Iteration 11529: -37800.22021236943
+Iteration 11530: -69455.60990780727
+Iteration 11531: -47284.09876706733
+Iteration 11532: -42357.06813864983
+Iteration 11533: -56519.779572908905
+Iteration 11534: -56754.907345518324
+Iteration 11535: -68722.25069464055
+Iteration 11536: -60748.56362185856
+Iteration 11537: -103498.01391121277
+Iteration 11538: -51337.39306509838
+Iteration 11539: -59042.59016300834
+Iteration 11540: -78666.98535904402
+Iteration 11541: -58618.28466785926
+Iteration 11542: -45652.26463805654
+Iteration 11543: -57061.824970444795
+Iteration 11544: -80430.36314951492
+Iteration 11545: -54527.814446725424
+Iteration 11546: -48128.223955069516
+Iteration 11547: -82051.7496630524
+Iteration 11548: -63771.51693271554
+Iteration 11549: -52863.31045408731
+Iteration 11550: -74967.04169463906
+Iteration 11551: -69329.04252790064
+Iteration 11552: -74752.73472835255
+Iteration 11553: -74205.1009981101
+Iteration 11554: -59176.16432840687
+Iteration 11555: -93725.91123634808
+Iteration 11556: -45998.52810237965
+Iteration 11557: -37230.273168469845
+Iteration 11558: -74378.20351553861
+Iteration 11559: -78145.45759492302
+Iteration 11560: -73615.977703492
+Iteration 11561: -69150.21562596752
+Iteration 11562: -37777.31944210754
+Iteration 11563: -41085.72974465866
+Iteration 11564: -54461.50294132752
+Iteration 11565: -56318.732860352124
+Iteration 11566: -61049.33595845924
+Iteration 11567: -57052.523535356726
+Iteration 11568: -39714.91594635132
+Iteration 11569: -139195.45277093386
+Iteration 11570: -67495.70425752581
+Iteration 11571: -53610.569618797635
+Iteration 11572: -55216.922636809984
+Iteration 11573: -52783.022733435915
+Iteration 11574: -75165.67897149666
+Iteration 11575: -93133.36804413257
+Iteration 11576: -93320.83009597156
+Iteration 11577: -79490.46624130894
+Iteration 11578: -44879.623829950855
+Iteration 11579: -108931.48860710449
+Iteration 11580: -48381.53654451669
+Iteration 11581: -65402.47158495409
+Iteration 11582: -59468.34948958787
+Iteration 11583: -43522.26943367472
+Iteration 11584: -61297.988413096886
+Iteration 11585: -59261.42178086342
+Iteration 11586: -49222.55413889665
+Iteration 11587: -62563.55381273391
+Iteration 11588: -47502.9657363653
+Iteration 11589: -66783.12274861259
+Iteration 11590: -39738.331594246134
+Iteration 11591: -60103.44122450645
+Iteration 11592: -59899.77172434693
+Iteration 11593: -49915.26502835771
+Iteration 11594: -38247.121766275566
+Iteration 11595: -44695.491286082586
+Iteration 11596: -52745.74330696396
+Iteration 11597: -58445.51839681572
+Iteration 11598: -72619.8594726343
+Iteration 11599: -72928.45017674046
+Iteration 11600: -50304.84254741651
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG Would you like something in the cheap , moderate , or expensive price range? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine south expensive $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , grafton_hotel_restaurant is on grafton_hotel_restaurant_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG the_golden_curry is in the expensive price range $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 11600,
+  "runtimeInSeconds": 133964.221,
+  "objectiveValue": -50304.84254741651,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 431
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 433
+    }
+  }
+}
+Iteration 11601: -76476.87221553498
+Iteration 11602: -76277.71978843363
+Iteration 11603: -50246.94601165763
+Iteration 11604: -60637.241640884225
+Iteration 11605: -46876.469260211954
+Iteration 11606: -58778.59348558476
+Iteration 11607: -45357.89103235019
+Iteration 11608: -63252.896536554224
+Iteration 11609: -64669.50156092048
+Iteration 11610: -43012.18813008967
+Iteration 11611: -31594.003779902065
+Iteration 11612: -54047.97278375961
+Iteration 11613: -40923.50543031509
+Iteration 11614: -52710.73823487323
+Iteration 11615: -62411.496938713906
+Iteration 11616: -28582.2521264405
+Iteration 11617: -45452.15506848037
+Iteration 11618: -46626.79176804761
+Iteration 11619: -33206.41968324788
+Iteration 11620: -34694.44437837699
+Iteration 11621: -83859.94740384587
+Iteration 11622: -94930.97866457967
+Iteration 11623: -64166.19286232227
+Iteration 11624: -40743.984444423484
+Iteration 11625: -57403.43617589546
+Iteration 11626: -51668.653904223735
+Iteration 11627: -69891.76469206199
+Iteration 11628: -57042.746534509315
+Iteration 11629: -71207.98205217758
+Iteration 11630: -47909.62023084004
+Iteration 11631: -75703.05478690974
+Iteration 11632: -78997.38051674067
+Iteration 11633: -46549.81958917456
+Iteration 11634: -50876.24596877644
+Iteration 11635: -55301.84363934364
+Iteration 11636: -57259.63889458463
+Iteration 11637: -78438.4179238866
+Iteration 11638: -46966.445934931005
+Iteration 11639: -71464.0919388051
+Iteration 11640: -41956.599329720375
+Iteration 11641: -48045.288024760695
+Iteration 11642: -71126.55888926535
+Iteration 11643: -67078.07712270752
+Iteration 11644: -58343.32806554218
+Iteration 11645: -42488.40238971214
+Iteration 11646: -53923.84930564907
+Iteration 11647: -59160.183528796944
+Iteration 11648: -55036.25946649978
+Iteration 11649: -56297.64617249871
+Iteration 11650: -62268.303426227096
+Iteration 11651: -103646.73253603619
+Iteration 11652: -61782.35450421013
+Iteration 11653: -58112.88348710719
+Iteration 11654: -53705.967033551555
+Iteration 11655: -75624.26212428094
+Iteration 11656: -51555.57566503836
+Iteration 11657: -50224.42080108667
+Iteration 11658: -61012.50503656022
+Iteration 11659: -64275.53232447631
+Iteration 11660: -43976.30665903847
+Iteration 11661: -109182.22827576088
+Iteration 11662: -78123.2988145844
+Iteration 11663: -45236.964811293205
+Iteration 11664: -70455.34606731517
+Iteration 11665: -50986.70577709016
+Iteration 11666: -41497.01515667394
+Iteration 11667: -53016.40818493177
+Iteration 11668: -83428.4803091482
+Iteration 11669: -57450.35215966015
+Iteration 11670: -67721.50587330203
+Iteration 11671: -51423.05793221537
+Iteration 11672: -64238.99484676543
+Iteration 11673: -62736.98090419758
+Iteration 11674: -37389.29311720035
+Iteration 11675: -39130.24961419343
+Iteration 11676: -40250.093724122264
+Iteration 11677: -54721.47929578838
+Iteration 11678: -47908.85443626096
+Iteration 11679: -54139.968478307426
+Iteration 11680: -60503.24746190826
+Iteration 11681: -60638.42789544891
+Iteration 11682: -60384.1754536304
+Iteration 11683: -56393.58318284104
+Iteration 11684: -63766.56836296425
+Iteration 11685: -59987.72255915433
+Iteration 11686: -74917.14056054792
+Iteration 11687: -44336.10651571089
+Iteration 11688: -44256.333732152154
+Iteration 11689: -36243.03392393093
+Iteration 11690: -53200.94256761311
+Iteration 11691: -43939.526033723705
+Iteration 11692: -78537.87060810941
+Iteration 11693: -73080.96776028004
+Iteration 11694: -65827.6387270472
+Iteration 11695: -104017.23575368809
+Iteration 11696: -66202.00687824195
+Iteration 11697: -83196.82820801827
+Iteration 11698: -49053.84219990378
+Iteration 11699: -62215.581927010964
+Iteration 11700: -41102.34066305426
+Iteration 11701: -53728.585773236846
+Iteration 11702: -60136.37265677917
+Iteration 11703: -55581.44330461517
+Iteration 11704: -41190.329553937925
+Iteration 11705: -76045.12804850515
+Iteration 11706: -40530.35655456104
+Iteration 11707: -53617.56364632959
+Iteration 11708: -32156.888934832234
+Iteration 11709: -33324.23901881881
+Iteration 11710: -55152.20196284399
+Iteration 11711: -59402.9653233849
+Iteration 11712: -63274.33535550475
+Iteration 11713: -57042.746503484166
+Iteration 11714: -81372.78895573199
+Iteration 11715: -37346.47758902846
+Iteration 11716: -58036.00063604845
+Iteration 11717: -61257.2319694005
+Iteration 11718: -63899.93368353639
+Iteration 11719: -30612.934381066654
+Iteration 11720: -48291.66522480826
+Iteration 11721: -45941.16991035696
+Iteration 11722: -67325.64944588495
+Iteration 11723: -50430.48268699687
+Iteration 11724: -47788.93303623291
+Iteration 11725: -75290.5563313308
+Iteration 11726: -56502.162132669626
+Iteration 11727: -56556.57808144209
+Iteration 11728: -43969.911859842956
+Iteration 11729: -77810.73244437203
+Iteration 11730: -119608.1571370693
+Iteration 11731: -94383.15355540307
+Iteration 11732: -40209.27236248483
+Iteration 11733: -36991.43182030642
+Iteration 11734: -75668.39680159441
+Iteration 11735: -90649.82312549629
+Iteration 11736: -50246.2640383457
+Iteration 11737: -57907.51984624744
+Iteration 11738: -88641.16628426558
+Iteration 11739: -54803.783478726655
+Iteration 11740: -54952.36404967868
+Iteration 11741: -69178.85596500334
+Iteration 11742: -76669.58720560909
+Iteration 11743: -63380.02935242582
+Iteration 11744: -51757.46748138729
+Iteration 11745: -82925.62631545661
+Iteration 11746: -38605.18547652154
+Iteration 11747: -81619.82371781545
+Iteration 11748: -82327.24113863765
+Iteration 11749: -50472.620519912736
+Iteration 11750: -55868.62603687145
+Iteration 11751: -38279.20784418399
+Iteration 11752: -55690.83141858661
+Iteration 11753: -70089.48868571114
+Iteration 11754: -48585.4264987467
+Iteration 11755: -64800.784368268025
+Iteration 11756: -48250.196210006
+Iteration 11757: -52199.24252488933
+Iteration 11758: -45826.68824371565
+Iteration 11759: -47573.21170594279
+Iteration 11760: -71641.95101180326
+Iteration 11761: -77564.69639479605
+Iteration 11762: -22923.314867870777
+Iteration 11763: -29476.03198715218
+Iteration 11764: -43087.04976338028
+Iteration 11765: -73360.13814952779
+Iteration 11766: -77740.7338075813
+Iteration 11767: -50868.97739411743
+Iteration 11768: -42384.05131401948
+Iteration 11769: -56242.717082365525
+Iteration 11770: -42957.773916488586
+Iteration 11771: -50546.93131546828
+Iteration 11772: -40960.784286237074
+Iteration 11773: -76408.23750928997
+Iteration 11774: -66685.06969203605
+Iteration 11775: -32999.12235619371
+Iteration 11776: -56279.722296082415
+Iteration 11777: -33212.12411408712
+Iteration 11778: -71000.11442545184
+Iteration 11779: -52783.14846634697
+Iteration 11780: -43411.0853783596
+Iteration 11781: -32304.844330897544
+Iteration 11782: -81478.8977843008
+Iteration 11783: -53439.607098223496
+Iteration 11784: -46266.16222034269
+Iteration 11785: -56345.08947565028
+Iteration 11786: -49880.034652984294
+Iteration 11787: -57422.2602595644
+Iteration 11788: -39751.66331481995
+Iteration 11789: -84780.64925545383
+Iteration 11790: -73221.51117716497
+Iteration 11791: -104489.65824866264
+Iteration 11792: -84282.78301386976
+Iteration 11793: -52389.89148891775
+Iteration 11794: -48859.62288793768
+Iteration 11795: -49412.53691013269
+Iteration 11796: -72835.67528813564
+Iteration 11797: -107073.31751881476
+Iteration 11798: -34526.01656319018
+Iteration 11799: -59222.26863236455
+Iteration 11800: -56981.93933636798
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG api_call R_cuisine south moderate $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine east expensive $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , pizza_hut_cherry_hinton is on pizza_hut_cherry_hinton_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG royal_standard serves gastropub food $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 11800,
+  "runtimeInSeconds": 136222.694,
+  "objectiveValue": -56981.93933636798,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 450
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 450
+    }
+  }
+}
+Iteration 11801: -54338.53527760669
+Iteration 11802: -48776.20904003794
+Iteration 11803: -70909.7084215005
+Iteration 11804: -62853.37180526922
+Iteration 11805: -52111.091565548646
+Iteration 11806: -58325.110054598896
+Iteration 11807: -104069.82397245818
+Iteration 11808: -48426.8923757883
+Iteration 11809: -51953.777818974675
+Iteration 11810: -63314.173521373676
+Iteration 11811: -81239.96240781792
+Iteration 11812: -59825.37739520705
+Iteration 11813: -65160.79765003553
+Iteration 11814: -93596.15127284621
+Iteration 11815: -58322.28709464417
+Iteration 11816: -63374.53615158286
+Iteration 11817: -86780.92521218956
+Iteration 11818: -57157.1462154478
+Iteration 11819: -52552.866076393555
+Iteration 11820: -45881.50880567364
+Iteration 11821: -66160.62878040424
+Iteration 11822: -53330.9884811235
+Iteration 11823: -49190.374221505524
+Iteration 11824: -38819.1486221346
+Iteration 11825: -102776.68199631028
+Iteration 11826: -46842.31041968307
+Iteration 11827: -51819.775936312035
+Iteration 11828: -60228.06929318606
+Iteration 11829: -52118.75050786431
+Iteration 11830: -61966.92454144171
+Iteration 11831: -69670.35868305374
+Iteration 11832: -35616.29867625716
+Iteration 11833: -58775.58512671823
+Iteration 11834: -60529.157933578914
+Iteration 11835: -44373.99207741776
+Iteration 11836: -40945.01172969305
+Iteration 11837: -81865.0324551333
+Iteration 11838: -69374.3505326019
+Iteration 11839: -90212.15862669171
+Iteration 11840: -64989.57709110569
+Iteration 11841: -55146.63837823079
+Iteration 11842: -99423.54722565447
+Iteration 11843: -43293.6500716921
+Iteration 11844: -51492.77119738309
+Iteration 11845: -83537.17627489561
+Iteration 11846: -78741.5790348967
+Iteration 11847: -36762.98778488887
+Iteration 11848: -51272.30443031941
+Iteration 11849: -48967.94675398715
+Iteration 11850: -50358.81219247401
+Iteration 11851: -90871.3246664974
+Iteration 11852: -41982.40907218908
+Iteration 11853: -87983.10670091475
+Iteration 11854: -50953.01388604217
+Iteration 11855: -69663.36730859951
+Iteration 11856: -40422.293310728935
+Iteration 11857: -62909.49681058303
+Iteration 11858: -56107.91636903591
+Iteration 11859: -76780.04997715905
+Iteration 11860: -73597.12074425913
+Iteration 11861: -61683.30163699612
+Iteration 11862: -46939.67626504973
+Iteration 11863: -71383.68887828357
+Iteration 11864: -52410.58679904157
+Iteration 11865: -56522.013686755
+Iteration 11866: -59913.454929875006
+Iteration 11867: -58282.96599326771
+Iteration 11868: -38031.423651589335
+Iteration 11869: -60477.292929153045
+Iteration 11870: -62920.240340473356
+Iteration 11871: -55766.53655759649
+Iteration 11872: -76368.06361147386
+Iteration 11873: -58318.23398091914
+Iteration 11874: -69893.19367368704
+Iteration 11875: -70835.8394066817
+Iteration 11876: -39466.850964139885
+Iteration 11877: -47030.85647338974
+Iteration 11878: -43590.32879881731
+Iteration 11879: -87985.97829022045
+Iteration 11880: -72550.6094985138
+Iteration 11881: -52799.957962033324
+Iteration 11882: -78502.53163704477
+Iteration 11883: -50750.328854754014
+Iteration 11884: -37587.15163397838
+Iteration 11885: -46838.39799511871
+Iteration 11886: -59594.72264023295
+Iteration 11887: -64717.989379498744
+Iteration 11888: -75062.14308693225
+Iteration 11889: -64948.92117713182
+Iteration 11890: -79138.2707172501
+Iteration 11891: -43587.0040877372
+Iteration 11892: -56331.825782077416
+Iteration 11893: -53956.24781185246
+Iteration 11894: -51723.045977512054
+Iteration 11895: -54662.933226136
+Iteration 11896: -52737.07859193059
+Iteration 11897: -72118.85470469958
+Iteration 11898: -55607.819654973515
+Iteration 11899: -54576.28860478808
+Iteration 11900: -64202.49633508956
+Iteration 11901: -44106.637006029196
+Iteration 11902: -39032.863325652295
+Iteration 11903: -45233.47806178661
+Iteration 11904: -49814.77990970107
+Iteration 11905: -41299.11697958495
+Iteration 11906: -37608.48943880913
+Iteration 11907: -50318.96448455685
+Iteration 11908: -56970.75293752638
+Iteration 11909: -58624.6442613048
+Iteration 11910: -43451.572415464114
+Iteration 11911: -49047.09099989239
+Iteration 11912: -36079.566257735314
+Iteration 11913: -47319.24145602009
+Iteration 11914: -38901.72088474723
+Iteration 11915: -93706.31335781654
+Iteration 11916: -50879.10932100382
+Iteration 11917: -42715.25574706821
+Iteration 11918: -91242.68798599533
+Iteration 11919: -53206.51963850493
+Iteration 11920: -56275.41208220879
+Iteration 11921: -76184.27617398424
+Iteration 11922: -49725.29503171037
+Iteration 11923: -50316.35897987388
+Iteration 11924: -39860.812152908766
+Iteration 11925: -69877.69001898296
+Iteration 11926: -60025.92232492451
+Iteration 11927: -64377.93505708955
+Iteration 11928: -59211.119226863244
+Iteration 11929: -46252.8584297152
+Iteration 11930: -76146.52347985392
+Iteration 11931: -55667.2019200944
+Iteration 11932: -59454.544115904544
+Iteration 11933: -62562.91028216803
+Iteration 11934: -57847.27270676788
+Iteration 11935: -54538.187388096034
+Iteration 11936: -91118.73600428838
+Iteration 11937: -96334.29815395316
+Iteration 11938: -103915.23844700622
+Iteration 11939: -39106.43033307038
+Iteration 11940: -70605.87381076069
+Iteration 11941: -62534.805822898765
+Iteration 11942: -31723.01895188307
+Iteration 11943: -59869.83270793876
+Iteration 11944: -57906.26830010967
+Iteration 11945: -61758.66275680806
+Iteration 11946: -76579.53558972871
+Iteration 11947: -64813.587090895075
+Iteration 11948: -54144.00163858006
+Iteration 11949: -51384.171612326565
+Iteration 11950: -69449.577594452
+Iteration 11951: -56412.01724854212
+Iteration 11952: -62164.46764090947
+Iteration 11953: -84109.09585117287
+Iteration 11954: -45920.978281370495
+Iteration 11955: -40682.58316567832
+Iteration 11956: -41712.0451861416
+Iteration 11957: -57439.03058927604
+Iteration 11958: -52684.72599219735
+Iteration 11959: -45738.62078134051
+Iteration 11960: -61819.310978412956
+Iteration 11961: -50258.372145417445
+Iteration 11962: -57813.72176895549
+Iteration 11963: -49312.56533778318
+Iteration 11964: -76029.24373867716
+Iteration 11965: -96074.86474760612
+Iteration 11966: -83211.6782717689
+Iteration 11967: -57656.153496388586
+Iteration 11968: -59183.94131336029
+Iteration 11969: -35263.39243713879
+Iteration 11970: -40163.02017018265
+Iteration 11971: -41702.66948965159
+Iteration 11972: -60669.828779162155
+Iteration 11973: -38876.24898916135
+Iteration 11974: -57946.17741621412
+Iteration 11975: -56942.297048870074
+Iteration 11976: -48216.124660196285
+Iteration 11977: -61018.90924132307
+Iteration 11978: -50198.05251630724
+Iteration 11979: -81210.34293030578
+Iteration 11980: -74759.16089306207
+Iteration 11981: -44836.88881722448
+Iteration 11982: -45410.274125893135
+Iteration 11983: -59386.50036022185
+Iteration 11984: -39307.28344884119
+Iteration 11985: -41180.76068541616
+Iteration 11986: -56892.87962668894
+Iteration 11987: -55990.93695633485
+Iteration 11988: -41522.21971221127
+Iteration 11989: -54869.13961745571
+Iteration 11990: -82658.46784134737
+Iteration 11991: -54209.52956556397
+Iteration 11992: -55313.85849047986
+Iteration 11993: -69946.78366320799
+Iteration 11994: -65035.12898994273
+Iteration 11995: -43913.27878080868
+Iteration 11996: -54735.71263018637
+Iteration 11997: -43888.6322688452
+Iteration 11998: -36634.546712157724
+Iteration 11999: -78857.69521704415
+Iteration 12000: -51499.81295864841
+Want:  A: WAIT ( U: MSG <SILENCE> )
+Model: A: WAIT
+
+Want:  A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ?
+Model: A: MSG Hello , welcome to the Cambridge restaurant system . You can ask for restaurants by area , price range or food type . How may I help you ? $
+
+Want:  A: WAIT ( U: MSG expensive restaurant in the south part of town )
+Model: A: WAIT
+
+Want:  A: MSG What kind of food would you like?
+Model: A: MSG Did you say you are looking for a restaurant in the north of town? $
+
+Want:  A: WAIT ( U: MSG any )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town serving chinese food
+Model: A: MSG api_call R_cuisine north R_price $
+
+Want:  A: WAIT ( U: MSG address )
+Model: A: WAIT
+
+Want:  A: MSG Sure , the good luck chinese food takeaway is on the_good_luck_chinese_food_takeaway_address
+Model: A: MSG Sure , da_vinci_pizzeria is on da_vinci_pizzeria_address $
+
+Want:  A: WAIT ( U: MSG type of food )
+Model: A: WAIT
+
+Want:  A: MSG the good luck chinese food takeaway is a nice restaurant in the south of town in the expensive price range
+Model: A: MSG nandos_city_centre serves portuguese food in the south part of town . $
+
+Want:  A: WAIT ( U: MSG thank you good bye )
+Model: A: WAIT
+
+Want:  A: MSG you are welcome
+Model: A: MSG you are welcome $
+
+{
+  "index": 12000,
+  "runtimeInSeconds": 138510.168,
+  "objectiveValue": -51499.81295864841,
+  "trainingStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 12429,
+      "correct": 439
+    }
+  },
+  "devStats": {
+    "dialogs": {
+      "total": 200,
+      "correct": 0
+    },
+    "responses": {
+      "total": 13184,
+      "correct": 430
+    }
+  }
+}
+Iteration 12001: -73848.0495168537
+Iteration 12002: -66210.16880040005
+Iteration 12003: -33052.806598084804
+Iteration 12004: -60083.43305257642
+Iteration 12005: -43466.22056768565
+Iteration 12006: -30623.582365330785
+Iteration 12007: -54156.04643855985
+Iteration 12008: -70848.03483177339
+Iteration 12009: -51033.24546831075
+Iteration 12010: -85607.67199232985
+Iteration 12011: -95739.24173749406
+Iteration 12012: -65899.73549057412
+Iteration 12013: -38862.699479781826
+Iteration 12014: -65832.48678238933
+Iteration 12015: -65077.44857948099
+Iteration 12016: -56551.58569219408
+Iteration 12017: -26469.733295661656
+Iteration 12018: -47046.109253489965
+Iteration 12019: -60122.48494364683
+Iteration 12020: -57447.068430466905
+Iteration 12021: -79433.18969659248
+Iteration 12022: -75909.94956624355
+Iteration 12023: -53016.71361677352
+Iteration 12024: -75557.49499605478
+Iteration 12025: -51810.27913269034
+Iteration 12026: -53367.142819689005
+Iteration 12027: -85100.36182698558
+Iteration 12028: -67615.86105895307
+Iteration 12029: -70443.82921616954
+Iteration 12030: -44425.689659489304
+Iteration 12031: -44498.772262151324
+Iteration 12032: -42634.057543219606
+Iteration 12033: -71935.1781326555
+Iteration 12034: -80644.95359213273
+Iteration 12035: -54706.86021289067
+Iteration 12036: -78810.69764318604
+Iteration 12037: -49107.18654218456
+Iteration 12038: -53064.15712730872
+Iteration 12039: -45377.45238154594
+Iteration 12040: -74950.90923453748
+Iteration 12041: -36614.302951576465
+Iteration 12042: -56504.619131939566
+Iteration 12043: -51662.39147120818
+Iteration 12044: -47433.80173067148
+Iteration 12045: -38409.44671791701
+Iteration 12046: -70945.44494813569
+Iteration 12047: -76378.55424913185
+Iteration 12048: -65990.75817403679
+Iteration 12049: -85693.10639791422
+Iteration 12050: -56303.390662395235
+Iteration 12051: -117508.81766120408
+Iteration 12052: -44860.9876801705
+Iteration 12053: -50065.561651868804
+Iteration 12054: -81816.83220918578
+Iteration 12055: -67847.1663024488
+Iteration 12056: -63944.51063475327
+Iteration 12057: -87543.9534661926
+Iteration 12058: -49261.15568763155
+Iteration 12059: -55053.15194700317
+Iteration 12060: -48923.148841657494
+Iteration 12061: -49255.532267890776
+Iteration 12062: -62535.38573848511
+Iteration 12063: -77908.06669389196
+Iteration 12064: -59831.15578924994
+Iteration 12065: -55485.87284558072
+Iteration 12066: -32972.85198379879
+Iteration 12067: -35364.08632392487
+Iteration 12068: -40863.36248624233
+Iteration 12069: -94332.59220855686
+Iteration 12070: -51993.37892835315
+Iteration 12071: -51397.099204521015
+Iteration 12072: -49524.602134967834
+Iteration 12073: -38502.29691211267
+Iteration 12074: -93369.64399811233
+Iteration 12075: -47115.16019908018
+Iteration 12076: -59900.180427800165
+Iteration 12077: -83931.31560485884
+Iteration 12078: -54718.82269059066
+Iteration 12079: -57327.55998477288
+Iteration 12080: -78955.67044517968
+Iteration 12081: -59521.52657663661
+Iteration 12082: -56907.243930549914
+Iteration 12083: -41131.38401865208
+Iteration 12084: -70849.43375472208
+Iteration 12085: -49794.35250618357
+Iteration 12086: -46184.275793509994
+Iteration 12087: -71380.16871326185
+Iteration 12088: -24748.31805075842
+Iteration 12089: -59097.33925296452
+Iteration 12090: -73504.41501336117
+Iteration 12091: -68039.85615118907
+Iteration 12092: -67996.06003230452
+Iteration 12093: -83743.63878247968
+Iteration 12094: -80961.71427363901
+Iteration 12095: -52085.090989680946
+Iteration 12096: -47119.46086221898
+Iteration 12097: -46378.155736101675
+Iteration 12098: -51116.251039673705
+Iteration 12099: -44236.97237365537
+Iteration 12100: -55922.83730634598
+Iteration 12101: -45307.74012458211
+Iteration 12102: -41940.981912434334
+Iteration 12103: -49801.39657494224
+Iteration 12104: -55300.05692687002
+Iteration 12105: -45987.24407204126
+Iteration 12106: -51202.37061987285
+Iteration 12107: -87541.80781580336
+Iteration 12108: -52052.621118035335
+Iteration 12109: -44053.14789749476
+Iteration 12110: -46026.96095996984
+Iteration 12111: -50332.50227564184
+Iteration 12112: -80671.80271867057
+Iteration 12113: -59148.9532595327
+Iteration 12114: -71287.0432820335
+Iteration 12115: -76970.38604450754
+Iteration 12116: -58597.61696864933
+Iteration 12117: -41705.74059835012
+Iteration 12118: -52015.64695381061
+Iteration 12119: -55591.90086996067
+Iteration 12120: -61382.010273362386
+Iteration 12121: -53469.33386103184
+Iteration 12122: -79584.33658634828
+Iteration 12123: -51598.130802973996
+Iteration 12124: -51580.77527479772
+Iteration 12125: -45634.42178518179
+Iteration 12126: -55207.39829300049
+Iteration 12127: -66115.79583010063
+Iteration 12128: -37371.42362885439
+Iteration 12129: -61707.402758075594
+Iteration 12130: -49961.856614367825
+Iteration 12131: -51655.920053323774
+Iteration 12132: -41291.42608922567
+Iteration 12133: -43900.60482305199
+Iteration 12134: -60849.25164878781
+Iteration 12135: -53553.057530330734
+Iteration 12136: -46417.728928274766
+Iteration 12137: -56813.034922998384
+Iteration 12138: -91093.06644347831
+Iteration 12139: -52173.75621361301
+Iteration 12140: -59110.122644802264
+Iteration 12141: -63781.59741862198
+Iteration 12142: -62319.669044087255
+Iteration 12143: -59646.754023497306
+Iteration 12144: -85537.0573396401
+Iteration 12145: -56264.7718257656
+Iteration 12146: -71437.5273198976
+Iteration 12147: -62412.22341057419
+Iteration 12148: -45417.886298202626
+Iteration 12149: -82026.99749863643
+Iteration 12150: -51424.37939215242
+Iteration 12151: -56067.3856254813
+Iteration 12152: -60255.014462665604
+Iteration 12153: -50191.52873491356
+Iteration 12154: -41837.918957498725
+Iteration 12155: -49830.32422530148
+Iteration 12156: -51581.83050910625
+Iteration 12157: -40294.96171364414
+Iteration 12158: -73265.78104224628
+Iteration 12159: -78129.09086116828
+Iteration 12160: -48687.094535296914
+Iteration 12161: -87867.50629388697
+Iteration 12162: -46353.173830527754
+Iteration 12163: -36742.55861404174
+Iteration 12164: -47556.33333902279
+Iteration 12165: -95021.25356895276
+Iteration 12166: -42049.61127718081
+Iteration 12167: -39273.862273665065
+Iteration 12168: -104511.25446316805
+Iteration 12169: -48297.38667200504
+Iteration 12170: -58283.68303464195
+Iteration 12171: -63636.05454113583
+Iteration 12172: -36229.83788061007
+Iteration 12173: -60709.464373271556
+Iteration 12174: -45822.072170473184
+Iteration 12175: -92358.54119152852
+Iteration 12176: -54131.80396079723
+Iteration 12177: -42791.414929778926
+Iteration 12178: -65079.10109201673
+Iteration 12179: -68911.9138249602
+Iteration 12180: -79883.22006326194
+Iteration 12181: -59822.65869333132
+Iteration 12182: -45945.06614686764
+Iteration 12183: -47378.15542608185
+Iteration 12184: -47295.352815049046
+Iteration 12185: -37967.56505326177
