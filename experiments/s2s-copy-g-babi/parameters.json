@@ -16,5 +16,6 @@
     "--random-seed 14 -- --optimize --dataset babi --evalEvery 100 --attention",
     "--random-seed 14 -- --optimize --dataset babi --evalEvery 100 --no-attention"
   ], 
-  "experiment_name": "s2s-copy-g-babi"
+  "experiment_name": "s2s-copy-g-babi",
+  "experiment_comment": "evalEvery didn't have an effect due to wrong casing"
 }
