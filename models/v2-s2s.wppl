@@ -119,7 +119,8 @@ var main = function(options) {
   var stepSize = options.stepsize || .01;
   var addWaitActions = options.addwaitactions || false;
   var useAttention = (options.attention === false) ? false : true;
-  var datasetName = options.dataset || 'babi'    
+  var datasetName = options.dataset || 'babi';
+  var evalEvery = options.evalevery || 200;
 
   console.log(JSON.stringify({
     batchSize, latentDim, maxDecoderSteps, stepSize,
@@ -355,7 +356,7 @@ var main = function(options) {
       steps: 100000,
       optMethod: { adam: { stepSize }},
       onStep(index, objectiveValue) {
-        if (index > 0 && index % 200 === 0) {
+        if (index > 0 && index % evalEvery === 0) {
           var trainingStats = getAccuracy(onlyMessages(dataset.training.slice(0, 200)));
           var devStats = getAccuracy(onlyMessages(dataset.dev.slice(0, 200)));
           var stats = {
