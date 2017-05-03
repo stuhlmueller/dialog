@@ -1,0 +1,297 @@
+// Inspired by "Generating Sentences from a Continuous Space",
+// Samuel R. Bowman, Luke Vilnis, Oriol Vinyals, Andrew M. Dai, Rafal Jozefowicz & Samy Bengio
+
+
+// --------------------------------------------------------------------
+// Helpers
+
+var second = function(x) { return x[1]; };
+
+var reduceLeft = function(f, init, arr) {
+  // if (arr.length > 0) {
+  //   return reduceLeft(f, f(init, arr[0]), rest(arr));
+  // } else {
+  //   return init;
+  // }
+  var helper = function(i, init) {
+    if (i < arr.length) {
+      return helper(i + 1, f(init, arr[i]));
+    } else {
+      return init;
+    }
+  };
+  return helper(0, init);
+};
+
+
+var observe = function(dist, val) {
+  if (val !== undefined) {
+    factor(dist.score(val));
+    return val;
+  } else {
+    return sample(dist, { guide() {
+      return dist;
+    }});
+  }
+};
+
+
+var addEndMarker = function(words) {
+  return words.concat(['$']);
+};
+
+var removeEndMarker = function(words) {
+  if ((words.length === 0) || (words[words.length - 1] !== '$')) {
+    return words;
+  }
+  return words.slice(0, words.length - 1);
+};
+
+
+var wordsToString = function(words) {
+  return removeEndMarker(words).join(' ');
+};
+
+var stringToWords = function(s) {
+  return addEndMarker(s.split(' '));
+};
+
+
+var makePositiveSemiDefinite = function(m) {
+  var dim = dims(m)[0];
+  return T.add(T.div(T.add(m, T.transpose(m)), 2), T.mul(idMatrix(dim), dim));
+};
+
+var reshapeToSquareMatrix = function(v) {
+  var dimSquared = dims(v)[0];
+  var dim = Math.sqrt(dimSquared);
+  return T.reshape(v, [dim, dim]);
+};
+
+
+// --------------------------------------------------------------------
+// Toy dataset
+
+var dataStrings = [
+  '00000000000000000000',
+  '00000000000000000000',
+  '00000000000000000000',
+  '00000000000000000000',
+  '00000000000000000000',
+  '00000000000000000000',
+  '00000000000000000000',  
+  '00000000000000000000',  
+  '11111111111111111111',  
+  '11111111111111111111',
+  '11111111111111111111',  
+  '11111111111111111111',
+  '22222222222222222222',  
+  '22222222222222222222',
+  '22222222222222222222',
+  '22222222222222222222',  
+  '32333333333333333333',
+  '32333333333333333333',
+  '44444444444444444444',
+  '44444444444444444444'
+];
+
+// var dataStrings = [
+//   '0000000000010001000000100000000',
+//   '0000001101111011111110000111111',
+//   '0000001111111011111110000111111',
+//   '0000010010000000100000010000000',
+//   '0000010010010000001000010000000',
+//   '0001000000010001000000000000000',
+//   '0100001110111011011110000111112',  
+//   '0101011110111011001110000111112',  
+//   '1112202222020012111211222222211',  
+//   '1112222222000011111111222222211',
+//   '1112222222000012111211222222211',  
+//   '1112222222010011111121222222211',
+//   '2222222332233322333333334443344',  
+//   '2222222333333322333333334444444',
+//   '2223222332333322333333334444444',
+//   '2322222332233322333433334443344',  
+//   '3333232333333322434444444545555',
+//   '3333332333333322334444444555555',
+//   '4444555554444433444444455556666',
+//   '4454555554444433444544455556666'
+// ];
+
+var words = _.uniq(_.join(dataStrings, '').concat(['^', '$']));
+
+var data = map(function(s){ return s.split(''); }, dataStrings);
+
+var onehotWords = cache(function(word) {
+  var i = _.indexOf(words, word);
+  assert.ok(i != -1, "onehot expected to find word in words, didn't find " + word + " in " + words);
+  var n = words.length;
+  return oneHot(i, n);
+});
+
+
+// --------------------------------------------------------------------
+// Encoder + decoder
+
+var latentDim = 30;
+var maxWords = 18;  // rnn doesn't learn to count to 20, then terminate
+
+
+// Encoder repeats encoder step until input is completely digested
+
+var encoderNet = lstm(latentDim, 'encoder-net', param);
+
+var makeInitialEncoderState = function() {
+  return param({ name: 'encoder-init', dims: [latentDim, 1] });
+};
+
+var encoder = function(words, maybeState) {
+  var state = maybeState || makeInitialEncoderState();
+  if (words.length === 0) {
+    return state;
+  } else {
+    var nextState = encoderNet(state, onehotWords(words[0]));
+    return encoder(words.slice(1), nextState);
+  }
+};
+
+
+// Decoder repeats decoder step until terminal symbol is observed or max length is exceeded
+
+var decoderNetLatent = lstm(latentDim, 'decoder-net-latent', param);
+var decoderNetOutput = stack([softmax, affine(words.length, 'decoder-net-output', param), concat]);
+
+var decoder = function(opts) {
+  var state = opts.state;
+  var n = opts.n || 0;
+  var generatedObservations = opts.generatedObservations || ['^'];
+  var trueObservations = opts.trueObservations;
+  var prevWord = _.last(generatedObservations);
+  if ((n === (maxWords + 2)) || (prevWord === '$')) {
+    // We're not slicing off the terminal symbol since we'd like to know which
+    // strings were terminated by the maxWords constrained, and which self-terminated
+    return generatedObservations.slice(1);
+  } else {
+    var prevWordVec = onehotWords(prevWord);
+    var nextState = decoderNetLatent(state, prevWordVec);
+    var ps = decoderNetOutput([nextState, prevWordVec]);
+    var observedWord = trueObservations ? trueObservations[0] : '$';
+    var wordDist = Categorical({ ps, vs: words });
+    var generatedWord = observe(wordDist, opts.useObservations ? observedWord : undefined);  // FIXME: make sure i don't generate auto-guide here
+    return decoder({
+      state: nextState,
+      n: n + 1,
+      generatedObservations: generatedObservations.concat([generatedWord]),
+      trueObservations: trueObservations ? trueObservations.slice(1) : undefined,
+      useObservations: opts.useObservations
+    });
+  }
+};
+
+
+// --------------------------------------------------------------------
+// Main
+
+var runModel = function(options) {
+  // options: { data, useObservations, callback, batchSize }
+
+  guide(function(){
+    globalStore.muNet = stack([tanh, affine(latentDim, 'mu-net', param)]);
+    globalStore.covNet = stack([tanh, affine(latentDim*latentDim, 'cov-net', param)]);
+  })
+
+  var priorParams = {
+    mu: 0,
+    sigma: 1,
+    dims: [latentDim, 1]
+  };
+  
+  mapData({ data: options.data, batchSize: options.batchSize }, function(datum) {
+
+    var state = sample(TensorGaussian(priorParams), {
+      guide() {
+        var state = encoder(datum);
+        var muNet = globalStore.muNet;
+        var mu = muNet(state);
+        var covNet = globalStore.covNet;
+        var covVec = covNet(state);
+        var cov = makePositiveSemiDefinite(reshapeToSquareMatrix(covVec));
+        return MultivariateGaussian({ mu, cov });
+      }
+    });
+    
+    var recoveredDatum = decoder({
+      state,
+      trueObservations: datum,
+      useObservations: options.useObservations
+    });
+
+    if (options.callback) {
+      var callback = options.callback;
+      callback({ datum, recoveredDatum });
+    }
+
+  });
+};
+
+
+var doOptimize = function() {
+  Optimize({
+    model() {
+      return runModel({
+        data,
+        useObservations: true,
+        batchSize: 5
+      });
+    },
+    steps: 100000,
+    optMethod: { adam: { stepSize: .01 }}
+  });
+};
+
+
+var doDream = function() {
+  Optimize({
+    model() {
+      return runModel({
+        data,
+        useObservations: true
+      });
+    },
+    steps: 100,
+    optMethod: { adam: { stepSize: .01 }},
+    estimator: 'dream'
+  });
+}
+
+
+var showModelBehavior = function() {
+  Infer({
+    method: 'forward',
+    guide: true,
+    model() {
+      return runModel({
+        data,
+        callback(params) {  // datum, recoveredDatum
+          var log = function(label, words) { console.log(label + ': ', wordsToString(words)); }
+          log('Datum:     ', params.datum);
+          log('Recovered: ', params.recoveredDatum);
+          console.log();
+        }
+      });
+    }
+  });
+};
+
+
+var main = function() {
+  var cmd = process.argv[process.argv.length - 1];
+  if (cmd === '--optimize') {
+    doOptimize();
+  } else {
+    showModelBehavior();
+  }
+};
+
+
+main();
