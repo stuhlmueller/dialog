@@ -1,0 +1,1504 @@
+
+
+$ cat frames.json | jq '.[10].turns[] | { text: .text, frames: .labels.frames }'
+{
+  "text": "I'd like to get away from Monday, August 15, 2016 to Wednesday, August 31, 2016. My budget is $3200 and I would leave from Detroit.",
+  "frames": [
+    {
+      "info": {
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 1,
+      "requests": [],
+      "frame_parent_id": null,
+      "binary_questions": [],
+      "compare_requests": []
+    }
+  ]
+}
+{
+  "text": "And what destination would you like to travel to?",
+  "frames": [
+    {
+      "info": {
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 1,
+      "requests": [
+        {
+          "author": "wizard",
+          "key": "dst_city"
+        }
+      ],
+      "frame_parent_id": null,
+      "binary_questions": [],
+      "compare_requests": []
+    }
+  ]
+}
+{
+  "text": "Anywhere, I'm looking for an adventure. What do you have?",
+  "frames": [
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "-1",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 1,
+      "requests": [
+        {
+          "author": "user",
+          "key": "count_dst_city"
+        }
+      ],
+      "frame_parent_id": null,
+      "binary_questions": [],
+      "compare_requests": []
+    }
+  ]
+}
+{
+  "text": "How about Mexico or Porto Alegre?",
+  "frames": [
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "-1",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 1,
+      "requests": [
+        {
+          "author": "user",
+          "key": "count_dst_city"
+        }
+      ],
+      "frame_parent_id": null,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Mexico",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 2,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Porto Alegre",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 3,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    }
+  ]
+}
+{
+  "text": "Let's look at both",
+  "frames": [
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "-1",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 1,
+      "requests": [
+        {
+          "author": "user",
+          "key": "count_dst_city"
+        }
+      ],
+      "frame_parent_id": null,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Mexico",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 2,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Porto Alegre",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 3,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    }
+  ]
+}
+{
+  "text": "Mexico is unavailable.  Porto Alegre is available, but you would have to leave from Santos.",
+  "frames": [
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "-1",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ],
+        "NO_RESULT": [
+          {
+            "val": true,
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 1,
+      "requests": [
+        {
+          "author": "user",
+          "key": "count_dst_city"
+        }
+      ],
+      "frame_parent_id": null,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Mexico",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 2,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Porto Alegre",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Santos",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 3,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    }
+  ]
+}
+{
+  "text": "Can you please suggest some destinations that are available? I am leaving from Detroit.",
+  "frames": [
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "-1",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ],
+        "NO_RESULT": [
+          {
+            "val": true,
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 1,
+      "requests": [
+        {
+          "author": "user",
+          "key": "count_dst_city"
+        }
+      ],
+      "frame_parent_id": null,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Mexico",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 2,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Porto Alegre",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Santos",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 3,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    }
+  ]
+}
+{
+  "text": "I have no departures available from Detroit. for these dates.  Would you like to make a date change?",
+  "frames": [
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "-1",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ],
+        "NO_RESULT": [
+          {
+            "val": true,
+            "negated": false
+          },
+          {
+            "val": true,
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 1,
+      "requests": [
+        {
+          "author": "user",
+          "key": "count_dst_city"
+        }
+      ],
+      "frame_parent_id": null,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Mexico",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 2,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Porto Alegre",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Santos",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 3,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    }
+  ]
+}
+{
+  "text": "Anything between August 15 and August 31?",
+  "frames": [
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "-1",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ],
+        "NO_RESULT": [
+          {
+            "val": true,
+            "negated": false
+          },
+          {
+            "val": true,
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 1,
+      "requests": [
+        {
+          "author": "user",
+          "key": "count_dst_city"
+        }
+      ],
+      "frame_parent_id": null,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Mexico",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 2,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Porto Alegre",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Santos",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 3,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "-1",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 4,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    }
+  ]
+}
+{
+  "text": "I'm sorry, but we do not have any departures from Detroit available for these dates for the budget you provided.  Would you like to adjust your budget for this trip?",
+  "frames": [
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "-1",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ],
+        "NO_RESULT": [
+          {
+            "val": true,
+            "negated": false
+          },
+          {
+            "val": true,
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 1,
+      "requests": [
+        {
+          "author": "user",
+          "key": "count_dst_city"
+        }
+      ],
+      "frame_parent_id": null,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Mexico",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 2,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Porto Alegre",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Santos",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 3,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "-1",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ],
+        "NO_RESULT": [
+          {
+            "val": true,
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 4,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    }
+  ]
+}
+{
+  "text": "No I cannot. Thank you for your help",
+  "frames": [
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "-1",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ],
+        "NO_RESULT": [
+          {
+            "val": true,
+            "negated": false
+          },
+          {
+            "val": true,
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 1,
+      "requests": [
+        {
+          "author": "user",
+          "key": "count_dst_city"
+        }
+      ],
+      "frame_parent_id": null,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Mexico",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 2,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "Porto Alegre",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Santos",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 3,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    },
+    {
+      "info": {
+        "intent": [
+          {
+            "val": "book",
+            "negated": false
+          }
+        ],
+        "or_city": [
+          {
+            "val": "Detroit",
+            "negated": false
+          }
+        ],
+        "dst_city": [
+          {
+            "val": "-1",
+            "negated": false
+          }
+        ],
+        "budget": [
+          {
+            "val": "3200.0",
+            "negated": true
+          }
+        ],
+        "str_date": [
+          {
+            "val": "august 15",
+            "negated": false
+          }
+        ],
+        "end_date": [
+          {
+            "val": "august 31",
+            "negated": false
+          }
+        ]
+      },
+      "frame_id": 4,
+      "requests": [],
+      "frame_parent_id": 1,
+      "binary_questions": [],
+      "compare_requests": []
+    }
+  ]
+}
