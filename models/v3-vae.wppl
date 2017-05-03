@@ -243,24 +243,14 @@ var doOptimize = function() {
       });
     },
     steps: 100000,
-    optMethod: { adam: { stepSize: .01 }}
+    optMethod: { adam: { stepSize: .01 }},
+    onStep(index, objectiveValue) {
+      if (index % 100 == 0) {
+        showModelBehavior();
+      }
+    }
   });
 };
-
-
-var doDream = function() {
-  Optimize({
-    model() {
-      return runModel({
-        data,
-        useObservations: true
-      });
-    },
-    steps: 100,
-    optMethod: { adam: { stepSize: .01 }},
-    estimator: 'dream'
-  });
-}
 
 
 var showModelBehavior = function() {
