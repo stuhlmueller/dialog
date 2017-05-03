@@ -1,3 +1,9 @@
+- Running s2s-copy-g-babi for longer, the dev set performance went down a bit (maybe due to overfitting):
+
+  Dev:
+  - Responses: 98.07148794679966% correct (5899/6015)
+  - Dialogs: 88.8% correct (888/1000)
+
 - I fixed evaluation (ignoring WAIT actions that we're not training on right now) and results looks much better for DSTC on dev:
 
   (venv) $ logistician run -o "--random-seed 10 -- --accuracy --dataset dstc --embeddim 50 --latentdim 150 --attention" --data_readonly ./data/--random-seed\ 10\ --\ --optimize\ --dataset\ dstc\ --embeddim\ 50\ --latentdim\ 150\ --attention/
@@ -5,6 +11,10 @@
   Dev:
   - Responses: 49.02620822313056% correct (2039/4159)
   - Dialogs: 1.2% correct (6/500)
+
+  (venv) $ logistician run -o "--random-seed 12 -- --accuracy --dataset dstc --embeddim 50 --latentdim 300 --no-attention" --data_readonly ./data/--random-seed\ 12\ --\ --optimize\ --dataset\ dstc\ --embeddim\ 50\ --latentdim\ 300\ --no-attention/
+
+  
 
   bAbI with attention is 99% accurate:
 
