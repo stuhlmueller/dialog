@@ -5,8 +5,6 @@
 // --------------------------------------------------------------------
 // Helpers
 
-var second = function(x) { return x[1]; };
-
 var reduceLeft = function(f, init, arr) {
   // if (arr.length > 0) {
   //   return reduceLeft(f, f(init, arr[0]), rest(arr));
