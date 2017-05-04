@@ -203,7 +203,7 @@ var runModel = function(options) {  // options: { data, useObservations, callbac
 
   var priorParams = {
     mu: zeros([latentDim, 1]),
-    sigma: T.mul(ones([latentDim, 1]), _.get(options, 'globalParams.covTemperature', 1))
+    sigma: T.mul(ones([latentDim, 1]), _.get(options, 'globalParams.priorVariance', 1))
   };
   
   mapData({ data: options.data, batchSize: options.batchSize }, function(datum) {
@@ -243,7 +243,7 @@ var runModel = function(options) {  // options: { data, useObservations, callbac
 var doOptimize = function() {
   
   var globalParams = {
-    covTemperature: 1 // 1000
+    priorVariance: 1 // 1000
   };
 
   Optimize({
@@ -257,13 +257,13 @@ var doOptimize = function() {
     },
     steps: 100000,
     optMethod: { adam: { stepSize: .01 }},
-    onStep(index, objectiveValue) {      
+    onStep(index, objectiveValue) {
       if (index % 100 == 0) {
         showModelBehavior();
       }
       if (index % 300 == 0) {
-        console.log('- params fit with temperature', globalParams.covTemperature, '\n');
-        // _.set(globalParams, 'covTemperature', _.max([1, globalParams.covTemperature / 2]));
+        console.log('- params fit with temperature', globalParams.priorVariance, '\n');
+        // _.set(globalParams, 'priorVariance', _.max([1, globalParams.priorVariance / 2]));
       }
     }
   });
