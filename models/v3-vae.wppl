@@ -222,10 +222,8 @@ var runModel = function(options) {  // options: { data, useObservations, callbac
       }
     });
 
-    var transform = stack([tanh, affine('transformer', { 'in': latentDim, 'out': latentDim })]);
-
     var recoveredDatum = decoder({
-      state: transform(latentState),
+      state: latentState,
       trueObservations: datum,
       useObservations: options.useObservations
     });
@@ -243,7 +241,7 @@ var runModel = function(options) {  // options: { data, useObservations, callbac
 var doOptimize = function() {
   
   var globalParams = {
-    priorVariance: 1 // 1000
+    priorVariance: 1000
   };
 
   Optimize({
@@ -252,7 +250,8 @@ var doOptimize = function() {
         data,
         globalParams,
         useObservations: true,
-        batchSize: 5        
+        batchSize: 5,
+        clip: 10
       });
     },
     steps: 100000,
@@ -263,7 +262,7 @@ var doOptimize = function() {
       }
       if (index % 300 == 0) {
         console.log('- params fit with temperature', globalParams.priorVariance, '\n');
-        // _.set(globalParams, 'priorVariance', _.max([1, globalParams.priorVariance / 2]));
+        _.set(globalParams, 'priorVariance', _.max([1, globalParams.priorVariance / 2]));
       }
     }
   });
