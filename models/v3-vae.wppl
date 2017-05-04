@@ -57,7 +57,8 @@ var stringToWords = function(s) {
 
 var makePositiveSemiDefinite = function(m) {
   var dim = dims(m)[0];
-  return T.add(T.div(T.add(m, T.transpose(m)), 2), T.mul(idMatrix(dim), dim));
+  // return T.add(T.div(T.add(m, T.transpose(m)), 2), T.mul(idMatrix(dim), dim));
+  return T.add(T.mul(m, T.transpose(m)), T.mul(idMatrix(dim), dim));
 };
 
 var reshapeToSquareMatrix = function(v) {
@@ -241,7 +242,7 @@ var runModel = function(options) {  // options: { data, useObservations, callbac
 var doOptimize = function() {
   
   var globalParams = {
-    priorVariance: 1000
+    priorVariance: 1 // 1000
   };
 
   Optimize({
