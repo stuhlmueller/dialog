@@ -73,24 +73,16 @@ var reshapeToSquareMatrix = function(v) {
 var dataStrings = [
   '00000000000000000000',
   '00000000000000000000',
-  '00000000000000000000',
-  '00000000000000000000',
-  '00000000000000000000',
-  '00000000000000000000',
   '00000000000000000000',  
-  '00000000000000000000',  
-  '11111111111111111111',  
+  '11111111111111111111',
   '11111111111111111111',
   '11111111111111111111',  
-  '11111111111111111111',
-  '22222222222222222222',  
   '22222222222222222222',
   '22222222222222222222',
   '22222222222222222222',  
-  '32333333333333333333',
-  '32333333333333333333',
   '44444444444444444444',
-  '44444444444444444444'
+  '44444444444444444444',
+  '44444444444444444444'  
 ];
 
 // var dataStrings = [
@@ -131,11 +123,11 @@ var onehotWords = cache(function(word) {
 // --------------------------------------------------------------------
 // Main
 
-var latentDim = 30;
+var latentDim = 10;
 var maxWords = 18;  // rnn doesn't learn to count to 20, then terminate
 
 
-var runModel = function(options) {  // options: { data, useObservations, callback, batchSize }
+var runModel = function(options) {  // options: { data, useObservations, callback, batchSize, globalParams }  
 
   
   // Encoder repeats encoder step until input is completely digested
@@ -192,7 +184,7 @@ var runModel = function(options) {  // options: { data, useObservations, callbac
       var ps = decoderNetOutput([nextState, prevWordVec]);
       var observedWord = trueObservations ? trueObservations[0] : '$';
       var wordDist = Categorical({ ps, vs: words });
-      var generatedWord = observe(wordDist, opts.useObservations ? observedWord : undefined);  // FIXME: make sure i don't generate auto-guide here
+      var generatedWord = observe(wordDist, opts.useObservations ? observedWord : undefined);
       return decoder({
         state: nextState,
         n: n + 1,
@@ -205,19 +197,20 @@ var runModel = function(options) {  // options: { data, useObservations, callbac
 
 
   guide(function(){
-    globalStore.muNet = stack([tanh, affine('mu-net', { 'in': latentDim, 'out': latentDim })]);
-    globalStore.covNet = stack([tanh, affine('cov-net', { 'in': latentDim, 'out': latentDim*latentDim })]);
+    globalStore.muNet = stack([affine('mu-net', { 'in': latentDim, 'out': latentDim })]);  // tanh, 
+    globalStore.covNet = stack([affine('cov-net', { 'in': latentDim, 'out': latentDim*latentDim })]);  // tanh, 
   })
 
   var priorParams = {
-    mu: 0,
-    sigma: 1,
-    dims: [latentDim, 1]
+    mu: zeros([latentDim, 1]),
+    sigma: T.mul(ones([latentDim, 1]), _.get(options, 'globalParams.covTemperature', 1))
   };
   
   mapData({ data: options.data, batchSize: options.batchSize }, function(datum) {
 
-    var state = sample(TensorGaussian(priorParams), {
+    var latentPriorDist = DiagCovGaussian(priorParams);
+    
+    var latentState = sample(latentPriorDist, {
       guide() {
         var state = encoder(datum);
         var muNet = globalStore.muNet;
@@ -228,9 +221,11 @@ var runModel = function(options) {  // options: { data, useObservations, callbac
         return MultivariateGaussian({ mu, cov });
       }
     });
-    
+
+    var transform = stack([tanh, affine('transformer', { 'in': latentDim, 'out': latentDim })]);
+
     var recoveredDatum = decoder({
-      state,
+      state: transform(latentState),
       trueObservations: datum,
       useObservations: options.useObservations
     });
@@ -246,19 +241,29 @@ var runModel = function(options) {  // options: { data, useObservations, callbac
 
 
 var doOptimize = function() {
+  
+  var globalParams = {
+    covTemperature: 1 // 1000
+  };
+
   Optimize({
     model() {
       return runModel({
         data,
+        globalParams,
         useObservations: true,
-        batchSize: 5
+        batchSize: 5        
       });
     },
     steps: 100000,
     optMethod: { adam: { stepSize: .01 }},
-    onStep(index, objectiveValue) {
+    onStep(index, objectiveValue) {      
       if (index % 100 == 0) {
         showModelBehavior();
+      }
+      if (index % 300 == 0) {
+        console.log('- params fit with temperature', globalParams.covTemperature, '\n');
+        // _.set(globalParams, 'covTemperature', _.max([1, globalParams.covTemperature / 2]));
       }
     }
   });
