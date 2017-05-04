@@ -266,14 +266,23 @@ var doOptimize = function() {
 
 
 var showModelBehavior = function() {
+  var stats = {
+    total: 0,
+    correct: 0
+  };
   Infer({
     method: 'forward',
+    samples: 1,
     guide: true,
     model() {
       return runModel({
         data,
         callback(params) {  // datum, recoveredDatum
           var log = function(label, words) { console.log(label + ': ', wordsToString(words)); }
+          _.assign(stats, {
+            total: stats.total + 1,
+            correct: stats.correct + (_.isEqual(params.datum, params.recoveredDatum) ? 1 : 0)
+          });
           log('Datum:     ', params.datum);
           log('Recovered: ', params.recoveredDatum);
           console.log();
@@ -281,6 +290,7 @@ var showModelBehavior = function() {
       });
     }
   });
+  console.log(stats);
 };
 
 
