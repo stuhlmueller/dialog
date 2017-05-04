@@ -5,7 +5,7 @@ RUN apt-get -y install curl build-essential git pkg-config
 RUN apt-get -y install libcairo2-dev libjpeg-dev libgif-dev
 
 RUN npm install -g nodeunit esprima grunt browserify uglifyjs mongodb
-RUN npm install -g probmods/webppl#4495cf910225d5e030c54f2422308a4ee4bd4a60
+RUN npm install -g probmods/webppl#17d44ed4808313963c5513db6d51deb5dd6403f1
 
 RUN mkdir -p ~/.webppl
 RUN npm install --prefix ~/.webppl webppl-timeit webppl-dp webppl-json
